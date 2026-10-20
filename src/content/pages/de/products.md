@@ -15,7 +15,7 @@ features:
   - title: "Ypsos"
     text: "ERP und CRM für kleine und mittlere Unternehmen."
   - title: "PAW"
-    text: "Beschreibung folgt."
+    text: "KI-System für Ticket- und Support-Arbeit."
 updated: "2026-10-20"
 ---
 
