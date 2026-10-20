@@ -13,8 +13,8 @@ updated: "2026-10-20"
 ## Anbieter
 
 PARADOX CAT GmbH
-Donaustr. 2
-85049 Ingolstadt
+Taunusstraße 21
+80807 München
 Deutschland
 
 ## Vertretungsberechtigte Geschäftsführung
@@ -37,7 +37,6 @@ Gemäß § 27a Umsatzsteuergesetz: DE320588695
 
 ## Weitere Standorte
 
-PARADOX CAT GmbH, Taunusstraße 21, 80807 München
 PARADOX CAT Romania S.R.L. (100 % Tochtergesellschaft der PARADOX CAT GmbH), Str. Aviator Mircea Zorileanu 91, 012054 Bukarest, Rumänien
 
 ## Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV

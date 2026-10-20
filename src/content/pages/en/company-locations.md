@@ -1,7 +1,7 @@
 ---
 title: "Locations"
-description: "PARADOX CAT works from Munich, Ingolstadt and Bucharest. Addresses of our offices and the registered seat."
-lead: "Munich, Ingolstadt and Bucharest. Three places, one team."
+description: "PARADOX CAT works from Munich and Bucharest. Addresses of our offices ."
+lead: "Munich and Bucharest. Two offices, one team."
 illustration: "official-munich"
 draft: true
 cta:
@@ -10,8 +10,6 @@ cta:
 features:
   - title: "Munich"
     text: "PARADOX CAT GmbH, Taunusstraße 21, 80807 Munich, Germany."
-  - title: "Ingolstadt"
-    text: "Registered seat. PARADOX CAT GmbH, Donaustr. 2, 85049 Ingolstadt, Germany."
   - title: "Bucharest"
     text: "PARADOX CAT Romania S.R.L., Str. Aviator Mircea Zorileanu 91, 012054 Bucharest, Romania. A 100 % subsidiary of PARADOX CAT GmbH."
 gallery:
@@ -25,7 +23,7 @@ links:
 updated: "2026-10-20"
 ---
 
-We work as one team across our locations. Projects mix colleagues from all offices.
+We work as one team across both offices. Projects mix colleagues from both offices.
 
 ## Visit us
 

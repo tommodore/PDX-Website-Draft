@@ -33,7 +33,7 @@ links:
 updated: "2026-10-20"
 ---
 
-We are a team that pulls together. Flat hierarchies keep paths short, and we share knowledge and experience because we all benefit from it. Our teams in Ingolstadt, Munich and Bucharest work together on customer projects in AI, machine learning, augmented reality displays, and Android and connected apps. We are proud of our know-how in automotive best-practice structures and processes, and we bring it to every project.
+We are a team that pulls together. Flat hierarchies keep paths short, and we share knowledge and experience because we all benefit from it. Our teams in Munich and Bucharest work together on customer projects in AI, machine learning, augmented reality displays, and Android and connected apps. We are proud of our know-how in automotive best-practice structures and processes, and we bring it to every project.
 
 ## Working together, celebrating together
 

@@ -17,8 +17,8 @@ Diese Website setzt keine Cookies und lädt keine Tracker, Karten oder Videos vo
 ## Verantwortlicher
 
 PARADOX CAT GmbH
-Donaustr. 2
-85049 Ingolstadt
+Taunusstraße 21
+80807 München
 Deutschland
 E-Mail: datenschutz@paradoxcat.com
 

@@ -1,7 +1,7 @@
 ---
 title: "Standorte für Bewerbende"
-description: "Arbeiten Sie bei PARADOX CAT in München, Ingolstadt oder Bukarest. Moderne Büros, ein Team und Unterstützung beim Umzug."
-lead: "Drei Orte, ein Team. Wählen Sie das Büro, das zu Ihrem Leben passt."
+description: "Arbeiten Sie bei PARADOX CAT in München oder Bukarest. Moderne Büros, ein Team und Unterstützung beim Umzug."
+lead: "Zwei Büros, ein Team. Wählen Sie das Büro, das zu Ihrem Leben passt."
 illustration: "official-munich"
 draft: true
 cta:
@@ -10,8 +10,6 @@ cta:
 features:
   - title: "München"
     text: "Ein neues, von einer renommierten Architektin für uns entworfenes Büro im Münchner Norden nahe dem Frankfurter Ring. Erreichbar mit U-Bahn, Rad und Auto."
-  - title: "Ingolstadt"
-    text: "Unser Firmensitz und Heimat eines Teams, das eng mit München zusammenarbeitet."
   - title: "Bukarest"
     text: "Eine neoromanische Villa aus dem frühen 20. Jahrhundert im Herzen der Stadt, mit modernen Arbeitsplätzen."
 gallery:
@@ -31,7 +29,7 @@ Freuen Sie sich auf ein modernes Interieur in einem schönen Gebäude mit lichtd
 
 ## Umzug
 
-Ein Umzug in eine neue Stadt oder ein anderes Land ist ein großer Schritt. Wir unterstützen Ihren Umzug nach München, Ingolstadt oder Bukarest und machen den Übergang so reibungslos wie möglich.
+Ein Umzug in eine neue Stadt oder ein anderes Land ist ein großer Schritt. Wir unterstützen Ihren Umzug nach München oder Bukarest und machen den Übergang so reibungslos wie möglich.
 
 ## Details
 

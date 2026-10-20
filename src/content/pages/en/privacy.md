@@ -19,8 +19,8 @@ This website sets no cookies and loads no third-party trackers, maps or videos. 
 ## Controller
 
 PARADOX CAT GmbH
-Donaustr. 2
-85049 Ingolstadt
+Taunusstraße 21
+80807 Munich
 Germany
 Email: datenschutz@paradoxcat.com
 

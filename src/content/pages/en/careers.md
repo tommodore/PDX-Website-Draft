@@ -1,6 +1,6 @@
 ---
 title: "Careers"
-description: "Build HMI, real-time 3D and AI sensing with a senior, international team in Munich, Ingolstadt and Bucharest. Flat hierarchies, real products, a 1,500 EUR training budget."
+description: "Build HMI, real-time 3D and AI sensing with a senior, international team in Munich and Bucharest. Flat hierarchies, real products, a 1,500 EUR training budget."
 lead: "Join a senior, international team that ships real products and works hand in hand."
 illustration: "official-careerteam"
 draft: true
@@ -22,7 +22,7 @@ facts:
   - label: "Nationalities"
     value: "26"
   - label: "Locations"
-    value: "Munich, Ingolstadt, Bucharest"
+    value: "Munich, Bucharest"
 links:
   - label: "Life at PARADOX CAT"
     href: "/careers/life-at-paradoxcat/"
@@ -39,7 +39,7 @@ If you burn for demanding HMI projects and the latest technology, you are in the
 
 - **Health.** Access to the EGYM Wellpass with more than 8,000 fitness and wellness offers in Germany and Austria.
 - **Training.** A personal budget of 1,500 EUR per year for courses, seminars, conferences or anything else that moves you forward. We help you find the right option.
-- **Relocation.** We support your move to Munich, Ingolstadt or Bucharest.
+- **Relocation.** We support your move to Munich or Bucharest.
 - **Commuting.** Choose the Deutschlandticket or a company bike.
 - **Team events.** A summer party and a Christmas party every year, plus team-organized events from climbing to escape rooms, with a budget so nobody has to worry about the cost.
 

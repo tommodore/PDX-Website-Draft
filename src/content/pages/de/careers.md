@@ -1,6 +1,6 @@
 ---
 title: "Karriere"
-description: "HMI, Echtzeit-3D und KI-Sensorik mit einem erfahrenen, internationalen Team in München, Ingolstadt und Bukarest. Flache Hierarchien, echte Produkte, 1.500 EUR Weiterbildungsbudget."
+description: "HMI, Echtzeit-3D und KI-Sensorik mit einem erfahrenen, internationalen Team in München und Bukarest. Flache Hierarchien, echte Produkte, 1.500 EUR Weiterbildungsbudget."
 lead: "Werden Sie Teil eines erfahrenen, internationalen Teams, das echte Produkte liefert und Hand in Hand arbeitet."
 illustration: "official-careerteam"
 draft: true
@@ -22,7 +22,7 @@ facts:
   - label: "Nationalitäten"
     value: "26"
   - label: "Standorte"
-    value: "München, Ingolstadt, Bukarest"
+    value: "München, Bukarest"
 links:
   - label: "Leben bei PARADOX CAT"
     href: "/de/karriere/leben-bei-paradoxcat/"
@@ -39,7 +39,7 @@ Wenn Sie für anspruchsvolle HMI-Projekte und neueste Technik brennen, sind Sie 
 
 - **Gesundheit.** Zugang zum EGYM Wellpass mit über 8.000 Fitness- und Wellnessangeboten in Deutschland und Österreich.
 - **Weiterbildung.** Ein persönliches Budget von 1.500 EUR pro Jahr für Lehrgänge, Seminare, Konferenzen oder alles, was Sie weiterbringt. Wir helfen bei der Auswahl.
-- **Umzug.** Wir unterstützen Ihren Umzug nach München, Ingolstadt oder Bukarest.
+- **Umzug.** Wir unterstützen Ihren Umzug nach München oder Bukarest.
 - **Mobilität.** Wahlweise Deutschlandticket oder Dienstrad.
 - **Team-Events.** Jedes Jahr Sommerparty und Weihnachtsfeier, dazu Events der Teams vom Kletterwald bis zum Escape Room. Ein Budget sorgt dafür, dass niemand an den Kosten scheitert.
 

@@ -1,6 +1,6 @@
 ---
 title: "Unternehmen"
-description: "PARADOX CAT ist ein inhabergeführtes Softwareunternehmen, gegründet 2009: rund 150 Menschen entwickeln HMI, Echtzeit-3D und KI in München, Ingolstadt und Bukarest."
+description: "PARADOX CAT ist ein inhabergeführtes Softwareunternehmen, gegründet 2009: rund 150 Menschen entwickeln HMI, Echtzeit-3D und KI in München und Bukarest."
 lead: "Gegründet 2009. Inhabergeführt. Rund 150 Menschen."
 illustration: "official-group"
 draft: true

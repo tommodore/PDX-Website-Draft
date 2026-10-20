@@ -1,6 +1,6 @@
 ---
 title: "Company"
-description: "PARADOX CAT is a founder-owned software company founded in 2009: about 150 people building HMI, real-time 3D and AI software in Munich, Ingolstadt and Bucharest."
+description: "PARADOX CAT is a founder-owned software company founded in 2009: about 150 people building HMI, real-time 3D and AI software in Munich and Bucharest."
 lead: "Founded in 2009. Founder-owned. About 150 people."
 illustration: "official-group"
 draft: true

@@ -1,6 +1,6 @@
 ---
 title: "Open Positions"
-description: "Open roles at PARADOX CAT for engineers, technical artists and designers in Munich, Ingolstadt and Bucharest. Apply by email or send an open application."
+description: "Open roles at PARADOX CAT for engineers, technical artists and designers in Munich and Bucharest. Apply by email or send an open application."
 lead: "Find a role, or send an open application."
 illustration: "bokeh"
 draft: true

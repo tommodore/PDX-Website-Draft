@@ -1,6 +1,6 @@
 ---
 title: "Offene Stellen"
-description: "Offene Stellen bei PARADOX CAT für Entwickler, Technical Artists und Designer in München, Ingolstadt und Bukarest. Per E-Mail bewerben oder initiativ schreiben."
+description: "Offene Stellen bei PARADOX CAT für Entwickler, Technical Artists und Designer in München und Bukarest. Per E-Mail bewerben oder initiativ schreiben."
 lead: "Finden Sie eine Stelle oder bewerben Sie sich initiativ."
 illustration: "bokeh"
 draft: true

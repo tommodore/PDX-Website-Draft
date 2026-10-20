@@ -33,7 +33,7 @@ links:
 updated: "2026-10-20"
 ---
 
-Wir sind ein Team, das an einem Strang zieht. Flache Hierarchien halten die Wege kurz, und wir teilen Wissen und Erfahrung, weil wir alle davon profitieren. Unsere Teams in Ingolstadt, München und Bukarest arbeiten gemeinsam an Kundenprojekten zu KI, Machine Learning, Augmented-Reality-Displays sowie Android und Connected Apps. Wir sind stolz auf unser Know-how zu Best-Practice-Strukturen und Prozessen aus dem Automotive-Bereich und bringen es in jedes Projekt ein.
+Wir sind ein Team, das an einem Strang zieht. Flache Hierarchien halten die Wege kurz, und wir teilen Wissen und Erfahrung, weil wir alle davon profitieren. Unsere Teams in München und Bukarest arbeiten gemeinsam an Kundenprojekten zu KI, Machine Learning, Augmented-Reality-Displays sowie Android und Connected Apps. Wir sind stolz auf unser Know-how zu Best-Practice-Strukturen und Prozessen aus dem Automotive-Bereich und bringen es in jedes Projekt ein.
 
 ## Gemeinsam arbeiten, gemeinsam feiern
 

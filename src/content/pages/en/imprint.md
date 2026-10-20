@@ -15,8 +15,8 @@ The German imprint is the legally binding version.
 ## Provider
 
 PARADOX CAT GmbH
-Donaustr. 2
-85049 Ingolstadt
+Taunusstraße 21
+80807 Munich
 Germany
 
 ## Managing director
@@ -39,7 +39,6 @@ Under section 27a of the German VAT Act: DE320588695
 
 ## Other locations
 
-PARADOX CAT GmbH, Taunusstraße 21, 80807 Munich, Germany
 PARADOX CAT Romania S.R.L. (100 % subsidiary of PARADOX CAT GmbH), Str. Aviator Mircea Zorileanu 91, 012054 Bucharest, Romania
 
 ## Responsible for content under section 18 (2) MStV
