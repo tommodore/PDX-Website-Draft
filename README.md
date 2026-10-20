@@ -15,7 +15,7 @@ npm run test:a11y  # axe, WCAG 2 AA
 npm run test:lhci  # Lighthouse, all categories >= 0.95
 ```
 
-Requires Node 22 or newer.
+Requires Node 24 or newer (npm 11, matches the lockfile).
 
 ## Structure
 
