@@ -11,7 +11,7 @@ features:
   - title: "Ramses3D"
     text: "Open-source 3D engine for embedded systems, co-developed with BMW."
   - title: "CarChestra"
-    text: "Adaptive driving music app."
+    text: "Music that reacts to your drive in real time."
   - title: "Ypsos"
     text: "ERP and CRM for small and mid-size businesses."
   - title: "PAW"
