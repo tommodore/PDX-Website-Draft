@@ -1,5 +1,6 @@
 ---
 title: "We build real-time experiences people remember."
+navTitle: "Home"
 description: "PARADOX CAT builds Android Automotive HMI, real-time 3D graphics, digital twins and AI in-cabin sensing, plus the open-source engine Ramses3D."
 eyebrow: "HMI | Real-time 3D | AI sensing"
 lead: "From the cockpit to the configurator: senior engineers and artists who ship premium interfaces, on time and on target hardware."

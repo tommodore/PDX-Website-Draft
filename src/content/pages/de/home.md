@@ -1,5 +1,6 @@
 ---
 title: "Wir bauen Echtzeit-Erlebnisse, an die man sich erinnert."
+navTitle: "Start"
 description: "PARADOX CAT entwickelt Android-Automotive-HMI, Echtzeit-3D-Grafik, Digitale Zwillinge und KI-Innenraumsensorik sowie die Open-Source-Engine Ramses3D."
 eyebrow: "HMI | Echtzeit-3D | KI-Sensorik"
 lead: "Vom Cockpit bis zum Konfigurator: erfahrene Ingenieurinnen, Ingenieure und Artists, die hochwertige Oberflächen liefern, termingerecht und auf der Zielhardware."
