@@ -13,7 +13,7 @@ features:
   - title: "CarChestra"
     text: "Music that reacts to your drive in real time."
   - title: "Ypsos"
-    text: "ERP and CRM for small and mid-size businesses."
+    text: "ERP and CRM from one-person offices to 100+ employees."
   - title: "PAW"
     text: "AI system for tickets and support work."
 updated: "2026-10-20"
