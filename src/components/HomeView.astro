@@ -1,0 +1,79 @@
+---
+import { render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from './Hero.astro';
+import Section from './Section.astro';
+import Card from './Card.astro';
+import Stat from './Stat.astro';
+import LogoWall from './LogoWall.astro';
+import CtaBand from './CtaBand.astro';
+import Media from './Media.astro';
+import { getPage, navTitle } from '../lib/content';
+import { pathOf, childrenOf, otherLang, type Lang } from '../lib/routes';
+import { organizationLd, websiteLd } from '../lib/ld';
+import { t } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const ui = t(lang);
+const page = await getPage('home', lang);
+const d = page.data;
+const { Content } = await render(page);
+const alternates = { en: pathOf('home', 'en'), de: pathOf('home', 'de') };
+const [explore, reveal, trust] = d.arc;
+const eyebrows = lang === 'de' ? ['Entdecken', 'Erleben', 'Vertrauen'] : ['Explore', 'Reveal', 'Trust'];
+const industries = await Promise.all(childrenOf('industries').slice(0, 3).map(async (n) => ({ id: n.id, title: await navTitle(n.id, lang), page: await getPage(n.id, lang) })));
+const tech = ['Unity', 'Unreal Engine', 'Qt', 'Kanzi', 'Rocksolid', 'Ramses3D'];
+---
+
+<BaseLayout title={d.title} description={d.description} lang={lang} path={pathOf('home', lang)} alternates={alternates} currentId="home" jsonLd={[organizationLd, websiteLd]}>
+  <Hero lang={lang} image={d.illustration} size="full" eyebrow={d.eyebrow}>
+    <h1>{d.title}</h1>
+    {d.lead && <p class="lead">{d.lead}</p>}
+    <div class="cluster">
+      {d.cta && <a class="btn btn--primary" href={d.cta.href}>{d.cta.label}</a>}
+      {d.links[0] && <a class="btn btn--ghost" href={d.links[0].href}>{d.links[0].label}</a>}
+    </div>
+  </Hero>
+
+  <Section id="explore" eyebrow={eyebrows[0]} heading={explore?.title} intro={explore?.text}>
+    <div class="grid">
+      {d.pillars.map((p) => <Card title={p.title} text={p.text} href={p.to} image={p.illustration} lang={lang} cta={ui.learnMore} />)}
+    </div>
+  </Section>
+
+  <Section id="reveal" tone="glow" eyebrow={eyebrows[1]} heading={reveal?.title} intro={reveal?.text}>
+    <div class="reveal-grid">
+      <Media name="render" lang={lang} ratio="16 / 10" class="reveal" />
+      <div class="prose stack reveal"><Content /></div>
+    </div>
+  </Section>
+
+  <Section id="trust" eyebrow={eyebrows[2]} heading={trust?.title} intro={trust?.text}>
+    <div class="grid grid--stats">
+      {d.facts.map((f) => <Stat value={f.value} label={f.label} />)}
+    </div>
+    <div class="spacer"></div>
+    <LogoWall items={tech} label={lang === 'de' ? 'Technologien' : 'Technologies'} />
+    <div class="spacer"></div>
+    <div class="grid">
+      {industries.map((i) => <Card title={i.title} text={i.page.data.description} href={pathOf(i.id, lang)} image={i.page.data.illustration} lang={lang} cta={ui.learnMore} />)}
+    </div>
+  </Section>
+
+  <CtaBand lang={lang} />
+</BaseLayout>
+
+<style>
+  .reveal-grid {
+    display: grid;
+    gap: var(--sp-7);
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr));
+    align-items: center;
+  }
+  .spacer {
+    height: var(--sp-7);
+  }
+</style>

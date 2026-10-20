@@ -1,0 +1,114 @@
+---
+import { getEntry, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from './Hero.astro';
+import Section from './Section.astro';
+import Stat from './Stat.astro';
+import Badge from './Badge.astro';
+import Breadcrumbs from './Breadcrumbs.astro';
+import CtaBand from './CtaBand.astro';
+import Media from './Media.astro';
+import { navTitle } from '../lib/content';
+import { pathOf, ancestorsOf, type Lang } from '../lib/routes';
+import { detailPath } from '../lib/paths';
+import { t } from '../i18n/ui';
+
+interface Props {
+  slug: string;
+  lang: Lang;
+}
+const { slug, lang } = Astro.props;
+const ui = t(lang);
+const entry = await getEntry('cases', `${lang}/${slug}`);
+if (!entry) throw new Error(`Missing case ${lang}/${slug}`);
+const d = entry.data;
+const { Content } = await render(entry);
+const parent = 'case-studies';
+const crumbs = [
+  ...(await Promise.all([...ancestorsOf(parent).map((n) => n.id), parent].map(async (n) => ({ label: await navTitle(n, lang), href: pathOf(n, lang) })))),
+  { label: d.title, href: detailPath(parent, slug, lang) },
+];
+const alternates = { en: detailPath(parent, slug, 'en'), de: detailPath(parent, slug, 'de') };
+const steps = [
+  { label: ui.challenge, text: d.challenge },
+  { label: ui.approach, text: d.approach },
+  { label: ui.result, text: d.result },
+];
+---
+
+<BaseLayout title={d.title} description={d.description} lang={lang} path={detailPath(parent, slug, lang)} alternates={alternates} currentId={parent} noindex={d.draft || d.template} crumbs={crumbs} type="article">
+  <Hero lang={lang} image={d.illustration} eyebrow={`${d.industry} / ${d.service}`}>
+    <Breadcrumbs slot="crumbs" items={crumbs} lang={lang} />
+    <h1>{d.title}</h1>
+    <p class="lead">{d.description}</p>
+    <div class="cluster">
+      {d.template && <Badge tone="accent">Template</Badge>}
+      {d.draft && <Badge tone="draft">{ui.draft}</Badge>}
+      {d.anonymized && <Badge>{lang === 'de' ? 'Anonymisiert' : 'Anonymized'}</Badge>}
+    </div>
+  </Hero>
+
+  <Section>
+    <ol class="steps">
+      {steps.map((s, i) => (
+        <li class="reveal">
+          <span class="steps__n" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+          <h2>{s.label}</h2>
+          <p class="muted">{s.text}</p>
+        </li>
+      ))}
+    </ol>
+  </Section>
+
+  <Section tone="glow">
+    <div class="split">
+      <Media name={d.illustration} lang={lang} ratio="4 / 3" class="reveal" />
+      <div class="stack">
+        <div class="prose"><Content /></div>
+        {d.stats.length > 0 && (
+          <div class="grid grid--stats">
+            {d.stats.map((s) => <Stat value={s.value} label={s.label} />)}
+          </div>
+        )}
+        {d.stack.length > 0 && (
+          <p><strong>{ui.stack}:</strong> <span class="muted">{d.stack.join(', ')}</span></p>
+        )}
+      </div>
+    </div>
+  </Section>
+
+  <CtaBand lang={lang} />
+</BaseLayout>
+
+<style>
+  .steps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: var(--sp-6);
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  }
+  .steps li {
+    margin: 0;
+    border-top: 2px solid var(--c-primary);
+    padding-top: var(--sp-4);
+  }
+  .steps__n {
+    color: var(--c-accent);
+    font-weight: 600;
+    letter-spacing: var(--tracking-wide);
+    font-size: var(--fs-xs);
+  }
+  .steps h2 {
+    font-size: var(--fs-xl);
+    font-weight: 650;
+    margin-top: var(--sp-2);
+  }
+  .split {
+    display: grid;
+    gap: var(--sp-7);
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr));
+    align-items: center;
+  }
+</style>

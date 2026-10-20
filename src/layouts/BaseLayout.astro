@@ -1,0 +1,79 @@
+---
+import '@fontsource-variable/inter/index.css';
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { buildNav } from '../lib/content';
+import { t } from '../i18n/ui';
+import { absoluteUrl, pathOf, type Lang } from '../lib/routes';
+
+interface Props {
+  title: string;
+  description: string;
+  lang: Lang;
+  path: string;
+  alternates: Record<Lang, string>;
+  currentId?: string;
+  noindex?: boolean;
+  image?: string;
+  jsonLd?: Record<string, unknown>[];
+  crumbs?: { label: string; href: string }[];
+  type?: 'website' | 'article';
+}
+const { title, description, lang, path, alternates, currentId = 'home', noindex = false, image = '/og-default.png', jsonLd = [], crumbs = [], type = 'website' } = Astro.props;
+const ui = t(lang);
+const nav = await buildNav(lang);
+const canonical = absoluteUrl(path);
+const fullTitle = currentId === 'home' ? title : `${title} | PARADOX CAT`;
+const locale = lang === 'de' ? 'de_DE' : 'en_US';
+const analyticsDomain = import.meta.env.PUBLIC_ANALYTICS_DOMAIN as string | undefined;
+const analyticsSrc = (import.meta.env.PUBLIC_ANALYTICS_SRC as string | undefined) || 'https://plausible.io/js/script.js';
+
+const breadcrumbLd =
+  crumbs.length > 1
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.label, item: absoluteUrl(c.href) })),
+      }
+    : null;
+const ld = [...jsonLd, ...(breadcrumbLd ? [breadcrumbLd] : [])];
+---
+
+<!doctype html>
+<html lang={lang === 'de' ? 'de-DE' : 'en'}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#010d16" />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" hreflang="en" href={absoluteUrl(alternates.en)} />
+    <link rel="alternate" hreflang="de-DE" href={absoluteUrl(alternates.de)} />
+    <link rel="alternate" hreflang="x-default" href={absoluteUrl(alternates.en)} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    <meta property="og:site_name" content="PARADOX CAT" />
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={absoluteUrl(image)} />
+    <meta property="og:locale" content={locale} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={absoluteUrl(image)} />
+    {ld.map((o) => <script type="application/ld+json" set:html={JSON.stringify(o)} />)}
+    {analyticsDomain && <script defer data-domain={analyticsDomain} src={analyticsSrc} />}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">{ui.skip}</a>
+    <Header lang={lang} nav={nav} currentId={currentId} alternates={alternates} />
+    <main id="main" tabindex="-1">
+      <slot />
+    </main>
+    <Footer lang={lang} nav={nav} legal={{ privacy: pathOf('privacy', lang), imprint: pathOf('imprint', lang) }} />
+  </body>
+</html>

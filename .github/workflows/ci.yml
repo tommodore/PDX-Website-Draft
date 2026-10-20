@@ -1,0 +1,29 @@
+name: CI
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  quality:
+    name: quality
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - run: npm run build
+      - name: Link check
+        run: npm run test:links
+      - name: Accessibility (axe, WCAG 2 AA)
+        run: |
+          npx astro preview --port 4321 &
+          npx wait-on http://localhost:4321/ --timeout 60000
+          npm run test:a11y
+      - name: Lighthouse CI
+        run: npm run test:lhci

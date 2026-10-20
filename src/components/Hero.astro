@@ -1,0 +1,97 @@
+---
+import Media from './Media.astro';
+import type { Lang } from '../lib/routes';
+
+interface Props {
+  eyebrow?: string;
+  image?: string;
+  lang: Lang;
+  size?: 'full' | 'compact';
+}
+const { eyebrow, image = 'horizon', lang, size = 'compact' } = Astro.props;
+---
+
+<header class={`hero hero--${size}`}>
+  <div class="hero__bg" aria-hidden="false">
+    <Media name={image} lang={lang} eager ratio="auto" sizes="100vw" class="hero__img" />
+  </div>
+  <div class="container hero__inner">
+    <slot name="crumbs" />
+    {eyebrow && <span class="eyebrow">{eyebrow}</span>}
+    <slot />
+  </div>
+</header>
+
+<style>
+  .hero {
+    position: relative;
+    isolation: isolate;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    margin-top: calc(var(--header-h) * -1);
+    padding-top: var(--header-h);
+  }
+  .hero--full {
+    min-height: min(100dvh, 62rem);
+  }
+  .hero--compact {
+    min-height: clamp(26rem, 52dvh, 36rem);
+  }
+  .hero__bg {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+  }
+  .hero__bg::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background:
+      linear-gradient(to top, var(--c-bg) 2%, rgb(1 13 22 / 0.55) 45%, rgb(1 13 22 / 0.35) 100%),
+      linear-gradient(to right, rgb(1 13 22 / 0.7), transparent 70%);
+    pointer-events: none;
+  }
+  .hero :global(.hero__img) {
+    position: absolute;
+    inset: 0;
+    border-radius: 0;
+    aspect-ratio: auto;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .hero :global(.hero__img img) {
+      animation: dolly var(--dur-cine) var(--ease-cine) both, drift 40s ease-in-out 1.6s infinite alternate;
+      transform-origin: 60% 60%;
+    }
+  }
+  @keyframes dolly {
+    from {
+      transform: scale(1.12);
+      opacity: 0.2;
+    }
+    to {
+      transform: scale(1.02);
+      opacity: 1;
+    }
+  }
+  @keyframes drift {
+    to {
+      transform: scale(1.08) translate3d(-1.2%, -0.8%, 0);
+    }
+  }
+  .hero__inner {
+    padding-block: var(--sp-8) var(--sp-7);
+    position: relative;
+  }
+  .hero__inner :global(h1) {
+    max-width: 18ch;
+  }
+  .hero--compact .hero__inner :global(h1) {
+    font-size: var(--fs-2xl);
+    max-width: 26ch;
+  }
+  .hero__inner :global(.lead) {
+    margin-bottom: var(--sp-6);
+  }
+</style>

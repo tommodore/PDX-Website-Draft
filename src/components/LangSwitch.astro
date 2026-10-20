@@ -1,0 +1,44 @@
+---
+import { t } from '../i18n/ui';
+import { otherLang, type Lang } from '../lib/routes';
+
+interface Props {
+  lang: Lang;
+  alternates: Record<Lang, string>;
+}
+const { lang, alternates } = Astro.props;
+const other = otherLang(lang);
+const ui = t(lang);
+---
+
+<div class="lang" role="group" aria-label={ui.language}>
+  <span aria-current="true" lang={lang}>{lang.toUpperCase()}</span>
+  <a href={alternates[other]} hreflang={other} lang={other} aria-label={ui.switchToLabel} data-astro-prefetch="false">{other.toUpperCase()}</a>
+</div>
+
+<style>
+  .lang {
+    display: inline-flex;
+    gap: var(--sp-1);
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    border: 1px solid var(--c-line);
+    border-radius: var(--r-pill);
+    padding: 0.15rem;
+  }
+  .lang > * {
+    padding: 0.3rem 0.7rem;
+    border-radius: var(--r-pill);
+    text-decoration: none;
+  }
+  .lang [aria-current] {
+    background: var(--c-surface-3);
+    color: var(--c-text);
+  }
+  .lang a {
+    color: var(--c-text-muted);
+  }
+  .lang a:hover {
+    color: var(--c-text);
+  }
+</style>

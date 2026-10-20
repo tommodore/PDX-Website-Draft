@@ -1,0 +1,17 @@
+{
+  "defaults": {
+    "standard": "WCAG2AA",
+    "runners": ["axe"],
+    "wait": 2500,
+    "levelCapWhenNeedsReview": "warning",
+    "chromeLaunchConfig": { "args": ["--no-sandbox"] }
+  },
+  "urls": [
+    "http://localhost:4321/",
+    "http://localhost:4321/de/",
+    "http://localhost:4321/solutions/products/ramses3d/",
+    "http://localhost:4321/why-paradoxcat/case-studies/sample-case-study/",
+    "http://localhost:4321/contact/",
+    "http://localhost:4321/design-system/"
+  ]
+}

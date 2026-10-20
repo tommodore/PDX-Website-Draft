@@ -1,0 +1,59 @@
+---
+// CSS-only tabs (radio inputs). Works without JavaScript.
+interface Props {
+  name: string;
+  tabs: { label: string; text: string }[];
+}
+const { name, tabs } = Astro.props;
+---
+
+<div class="tabs">
+  {
+    tabs.map((tab, i) => (
+      <>
+        <input type="radio" name={name} id={`${name}-${i}`} checked={i === 0} class="sr-only" />
+        <label for={`${name}-${i}`} class="tabs__label" style={`order:${i}`}>
+          {tab.label}
+        </label>
+        <div class="tabs__panel" style={`order:${tabs.length + i}`} role="region" aria-label={tab.label}>
+          <p>{tab.text}</p>
+        </div>
+      </>
+    ))
+  }
+</div>
+
+<style>
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-2);
+  }
+  .tabs__label {
+    cursor: pointer;
+    padding: var(--sp-2) var(--sp-4);
+    border-radius: var(--r-pill);
+    border: 1px solid var(--c-line);
+    color: var(--c-text-muted);
+    font-weight: 600;
+    font-size: var(--fs-sm);
+  }
+  .tabs__panel {
+    display: none;
+    flex-basis: 100%;
+    padding-top: var(--sp-4);
+    color: var(--c-text-muted);
+  }
+  input:checked + .tabs__label {
+    background: var(--c-primary);
+    border-color: var(--c-primary);
+    color: var(--c-on-primary);
+  }
+  input:focus-visible + .tabs__label {
+    outline: 3px solid var(--c-focus);
+    outline-offset: 3px;
+  }
+  input:checked + .tabs__label + .tabs__panel {
+    display: block;
+  }
+</style>

@@ -1,0 +1,47 @@
+---
+import { t } from '../i18n/ui';
+import { pathOf, type Lang } from '../lib/routes';
+
+interface Props {
+  lang: Lang;
+  title?: string;
+  text?: string;
+  label?: string;
+  href?: string;
+}
+const ui = t(Astro.props.lang);
+const { lang, title = ui.ctaTitle, text = ui.ctaText, label = ui.ctaButton, href = pathOf('contact', lang) } = Astro.props;
+---
+
+<section class="cta" aria-labelledby="cta-h">
+  <div class="container cta__inner">
+    <div>
+      <h2 id="cta-h">{title}</h2>
+      <p class="lead">{text}</p>
+    </div>
+    <a class="btn btn--primary" href={href}>{label}</a>
+  </div>
+</section>
+
+<style>
+  .cta {
+    padding-block: var(--section-y);
+    background:
+      radial-gradient(ellipse at 20% 0%, rgb(84 140 255 / 0.28), transparent 60%),
+      radial-gradient(ellipse at 100% 100%, rgb(54 76 148 / 0.5), transparent 60%), var(--c-surface-1);
+    border-top: 1px solid var(--c-line-soft);
+  }
+  .cta__inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-6);
+    align-items: center;
+    justify-content: space-between;
+  }
+  .cta h2 {
+    max-width: 24ch;
+  }
+  .cta .lead {
+    margin: 0;
+  }
+</style>

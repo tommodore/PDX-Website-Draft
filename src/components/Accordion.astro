@@ -1,0 +1,49 @@
+---
+interface Props {
+  items: { title: string; text: string }[];
+}
+const { items } = Astro.props;
+---
+
+<div class="acc">
+  {
+    items.map((it) => (
+      <details>
+        <summary>{it.title}</summary>
+        <p>{it.text}</p>
+      </details>
+    ))
+  }
+</div>
+
+<style>
+  .acc details {
+    border-bottom: 1px solid var(--c-line-soft);
+  }
+  summary {
+    cursor: pointer;
+    padding: var(--sp-4) 0;
+    font-weight: 600;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: var(--sp-4);
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  summary::after {
+    content: '+';
+    color: var(--c-primary);
+    font-size: 1.4em;
+    line-height: 1;
+    transition: transform var(--dur-base) var(--ease-cine);
+  }
+  details[open] summary::after {
+    transform: rotate(45deg);
+  }
+  details p {
+    color: var(--c-text-muted);
+    max-width: var(--w-prose);
+  }
+</style>

@@ -1,0 +1,33 @@
+---
+interface Props {
+  items: string[];
+  label: string;
+}
+const { items, label } = Astro.props;
+---
+
+<ul class="wall" aria-label={label}>
+  {items.map((i) => <li>{i}</li>)}
+</ul>
+
+<style>
+  .wall {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+    gap: var(--sp-3);
+  }
+  .wall li {
+    margin: 0;
+    text-align: center;
+    padding: var(--sp-4);
+    border: 1px solid var(--c-line-soft);
+    border-radius: var(--r-md);
+    color: var(--c-text-muted);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    background: var(--c-surface-1);
+  }
+</style>

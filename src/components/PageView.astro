@@ -1,0 +1,209 @@
+---
+import { render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from './Hero.astro';
+import Section from './Section.astro';
+import Card from './Card.astro';
+import CaseCard from './CaseCard.astro';
+import CtaBand from './CtaBand.astro';
+import ContactForm from './ContactForm.astro';
+import Breadcrumbs from './Breadcrumbs.astro';
+import Gate from './Gate.astro';
+import Badge from './Badge.astro';
+import Stat from './Stat.astro';
+import { getPage, navTitle, publishedIn, slugOf } from '../lib/content';
+import { pathOf, childrenOf, ancestorsOf, absoluteUrl, type Lang } from '../lib/routes';
+import { detailPath } from '../lib/paths';
+import { t } from '../i18n/ui';
+
+interface Props {
+  id: string;
+  lang: Lang;
+}
+const { id, lang } = Astro.props;
+const ui = t(lang);
+const page = await getPage(id, lang);
+const d = page.data;
+const { Content } = await render(page);
+const alternates = { en: pathOf(id, 'en'), de: pathOf(id, 'de') };
+const crumbs = await Promise.all([...ancestorsOf(id).map((n) => n.id), id].map(async (n) => ({ label: await navTitle(n, lang), href: pathOf(n, lang) })));
+const children = await Promise.all(childrenOf(id).map(async (n) => ({ id: n.id, page: await getPage(n.id, lang) })));
+const cases = id === 'case-studies' ? await publishedIn('cases', lang, true) : [];
+const insights = id === 'insights' ? await publishedIn('insights', lang, true) : [];
+const jobs = id === 'open-positions' ? await publishedIn('jobs', lang, true) : [];
+const team = id === 'team' ? await publishedIn('team', lang, true) : [];
+const noindex = d.draft || d.template;
+const showCta = id !== 'contact';
+const jobLd = jobs
+  .filter((j) => !j.data.draft)
+  .map((j) => ({
+    '@context': 'https://schema.org',
+    '@type': 'JobPosting',
+    title: j.data.title,
+    description: j.data.summary,
+    datePosted: j.data.datePosted.toISOString().slice(0, 10),
+    employmentType: j.data.employmentType,
+    hiringOrganization: { '@type': 'Organization', name: 'PARADOX CAT GmbH', sameAs: absoluteUrl('/') },
+    jobLocation: { '@type': 'Place', address: { '@type': 'PostalAddress', addressLocality: j.data.location } },
+  }));
+---
+
+<BaseLayout title={d.title} description={d.description} lang={lang} path={pathOf(id, lang)} alternates={alternates} currentId={id} noindex={noindex} crumbs={crumbs} jsonLd={jobLd}>
+  <Hero lang={lang} image={d.illustration} eyebrow={d.eyebrow}>
+    <Breadcrumbs slot="crumbs" items={crumbs} lang={lang} />
+    <h1>{d.title}</h1>
+    {d.lead && <p class="lead">{d.lead}</p>}
+    <div class="cluster">
+      {d.cta && <a class="btn btn--primary" href={d.cta.href}>{d.cta.label}</a>}
+      {d.draft && <Badge tone="draft">{ui.draft}</Badge>}
+      {d.template && <Badge tone="accent">Template</Badge>}
+    </div>
+  </Hero>
+
+  {(d.draft || d.template) && (
+    <div class="container note"><p role="note">{d.template ? ui.templateNote : ui.draftNote}</p></div>
+  )}
+
+  <Section>
+    <div class="prose stack"><Content /></div>
+
+    {d.facts.length > 0 && (
+      <div class="grid grid--stats facts">
+        {d.facts.map((f) => <Stat value={f.value} label={f.label} />)}
+      </div>
+    )}
+
+    {d.features.length > 0 && (
+      <div class="grid features">
+        {d.features.map((f) => (
+          <div class="feature reveal">
+            <h3>{f.title}</h3>
+            <p class="muted">{f.text}</p>
+          </div>
+        ))}
+      </div>
+    )}
+
+    {d.links.length > 0 && (
+      <ul class="links">
+        {d.links.map((l) => <li><a href={l.href} rel={l.href.startsWith('http') ? 'noopener' : undefined}>{l.label}</a></li>)}
+      </ul>
+    )}
+  </Section>
+
+  {d.gate && (
+    <Section tone="raised"><Gate lang={lang} /></Section>
+  )}
+
+  {id === 'contact' && (
+    <Section tone="raised"><ContactForm lang={lang} /></Section>
+  )}
+
+  {cases.length > 0 && (
+    <Section tone="raised" heading={ui.allCases}>
+      <div class="grid">
+        {cases.map((c) => <CaseCard title={c.data.title} description={c.data.description} href={detailPath('case-studies', slugOf(c.id), lang)} image={c.data.illustration} industry={c.data.industry} draft={c.data.draft} lang={lang} />)}
+      </div>
+    </Section>
+  )}
+
+  {insights.length > 0 && (
+    <Section tone="raised">
+      <div class="grid">
+        {insights.map((i) => <Card title={i.data.title} text={i.data.description} href={detailPath('insights', slugOf(i.id), lang)} image={i.data.illustration} lang={lang} badge={i.data.draft ? ui.draft : undefined} cta={ui.learnMore} />)}
+      </div>
+    </Section>
+  )}
+
+  {jobs.length > 0 && (
+    <Section tone="raised">
+      <ul class="rows">
+        {jobs.map((j) => (
+          <li>
+            <strong>{j.data.title}</strong> <span class="muted">{j.data.location}</span> {j.data.draft && <Badge tone="draft">{ui.draft}</Badge>}
+            <p class="muted">{j.data.summary}</p>
+          </li>
+        ))}
+      </ul>
+    </Section>
+  )}
+
+  {team.length > 0 && (
+    <Section tone="raised">
+      <ul class="rows">
+        {team.sort((a, b) => a.data.order - b.data.order).map((m) => (
+          <li><strong>{m.data.name}</strong> <span class="muted">{m.data.role}</span> {m.data.draft && <Badge tone="draft">{ui.draft}</Badge>}</li>
+        ))}
+      </ul>
+    </Section>
+  )}
+
+  {children.length > 0 && !['legal'].includes(id) && (
+    <Section tone="raised" heading={ui.inThisSection}>
+      <div class="grid">
+        {children.map((c) => <Card title={c.page.data.navTitle ?? c.page.data.title} text={c.page.data.description} href={pathOf(c.id, lang)} image={c.page.data.illustration} lang={lang} badge={c.page.data.draft ? ui.draft : undefined} cta={ui.learnMore} />)}
+      </div>
+    </Section>
+  )}
+
+  {children.length > 0 && id === 'legal' && (
+    <Section tone="raised">
+      <ul class="rows">
+        {children.map((c) => <li><a href={pathOf(c.id, lang)}>{c.page.data.title}</a></li>)}
+      </ul>
+    </Section>
+  )}
+
+  {showCta && <CtaBand lang={lang} />}
+</BaseLayout>
+
+<style>
+  .note {
+    padding-top: var(--sp-5);
+  }
+  .note p {
+    margin: 0;
+    padding: var(--sp-3) var(--sp-4);
+    border: 1px dashed var(--c-warning);
+    border-radius: var(--r-md);
+    color: #ffe6a3;
+    font-size: var(--fs-sm);
+  }
+  .facts,
+  .features,
+  .links {
+    margin-top: var(--sp-7);
+  }
+  .feature {
+    padding: var(--sp-5);
+    border: 1px solid var(--c-line-soft);
+    border-radius: var(--r-lg);
+    background: var(--c-surface-1);
+  }
+  .feature h3 {
+    font-size: var(--fs-lg);
+  }
+  .feature p {
+    margin: 0;
+  }
+  .links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-5);
+  }
+  .rows {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .rows li {
+    padding: var(--sp-4) 0;
+    border-bottom: 1px solid var(--c-line-soft);
+    margin: 0;
+  }
+  .rows p {
+    margin: var(--sp-1) 0 0;
+  }
+</style>

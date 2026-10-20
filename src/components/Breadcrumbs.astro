@@ -1,0 +1,49 @@
+---
+import { t } from '../i18n/ui';
+import type { Lang } from '../lib/routes';
+
+interface Props {
+  items: { label: string; href: string }[];
+  lang: Lang;
+}
+const { items, lang } = Astro.props;
+---
+
+<nav class="crumbs" aria-label={t(lang).breadcrumbs}>
+  <ol>
+    {
+      items.map((item, i) => (
+        <li>
+          {i < items.length - 1 ? <a href={item.href}>{item.label}</a> : <span aria-current="page">{item.label}</span>}
+        </li>
+      ))
+    }
+  </ol>
+</nav>
+
+<style>
+  .crumbs ol {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-2);
+    padding: 0;
+    margin: 0 0 var(--sp-5);
+    font-size: var(--fs-sm);
+  }
+  .crumbs li {
+    margin: 0;
+    color: var(--c-text-muted);
+  }
+  .crumbs li + li::before {
+    content: '/';
+    margin-right: var(--sp-2);
+    color: var(--c-text-faint);
+  }
+  .crumbs a {
+    color: var(--c-text-muted);
+  }
+  .crumbs a:hover {
+    color: var(--c-text);
+  }
+</style>

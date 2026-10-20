@@ -1,0 +1,145 @@
+# Pages CMS config (https://pagescms.org). Sign in with GitHub and open this repository.
+media:
+  input: public/uploads
+  output: /uploads
+content:
+  - name: pages
+    label: Pages
+    type: collection
+    path: src/content/pages
+    subfolders: true
+    view:
+      fields: [title, draft, updated]
+      primary: title
+    fields: &pagefields
+      - { name: title, label: Title, type: string, required: true }
+      - { name: navTitle, label: Navigation title, type: string }
+      - { name: description, label: SEO description (max 200), type: text, required: true }
+      - { name: eyebrow, label: Eyebrow, type: string }
+      - { name: lead, label: Lead sentence, type: text }
+      - { name: illustration, label: Illustration key, type: string, description: "File name in src/assets/illustrations without extension" }
+      - { name: draft, label: Draft (hidden from sitemap, noindex), type: boolean, default: true }
+      - { name: template, label: Template page, type: boolean, default: false }
+      - { name: gate, label: Email gate (capability deck), type: boolean, default: false }
+      - name: cta
+        label: Primary call to action
+        type: object
+        fields:
+          - { name: label, label: Label, type: string }
+          - { name: href, label: Link, type: string }
+      - name: features
+        label: Features
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: text }
+      - name: facts
+        label: Facts
+        type: object
+        list: true
+        fields:
+          - { name: value, label: Value, type: string }
+          - { name: label, label: Label, type: string }
+      - name: links
+        label: Links
+        type: object
+        list: true
+        fields:
+          - { name: label, label: Label, type: string }
+          - { name: href, label: URL, type: string }
+      - name: pillars
+        label: Home pillars
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: text }
+          - { name: to, label: Link, type: string }
+          - { name: illustration, label: Illustration key, type: string }
+      - name: arc
+        label: Home story arc (Explore, Reveal, Trust)
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: text }
+      - { name: updated, label: Updated, type: date }
+      - { name: body, label: Body, type: rich-text }
+  - name: cases
+    label: Case studies
+    type: collection
+    path: src/content/cases
+    subfolders: true
+    view:
+      fields: [title, client, draft]
+      primary: title
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: description, label: SEO description (max 200), type: text, required: true }
+      - { name: client, label: Client, type: string }
+      - { name: anonymized, label: Anonymized, type: boolean, default: true }
+      - { name: industry, label: Industry, type: string }
+      - { name: service, label: Service, type: string }
+      - { name: illustration, label: Illustration key, type: string }
+      - { name: draft, label: Draft, type: boolean, default: true }
+      - { name: template, label: Template, type: boolean, default: false }
+      - { name: challenge, label: Challenge, type: text }
+      - { name: approach, label: Approach, type: text }
+      - { name: result, label: Result, type: text }
+      - name: stats
+        label: Stats
+        type: object
+        list: true
+        fields:
+          - { name: value, label: Value, type: string }
+          - { name: label, label: Label, type: string }
+      - { name: stack, label: Stack, type: string, list: true }
+      - { name: date, label: Date, type: date, required: true }
+      - { name: body, label: Story, type: rich-text }
+  - name: insights
+    label: Insights
+    type: collection
+    path: src/content/insights
+    subfolders: true
+    view:
+      fields: [title, type, draft]
+      primary: title
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: description, label: SEO description (max 200), type: text, required: true }
+      - { name: type, label: Type, type: select, options: { values: [article, talk, event] }, default: article }
+      - { name: illustration, label: Illustration key, type: string }
+      - { name: draft, label: Draft, type: boolean, default: true }
+      - { name: date, label: Date, type: date, required: true }
+      - { name: author, label: Author, type: string, default: PARADOX CAT }
+      - { name: body, label: Body, type: rich-text }
+  - name: team
+    label: Team
+    type: collection
+    path: src/content/team
+    subfolders: true
+    view:
+      fields: [name, role, draft]
+      primary: name
+    fields:
+      - { name: name, label: Name, type: string, required: true }
+      - { name: role, label: Role, type: string, required: true }
+      - { name: draft, label: Draft, type: boolean, default: true }
+      - { name: order, label: Sort order, type: number, default: 100 }
+  - name: jobs
+    label: Jobs
+    type: collection
+    path: src/content/jobs
+    subfolders: true
+    view:
+      fields: [title, location, draft]
+      primary: title
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: location, label: Location, type: string, required: true }
+      - { name: employmentType, label: Employment type, type: select, options: { values: [FULL_TIME, PART_TIME, CONTRACTOR, INTERN] } }
+      - { name: summary, label: Summary (max 200), type: text, required: true }
+      - { name: draft, label: Draft, type: boolean, default: true }
+      - { name: datePosted, label: Date posted, type: date, required: true }
+      - { name: body, label: Description, type: rich-text }

@@ -1,0 +1,14 @@
+# PARADOX CAT
+
+> PARADOX CAT builds Android Automotive HMI, real-time 3D graphics, digital twins and AI in-cabin sensing, plus the open-source 3D engine Ramses3D. Offices in Munich and Bucharest.
+
+## Key pages
+- [Solutions](https://paradox.cat/solutions/): services and products
+- [Ramses3D](https://paradox.cat/solutions/products/ramses3d/): open-source 3D rendering engine for embedded systems, MPL-2.0
+- [Case studies](https://paradox.cat/why-paradoxcat/case-studies/)
+- [Numbers and approach](https://paradox.cat/why-paradoxcat/numbers-and-approach/)
+- [Careers](https://paradox.cat/careers/)
+- [Contact](https://paradox.cat/contact/)
+
+## German
+- [Startseite](https://paradox.cat/de/)

@@ -1,0 +1,118 @@
+---
+import { t } from '../i18n/ui';
+import { pathOf, type Lang } from '../lib/routes';
+
+interface Props {
+  lang: Lang;
+  asset?: string;
+}
+const { lang, asset } = Astro.props;
+const ui = t(lang).form;
+const endpoint = import.meta.env.PUBLIC_FORM_ENDPOINT as string | undefined;
+const email = import.meta.env.PUBLIC_CONTACT_EMAIL as string | undefined;
+const action = endpoint || (email ? `mailto:${email}` : undefined);
+const isMailto = !endpoint && !!email;
+const utm = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
+---
+
+<form class="form" method="post" action={action} enctype={isMailto ? 'text/plain' : undefined} data-utm-form>
+  {!action && <p class="notice" role="note">{ui.notConfigured}</p>}
+  <div class="form__row">
+    <label>{ui.name}<input name="name" autocomplete="name" required /></label>
+    <label>{ui.email}<input name="email" type="email" autocomplete="email" required /></label>
+  </div>
+  <label>{ui.company}<input name="company" autocomplete="organization" /></label>
+  <label>
+    {ui.interest}
+    <select name="interest">
+      <option value="sample">{ui.optSample}</option>
+      <option value="call">{ui.optCall}</option>
+      <option value="both">{ui.optBoth}</option>
+    </select>
+  </label>
+  <label>{ui.topic}<textarea name="message" rows="5" placeholder={ui.topicPh} required></textarea></label>
+  <p class="hint">{ui.sampleHint}</p>
+  <label class="check">
+    <input type="checkbox" name="consent" required />
+    <span>{ui.consent} <a href={pathOf('privacy', lang)}>→</a></span>
+  </label>
+  <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="sr-only" aria-hidden="true" />
+  <input type="hidden" name="lang" value={lang} />
+  {asset && <input type="hidden" name="asset" value={asset} />}
+  {utm.map((k) => <input type="hidden" name={k} value="" />)}
+  <button class="btn btn--primary" type="submit" disabled={!action}>{ui.send}</button>
+</form>
+
+<script is:inline>
+  document.querySelectorAll('[data-utm-form]').forEach(function (form) {
+    var q = new URLSearchParams(location.search);
+    form.querySelectorAll('input[type=hidden][name^=utm_]').forEach(function (i) {
+      var v = q.get(i.name);
+      if (v) i.value = v;
+    });
+  });
+</script>
+
+<style>
+  .form {
+    display: grid;
+    gap: var(--sp-4);
+    max-width: 40rem;
+  }
+  .form__row {
+    display: grid;
+    gap: var(--sp-4);
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  }
+  label {
+    display: grid;
+    gap: var(--sp-2);
+    font-weight: 600;
+    font-size: var(--fs-sm);
+  }
+  input:not([type='checkbox']):not([type='hidden']),
+  select,
+  textarea {
+    font: inherit;
+    color: var(--c-text);
+    background: var(--c-surface-1);
+    border: 1px solid var(--c-line);
+    border-radius: var(--r-md);
+    padding: 0.8rem 1rem;
+    min-height: 3rem;
+  }
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible {
+    outline: 3px solid var(--c-focus);
+    outline-offset: 2px;
+  }
+  .check {
+    display: flex;
+    gap: var(--sp-3);
+    align-items: flex-start;
+    font-weight: 400;
+    color: var(--c-text-muted);
+  }
+  .check input {
+    margin-top: 0.3rem;
+    width: 1.1rem;
+    height: 1.1rem;
+    accent-color: var(--c-primary);
+  }
+  .hint {
+    color: var(--c-text-muted);
+    font-size: var(--fs-sm);
+    margin: 0;
+  }
+  .notice {
+    border: 1px solid var(--c-warning);
+    border-radius: var(--r-md);
+    padding: var(--sp-3) var(--sp-4);
+    color: #ffe6a3;
+    margin: 0;
+  }
+  .btn {
+    justify-self: start;
+  }
+</style>

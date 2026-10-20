@@ -1,0 +1,68 @@
+---
+import { t } from '../i18n/ui';
+import { pathOf, type Lang } from '../lib/routes';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const ui = t(lang).gate;
+const endpoint = import.meta.env.PUBLIC_FORM_ENDPOINT as string | undefined;
+const email = import.meta.env.PUBLIC_CONTACT_EMAIL as string | undefined;
+const action = endpoint || (email ? `mailto:${email}` : undefined);
+---
+
+<aside class="gate" aria-labelledby="gate-h">
+  <div>
+    <h2 id="gate-h">{ui.title}</h2>
+    <p class="muted">{ui.text}</p>
+  </div>
+  <form method="post" action={action} data-utm-form>
+    <label>
+      <span class="sr-only">{ui.email}</span>
+      <input type="email" name="email" placeholder={ui.email} autocomplete="email" required />
+    </label>
+    <input type="hidden" name="asset" value="capability-deck" />
+    <input type="hidden" name="lang" value={lang} />
+    <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="sr-only" aria-hidden="true" />
+    <button class="btn btn--primary" type="submit" disabled={!action}>{ui.send}</button>
+    <small><a href={pathOf('privacy', lang)}>{t(lang).form.consent.split('. ').pop()}</a></small>
+  </form>
+</aside>
+
+<style>
+  .gate {
+    display: grid;
+    gap: var(--sp-5);
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    align-items: center;
+    padding: var(--sp-6);
+    border: 1px solid var(--c-line);
+    border-radius: var(--r-lg);
+    background: linear-gradient(135deg, var(--c-surface-2), var(--c-surface-1));
+  }
+  .gate h2 {
+    font-size: var(--fs-xl);
+    font-weight: 650;
+  }
+  .gate p {
+    margin: 0;
+  }
+  form {
+    display: grid;
+    gap: var(--sp-3);
+  }
+  input[type='email'] {
+    font: inherit;
+    color: var(--c-text);
+    background: var(--c-bg);
+    border: 1px solid var(--c-line);
+    border-radius: var(--r-pill);
+    padding: 0.8rem 1.2rem;
+    min-height: 3rem;
+    width: 100%;
+  }
+  small {
+    color: var(--c-text-muted);
+  }
+</style>

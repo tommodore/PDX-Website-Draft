@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Page not found" description="This page does not exist." lang="en" path="/404/" alternates={{ en: '/404/', de: '/de/' }} currentId="404" noindex>
+  <main id="main" class="wrap" style="padding-block: var(--section-y); min-height: 60vh">
+    <p class="eyebrow">404</p>
+    <h1>This page took a different route.</h1>
+    <p class="lead">The page you are looking for does not exist or has moved.</p>
+    <p><a class="btn btn--primary" href="/">Back to the home page</a> <a class="btn" href="/de/">Zur deutschen Startseite</a></p>
+  </main>
+</BaseLayout>

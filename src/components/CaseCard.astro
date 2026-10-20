@@ -1,0 +1,19 @@
+---
+import Card from './Card.astro';
+import { t } from '../i18n/ui';
+import type { Lang } from '../lib/routes';
+
+interface Props {
+  title: string;
+  description: string;
+  href: string;
+  image: string;
+  industry: string;
+  draft?: boolean;
+  lang: Lang;
+}
+const { title, description, href, image, industry, draft = false, lang } = Astro.props;
+const ui = t(lang);
+---
+
+<Card title={title} text={`${industry}. ${description}`} href={href} image={image} lang={lang} badge={draft ? ui.draft : undefined} cta={ui.readCase} />

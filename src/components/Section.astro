@@ -1,0 +1,44 @@
+---
+interface Props {
+  tone?: 'default' | 'raised' | 'glow';
+  id?: string;
+  heading?: string;
+  eyebrow?: string;
+  intro?: string;
+  class?: string;
+}
+const { tone = 'default', id, heading, eyebrow, intro, class: cls = '' } = Astro.props;
+---
+
+<section id={id} class={`section section--${tone} ${cls}`} aria-labelledby={heading && id ? `${id}-h` : undefined}>
+  <div class="container">
+    {
+      (heading || eyebrow) && (
+        <header class="section__head reveal">
+          {eyebrow && <span class="eyebrow">{eyebrow}</span>}
+          {heading && <h2 id={id ? `${id}-h` : undefined}>{heading}</h2>}
+          {intro && <p class="lead">{intro}</p>}
+        </header>
+      )
+    }
+    <slot />
+  </div>
+</section>
+
+<style>
+  .section {
+    padding-block: var(--section-y);
+  }
+  .section--raised {
+    background: var(--c-surface-1);
+    border-block: 1px solid var(--c-line-soft);
+  }
+  .section--glow {
+    background: radial-gradient(ellipse at 50% 0%, rgb(54 76 148 / 0.45), transparent 65%), var(--c-surface-1);
+    border-block: 1px solid var(--c-line-soft);
+  }
+  .section__head {
+    margin-bottom: var(--sp-7);
+    max-width: 52rem;
+  }
+</style>

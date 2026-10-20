@@ -1,0 +1,33 @@
+old_path,new_path,note
+/,/de/,Old root is German
+/en/,/,
+/3d-assets/,/de/loesungen/leistungen/echtzeit-3d-grafik/,
+/en/3d/,/solutions/services/real-time-3d-graphics/,
+/android-paradox-cat-hmi/,/de/loesungen/leistungen/hmi/,
+/en/android/,/solutions/services/hmi/,
+/en/hmi-software-development/,/solutions/services/hmi/,
+/softwareentwicklung/,/de/loesungen/leistungen/hmi/,
+/en/ai/,/solutions/services/ai-in-cabin-sensing/,
+/ki-in-cabin-sensing/,/de/loesungen/leistungen/ki-innenraumsensorik/,
+/en/ar-configurator/,/why-paradoxcat/demos/,
+/en/immersive-ar-showroom-experiences/,/why-paradoxcat/demos/,
+/en/defence/,/industries/defense-and-critical-infrastructure/,
+/en/blog/,/why-paradoxcat/insights/,
+/en/blog-custom-android-launcher/,/why-paradoxcat/insights/,Re-publish as insight
+/en/blog-machine-learning-systems-hmi/,/why-paradoxcat/insights/,Re-publish as insight
+/en/how-an-aosp-training-changed-our-perspective/,/why-paradoxcat/insights/,Re-publish as insight
+/en/international-conference-on-computer-vision/,/why-paradoxcat/insights/,Re-publish as insight
+/en/tech-radar-2/,/why-paradoxcat/technology-and-partners/,
+/tech-radar/,/de/warum-paradoxcat/technologie-und-partner/,
+/en/career/,/careers/,
+/karriere/,/de/karriere/,
+/en/team-work-environment-en/,/careers/life-at-paradoxcat/,
+/team-work-environment/,/de/karriere/leben-bei-paradoxcat/,
+/en/company/,/company/,
+/unternehmen/,/de/unternehmen/,
+/en/contact/,/contact/,
+/kontakt/,/de/kontakt/,
+/en/impressum-3/,/company/legal/imprint/,
+/impressum/,/de/unternehmen/rechtliches/impressum/,
+/impressum-2/,/de/unternehmen/rechtliches/impressum/,
+/en/privacy-policy/,/company/legal/privacy/,

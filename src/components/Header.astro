@@ -1,0 +1,297 @@
+---
+import LangSwitch from './LangSwitch.astro';
+import { t } from '../i18n/ui';
+import { homePath, ancestorsOf, type Lang } from '../lib/routes';
+import type { NavItem } from '../lib/content';
+
+interface Props {
+  lang: Lang;
+  nav: NavItem[];
+  currentId: string;
+  alternates: Record<Lang, string>;
+}
+const { lang, nav, currentId, alternates } = Astro.props;
+const ui = t(lang);
+const active = new Set([currentId, ...ancestorsOf(currentId).map((n) => n.id)]);
+---
+
+<header class="site-header">
+  <div class="container bar">
+    <a class="brand" href={homePath(lang)} aria-label="PARADOX CAT">
+      <img src="/brand/logo-mark-white.svg" alt="" width="40" height="42" />
+    </a>
+
+    <button class="burger" type="button" aria-expanded="false" aria-controls="primary-nav" data-burger>
+      <span class="sr-only" data-label-open={ui.menu} data-label-close={ui.close}>{ui.menu}</span>
+      <span class="burger__icon" aria-hidden="true"></span>
+    </button>
+
+    <nav id="primary-nav" class="nav" aria-label={ui.mainNav} data-nav>
+      <ul class="nav__list">
+        {
+          nav.map((item) => (
+            <li class:list={['nav__item', { 'has-menu': item.children.length > 0 }]}>
+              <a href={item.href} class="nav__top" aria-current={active.has(item.id) ? 'true' : undefined}>
+                {item.label}
+              </a>
+              {item.children.length > 0 && (
+                <div class="mega">
+                  <ul class="mega__cols">
+                    {item.children.map((child) => (
+                      <li>
+                        <a class="mega__head" href={child.href}>
+                          {child.label}
+                        </a>
+                        {child.children.length > 0 && (
+                          <ul class="mega__sub">
+                            {child.children.map((g) => (
+                              <li>
+                                <a href={g.href}>{g.label}</a>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </li>
+          ))
+        }
+      </ul>
+      <LangSwitch lang={lang} alternates={alternates} />
+    </nav>
+  </div>
+</header>
+
+<script is:inline>
+  (function () {
+    var btn = document.querySelector('[data-burger]');
+    var nav = document.querySelector('[data-nav]');
+    if (!btn || !nav) return;
+    var label = btn.querySelector('.sr-only');
+    function set(open) {
+      btn.setAttribute('aria-expanded', String(open));
+      nav.toggleAttribute('data-open', open);
+      document.documentElement.toggleAttribute('data-nav-open', open);
+      label.textContent = open ? label.dataset.labelClose : label.dataset.labelOpen;
+    }
+    btn.addEventListener('click', function () {
+      set(btn.getAttribute('aria-expanded') !== 'true');
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && btn.getAttribute('aria-expanded') === 'true') {
+        set(false);
+        btn.focus();
+      }
+    });
+  })();
+</script>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: var(--header-h);
+    background: var(--c-bg);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--c-line-soft);
+  }
+  .bar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--sp-5);
+  }
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--sp-3);
+    color: var(--c-text);
+    text-decoration: none;
+    letter-spacing: 0.08em;
+    font-weight: 300;
+    font-size: 1.05rem;
+  }
+  .brand strong {
+    font-weight: 800;
+  }
+  .brand img {
+    height: 2.6rem;
+    width: auto;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-5);
+  }
+  .nav__list {
+    display: flex;
+    gap: var(--sp-1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .nav__item {
+    position: static;
+    margin: 0;
+  }
+  .nav__top {
+    display: block;
+    padding: 0.5rem 0.8rem;
+    color: var(--c-text);
+    text-decoration: none;
+    font-size: var(--fs-sm);
+    font-weight: 550;
+    border-radius: var(--r-pill);
+  }
+  .nav__top:hover,
+  .nav__top[aria-current] {
+    color: var(--c-primary-hover);
+  }
+  .nav__top[aria-current] {
+    box-shadow: inset 0 -2px 0 var(--c-primary);
+    border-radius: 0;
+  }
+  .mega {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background: var(--c-surface-1);
+    border-bottom: 1px solid var(--c-line);
+    box-shadow: var(--shadow-2);
+    padding: var(--sp-6) 0;
+  }
+  .mega__cols {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 var(--gutter);
+    max-width: calc(var(--w-content) + 2 * var(--gutter));
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    gap: var(--sp-5);
+  }
+  .mega__head {
+    display: block;
+    font-weight: 650;
+    color: var(--c-text);
+    text-decoration: none;
+    padding-bottom: var(--sp-2);
+    margin-bottom: var(--sp-2);
+    border-bottom: 1px solid var(--c-line-soft);
+  }
+  .mega__sub {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .mega__sub a,
+  .mega a {
+    color: var(--c-text-muted);
+    text-decoration: none;
+    font-size: var(--fs-sm);
+  }
+  .mega a:hover {
+    color: var(--c-primary-hover);
+  }
+  .nav__item:hover > .mega,
+  .nav__item:focus-within > .mega {
+    display: block;
+    animation: menu-in var(--dur-base) var(--ease-out);
+  }
+  @keyframes menu-in {
+    from {
+      opacity: 0;
+      transform: translateY(-6px);
+    }
+  }
+  .site-header {
+    position: sticky;
+  }
+  .burger {
+    display: none;
+  }
+
+  @media (max-width: 56rem) {
+    .burger {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 3rem;
+      height: 3rem;
+      border-radius: var(--r-md);
+      border: 1px solid var(--c-line);
+      background: transparent;
+      color: var(--c-text);
+      cursor: pointer;
+    }
+    .burger__icon,
+    .burger__icon::before,
+    .burger__icon::after {
+      display: block;
+      width: 1.3rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+      content: '';
+    }
+    .burger__icon::before {
+      position: absolute;
+      top: -6px;
+    }
+    .burger__icon::after {
+      position: absolute;
+      top: 6px;
+    }
+    .nav {
+      display: none;
+      position: fixed;
+      inset: var(--header-h) 0 0 0;
+      background: var(--c-bg);
+      flex-direction: column;
+      align-items: stretch;
+      padding: var(--sp-5) var(--gutter) var(--sp-8);
+      overflow-y: auto;
+      gap: var(--sp-5);
+    }
+    .nav[data-open] {
+      display: flex;
+    }
+    .nav__list {
+      flex-direction: column;
+      gap: var(--sp-3);
+    }
+    .nav__top {
+      font-size: var(--fs-lg);
+      padding-inline: 0;
+    }
+    .nav__top[aria-current] {
+      box-shadow: none;
+      color: var(--c-primary-hover);
+    }
+    .mega {
+      display: block !important;
+      position: static;
+      background: transparent;
+      border: 0;
+      box-shadow: none;
+      padding: 0 0 var(--sp-3) var(--sp-4);
+      animation: none !important;
+    }
+    .mega__cols {
+      grid-template-columns: 1fr;
+      padding: 0;
+      gap: var(--sp-3);
+    }
+    .lang {
+      align-self: flex-start;
+    }
+  }
+  @media (max-width: 72rem) {
+  }
+</style>

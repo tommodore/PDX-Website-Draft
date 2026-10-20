@@ -1,0 +1,65 @@
+---
+import { Picture } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+import Badge from './Badge.astro';
+import { t } from '../i18n/ui';
+import type { Lang } from '../lib/routes';
+
+interface Props {
+  name?: string;
+  alt?: string;
+  lang?: Lang;
+  illustrative?: boolean;
+  eager?: boolean;
+  sizes?: string;
+  ratio?: string;
+  class?: string;
+}
+
+const images = import.meta.glob<{ default: ImageMetadata }>('../assets/illustrations/*.webp', { eager: true });
+const { name = 'horizon', alt = '', lang = 'en', illustrative = true, eager = false, sizes = '(min-width: 72rem) 1120px, 100vw', ratio = '16 / 9', class: cls = '' } = Astro.props;
+const src = (images[`../assets/illustrations/${name}.webp`] ?? images['../assets/illustrations/horizon.webp']).default;
+const label = illustrative ? `${alt ? alt + '. ' : ''}${t(lang).illustrative}` : alt;
+---
+
+<figure class={`media ${cls}`} style={`--ratio:${ratio}`}>
+  <Picture
+    src={src}
+    alt={label}
+    widths={[480, 960, 1440, 1920]}
+    sizes={sizes}
+    formats={['avif', 'webp']}
+    loading={eager ? 'eager' : 'lazy'}
+    fetchpriority={eager ? 'high' : 'auto'}
+    decoding={eager ? 'sync' : 'async'}
+  />
+  {
+    illustrative && (
+      <span class="media__badge">
+        <Badge tone="illustrative">{t(lang).illustrative}</Badge>
+      </span>
+    )
+  }
+</figure>
+
+<style>
+  .media {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+    border-radius: var(--r-lg);
+    aspect-ratio: var(--ratio);
+    background: var(--c-surface-1);
+  }
+  .media :global(img),
+  .media :global(picture) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .media__badge {
+    position: absolute;
+    right: var(--sp-3);
+    bottom: var(--sp-3);
+  }
+</style>

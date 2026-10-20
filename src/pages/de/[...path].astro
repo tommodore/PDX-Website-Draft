@@ -1,0 +1,14 @@
+---
+import HomeView from '../../components/HomeView.astro';
+import PageView from '../../components/PageView.astro';
+import CaseView from '../../components/CaseView.astro';
+import InsightView from '../../components/InsightView.astro';
+import { buildPaths, type RouteProps } from '../../lib/paths';
+
+export async function getStaticPaths() {
+  return buildPaths('de');
+}
+const { kind, id, slug } = Astro.props as RouteProps;
+---
+
+{kind === 'case' ? <CaseView slug={slug!} lang="de" /> : kind === 'insight' ? <InsightView slug={slug!} lang="de" /> : id === 'home' ? <HomeView lang="de" /> : <PageView id={id} lang="de" />}

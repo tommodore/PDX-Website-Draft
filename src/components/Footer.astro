@@ -1,0 +1,105 @@
+---
+import { t } from '../i18n/ui';
+import { pathOf, homePath, type Lang } from '../lib/routes';
+import type { NavItem } from '../lib/content';
+
+interface Props {
+  lang: Lang;
+  nav: NavItem[];
+  legal: { privacy: string; imprint: string };
+}
+const { lang, nav, legal } = Astro.props;
+const ui = t(lang);
+const cols = nav.filter((n) => ['solutions', 'industries', 'company'].includes(n.id));
+const year = new Date().getFullYear();
+---
+
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <a href={homePath(lang)} aria-label="PARADOX CAT">
+        <img src="/brand/logo_paradoxcat_white.svg" alt="PARADOX CAT" width="1855" height="1005" />
+      </a>
+      <p class="muted">{ui.footerTagline}</p>
+      <p class="muted">{ui.locationsLine}</p>
+    </div>
+    {
+      cols.map((col) => (
+        <nav aria-label={col.label}>
+          <h2 class="footer__h">{col.label}</h2>
+          <ul>
+            {(col.id === 'solutions' ? col.children.flatMap((c) => c.children) : col.children).map((c) => (
+              <li>
+                <a href={c.href}>{c.label}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      ))
+    }
+    <nav aria-label={ui.footerLegal}>
+      <h2 class="footer__h">{ui.footerLegal}</h2>
+      <ul>
+        <li><a href={legal.imprint}>{lang === 'de' ? 'Impressum' : 'Imprint'}</a></li>
+        <li><a href={legal.privacy}>{lang === 'de' ? 'Datenschutz' : 'Privacy'}</a></li>
+        <li><a href={pathOf('contact', lang)}>{lang === 'de' ? 'Kontakt' : 'Contact'}</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container footer__bottom">
+    <small>&copy; {year} PARADOX CAT GmbH. {ui.rights}</small>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background: var(--c-surface-1);
+    border-top: 1px solid var(--c-line-soft);
+    padding-top: var(--sp-8);
+    font-size: var(--fs-sm);
+  }
+  .footer__grid {
+    display: grid;
+    gap: var(--sp-7);
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  }
+  .footer__brand {
+    grid-column: span 2;
+    max-width: 22rem;
+  }
+  .footer__brand img {
+    width: 9.5rem;
+    height: auto;
+    margin-bottom: var(--sp-4);
+  }
+  .footer__h {
+    font-size: var(--fs-xs);
+    letter-spacing: var(--tracking-wide);
+    text-transform: uppercase;
+    color: var(--c-text-faint);
+    font-weight: 600;
+    margin-bottom: var(--sp-3);
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  li + li {
+    margin-top: var(--sp-2);
+  }
+  a {
+    color: var(--c-text-muted);
+    text-decoration: none;
+  }
+  a:hover {
+    color: var(--c-primary-hover);
+    text-decoration: underline;
+  }
+  .footer__bottom {
+    margin-top: var(--sp-8);
+    padding-block: var(--sp-5);
+    border-top: 1px solid var(--c-line-soft);
+    color: var(--c-text-faint);
+  }
+</style>
