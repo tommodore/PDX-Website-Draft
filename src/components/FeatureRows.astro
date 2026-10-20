@@ -31,7 +31,7 @@ const ui = t(lang);
         <div class="row__media">
           {it.video ? (
             <figure class="row__frame">
-              <video muted loop playsinline preload="none" poster={`/media/${it.video}.webp`} aria-label={`${it.alt ?? it.title}. ${ui.illustrative}`} data-row-video>
+              <video muted loop playsinline preload="metadata" poster={`/media/${it.video}.webp`} aria-label={`${it.alt ?? it.title}. ${ui.illustrative}`} data-row-video>
                 <source src={`/media/${it.video}.mp4`} type="video/mp4" />
               </video>
               <span class="row__badge"><Badge tone="illustrative">{ui.illustrative}</Badge></span>
@@ -50,16 +50,26 @@ const ui = t(lang);
   if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
     vids.forEach((v) => (v.controls = true));
   } else {
+    const wanted = new WeakMap<HTMLVideoElement, boolean>();
+    const sync = (v: HTMLVideoElement) => {
+      if (wanted.get(v)) {
+        if (v.paused) v.play().catch(() => {});
+      } else if (!v.paused) v.pause();
+    };
     const io = new IntersectionObserver(
       (entries) =>
         entries.forEach((e) => {
-          const v = e.target as HTMLVideoElement;
-          if (e.isIntersecting) v.play().catch(() => {});
-          else v.pause();
+          const v = e.target.querySelector('video')!;
+          wanted.set(v, e.isIntersecting);
+          sync(v);
         }),
-      { threshold: 0.4 }
+      { threshold: 0.2 }
     );
-    vids.forEach((v) => io.observe(v));
+    vids.forEach((v) => {
+      v.muted = true;
+      v.addEventListener('canplay', () => sync(v));
+      io.observe(v.parentElement!);
+    });
   }
 </script>
 
