@@ -24,7 +24,7 @@ All images in `src/assets/illustrations/` are original 3D renders (three.js scen
 | Key | Description | Slot |
 |---|---|---|
 | defense-01 to defense-11 | Operators with rugged displays, armored vehicles with wireframe overlay, terrain maps | Defense gallery, stills |
-| public/media/defense-01 to 11 (.mp4, .webp poster) | 6 s clips of the same scenes, audio removed, muted loop | Defense gallery, videos |
+| public/media/defense-01 to 12 (.mp4, .webp poster) | 6 s clips (12: mixed-reality training scene, Training and simulation row), audio removed, muted loop | Defense gallery, videos |
 
 ## Official and web assets
 
