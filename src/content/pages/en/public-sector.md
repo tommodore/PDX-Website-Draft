@@ -1,15 +1,17 @@
 ---
-title: "Public sector"
-description: "Public sector: digital twins and training experiences for infrastructure. Contact us to discuss your requirements."
-lead: "Digital twins and training for infrastructure and public services."
+title: "Public Sector"
+description: "HMI, real-time 3D and digital twin capabilities for public sector organizations. Please contact us to discuss your requirements."
+lead: "Training, visualization and public-facing interfaces. Contact us to discuss what you need."
 illustration: "skyline"
 draft: true
+cta:
+  label: "Contact us"
+  href: "/contact/"
 updated: "2026-10-20"
 ---
 
-Digital twins and training for infrastructure and public services.
+Our skills in real-time 3D, HMI and digital twins can support training, infrastructure visualization and citizen-facing applications.
 
-## What this covers
+## Next step
 
-- Digital twins of infrastructure
-- Training experiences
+Public projects follow their own procurement rules. Contact us and we will talk about what is possible and how to proceed.

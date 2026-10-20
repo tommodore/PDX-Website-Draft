@@ -1,16 +1,30 @@
 ---
 title: "Industrie"
-description: "Industrie: Maschinen-HMI, CAD-Optimierung, Konfiguratoren und Digitale Zwillinge für Training und Service."
-lead: "Maschinen-HMI, Konfiguratoren und Digitale Zwillinge für Industrieteams."
+description: "Maschinen-HMI, CAD-zu-Echtzeit-Pipelines, Konfiguratoren und digitale Zwillinge für Industriehersteller, die bessere Bediener- und Kundenerlebnisse wollen."
+lead: "Bessere Maschinenoberflächen und 3D-Produkterlebnisse für Industrieteams."
 illustration: "industrial"
 draft: true
+cta:
+  label: "Sprechen Sie uns an"
+  href: "/de/kontakt/"
+features:
+  - title: "Maschinen-HMI"
+    text: "Eingebettete Bedieneroberflächen auf modernen Plattformen."
+  - title: "CAD-Optimierung"
+    text: "Konstruktionsmodelle in Echtzeit-Assets verwandeln."
+  - title: "Konfiguratoren"
+    text: "Kunden Ihre Maschinen und Optionen in 3D erkunden lassen."
+  - title: "Digitale Zwillinge"
+    text: "Visuelle Maschinenmodelle für Training und Service."
 updated: "2026-10-20"
 ---
 
-Maschinen-HMI, Konfiguratoren und Digitale Zwillinge für Industrieteams.
+Industrieprodukte stecken voller guter Ingenieurarbeit. Ihre Oberflächen und ihre Präsentation hinken oft hinterher. Wir helfen, diese Lücke zu schließen.
 
-## Worum es geht
+## Wo wir helfen
 
-- Maschinen- und Terminal-HMI
-- CAD-Optimierung und Konfiguratoren
-- Zwillinge für Training und Service
+Wir bringen Erfahrung aus Automotive-HMI und Echtzeitgrafik zu Maschinen, Steuerungen und Produktvertrieb.
+
+## So beginnen wir
+
+Wählen Sie ein Produkt. Wir zeigen, wie aus seinen CAD-Daten ein interaktives 3D-Erlebnis oder eine moderne Oberfläche wird. Dann entscheiden Sie, wie weit Sie gehen.

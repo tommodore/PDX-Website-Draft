@@ -1,15 +1,22 @@
 ---
 title: "Locations"
-description: "PARADOX CAT locations in Munich and Bucharest."
-lead: "Munich and Bucharest."
+description: "PARADOX CAT works from Munich, Germany and Bucharest, Romania. Two offices, one team."
+lead: "Munich and Bucharest. Two offices, one team."
 illustration: "skyline"
 draft: true
+cta:
+  label: "Contact us"
+  href: "/contact/"
+features:
+  - title: "Munich"
+    text: "Close to our automotive customers and the German market."
+  - title: "Bucharest"
+    text: "Engineering depth and an international talent pool."
 updated: "2026-10-20"
 ---
 
-Munich and Bucharest.
+We work as one team across two cities. Projects mix colleagues from both offices.
 
-## What this covers
+## Visit us
 
-- Munich
-- Bucharest
+Address details will be added before launch. Until then, use the contact form and we will arrange a meeting or a call.

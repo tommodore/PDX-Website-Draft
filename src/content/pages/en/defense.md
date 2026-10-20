@@ -1,15 +1,62 @@
 ---
-title: "Defense and critical infrastructure"
-description: "Defense and critical infrastructure: simulation, training and operator interfaces. Contact us to discuss your requirements."
-lead: "Simulation, training and operator interfaces for high-stakes environments."
-illustration: "skyline"
+title: "Defense & Critical Infrastructure"
+description: "Real-time 3D, HMI and digital twin capabilities for defense and critical infrastructure. Please contact us to discuss your requirements."
+lead: "Training, simulation and operator interfaces. Contact us to discuss what you need."
+illustration: "defense-05"
+gallery:
+  - image: "defense-01"
+    alt: "Operator touching a ruggedized map display"
+  - image: "defense-02"
+    alt: "Technician with a tablet next to an armored vehicle"
+  - image: "defense-03"
+    alt: "Gloved hand on a field display with a route overlay"
+  - image: "defense-04"
+    alt: "Analyst at a terrain visualization screen"
+  - image: "defense-05"
+    alt: "Armored vehicle shown half as wireframe model"
+  - image: "defense-06"
+    alt: "Operator in front of a terrain heat map"
+  - image: "defense-07"
+    alt: "Technician checking a vehicle digital twin on a tablet"
+  - image: "defense-08"
+    alt: "Mobile command desk with tablets and a drone controller"
+  - image: "defense-09"
+    alt: "Mixed reality view of a vehicle hologram in a workshop"
+  - image: "defense-10"
+    alt: "Analyst at a 3D terrain display with unit markers"
+  - image: "defense-11"
+    alt: "Armored vehicle in a wireframe and render overlay"
+  - video: "defense-01"
+    alt: "Operator touching a ruggedized map display"
+  - video: "defense-02"
+    alt: "Technician with a tablet next to an armored vehicle"
+  - video: "defense-03"
+    alt: "Gloved hand on a field display with a route overlay"
+  - video: "defense-04"
+    alt: "Analyst at a terrain visualization screen"
+  - video: "defense-05"
+    alt: "Armored vehicle shown half as wireframe model"
+  - video: "defense-06"
+    alt: "Operator in front of a terrain heat map"
+  - video: "defense-07"
+    alt: "Technician checking a vehicle digital twin on a tablet"
+  - video: "defense-08"
+    alt: "Mobile command desk with tablets and a drone controller"
+  - video: "defense-09"
+    alt: "Mixed reality view of a vehicle hologram in a workshop"
+  - video: "defense-10"
+    alt: "Analyst at a 3D terrain display with unit markers"
+  - video: "defense-11"
+    alt: "Armored vehicle in a wireframe and render overlay"
 draft: true
+cta:
+  label: "Contact us"
+  href: "/contact/"
 updated: "2026-10-20"
 ---
 
-Simulation, training and operator interfaces for high-stakes environments.
+Our capabilities in HMI, real-time 3D and digital twins can support training, simulation and operator displays.
 
-## What this covers
+## Next step
 
-- Simulation and training
-- Operator interfaces
+Requirements in this field are specific and often confidential. Contact us and we will discuss what is possible and which conditions apply.

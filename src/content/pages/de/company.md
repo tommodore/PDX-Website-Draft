@@ -1,17 +1,13 @@
 ---
 title: "Unternehmen"
-description: "PARADOX CAT Unternehmen: über uns, Team, Standorte, Neuigkeiten und rechtliche Informationen."
-lead: "Wer wir sind, wo wir arbeiten und was es Neues gibt."
+description: "Wer wir sind, wo wir arbeiten und wie Sie uns erreichen: PARADOX CAT ist ein inhabergeführtes Team von rund 150 Menschen in München und Bukarest."
+lead: "Inhabergeführt. Rund 150 Menschen. München und Bukarest."
 illustration: "horizon"
 draft: true
+cta:
+  label: "Kontakt aufnehmen"
+  href: "/de/kontakt/"
 updated: "2026-10-20"
 ---
 
-Wer wir sind, wo wir arbeiten und was es Neues gibt.
-
-## Worum es geht
-
-- Über uns
-- Team
-- Standorte
-- Neuigkeiten
+PARADOX CAT baut Software dafür, wie Menschen Maschinen nutzen. Erfahren Sie mehr über unsere Geschichte, unser Team, unsere Standorte und unsere Neuigkeiten.

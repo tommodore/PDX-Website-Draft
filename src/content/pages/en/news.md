@@ -1,14 +1,10 @@
 ---
 title: "News"
-description: "News and announcements from PARADOX CAT."
-lead: "Company news and announcements."
+description: "News from PARADOX CAT: company updates, events and project announcements."
+lead: "Company updates, events and announcements."
 illustration: "waves"
 draft: true
 updated: "2026-10-20"
 ---
 
-Company news and announcements.
-
-## What this covers
-
-- News items follow
+News will appear here once published.

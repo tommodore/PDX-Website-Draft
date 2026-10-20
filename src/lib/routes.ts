@@ -28,7 +28,6 @@ const T: [string, string | undefined, string, string][] = [
   ['training', 'twins', 'training-and-service', 'training-und-service'],
   ['xr', 'twins', 'xr-ar-vr', 'xr-ar-vr'],
   ['sensing', 'services', 'ai-in-cabin-sensing', 'ki-innenraumsensorik'],
-  ['packages', 'services', 'packages', 'pakete'],
   ['products', 'solutions', 'products', 'produkte'],
   ['ramses3d', 'products', 'ramses3d', 'ramses3d'],
   ['more', 'products', 'more-from-us', 'mehr-von-uns'],

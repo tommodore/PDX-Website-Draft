@@ -1,14 +1,10 @@
 ---
 title: "Neuigkeiten"
-description: "Neuigkeiten und Ankündigungen von PARADOX CAT."
-lead: "Unternehmensnews und Ankündigungen."
+description: "Neuigkeiten von PARADOX CAT: Unternehmensmeldungen, Events und Projektankündigungen."
+lead: "Unternehmensmeldungen, Events und Ankündigungen."
 illustration: "waves"
 draft: true
 updated: "2026-10-20"
 ---
 
-Unternehmensnews und Ankündigungen.
-
-## Worum es geht
-
-- Meldungen folgen
+Neuigkeiten erscheinen hier, sobald sie veröffentlicht sind.

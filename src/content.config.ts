@@ -22,6 +22,7 @@ const pages = defineCollection({
     links: z.array(link).default([]),
     pillars: z.array(z.object({ title: z.string(), text: z.string(), to: z.string(), illustration: z.string().default('horizon') })).default([]),
     arc: z.array(z.object({ title: z.string(), text: z.string() })).default([]),
+    gallery: z.array(z.object({ image: z.string().optional(), video: z.string().optional(), alt: z.string() })).default([]),
     updated: z.coerce.date().optional(),
   }),
 });

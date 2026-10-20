@@ -11,6 +11,7 @@ import Breadcrumbs from './Breadcrumbs.astro';
 import Gate from './Gate.astro';
 import Badge from './Badge.astro';
 import Stat from './Stat.astro';
+import Gallery from './Gallery.astro';
 import { getPage, navTitle, publishedIn, slugOf } from '../lib/content';
 import { pathOf, childrenOf, ancestorsOf, absoluteUrl, type Lang } from '../lib/routes';
 import { detailPath } from '../lib/paths';
@@ -83,6 +84,8 @@ const jobLd = jobs
         ))}
       </div>
     )}
+
+    {d.gallery.length > 0 && <Gallery items={d.gallery} lang={lang} />}
 
     {d.links.length > 0 && (
       <ul class="links">

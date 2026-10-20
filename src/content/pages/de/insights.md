@@ -1,16 +1,10 @@
 ---
 title: "Einblicke"
-description: "Einblicke von PARADOX CAT: Artikel, Vorträge und Event-Rückblicke."
-lead: "Artikel, Vorträge und Event-Rückblicke unserer Ingenieurinnen und Ingenieure."
+description: "Artikel, Vorträge und Eventberichte vom PARADOX-CAT-Team zu HMI, Echtzeit-3D, digitalen Zwillingen und Innenraumsensorik."
+lead: "Was wir beim Bauen lernen: Artikel, Vorträge und Eventnotizen."
 illustration: "waves"
 draft: true
 updated: "2026-10-20"
 ---
 
-Artikel, Vorträge und Event-Rückblicke unserer Ingenieurinnen und Ingenieure.
-
-## Worum es geht
-
-- Artikel
-- Vorträge
-- Event-Rückblicke
+Technische Tiefe, offen geteilt. Neue Beiträge erscheinen hier, sobald sie veröffentlicht sind.

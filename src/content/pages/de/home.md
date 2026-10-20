@@ -32,7 +32,7 @@ pillars:
     to: "/de/loesungen/produkte/ramses3d/"
     illustration: "engine"
 arc:
-  - title: "Vier Disziplinen, ein Team."
+  - title: "Vier Disziplinen und eine eigene Engine."
     text: "Wählen Sie den Einstieg, der zu Ihrem Produkt passt. Den Rest verbinden wir."
   - title: "Sehen heißt glauben."
     text: "Ein Produkt, das in Echtzeit erkundet wird, verkauft sich selbst. Unsere Demos zeigen, wie es sich anfühlt, bevor es existiert."

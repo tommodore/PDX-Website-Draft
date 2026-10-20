@@ -1,15 +1,10 @@
 ---
 title: "Offene Stellen"
-description: "Offene Stellen bei PARADOX CAT in München und Bukarest."
-lead: "Finden Sie eine Rolle, die zu Ihrem Handwerk passt."
+description: "Offene Stellen bei PARADOX CAT in München und Bukarest für Entwickler, Technical Artists und Designer."
+lead: "Finden Sie eine Stelle in München oder Bukarest, oder senden Sie eine Initiativbewerbung."
 illustration: "bokeh"
 draft: true
 updated: "2026-10-20"
 ---
 
-Finden Sie eine Rolle, die zu Ihrem Handwerk passt.
-
-## Worum es geht
-
-- Stellen werden im CMS gepflegt
-- Jede veröffentlichte Stelle erzeugt JobPosting-Daten für Suchmaschinen
+Stellen werden hier aufgeführt, sobald sie offen sind. Nichts Passendes dabei? Senden Sie eine Initiativbewerbung und sagen Sie uns, was Sie bauen möchten.

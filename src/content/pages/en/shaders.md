@@ -1,16 +1,30 @@
 ---
-title: "Custom shaders"
-description: "Custom shaders for paint, glass, metal and lighting, tuned for real-time performance."
-lead: "Materials that look right and run fast on the target hardware."
+title: "Custom Shaders"
+description: "Custom shaders for real-time engines: materials and effects tuned to your look, your hardware and your frame budget."
+lead: "Materials and effects that look like your brand and run within your GPU budget."
 illustration: "render"
 draft: true
+cta:
+  label: "Discuss a shader"
+  href: "/contact/"
+features:
+  - title: "Brand-true materials"
+    text: "Paint, glass, leather and displays that match design intent."
+  - title: "Performance-aware"
+    text: "Tuned for embedded GPUs, not only for desktop cards."
+  - title: "Engine-ready"
+    text: "Delivered for the engine you use, including Ramses3D, Unity and Unreal."
 updated: "2026-10-20"
 ---
 
-Materials that look right and run fast on the target hardware.
+A shader decides whether 3D looks premium or cheap. It also decides whether it runs smoothly.
 
-## What this covers
+## What we do
 
-- Materials and surface looks
-- Lighting and reflections
-- Optimization for embedded GPUs
+We write and tune shaders together with technical artists. We check the look on target hardware, not just in the editor.
+
+## When to call us
+
+When the engine default is not enough, or when a beautiful scene misses its frame rate.
+
+Send a reference image and your target platform.

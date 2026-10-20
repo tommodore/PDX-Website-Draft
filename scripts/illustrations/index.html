@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  html, body { margin: 0; background: #010d16; overflow: hidden; }
+  #wrap { position: relative; width: 2400px; height: 1350px; }
+  canvas { display: block; }
+  #vig { position: absolute; inset: 0; pointer-events: none;
+    background: radial-gradient(ellipse 75% 80% at 58% 50%, transparent 45%, rgba(1,8,14,.55) 100%); }
+  #grain { position: absolute; inset: 0; pointer-events: none; opacity: .05; mix-blend-mode: overlay; }
+</style>
+<script type="importmap">
+{ "imports": { "three": "/three/build/three.module.js", "three/addons/": "/three/examples/jsm/" } }
+</script>
+</head>
+<body>
+<div id="wrap"><div id="vig"></div><canvas id="grain" width="2400" height="1350"></canvas></div>
+<script type="module">
+import * as THREE from 'three';
+import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
+import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
+import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
+import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
+import { scenes } from './scenes.js';
+
+const name = new URLSearchParams(location.search).get('scene');
+const W = 2400, H = 1350;
+try {
+  const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+  renderer.setPixelRatio(1);
+  renderer.setSize(W, H);
+  renderer.toneMapping = THREE.ACESFilmicToneMapping;
+  renderer.toneMappingExposure = 1.0;
+  renderer.localClippingEnabled = true;
+  document.getElementById('wrap').prepend(renderer.domElement);
+
+  const { scene, camera, bloom = [0.4, 0.7, 0.85], exposure } = scenes[name]({ W, H, renderer });
+  if (exposure) renderer.toneMappingExposure = exposure;
+
+  const composer = new EffectComposer(renderer);
+  composer.setPixelRatio(1);
+  composer.setSize(W, H);
+  composer.addPass(new RenderPass(scene, camera));
+  composer.addPass(new UnrealBloomPass(new THREE.Vector2(W, H), ...bloom));
+  composer.addPass(new OutputPass());
+  composer.render();
+
+  const g = document.getElementById('grain').getContext('2d');
+  const id = g.createImageData(W, H);
+  for (let i = 0; i < id.data.length; i += 4) {
+    const v = Math.random() * 255;
+    id.data[i] = id.data[i + 1] = id.data[i + 2] = v; id.data[i + 3] = 255;
+  }
+  g.putImageData(id, 0, 0);
+  window.__done = true;
+} catch (e) {
+  window.__error = String(e && e.stack || e);
+}
+</script>
+</body>
+</html>

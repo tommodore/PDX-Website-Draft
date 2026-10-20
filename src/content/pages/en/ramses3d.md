@@ -1,8 +1,8 @@
 ---
 title: "Ramses3D"
-description: "Ramses3D is an open-source 3D rendering engine for embedded systems with a focus on bandwidth and resource efficiency. Co-developed with BMW, MPL-2.0."
+description: "Ramses3D is an open-source 3D rendering engine for embedded systems with a focus on bandwidth and resource efficiency. MPL-2.0."
 eyebrow: "Open-source engine"
-lead: "A 3D rendering engine for embedded systems, built for bandwidth and resource efficiency. Co-developed with BMW. Open source."
+lead: "A 3D rendering engine for embedded systems, built for bandwidth and resource efficiency. Open source."
 illustration: "engine"
 cta:
   label: "Talk to us about Ramses3D"
@@ -10,8 +10,8 @@ cta:
 facts:
   - value: "MPL-2.0"
     label: "open-source license"
-  - value: "BMW"
-    label: "co-developed with BMW"
+  - value: "Open source"
+    label: "inspect, build and extend it"
   - value: "Embedded"
     label: "first-class target"
 features:

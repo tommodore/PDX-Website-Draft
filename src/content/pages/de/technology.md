@@ -1,16 +1,30 @@
 ---
-title: "Technologie und Partner"
-description: "Technologie und Partner: Unity, Unreal, Qt, Kanzi, Rocksolid und Ramses."
-lead: "Wir arbeiten mit den Werkzeugen, die unsere Kunden bereits nutzen."
+title: "Technologie & Partner"
+description: "Engines, Frameworks und Plattformen, mit denen wir arbeiten: Android Automotive, Unity, Unreal, Qt, Kanzi, Rocksolid und unsere Open-Source-Engine Ramses3D."
+lead: "Wir nutzen das passende Werkzeug und kennen die wichtigen gut."
 illustration: "engine"
 draft: true
+cta:
+  label: "Ihren Stack besprechen"
+  href: "/de/kontakt/"
+features:
+  - title: "Engines"
+    text: "Unity, Unreal und Ramses3D für Echtzeit-3D."
+  - title: "UI-Frameworks"
+    text: "Qt, Kanzi und Rocksolid für Embedded-HMI."
+  - title: "Plattformen"
+    text: "Android Automotive OS und Embedded Linux."
+  - title: "Open Source"
+    text: "Wir bauen offen mit Ramses3D."
 updated: "2026-10-20"
 ---
 
-Wir arbeiten mit den Werkzeugen, die unsere Kunden bereits nutzen.
+Technologieentscheidungen prägen Kosten und Risiko für Jahre. Wir helfen bei der Auswahl und arbeiten in Ihrem bestehenden Stack.
 
-## Worum es geht
+## Unser Prinzip
 
-- Unity und Unreal Engine
-- Qt und Kanzi
-- Rocksolid und Ramses
+Wir sind werkzeugneutral. Wir empfehlen, was zu Ihrer Hardware, Ihrem Team und Ihrem Zeitplan passt.
+
+## Open Source
+
+Ramses3D wird gemeinsam mit BMW entwickelt und steht unter MPL-2.0. Sie können es prüfen, bevor Sie sich festlegen.

@@ -53,7 +53,7 @@ export const ui = {
     },
     gate: {
       title: 'Capability deck',
-      text: 'Our overview of services, packages and proof points. We send the link to your inbox.',
+      text: 'Our overview of services and proof points. We send the link to your inbox.',
       email: 'Work email',
       send: 'Send me the deck',
     },

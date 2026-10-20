@@ -1,16 +1,39 @@
 ---
-title: "Zahlen und Vorgehen"
-description: "PARADOX CAT in Zahlen: rund 150 Menschen, 26 Nationen, unter 5 Prozent Fluktuation, inhabergeführt und erfahren."
-lead: "Rund 150 Menschen aus 26 Nationen. Inhabergeführt. Erfahrenes Team. Geringe Fluktuation."
+title: "Zahlen & Vorgehen"
+description: "Rund 150 Menschen aus 26 Nationen, unter 5 Prozent Fluktuation, inhabergeführt und erfahren: die Fakten hinter der Arbeitsweise von PARADOX CAT."
+lead: "Stabile Teams liefern bessere Software. Unsere Zahlen zeigen, warum."
 illustration: "waves"
 draft: true
+cta:
+  label: "Kontakt aufnehmen"
+  href: "/de/kontakt/"
+facts:
+  - value: "~150"
+    label: "Menschen"
+  - value: "26"
+    label: "Nationen"
+  - value: "<5%"
+    label: "Fluktuation"
+features:
+  - title: "Inhabergeführt"
+    text: "Unabhängig und auf langfristige Qualität ausgerichtet."
+  - title: "Erfahrenes Team"
+    text: "Erfahrene Entwickler und Artists führen die Arbeit."
+  - title: "Kontinuität"
+    text: "Die Menschen, mit denen Sie starten, bringen das Projekt auch ins Ziel."
 updated: "2026-10-20"
 ---
 
-Rund 150 Menschen aus 26 Nationen. Inhabergeführt. Erfahrenes Team. Geringe Fluktuation.
+Zahlen sind nur nützlich, wenn sie ändern, was Sie als Kunde erleben. Diese tun es.
 
-## Worum es geht
+## Warum Fluktuation zählt
 
-- Rund 150 Menschen, 26 Nationen
-- Unter 5 Prozent Fluktuation
-- Inhabergeführt, erfahrenes Team
+Geringe Fluktuation schützt Projektwissen. Sie zahlen nicht erneut dafür, neue Leute in Ihr Produkt einzuarbeiten.
+
+## So arbeiten wir
+
+Kleine erfahrene Teams, klare Schnittstellen und regelmäßige Lieferungen. Wir sagen früh Bescheid, wenn etwas nicht stimmt.
+
+## Wo wir sind
+
+München und Bukarest, als ein Team.

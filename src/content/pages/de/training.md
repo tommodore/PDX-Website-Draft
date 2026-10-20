@@ -1,16 +1,30 @@
 ---
-title: "Training und Service"
-description: "Interaktive Trainings- und Service-Erlebnisse auf Basis Digitaler Zwillinge."
-lead: "Das Produkt kennenlernen, bevor man es anfasst."
+title: "Training & Service"
+description: "Interaktives 3D und XR für Training und Service: virtuelle Abläufe, geführte Reparatur und Produktwissen, gebaut aus Ihren vorhandenen CAD-Daten."
+lead: "Schulen und unterstützen mit interaktivem 3D statt dicker Handbücher."
 illustration: "bokeh"
 draft: true
+cta:
+  label: "Trainingsfall planen"
+  href: "/de/kontakt/"
+features:
+  - title: "Virtuelle Abläufe"
+    text: "Schrittweises Training an einem 3D-Modell, am Bildschirm oder in XR."
+  - title: "Geführter Service"
+    text: "Technikern Bauteil, Werkzeug und nächsten Schritt zeigen."
+  - title: "Produktwissen"
+    text: "Vertrieb und Support helfen, komplexe Produkte zu verstehen."
+  - title: "CAD wiederverwenden"
+    text: "Inhalte entstehen aus den Daten, die Sie bereits haben."
 updated: "2026-10-20"
 ---
 
-Das Produkt kennenlernen, bevor man es anfasst.
+Menschen lernen schneller, wenn sie sehen und ausprobieren können. Interaktives 3D macht komplexe Produkte leichter zu schulen und zu warten.
 
-## Worum es geht
+## Was wir bauen
 
-- Interaktive Abläufe
-- Geführte Service-Schritte
-- Skalierbar für Teams und Standorte
+Wir erstellen Trainings- und Serviceanwendungen auf Basis Ihres digitalen Zwillings. Sie laufen auf Tablets, Panels und Headsets.
+
+## So beginnen Sie
+
+Wählen Sie einen Ablauf mit hohen Kosten oder hoher Fehlerquote. Wir bauen einen fokussierten Prototyp und messen den Nutzen gemeinsam.

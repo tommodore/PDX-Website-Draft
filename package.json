@@ -10,7 +10,8 @@
     "illustrations": "node scripts/generate-illustrations.mjs",
     "test:links": "linkinator http://localhost:4321/ --recurse --skip \"^(?!http://localhost:4321)\"",
     "test:a11y": "pa11y-ci --config .pa11yci.json",
-    "test:lhci": "lhci autorun --config=lighthouserc.json"
+    "test:lhci": "lhci autorun --config=lighthouserc.json",
+    "illustrations:render": "node scripts/render-illustrations.mjs"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,7 @@
     "pa11y-ci": "^5.0.0",
     "potrace": "^2.1.8",
     "staticrypt": "^3.5.4",
+    "three": "^0.186.1",
     "wait-on": "^9.5.1"
   },
   "private": true,

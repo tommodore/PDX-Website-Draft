@@ -1,16 +1,32 @@
 ---
-title: "Produkt- und Fahrzeugzwillinge"
-description: "Visuelle Zwillinge von Produkten und Fahrzeugen für Design-Review, Vertrieb und Service."
-lead: "Ein Modell für Design-Review, Vertrieb und Service."
+title: "Produkt- & Fahrzeugzwillinge"
+description: "Echtzeit-3D-Zwillinge von Produkten und Fahrzeugen für Konfiguratoren, Design-Review, Validierung und Vertrieb: präzise Visualisierung aus Ihren CAD-Daten."
+lead: "Ein präzises 3D-Modell für Design, Vertrieb und Service."
 illustration: "twin"
 draft: true
+cta:
+  label: "Produktzwilling planen"
+  href: "/de/kontakt/"
+features:
+  - title: "Design-Review"
+    text: "Designs in Echtzeit, im Kontext und mit Varianten nebeneinander beurteilen."
+  - title: "Vertrieb und Marketing"
+    text: "Dasselbe Modell für Konfiguratoren und Präsentationen wiederverwenden."
+  - title: "Validierung"
+    text: "Oberflächen und Layouts früh an einem virtuellen Fahrzeug testen."
+  - title: "Eine Quelle"
+    text: "Eine Asset-Pipeline hält alle Anwendungen konsistent."
 updated: "2026-10-20"
 ---
 
-Ein Modell für Design-Review, Vertrieb und Service.
+Ein Produktzwilling erspart Ihnen, dieselben 3D-Inhalte für jeden Zweck neu zu bauen.
 
-## Worum es geht
+## Was wir liefern
 
-- Design-Review in Echtzeit
-- Vertrieb und Showroom
-- Service-Visualisierung
+Wir bereiten Ihre CAD-Daten auf, bauen das Echtzeitmodell und binden es in die Anwendungen ein, die es brauchen.
+
+## Erfahrung mit Fahrzeugen
+
+Wir bauen 3D-Fahrzeugszenen für Automotive-Programme, von Cockpit-Visualisierungen bis zu Fahrzeugansichten in Companion-Apps.
+
+Starten Sie mit dem Paket Digital Twin Starter oder senden Sie uns ein Beispielmodell.

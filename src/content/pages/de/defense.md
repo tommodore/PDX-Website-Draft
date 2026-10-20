@@ -1,15 +1,62 @@
 ---
-title: "Verteidigung und kritische Infrastruktur"
-description: "Verteidigung und kritische Infrastruktur: Simulation, Training und Bedienoberflächen. Sprechen Sie uns zu Ihren Anforderungen an."
-lead: "Simulation, Training und Bedienoberflächen für anspruchsvolle Umgebungen."
-illustration: "skyline"
+title: "Verteidigung & kritische Infrastruktur"
+description: "Echtzeit-3D, HMI und digitale Zwillinge für Verteidigung und kritische Infrastruktur. Bitte sprechen Sie uns zu Ihren Anforderungen an."
+lead: "Training, Simulation und Bedieneroberflächen. Sprechen Sie uns an, was Sie benötigen."
+illustration: "defense-05"
+gallery:
+  - image: "defense-01"
+    alt: "Bediener berührt ein robustes Kartendisplay"
+  - image: "defense-02"
+    alt: "Techniker mit Tablet neben einem gepanzerten Fahrzeug"
+  - image: "defense-03"
+    alt: "Behandschuhte Hand auf einem Feld-Display mit Routenoverlay"
+  - image: "defense-04"
+    alt: "Analyst vor einer Geländevisualisierung"
+  - image: "defense-05"
+    alt: "Gepanzertes Fahrzeug, zur Hälfte als Drahtgittermodell"
+  - image: "defense-06"
+    alt: "Bediener vor einer Gelände-Heatmap"
+  - image: "defense-07"
+    alt: "Techniker prüft einen digitalen Fahrzeugzwilling auf dem Tablet"
+  - image: "defense-08"
+    alt: "Mobiler Leitstand mit Tablets und Drohnen-Controller"
+  - image: "defense-09"
+    alt: "Mixed-Reality-Ansicht eines Fahrzeug-Hologramms in der Werkstatt"
+  - image: "defense-10"
+    alt: "Analyst vor einer 3D-Geländeanzeige mit Einheitenmarkern"
+  - image: "defense-11"
+    alt: "Gepanzertes Fahrzeug mit Drahtgitter- und Render-Overlay"
+  - video: "defense-01"
+    alt: "Bediener berührt ein robustes Kartendisplay"
+  - video: "defense-02"
+    alt: "Techniker mit Tablet neben einem gepanzerten Fahrzeug"
+  - video: "defense-03"
+    alt: "Behandschuhte Hand auf einem Feld-Display mit Routenoverlay"
+  - video: "defense-04"
+    alt: "Analyst vor einer Geländevisualisierung"
+  - video: "defense-05"
+    alt: "Gepanzertes Fahrzeug, zur Hälfte als Drahtgittermodell"
+  - video: "defense-06"
+    alt: "Bediener vor einer Gelände-Heatmap"
+  - video: "defense-07"
+    alt: "Techniker prüft einen digitalen Fahrzeugzwilling auf dem Tablet"
+  - video: "defense-08"
+    alt: "Mobiler Leitstand mit Tablets und Drohnen-Controller"
+  - video: "defense-09"
+    alt: "Mixed-Reality-Ansicht eines Fahrzeug-Hologramms in der Werkstatt"
+  - video: "defense-10"
+    alt: "Analyst vor einer 3D-Geländeanzeige mit Einheitenmarkern"
+  - video: "defense-11"
+    alt: "Gepanzertes Fahrzeug mit Drahtgitter- und Render-Overlay"
 draft: true
+cta:
+  label: "Kontakt aufnehmen"
+  href: "/de/kontakt/"
 updated: "2026-10-20"
 ---
 
-Simulation, Training und Bedienoberflächen für anspruchsvolle Umgebungen.
+Unsere Fähigkeiten in HMI, Echtzeit-3D und digitalen Zwillingen können Training, Simulation und Bedienerdisplays unterstützen.
 
-## Worum es geht
+## Nächster Schritt
 
-- Simulation und Training
-- Bedienoberflächen
+Anforderungen in diesem Feld sind speziell und oft vertraulich. Nehmen Sie Kontakt auf, dann besprechen wir, was möglich ist und welche Rahmenbedingungen gelten.

@@ -1,15 +1,18 @@
 ---
 title: "Products"
-description: "Our products: the open-source 3D engine Ramses3D and more from our team."
-lead: "What we build for ourselves, and share with others."
+description: "Our own products, led by Ramses3D, the open-source embedded 3D engine co-developed with BMW."
+lead: "Our own software, led by the open-source engine Ramses3D."
 illustration: "engine"
 draft: true
+cta:
+  label: "Explore Ramses3D"
+  href: "/solutions/products/ramses3d/"
+features:
+  - title: "Ramses3D"
+    text: "Open-source 3D engine for embedded systems, co-developed with BMW."
+  - title: "More from us"
+    text: "Other products from our team."
 updated: "2026-10-20"
 ---
 
-What we build for ourselves, and share with others.
-
-## What this covers
-
-- Ramses3D leads this section
-- More from us: CarChestra and Ypsos
+Alongside client work we build and maintain our own software. Ramses3D is the flagship.

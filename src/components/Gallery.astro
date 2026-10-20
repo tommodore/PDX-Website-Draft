@@ -1,0 +1,82 @@
+---
+import Media from './Media.astro';
+import Badge from './Badge.astro';
+import { t } from '../i18n/ui';
+import type { Lang } from '../lib/routes';
+
+interface Item {
+  image?: string;
+  video?: string;
+  alt: string;
+}
+interface Props {
+  items: Item[];
+  lang: Lang;
+}
+const { items, lang } = Astro.props;
+const ui = t(lang);
+---
+
+<div class="gallery">
+  {
+    items.map((it) =>
+      it.video ? (
+        <figure class="gallery__item">
+          <video muted loop playsinline preload="none" poster={`/media/${it.video}.webp`} aria-label={`${it.alt}. ${ui.illustrative}`} data-gallery-video>
+            <source src={`/media/${it.video}.mp4`} type="video/mp4" />
+          </video>
+          <span class="gallery__badge"><Badge tone="illustrative">{ui.illustrative}</Badge></span>
+        </figure>
+      ) : (
+        <Media name={it.image} alt={it.alt} lang={lang} ratio="3 / 2" sizes="(min-width: 60rem) 33vw, 100vw" class="gallery__item" />
+      )
+    )
+  }
+</div>
+
+<script>
+  const vids = document.querySelectorAll<HTMLVideoElement>('[data-gallery-video]');
+  const calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (calm) {
+    vids.forEach((v) => (v.controls = true));
+  } else {
+    const io = new IntersectionObserver(
+      (entries) =>
+        entries.forEach((e) => {
+          const v = e.target as HTMLVideoElement;
+          if (e.isIntersecting) v.play().catch(() => {});
+          else v.pause();
+        }),
+      { threshold: 0.4 }
+    );
+    vids.forEach((v) => io.observe(v));
+  }
+</script>
+
+<style>
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    gap: var(--sp-4);
+    margin-top: var(--sp-7);
+  }
+  .gallery__item {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+    border-radius: var(--r-lg);
+    aspect-ratio: 3 / 2;
+    background: var(--c-surface-1);
+  }
+  .gallery__item video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .gallery__badge {
+    position: absolute;
+    right: var(--sp-3);
+    bottom: var(--sp-3);
+  }
+</style>

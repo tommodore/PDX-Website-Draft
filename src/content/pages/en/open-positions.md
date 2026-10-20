@@ -1,15 +1,10 @@
 ---
-title: "Open positions"
-description: "Open positions at PARADOX CAT in Munich and Bucharest."
-lead: "Find a role that fits your craft."
+title: "Open Positions"
+description: "Open roles at PARADOX CAT in Munich and Bucharest for engineers, technical artists and designers."
+lead: "Find a role in Munich or Bucharest, or send an open application."
 illustration: "bokeh"
 draft: true
 updated: "2026-10-20"
 ---
 
-Find a role that fits your craft.
-
-## What this covers
-
-- Positions are managed in the CMS
-- Each published job adds JobPosting data for search engines
+Roles are listed below when open. No match? Send an open application and tell us what you want to build.

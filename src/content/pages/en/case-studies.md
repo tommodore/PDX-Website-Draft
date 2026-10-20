@@ -1,15 +1,10 @@
 ---
-title: "Case studies"
-description: "Case studies from automotive, industrial, fintech and aviation projects. Anonymized where required."
-lead: "Real projects, shown with the problem, the approach and the result."
+title: "Case Studies"
+description: "Selected projects from PARADOX CAT: what the challenge was, how we approached it and what changed. Some are anonymized for client confidentiality."
+lead: "Proof, not promises: selected projects and what we learned from them."
 illustration: "render"
 draft: true
 updated: "2026-10-20"
 ---
 
-Real projects, shown with the problem, the approach and the result.
-
-## What this covers
-
-- Named flagship cases
-- Anonymized cases, such as "German premium OEM"
+Many of our projects are under NDA. Where needed we anonymize the client and keep the engineering story.

@@ -1,15 +1,28 @@
 ---
 title: "Fintech"
-description: "Fintech: terminal GUIs for payment devices, built to pass certification and delight users."
-lead: "Payment terminal interfaces that are certified and pleasant to use."
+description: "Embedded interfaces for payment terminals and financial devices: fast, reliable and secure-minded UI on Android, built by an experienced HMI team."
+lead: "Terminal and device interfaces that are fast, clear and dependable."
 illustration: "terminal"
 draft: true
+cta:
+  label: "Talk to us"
+  href: "/contact/"
+features:
+  - title: "Terminal UI"
+    text: "Clean, responsive interfaces for payment and self-service devices."
+  - title: "Android expertise"
+    text: "We know Android platform customization on embedded hardware."
+  - title: "Reliability first"
+    text: "Predictable behavior, tested flows and careful release handling."
 updated: "2026-10-20"
 ---
 
-Payment terminal interfaces that are certified and pleasant to use.
+Financial devices are used by many people, every day, with no patience for errors. The interface must work every time.
 
-## What this covers
+## What we bring
 
-- Terminal GUI development
-- Certification-aware delivery
+Our HMI engineers come from automotive, where robustness on embedded hardware is the baseline. We apply the same discipline to terminals and similar devices.
+
+## Where to start
+
+Describe your device and your users. We help you plan the interface, the Android platform work and the release path.

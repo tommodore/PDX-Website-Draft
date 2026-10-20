@@ -1,14 +1,10 @@
 ---
 title: "Team"
-description: "The PARADOX CAT team."
-lead: "The people behind the work."
+description: "The people behind PARADOX CAT: senior engineers, technical artists and designers in Munich and Bucharest."
+lead: "Senior engineers, technical artists and designers."
 illustration: "bokeh"
 draft: true
 updated: "2026-10-20"
 ---
 
-The people behind the work.
-
-## What this covers
-
-- Team members are managed in the CMS
+Team profiles will appear here when approved for publication.
