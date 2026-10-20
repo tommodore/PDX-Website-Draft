@@ -1,53 +1,30 @@
 ---
 title: "Defense & Critical Infrastructure"
-description: "Real-time 3D, HMI and digital twin capabilities for defense and critical infrastructure. Please contact us to discuss your requirements."
-lead: "Training, simulation and operator interfaces. Contact us to discuss what you need."
+description: "Operator interfaces, vehicle digital twins, training and terrain visualization in real-time 3D for defense and critical infrastructure."
+lead: "Operator interfaces, digital twins and training in real-time 3D. Built by a senior team, shaped around your requirements."
 illustration: "defense-05"
 gallery:
-  - image: "defense-01"
-    alt: "Operator touching a ruggedized map display"
-  - image: "defense-02"
-    alt: "Technician with a tablet next to an armored vehicle"
-  - image: "defense-03"
-    alt: "Gloved hand on a field display with a route overlay"
-  - image: "defense-04"
-    alt: "Analyst at a terrain visualization screen"
-  - image: "defense-05"
-    alt: "Armored vehicle shown half as wireframe model"
-  - image: "defense-06"
-    alt: "Operator in front of a terrain heat map"
-  - image: "defense-07"
-    alt: "Technician checking a vehicle digital twin on a tablet"
-  - image: "defense-08"
-    alt: "Mobile command desk with tablets and a drone controller"
-  - image: "defense-09"
-    alt: "Mixed reality view of a vehicle hologram in a workshop"
-  - image: "defense-10"
-    alt: "Analyst at a 3D terrain display with unit markers"
-  - image: "defense-11"
-    alt: "Armored vehicle in a wireframe and render overlay"
-  - video: "defense-01"
-    alt: "Operator touching a ruggedized map display"
-  - video: "defense-02"
-    alt: "Technician with a tablet next to an armored vehicle"
-  - video: "defense-03"
-    alt: "Gloved hand on a field display with a route overlay"
-  - video: "defense-04"
-    alt: "Analyst at a terrain visualization screen"
   - video: "defense-05"
-    alt: "Armored vehicle shown half as wireframe model"
-  - video: "defense-06"
-    alt: "Operator in front of a terrain heat map"
+    alt: "Armored vehicle shown half as wireframe model, half as render"
+  - image: "defense-02"
+    alt: "Mixed reality view of a vehicle hologram next to the physical vehicle in a workshop"
+  - image: "defense-03"
+    alt: "Technician inspecting a vehicle digital twin on a tablet"
   - video: "defense-07"
-    alt: "Technician checking a vehicle digital twin on a tablet"
-  - video: "defense-08"
-    alt: "Mobile command desk with tablets and a drone controller"
-  - video: "defense-09"
-    alt: "Mixed reality view of a vehicle hologram in a workshop"
-  - video: "defense-10"
+    alt: "Gloved hand operating a ruggedized field display with a route overlay"
+  - image: "defense-09"
     alt: "Analyst at a 3D terrain display with unit markers"
-  - video: "defense-11"
-    alt: "Armored vehicle in a wireframe and render overlay"
+  - video: "defense-10"
+    alt: "Analyst at a terrain heat map display"
+features:
+  - title: "Operator interfaces"
+    text: "Clear, glove-friendly HMI for rugged displays. Fast to read under stress, built for embedded hardware."
+  - title: "Vehicle digital twins"
+    text: "Your CAD data turned into interactive real-time models for maintenance, configuration and briefings."
+  - title: "Training and simulation"
+    text: "AR, VR and desktop training scenarios that show procedures on the real or virtual platform."
+  - title: "Terrain and situational awareness"
+    text: "3D maps and data layers that make complex situations readable at a glance."
 draft: true
 cta:
   label: "Contact us"
@@ -55,8 +32,21 @@ cta:
 updated: "2026-10-20"
 ---
 
-Our capabilities in HMI, real-time 3D and digital twins can support training, simulation and operator displays.
+Defense and critical infrastructure need software that works under pressure, on constrained hardware, and with data that must stay protected. We bring the same skills we use in automotive cockpits: HMI, real-time 3D and digital twins.
+
+## Where we can help
+
+- **Operator displays.** We design and build interfaces for rugged, embedded screens, using [Ramses3D](/solutions/products/ramses3d/) or the framework you already use.
+- **Digital twins of vehicles and systems.** We take your CAD data through our [CAD-to-real-time pipeline](/solutions/services/real-time-3d-graphics/cad-to-realtime-pipeline/) and build [digital twins](/solutions/services/digital-twins/) you can inspect, configure and explain.
+- **Training and maintenance.** Step-by-step guidance in [XR](/solutions/services/digital-twins/xr-ar-vr/) or on a tablet, tied to the 3D model.
+- **Terrain and data visualization.** Real-time 3D views of terrain, assets and status data for control rooms and field units.
+
+## How we work
+
+We start small: send us a sample model or a screen concept and we show you a working result in a short call. Requirements in this field are specific and often confidential, so we agree on the conditions before we talk about details.
 
 ## Next step
 
-Requirements in this field are specific and often confidential. Contact us and we will discuss what is possible and which conditions apply.
+Contact us and tell us what you need. We discuss what is possible and which conditions apply.
+
+*All images on this page are AI-generated and illustrative. They are not customer projects.*

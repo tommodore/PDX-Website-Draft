@@ -1,53 +1,30 @@
 ---
 title: "Verteidigung & kritische Infrastruktur"
-description: "Echtzeit-3D, HMI und digitale Zwillinge für Verteidigung und kritische Infrastruktur. Bitte sprechen Sie uns zu Ihren Anforderungen an."
-lead: "Training, Simulation und Bedieneroberflächen. Sprechen Sie uns an, was Sie benötigen."
+description: "Bedieneroberflächen, Fahrzeug-Zwillinge, Training und Geländevisualisierung in Echtzeit-3D für Verteidigung und kritische Infrastruktur."
+lead: "Bedieneroberflächen, digitale Zwillinge und Training in Echtzeit-3D. Von einem erfahrenen Team, zugeschnitten auf Ihre Anforderungen."
 illustration: "defense-05"
 gallery:
-  - image: "defense-01"
-    alt: "Bediener berührt ein robustes Kartendisplay"
-  - image: "defense-02"
-    alt: "Techniker mit Tablet neben einem gepanzerten Fahrzeug"
-  - image: "defense-03"
-    alt: "Behandschuhte Hand auf einem Feld-Display mit Routenoverlay"
-  - image: "defense-04"
-    alt: "Analyst vor einer Geländevisualisierung"
-  - image: "defense-05"
-    alt: "Gepanzertes Fahrzeug, zur Hälfte als Drahtgittermodell"
-  - image: "defense-06"
-    alt: "Bediener vor einer Gelände-Heatmap"
-  - image: "defense-07"
-    alt: "Techniker prüft einen digitalen Fahrzeugzwilling auf dem Tablet"
-  - image: "defense-08"
-    alt: "Mobiler Leitstand mit Tablets und Drohnen-Controller"
-  - image: "defense-09"
-    alt: "Mixed-Reality-Ansicht eines Fahrzeug-Hologramms in der Werkstatt"
-  - image: "defense-10"
-    alt: "Analyst vor einer 3D-Geländeanzeige mit Einheitenmarkern"
-  - image: "defense-11"
-    alt: "Gepanzertes Fahrzeug mit Drahtgitter- und Render-Overlay"
-  - video: "defense-01"
-    alt: "Bediener berührt ein robustes Kartendisplay"
-  - video: "defense-02"
-    alt: "Techniker mit Tablet neben einem gepanzerten Fahrzeug"
-  - video: "defense-03"
-    alt: "Behandschuhte Hand auf einem Feld-Display mit Routenoverlay"
-  - video: "defense-04"
-    alt: "Analyst vor einer Geländevisualisierung"
   - video: "defense-05"
-    alt: "Gepanzertes Fahrzeug, zur Hälfte als Drahtgittermodell"
-  - video: "defense-06"
-    alt: "Bediener vor einer Gelände-Heatmap"
+    alt: "Gepanzertes Fahrzeug, halb als Drahtgittermodell, halb als Render"
+  - image: "defense-02"
+    alt: "Mixed-Reality-Ansicht eines Fahrzeug-Hologramms neben dem realen Fahrzeug in einer Werkstatt"
+  - image: "defense-03"
+    alt: "Techniker prüft einen digitalen Fahrzeug-Zwilling auf einem Tablet"
   - video: "defense-07"
-    alt: "Techniker prüft einen digitalen Fahrzeugzwilling auf dem Tablet"
-  - video: "defense-08"
-    alt: "Mobiler Leitstand mit Tablets und Drohnen-Controller"
-  - video: "defense-09"
-    alt: "Mixed-Reality-Ansicht eines Fahrzeug-Hologramms in der Werkstatt"
+    alt: "Behandschuhte Hand bedient ein robustes Feld-Display mit Routenoverlay"
+  - image: "defense-09"
+    alt: "Analyst vor einem 3D-Geländedisplay mit Einheitenmarkierungen"
   - video: "defense-10"
-    alt: "Analyst vor einer 3D-Geländeanzeige mit Einheitenmarkern"
-  - video: "defense-11"
-    alt: "Gepanzertes Fahrzeug mit Drahtgitter- und Render-Overlay"
+    alt: "Analyst vor einem Geländedisplay mit Heatmap"
+features:
+  - title: "Bedieneroberflächen"
+    text: "Klare, handschuhtaugliche HMI für robuste Displays. Unter Stress schnell lesbar, gebaut für Embedded-Hardware."
+  - title: "Digitale Fahrzeug-Zwillinge"
+    text: "Ihre CAD-Daten als interaktive Echtzeit-Modelle für Wartung, Konfiguration und Briefings."
+  - title: "Training und Simulation"
+    text: "AR-, VR- und Desktop-Trainings, die Abläufe am realen oder virtuellen System zeigen."
+  - title: "Gelände und Lagebild"
+    text: "3D-Karten und Datenebenen, die komplexe Lagen auf einen Blick lesbar machen."
 draft: true
 cta:
   label: "Kontakt aufnehmen"
@@ -55,8 +32,21 @@ cta:
 updated: "2026-10-20"
 ---
 
-Unsere Fähigkeiten in HMI, Echtzeit-3D und digitalen Zwillingen können Training, Simulation und Bedienerdisplays unterstützen.
+Verteidigung und kritische Infrastruktur brauchen Software, die unter Druck, auf begrenzter Hardware und mit geschützten Daten funktioniert. Wir bringen dafür die Fähigkeiten mit, die wir aus Automotive-Cockpits kennen: HMI, Echtzeit-3D und digitale Zwillinge.
+
+## Wo wir helfen können
+
+- **Bedienerdisplays.** Wir entwerfen und bauen Oberflächen für robuste Embedded-Displays, mit [Ramses3D](/de/loesungen/produkte/ramses3d/) oder dem Framework, das Sie bereits einsetzen.
+- **Digitale Zwillinge von Fahrzeugen und Systemen.** Wir führen Ihre CAD-Daten durch unsere [CAD-zu-Echtzeit-Pipeline](/de/loesungen/leistungen/echtzeit-3d-grafik/cad-zu-echtzeit-pipeline/) und bauen [digitale Zwillinge](/de/loesungen/leistungen/digitale-zwillinge/), die Sie prüfen, konfigurieren und erklären können.
+- **Training und Wartung.** Schritt-für-Schritt-Anleitung in [XR](/de/loesungen/leistungen/digitale-zwillinge/xr-ar-vr/) oder auf dem Tablet, verknüpft mit dem 3D-Modell.
+- **Gelände- und Datenvisualisierung.** Echtzeit-3D-Ansichten von Gelände, Assets und Statusdaten für Leitstellen und Einsatzkräfte.
+
+## So arbeiten wir
+
+Wir fangen klein an: Schicken Sie uns ein Beispielmodell oder ein Screen-Konzept, dann zeigen wir Ihnen in einem kurzen Gespräch ein funktionierendes Ergebnis. Anforderungen in diesem Feld sind speziell und oft vertraulich, daher klären wir die Rahmenbedingungen, bevor wir über Details sprechen.
 
 ## Nächster Schritt
 
-Anforderungen in diesem Feld sind speziell und oft vertraulich. Nehmen Sie Kontakt auf, dann besprechen wir, was möglich ist und welche Rahmenbedingungen gelten.
+Nehmen Sie Kontakt auf und sagen Sie uns, was Sie brauchen. Wir besprechen, was möglich ist und welche Rahmenbedingungen gelten.
+
+*Alle Bilder auf dieser Seite sind KI-generiert und illustrativ. Es sind keine Kundenprojekte.*
