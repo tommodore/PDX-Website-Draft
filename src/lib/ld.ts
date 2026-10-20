@@ -8,6 +8,7 @@ export const organizationLd = {
   legalName: 'PARADOX CAT GmbH',
   url: SITE,
   logo: absoluteUrl('/brand/logo_paradoxcat_white.png'),
+  sameAs: ['https://www.linkedin.com/company/paradoxcat/'],
 };
 
 export const websiteLd = {

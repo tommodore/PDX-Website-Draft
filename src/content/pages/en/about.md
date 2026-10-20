@@ -1,32 +1,37 @@
 ---
 title: "About Us"
-description: "PARADOX CAT is a founder-owned software company in Munich and Bucharest: about 150 people from 26 nationalities building HMI, real-time 3D graphics and AI sensing."
-lead: "We are a founder-owned team of about 150 people in Munich and Bucharest. We build what users see, touch and trust."
-illustration: "horizon"
+description: "PARADOX CAT was founded in 2009 by Dmitrij Kolb. We build HMI, real-time 3D and AI software and bring it from prototype into series vehicles."
+lead: "We turn ideas into experiences you can try quickly, and into software that runs in series products."
+illustration: "official-group"
 draft: true
 cta:
   label: "Get in touch"
   href: "/contact/"
 features:
   - title: "Founder-owned"
-    text: "No outside investors steering the roadmap. We decide for the long term."
-  - title: "Senior and stable"
-    text: "Low turnover keeps knowledge in the team and in your project."
-  - title: "International"
-    text: "About 150 people from 26 nationalities, working across Munich and Bucharest."
-  - title: "Open where it counts"
-    text: "We co-develop the open-source engine Ramses3D with BMW."
+    text: "Founded in 2009 by CEO Dmitrij Kolb, who started programming games at age 11. Curiosity is our DNA."
+  - title: "Prototype to series"
+    text: "We help customers build experienceable prototypes fast and bring the software into series vehicles."
+  - title: "Long-term partner"
+    text: "A supplier and partner to premium automotive manufacturers for graphical interfaces and R&D."
+  - title: "Positive impact"
+    text: "We focus on technologies we believe will most improve people's lives."
+links:
+  - label: "Team"
+    href: "/company/team/"
+  - label: "Locations"
+    href: "/company/locations/"
+  - label: "Careers"
+    href: "/careers/"
 updated: "2026-10-20"
 ---
 
-PARADOX CAT builds software for the interface between people and machines. Our work spans Android Automotive HMI, real-time 3D graphics, digital twins and AI in-cabin sensing.
+PARADOX CAT is a software company that specializes in the design and implementation of human machine interface (HMI) and AI software projects, with a strong history in the automotive segment. Our work spans Android Automotive HMI, real-time 3D graphics, digital twins and AI in-cabin sensing.
 
-## What drives us
+## What we are best at
 
-We like hard problems that end up in a product. Embedded hardware, tight budgets, demanding design. That is where we are strongest.
+Building successful teams. We help customers create prototypes you can experience in the shortest possible time, and bring innovative software into series vehicles. We support the development of graphical interfaces for high-end instruments and infotainment systems, as well as research and development projects. We are proud to see the results of our work on the road.
 
-## How we are organized
+## Where we are going
 
-Three disciplines, one team: HMI, real-time 3D graphics and AI sensing. Engineers, technical artists and designers work side by side.
-
-We stay independent so we can stay honest about what works.
+We focus on technologies that we believe will have the greatest positive impact on people's lives. Do you want to bring virtual worlds into the intelligent vehicles of the future? Then you are in the right place.

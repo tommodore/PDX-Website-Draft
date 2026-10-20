@@ -1,30 +1,46 @@
 ---
 title: "Life at PARADOX CAT"
-description: "What it is like to work at PARADOX CAT: a senior, international team in Munich and Bucharest with low turnover and a founder-owned culture."
-lead: "Senior colleagues, hard problems, and people who stay."
+description: "Working at PARADOX CAT: one team in flat hierarchies, shared knowledge, hackathons, game nights and plenty of reasons to stay."
+lead: "One team, flat hierarchies, and people who like spending time together."
 illustration: "official-group"
 draft: true
 cta:
   label: "See open positions"
   href: "/careers/open-positions/"
 features:
-  - title: "International team"
-    text: "About 150 people from 26 nationalities. Work happens in English."
-  - title: "Stable by choice"
-    text: "Turnover below 5 percent. Teams grow together."
-  - title: "Craft matters"
-    text: "We care about quality and give you room to do it well."
-  - title: "Two offices"
-    text: "Munich and Bucharest, working as one team."
+  - title: "One team"
+    text: "We pull together and work hand in hand. Cohesion and collegial support matter to us."
+  - title: "Shared knowledge"
+    text: "We share what we know and learn from each other in projects."
+  - title: "Craft and fun"
+    text: "Hackathons, game nights and company events belong to the job."
+  - title: "Beyond work"
+    text: "Cycling tours, running groups, bouldering and the beer garden in the evening."
+gallery:
+  - image: "official-bonfire"
+    alt: "Colleagues singing around a bonfire with a guitar"
+  - image: "official-bouldering"
+    alt: "Team at an outdoor bouldering wall"
+  - image: "official-oktoberfest"
+    alt: "Colleagues in traditional dress at an Oktoberfest visit"
+  - image: "official-vr"
+    alt: "Team event with a VR experience"
+links:
+  - label: "Locations for careers"
+    href: "/careers/locations/"
+  - label: "Follow us on LinkedIn"
+    href: "https://www.linkedin.com/company/paradoxcat/"
 updated: "2026-10-20"
 ---
 
-We are a founder-owned company. That means decisions are made by people who know the work.
+We are a team that pulls together. Flat hierarchies keep paths short, and we share knowledge and experience because we all benefit from it. Our teams in Ingolstadt, Munich and Bucharest work together on customer projects in AI, machine learning, augmented reality displays, and Android and connected apps. We are proud of our know-how in automotive best-practice structures and processes, and we bring it to every project.
 
-## How we work
+## Working together, celebrating together
 
-Small teams, direct communication and clear ownership. We share knowledge and help each other.
+We take part in hackathons, host game nights and run company events. Every year there is a summer party and a Christmas party, and each team organizes its own events too: climbing forest, escape room or laser tag, often ending with dinner together. A budget covers the costs.
 
-## What you get
+## Time off the clock
 
-Interesting projects in automotive and beyond. Colleagues who have shipped real products. A place where you can grow for years.
+We give you a platform to meet colleagues outside work. Some plan cycling tours, others have a running group or meet in the beer garden in the evening. Maybe you want to join in.
+
+Does this sound like your kind of team? We look forward to meeting you.

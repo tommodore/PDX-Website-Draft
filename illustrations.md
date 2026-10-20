@@ -37,3 +37,12 @@ All images in `src/assets/illustrations/` are original 3D renders (three.js scen
 | web-aaos | AI-style cockpit with Android | AAOS | yes (AI-generated) |
 
 Only keys starting with `official-` are shown without the badge.
+
+## Official office and event photos (real, no badge)
+
+| Key | Description | Slot |
+|---|---|---|
+| official-munich | Munich office building | Locations |
+| official-office2 | Meeting space | Careers locations |
+| official-bucharest | Bucharest office villa | Locations |
+| official-bonfire, official-bouldering, official-oktoberfest | Team events | Life at PARADOX CAT |
