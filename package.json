@@ -30,6 +30,7 @@
     "linkinator": "^8.1.0",
     "pa11y-ci": "^5.0.0",
     "potrace": "^2.1.8",
+    "staticrypt": "^3.5.4",
     "wait-on": "^9.5.1"
   },
   "private": true,

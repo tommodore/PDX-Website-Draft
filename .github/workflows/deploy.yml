@@ -27,6 +27,20 @@ jobs:
           PUBLIC_CONTACT_EMAIL: ${{ vars.PUBLIC_CONTACT_EMAIL }}
           PUBLIC_ANALYTICS_DOMAIN: ${{ vars.PUBLIC_ANALYTICS_DOMAIN }}
           PUBLIC_ANALYTICS_SRC: ${{ vars.PUBLIC_ANALYTICS_SRC }}
+      - name: Password-protect preview (only if PREVIEW_PASSWORD is set)
+        env:
+          PREVIEW_PASSWORD: ${{ secrets.PREVIEW_PASSWORD }}
+        run: |
+          if [ -n "$PREVIEW_PASSWORD" ]; then
+            npx staticrypt dist -r -p "$PREVIEW_PASSWORD" --short --remember 30 -d dist-protected \
+              --template-title "PARADOX CAT preview" \
+              --template-instructions "Private preview. Enter the password you received." \
+              --template-color-primary "#548CFF" --template-color-secondary "#010d16" \
+              --template-button "Open preview"
+            rm -rf dist && mv dist-protected/dist dist && rm -rf dist-protected
+            printf 'User-agent: *\nDisallow: /\n' > dist/robots.txt
+            rm -f dist/sitemap-*.xml
+          fi
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

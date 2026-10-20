@@ -55,6 +55,10 @@ Form values are public in the built site, so use a public form endpoint, never a
 
 A static site cannot truly protect a file. The gate collects an email through the form provider, whose autoresponder sends the deck link. Never put the deck URL into the site.
 
+## Password-protected preview
+
+While the secret `PREVIEW_PASSWORD` exists (Settings > Secrets and variables > Actions > Secrets), the deploy encrypts every HTML page with StatiCrypt (AES in the browser) and blocks crawlers. Visitors see a password prompt, the choice is remembered for 30 days. To go public, delete the secret and re-run Deploy. Images, CSS and the repo source stay public, so keep confidential content out of the repo.
+
 ## DNS for paradox.cat
 
 First detach paradox.cat from its old Cloudflare Pages project. Then set at the registrar or DNS host:
