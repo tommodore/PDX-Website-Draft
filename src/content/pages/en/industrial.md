@@ -9,6 +9,8 @@ cta:
   href: "/contact/"
 features:
   - title: "Machine HMI"
+    video: "gen-industrial"
+    alt: "Technician with a tablet and a holographic status panel in a factory hall"
     text: "Embedded operator interfaces on modern platforms."
   - title: "CAD optimization"
     text: "Turn engineering models into real-time assets."

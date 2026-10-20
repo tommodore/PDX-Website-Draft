@@ -2,7 +2,7 @@
 title: "Öffentlicher Sektor"
 description: "HMI, Echtzeit-3D und digitale Zwillinge für Organisationen des öffentlichen Sektors. Bitte sprechen Sie uns zu Ihren Anforderungen an."
 lead: "Training, Visualisierung und bürgernahe Oberflächen. Sprechen Sie uns an, was Sie benötigen."
-illustration: "skyline"
+illustration: "gen-public"
 draft: true
 cta:
   label: "Kontakt aufnehmen"

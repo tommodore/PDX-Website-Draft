@@ -9,6 +9,8 @@ cta:
   href: "/de/kontakt/"
 features:
   - title: "Maschinen-HMI"
+    video: "gen-industrial"
+    alt: "Techniker mit Tablet und holografischer Statusanzeige in einer Fertigungshalle"
     text: "Eingebettete Bedieneroberflächen auf modernen Plattformen."
   - title: "CAD-Optimierung"
     text: "Konstruktionsmodelle in Echtzeit-Assets verwandeln."

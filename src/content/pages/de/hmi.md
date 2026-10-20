@@ -2,7 +2,7 @@
 title: "HMI"
 description: "Mensch-Maschine-Schnittstellen auf Android Automotive: Systemanpassung, Apps, Cockpit-Displays und Konnektivität, geliefert von einem erfahrenen Team."
 lead: "Oberflächen, die sich mühelos anfühlen, weil jemand die Details durchdacht hat."
-illustration: "cockpit"
+illustration: "gen-hmi"
 draft: true
 cta:
   label: "Ihr HMI besprechen"
@@ -11,6 +11,8 @@ features:
   - title: "Android Automotive"
     text: "Plattformanpassung, System-Apps und Fahrzeugintegration."
   - title: "Apps und Konnektivität"
+    video: "gen-hmi"
+    alt: "Hand bedient ein gebogenes Cockpit-Display mit moderner Oberfläche"
     text: "Apps im Fahrzeug, Companion-Apps und Cloud-Anbindung."
   - title: "UI-Frameworks"
     text: "Erfahrung mit den Frameworks, die im Automotive-HMI heute genutzt werden."

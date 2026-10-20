@@ -2,13 +2,15 @@
 title: "Real-Time 3D Graphics"
 description: "Real-time 3D for HMI, configurators and XR: CAD-to-realtime pipelines, custom shaders and the open-source Ramses3D engine, co-developed with BMW."
 lead: "We make 3D look right and run fast on the hardware you actually have."
-illustration: "render"
+illustration: "gen-graphics"
 draft: true
 cta:
   label: "Send us a sample file"
   href: "/contact/"
 features:
   - title: "CAD-to-realtime"
+    video: "gen-graphics"
+    alt: "Sports car shown half as wireframe and half as lit real-time render"
     text: "Optimized, variant-ready assets built from your engineering data."
   - title: "Custom shaders"
     text: "Materials and effects tuned for your look and your GPU budget."

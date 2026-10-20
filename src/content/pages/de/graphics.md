@@ -2,13 +2,15 @@
 title: "Echtzeit-3D-Grafik"
 description: "Echtzeit-3D für HMI, Konfiguratoren und XR: CAD-zu-Echtzeit-Pipelines, Custom Shader und die Open-Source-Engine Ramses3D, gemeinsam mit BMW entwickelt."
 lead: "Wir sorgen dafür, dass 3D richtig aussieht und auf der Hardware läuft, die Sie tatsächlich haben."
-illustration: "render"
+illustration: "gen-graphics"
 draft: true
 cta:
   label: "Beispieldatei senden"
   href: "/de/kontakt/"
 features:
   - title: "CAD-zu-Echtzeit"
+    video: "gen-graphics"
+    alt: "Sportwagen, halb als Drahtgittermodell und halb als beleuchtetes Echtzeit-Rendering"
     text: "Optimierte, variantenfähige Assets aus Ihren Konstruktionsdaten."
   - title: "Custom Shader"
     text: "Materialien und Effekte, abgestimmt auf Ihren Look und Ihr GPU-Budget."

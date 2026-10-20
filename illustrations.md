@@ -46,3 +46,20 @@ Only keys starting with `official-` are shown without the badge.
 | official-office2 | Meeting space | Careers locations |
 | official-bucharest | Bucharest office villa | Locations |
 | official-bonfire, official-bouldering, official-oktoberfest | Team events | Life at PARADOX CAT |
+
+## Service and industry set (AI-generated, badge "Illustrative")
+
+| Asset | Page(s) |
+|---|---|
+| gen-shaders | Custom shaders (hero, row) |
+| gen-graphics | Real-time 3D graphics (hero, row) |
+| gen-ui | UI frameworks (hero, row) |
+| gen-aaos | Android Automotive (hero, row) |
+| gen-hmi | HMI (hero, row) |
+| gen-aviation | Aviation & Marine (hero, row) |
+| gen-fintech | Fintech (hero, row) |
+| gen-industrial | Industrial (row only, video) |
+| gen-twin | Digital twins (hero, row) |
+| gen-public | Public sector (hero only) |
+
+Stills in src/assets/illustrations/, 6 s muted clips and posters in public/media/.

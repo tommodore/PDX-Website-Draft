@@ -2,13 +2,15 @@
 title: "Fintech"
 description: "Eingebettete Oberflächen für Zahlungsterminals und Finanzgeräte: schnelle, verlässliche und sicherheitsbewusste Android-UIs von einem erfahrenen HMI-Team."
 lead: "Terminal- und Geräteoberflächen, die schnell, klar und verlässlich sind."
-illustration: "terminal"
+illustration: "gen-fintech"
 draft: true
 cta:
   label: "Sprechen Sie uns an"
   href: "/de/kontakt/"
 features:
   - title: "Terminal-UI"
+    video: "gen-fintech"
+    alt: "Analyst vor einem Daten-Dashboard mit fließenden 3D-Diagrammen in einem Büro bei Nacht"
     text: "Saubere, reaktionsschnelle Oberflächen für Zahlungs- und Selbstbedienungsgeräte."
   - title: "Android-Expertise"
     text: "Wir kennen Android-Plattformanpassung auf Embedded-Hardware."

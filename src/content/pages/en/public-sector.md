@@ -2,7 +2,7 @@
 title: "Public Sector"
 description: "HMI, real-time 3D and digital twin capabilities for public sector organizations. Please contact us to discuss your requirements."
 lead: "Training, visualization and public-facing interfaces. Contact us to discuss what you need."
-illustration: "skyline"
+illustration: "gen-public"
 draft: true
 cta:
   label: "Contact us"

@@ -2,13 +2,15 @@
 title: "UI Frameworks"
 description: "HMI development with the frameworks used in embedded UI: Qt, Kanzi, Rocksolid, Unity and Unreal, plus our own Ramses3D engine."
 lead: "We build on the framework that fits your product and your hardware."
-illustration: "waves"
+illustration: "gen-ui"
 draft: true
 cta:
   label: "Discuss your framework choice"
   href: "/contact/"
 features:
   - title: "Qt"
+    video: "gen-ui"
+    alt: "Designer reviewing cockpit interfaces on several monitors"
     text: "Established toolkit for embedded interfaces."
   - title: "Kanzi and Rocksolid"
     text: "Specialized tools for automotive UI design and runtime."

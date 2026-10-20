@@ -2,13 +2,15 @@
 title: "Digital Twins"
 description: "Real-time 3D digital twins of products, vehicles and machines for design, sales, training and service, built from your CAD data."
 lead: "A live 3D model of your product that every team can use."
-illustration: "twin"
+illustration: "gen-twin"
 draft: true
 cta:
   label: "Start with a Digital Twin Starter"
   href: "/contact/"
 features:
   - title: "Products and vehicles"
+    video: "gen-twin"
+    alt: "Engineers working on a holographic digital twin of a car"
     text: "Configurators, design review and validation."
   - title: "Machines"
     text: "Operator views, training and service."

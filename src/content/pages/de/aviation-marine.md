@@ -2,13 +2,15 @@
 title: "Luftfahrt & Schifffahrt"
 description: "Cockpit-, Brücken- und Kabinenoberflächen sowie 3D-Konfiguratoren für Flugzeuge und Yachten. Wir übertragen bewährtes Automotive-HMI- und Echtzeitgrafik-Know-how auf neue Fahrzeuge."
 lead: "Flugzeuge und Schiffe haben anspruchsvolle Displays und komplexe Produkte. Unser Automotive-Know-how lässt sich übertragen."
-illustration: "marine"
+illustration: "gen-aviation"
 draft: true
 cta:
   label: "Projekt besprechen"
   href: "/de/kontakt/"
 features:
   - title: "Cockpit- und Brücken-HMI"
+    video: "gen-aviation"
+    alt: "Bediener auf einer Schiffsbrücke und in einem Flugzeugcockpit bei Sonnenuntergang"
     text: "Klare, robuste Oberflächen für Bediener, die Informationen auf einen Blick brauchen."
   - title: "3D-Konfiguratoren"
     text: "Interaktive Produktvisualisierung für Flugzeuginterieurs und Yachten."

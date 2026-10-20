@@ -26,6 +26,8 @@ const { id, lang } = Astro.props;
 const ui = t(lang);
 const page = await getPage(id, lang);
 const d = page.data;
+const mediaFeatures = d.features.filter((f) => f.image || f.video);
+const plainFeatures = d.features.filter((f) => !f.image && !f.video);
 const { Content } = await render(page);
 const alternates = { en: pathOf(id, 'en'), de: pathOf(id, 'de') };
 const crumbs = await Promise.all([...ancestorsOf(id).map((n) => n.id), id].map(async (n) => ({ label: await navTitle(n, lang), href: pathOf(n, lang) })));
@@ -75,11 +77,11 @@ const jobLd = jobs
       </div>
     )}
 
-    {d.features.some((f) => f.image || f.video) && <FeatureRows items={d.features} lang={lang} />}
+    {mediaFeatures.length > 0 && <FeatureRows items={mediaFeatures} lang={lang} />}
 
-    {d.features.length > 0 && !d.features.some((f) => f.image || f.video) && (
+    {plainFeatures.length > 0 && (
       <div class="grid features">
-        {d.features.map((f) => (
+        {plainFeatures.map((f) => (
           <div class="feature reveal">
             <h3>{f.title}</h3>
             <p class="muted">{f.text}</p>

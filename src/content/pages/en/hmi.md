@@ -2,7 +2,7 @@
 title: "HMI"
 description: "Human-machine interfaces on Android Automotive: system customization, apps, cockpit displays and connectivity, delivered by a senior team."
 lead: "Interfaces that feel effortless because someone sweated the details."
-illustration: "cockpit"
+illustration: "gen-hmi"
 draft: true
 cta:
   label: "Discuss your HMI"
@@ -11,6 +11,8 @@ features:
   - title: "Android Automotive"
     text: "Platform customization, system apps and vehicle integration."
   - title: "Apps and connectivity"
+    video: "gen-hmi"
+    alt: "Hand operating a curved cockpit display with a modern interface"
     text: "In-car apps, companion apps and cloud connections."
   - title: "UI frameworks"
     text: "Experience with the frameworks used in automotive HMI today."

@@ -2,13 +2,15 @@
 title: "Digitale Zwillinge"
 description: "Digitale 3D-Zwillinge in Echtzeit von Produkten, Fahrzeugen und Maschinen für Design, Vertrieb, Training und Service, gebaut aus Ihren CAD-Daten."
 lead: "Ein lebendiges 3D-Modell Ihres Produkts, das jedes Team nutzen kann."
-illustration: "twin"
+illustration: "gen-twin"
 draft: true
 cta:
   label: "Mit dem Digital Twin Starter beginnen"
   href: "/de/kontakt/"
 features:
   - title: "Produkte und Fahrzeuge"
+    video: "gen-twin"
+    alt: "Ingenieure arbeiten an einem holografischen digitalen Zwilling eines Fahrzeugs"
     text: "Konfiguratoren, Design-Review und Validierung."
   - title: "Maschinen"
     text: "Bedieneransichten, Training und Service."
