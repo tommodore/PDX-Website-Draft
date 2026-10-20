@@ -10,8 +10,12 @@ cta:
 features:
   - title: "Ramses3D"
     text: "Open-Source-3D-Engine für Embedded-Systeme, gemeinsam mit BMW entwickelt."
-  - title: "Mehr von uns"
-    text: "Weitere Produkte aus unserem Team."
+  - title: "CarChestra"
+    text: "Adaptive Fahrmusik-App."
+  - title: "Ypsos"
+    text: "ERP und CRM für kleine und mittlere Unternehmen."
+  - title: "PAW"
+    text: "Beschreibung folgt."
 updated: "2026-10-20"
 ---
 
