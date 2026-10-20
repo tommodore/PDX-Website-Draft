@@ -17,7 +17,7 @@ const pages = defineCollection({
     template: z.boolean().default(false),
     gate: z.boolean().default(false),
     cta: z.object({ label: z.string(), href: z.string() }).optional(),
-    features: z.array(z.object({ title: z.string(), text: z.string() })).default([]),
+    features: z.array(z.object({ title: z.string(), text: z.string(), image: z.string().optional(), video: z.string().optional(), alt: z.string().optional() })).default([]),
     facts: z.array(z.object({ label: z.string(), value: z.string() })).default([]),
     links: z.array(link).default([]),
     pillars: z.array(z.object({ title: z.string(), text: z.string(), to: z.string(), illustration: z.string().default('horizon') })).default([]),

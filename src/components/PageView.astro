@@ -12,6 +12,7 @@ import Gate from './Gate.astro';
 import Badge from './Badge.astro';
 import Stat from './Stat.astro';
 import Gallery from './Gallery.astro';
+import FeatureRows from './FeatureRows.astro';
 import { getPage, navTitle, publishedIn, slugOf } from '../lib/content';
 import { pathOf, childrenOf, ancestorsOf, absoluteUrl, type Lang } from '../lib/routes';
 import { detailPath } from '../lib/paths';
@@ -74,7 +75,9 @@ const jobLd = jobs
       </div>
     )}
 
-    {d.features.length > 0 && (
+    {d.features.some((f) => f.image || f.video) && <FeatureRows items={d.features} lang={lang} />}
+
+    {d.features.length > 0 && !d.features.some((f) => f.image || f.video) && (
       <div class="grid features">
         {d.features.map((f) => (
           <div class="feature reveal">
