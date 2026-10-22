@@ -19,12 +19,12 @@ All images in `src/assets/illustrations/` are original 3D renders (three.js scen
 | bokeh | Soft blue, lime and warm light orbs with bright rims on navy, calm left side | Contact, generic |
 | waves | Layered glossy blue wave ribbons with a thin lime line, calm left, energetic right | Insights, generic |
 
-## Defense gallery (AI-generated, badge "Illustrative")
+## Defense (AI-generated, badge "Illustrative")
 
 | Key | Description | Slot |
 |---|---|---|
-| defense-01 to defense-11 | Operators with rugged displays, armored vehicles with wireframe overlay, terrain maps | Defense gallery, stills |
-| public/media/defense-01 to 12 (.mp4, .webp poster) | 6 s clips (12: mixed-reality training scene, Training and simulation row), audio removed, muted loop | Defense gallery, videos |
+| defense-03, defense-05 (and unused 01, 02, 04, 06 to 11 in src/assets) | Operators with rugged displays, armored vehicles with wireframe overlay, terrain maps | Defense hero and Vehicle digital twins row, stills |
+| public/media/defense-05, 07, 10, 12 (.mp4, .webp poster) | 6 s clips, audio removed, muted loop | Defense feature rows (07 operator interfaces, 10 terrain, 12 training) |
 
 ## Official and web assets
 

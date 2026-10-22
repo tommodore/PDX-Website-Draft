@@ -31,3 +31,7 @@ old_path,new_path,note
 /impressum/,/de/unternehmen/rechtliches/impressum/,
 /impressum-2/,/de/unternehmen/rechtliches/impressum/,
 /en/privacy-policy/,/company/legal/privacy/,
+/solutions/services/hmi/android-automotive-aaos-sdv/,/solutions/services/automotive-android-aaos/,Moved from HMI to own service
+/de/loesungen/leistungen/hmi/android-automotive-aaos-sdv/,/de/loesungen/leistungen/automotive-android-aaos/,Moved from HMI to own service
+/why-paradoxcat/,/work/,Renamed
+/de/warum-paradoxcat/,/de/projekte/,Renamed
