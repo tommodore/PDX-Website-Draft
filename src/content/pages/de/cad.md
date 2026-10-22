@@ -18,7 +18,7 @@ features:
     text: "Farben, Ausstattungen und Optionen in einer sauberen Asset-Struktur."
   - title: "Qualitätsprüfungen"
     text: "Automatische Checks fangen Fehler ab, bevor Assets in Ihre Engine gelangen."
-updated: "2026-10-20"
+updated: "2026-10-22"
 ---
 
 CAD-Modelle sind für die Konstruktion gebaut, nicht für Echtzeit-Rendering. Sie sind zu schwer und zu detailliert für ein Cockpit, einen Konfigurator oder ein XR-Headset.
@@ -26,6 +26,10 @@ CAD-Modelle sind für die Konstruktion gebaut, nicht für Echtzeit-Rendering. Si
 ## Was wir tun
 
 Wir bauen eine wiederholbare Pipeline. CAD geht hinein. Optimierte, korrekt benannte und getestete Assets kommen heraus.
+
+## Werkzeuge
+
+Wir arbeiten mit Blender, Autodesk VRED, PIXYZ und weiteren Werkzeugen und fügen uns in Ihre bestehende Toolchain ein.
 
 ## Warum eine Pipeline
 

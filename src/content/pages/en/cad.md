@@ -18,7 +18,7 @@ features:
     text: "Colors, trims and options managed in one clean asset structure."
   - title: "Quality gates"
     text: "Automated checks catch errors before assets reach your engine."
-updated: "2026-10-20"
+updated: "2026-10-22"
 ---
 
 CAD models are built for engineering, not for real-time rendering. They are too heavy and too detailed for a cockpit, a configurator or an XR headset.
@@ -26,6 +26,10 @@ CAD models are built for engineering, not for real-time rendering. They are too 
 ## What we do
 
 We build a repeatable pipeline. CAD goes in. Optimized, correctly named and tested assets come out.
+
+## Tools we use
+
+We work with Blender, Autodesk VRED, PIXYZ and other tools, and fit into the toolchain you already have.
 
 ## Why a pipeline
 
