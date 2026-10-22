@@ -4,9 +4,10 @@
 
 ## Key pages
 - [Solutions](https://paradox.cat/solutions/): services and products
+- [Capabilities](https://paradox.cat/capabilities/): Android (AAOS, AOSP), HMI, real-time 3D, digital twins, AI + ML, edge AI, sensor fusion
 - [Ramses3D](https://paradox.cat/solutions/products/ramses3d/): open-source 3D rendering engine for embedded systems, MPL-2.0
-- [Case studies](https://paradox.cat/why-paradoxcat/case-studies/)
-- [Numbers and approach](https://paradox.cat/why-paradoxcat/numbers-and-approach/)
+- [Case studies](https://paradox.cat/work/case-studies/)
+- [Numbers and approach](https://paradox.cat/work/numbers-and-approach/)
 - [Careers](https://paradox.cat/careers/)
 - [Contact](https://paradox.cat/contact/)
 

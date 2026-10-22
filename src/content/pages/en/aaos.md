@@ -1,5 +1,5 @@
 ---
-title: "Android Automotive, AAOS & SDV"
+title: "Automotive Android + AAOS"
 description: "We customize Android Automotive OS for software-defined vehicles: system apps, vehicle integration and release support from a team that ships HMI for OEMs."
 lead: "We make Android Automotive OS fit your vehicle, your brand and your release process."
 illustration: "gen-aaos"
@@ -18,7 +18,7 @@ features:
     text: "Changes at OS level where the standard stack does not meet your requirements."
   - title: "Release support"
     text: "We help you get builds through integration, testing and certification steps."
-updated: "2026-10-20"
+updated: "2026-10-22"
 ---
 
 Software-defined vehicles need a cockpit that evolves after start of production. Android Automotive OS gives you the base. We make it yours.

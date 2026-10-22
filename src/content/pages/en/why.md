@@ -1,7 +1,7 @@
 ---
-title: "Why PARADOX CAT"
-description: "Why teams choose PARADOX CAT: senior and stable team, founder-owned, real products shipped, and the open-source Ramses3D engine co-developed with BMW."
-lead: "A senior, stable team that ships and stays."
+title: "Work"
+description: "Proof over promises: case studies, demos, numbers and the technology behind them, from a senior, stable team."
+lead: "Proof over promises. A senior, stable team that ships and stays."
 illustration: "horizon"
 draft: true
 cta:

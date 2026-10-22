@@ -26,7 +26,7 @@ async function item(id: string, lang: Lang, depth: number): Promise<NavItem> {
   return { id, label: await navTitle(id, lang), href: pathOf(id, lang), children };
 }
 
-// Top navigation: Solutions | Industries | Why ParadoxCat | Careers | Company | Contact
+// Top navigation: Solutions | Industries | Capabilities | Work | Careers | Company | Contact
 export async function buildNav(lang: Lang): Promise<NavItem[]> {
   const tops = childrenOf('home');
   return Promise.all(tops.map((n) => item(n.id, lang, n.id === 'solutions' ? 2 : 1)));

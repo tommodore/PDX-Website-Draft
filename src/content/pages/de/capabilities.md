@@ -1,0 +1,51 @@
+---
+title: "Kompetenzen"
+description: "Was wir bauen: Android-Plattformen, HMI, Echtzeit-3D, digitale Zwillinge, KI + ML, Edge AI und Sensorfusion, geliefert von einem erfahrenen Team."
+lead: "Die Bausteine, die wir in Ihr Produkt einbringen."
+illustration: "render"
+draft: true
+cta:
+  label: "Projekt besprechen"
+  href: "/de/kontakt/"
+features:
+  - title: "Android-Plattformen"
+    text: "AAOS und AOSP: System-Apps, eigene Launcher, Plattformanpassung."
+  - title: "HMI und UI-Frameworks"
+    text: "Cockpit- und Geräteoberflächen in Qt, Kanzi, Unity, Unreal und Ramses3D."
+  - title: "Echtzeit-3D"
+    text: "CAD-zu-Echtzeit-Pipelines, eigene Shader und Konfiguratoren."
+  - title: "Digitale Zwillinge"
+    text: "Produkt-, Fahrzeug- und Maschinenmodelle für Design, Training und Service."
+  - title: "XR, AR und VR"
+    text: "Immersiver Zugang zu denselben Modellen."
+  - title: "KI + ML"
+    text: "Modelle von den Daten bis zur Serie."
+  - title: "Edge AI"
+    text: "Inferenz auf Embedded-Hardware innerhalb enger Grenzen."
+  - title: "Sensorfusion und Sensorik"
+    text: "Insassen-, Kinder- und Fahrererkennung aus mehreren Signalen."
+  - title: "Embedded-Engine"
+    text: "Ramses3D, unsere Open-Source-Engine für schlankes Embedded-3D."
+links:
+  - label: "Alle Leistungen"
+    href: "/de/loesungen/leistungen/"
+  - label: "Automotive Android + AAOS"
+    href: "/de/loesungen/leistungen/automotive-android-aaos/"
+  - label: "Embedded Android + AOSP"
+    href: "/de/loesungen/leistungen/embedded-android-aosp/"
+  - label: "Echtzeit-3D-Grafik"
+    href: "/de/loesungen/leistungen/echtzeit-3d-grafik/"
+  - label: "Digitale Zwillinge"
+    href: "/de/loesungen/leistungen/digitale-zwillinge/"
+  - label: "KI + ML"
+    href: "/de/loesungen/leistungen/ki-und-ml/"
+  - label: "Edge AI"
+    href: "/de/loesungen/leistungen/edge-ai/"
+  - label: "Sensorfusion"
+    href: "/de/loesungen/leistungen/sensorfusion/"
+updated: "2026-10-22"
+---
+
+Ein Team, das den Stack vom Betriebssystem bis zum Pixel und zum Modell abdeckt. Das bedeutet weniger Übergaben und ein Ergebnis, das zusammenpasst.
+
+Jede Kompetenz führt zu einer Leistungsseite mit Details und unserer Arbeitsweise.

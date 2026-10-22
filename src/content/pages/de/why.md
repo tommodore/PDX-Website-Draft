@@ -1,7 +1,7 @@
 ---
-title: "Warum PARADOX CAT"
-description: "Warum Teams PARADOX CAT wählen: erfahrenes, stabiles Team, inhabergeführt, echte Produkte geliefert und die gemeinsam mit BMW entwickelte Open-Source-Engine Ramses3D."
-lead: "Ein erfahrenes, stabiles Team, das liefert und bleibt."
+title: "Projekte"
+description: "Belege statt Versprechen: Referenzen, Demos, Zahlen und die Technologie dahinter, von einem erfahrenen, stabilen Team."
+lead: "Belege statt Versprechen. Ein erfahrenes, stabiles Team, das liefert und bleibt."
 illustration: "horizon"
 draft: true
 cta:

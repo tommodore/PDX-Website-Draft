@@ -10,7 +10,7 @@ cta:
   href: "/contact/"
 links:
   - label: "See our work"
-    href: "/why-paradoxcat/case-studies/"
+    href: "/work/case-studies/"
 pillars:
   - title: "HMI"
     text: "Android Automotive, apps and cockpit software that feels instant."
@@ -57,4 +57,4 @@ We do not just configure a product. We let people experience it.
 - **Built for the target.** Every asset and screen is tuned for the hardware it runs on.
 - **Open where it matters.** Ramses3D is open source, so you can look under the hood.
 
-[See the demos](/why-paradoxcat/demos/)
+[See the demos](/work/demos/)
