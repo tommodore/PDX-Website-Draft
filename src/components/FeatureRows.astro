@@ -30,11 +30,11 @@ const ui = t(lang);
         </div>
         <div class="row__media">
           {it.video ? (
-            <figure class="row__frame">
-              <video muted loop playsinline preload="auto" poster={`/media/${it.video}.webp`} aria-label={`${it.alt ?? it.title}. ${ui.illustrative}`} data-row-video>
+            <figure class="row__frame" style={it.video.startsWith('demo-') ? 'aspect-ratio: 16 / 9' : undefined}>
+              <video muted loop playsinline preload="auto" poster={`/media/${it.video}.webp`} aria-label={it.video.startsWith('demo-') ? (it.alt ?? it.title) : `${it.alt ?? it.title}. ${ui.illustrative}`} data-row-video>
                 <source src={`/media/${it.video}.mp4`} type="video/mp4" />
               </video>
-              <span class="row__badge"><Badge tone="illustrative">{ui.illustrative}</Badge></span>
+              {!it.video.startsWith('demo-') && <span class="row__badge"><Badge tone="illustrative">{ui.illustrative}</Badge></span>}
             </figure>
           ) : it.image ? (
             <Media name={it.image} alt={it.alt ?? it.title} lang={lang} ratio="4 / 3" sizes="(min-width: 60rem) 50vw, 100vw" class="row__frame" />

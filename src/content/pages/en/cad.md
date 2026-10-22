@@ -9,6 +9,8 @@ cta:
   href: "/contact/"
 features:
   - title: "Optimization"
+    video: "demo-cad-optimization"
+    alt: "Robot arms reduce a car door model from 600,000 to 60,000 triangles"
     text: "Reduce geometry and materials while keeping the look your designers approved."
   - title: "Levels of detail"
     text: "Several detail levels per asset so every target device runs smoothly."

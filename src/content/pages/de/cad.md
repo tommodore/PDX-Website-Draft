@@ -9,6 +9,8 @@ cta:
   href: "/de/kontakt/"
 features:
   - title: "Optimierung"
+    video: "demo-cad-optimization"
+    alt: "Roboterarme reduzieren ein Autotür-Modell von 600.000 auf 60.000 Dreiecke"
     text: "Geometrie und Materialien reduzieren, ohne den freigegebenen Look zu verlieren."
   - title: "Detailstufen"
     text: "Mehrere Detailstufen pro Asset, damit jedes Zielgerät flüssig läuft."
