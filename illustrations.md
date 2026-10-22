@@ -63,3 +63,4 @@ Only keys starting with `official-` are shown without the badge.
 | gen-public | Public sector (hero only) |
 
 Stills in src/assets/illustrations/, 6 s muted clips and posters in public/media/.
+| gen-cad-wide (16:9 video) | CAD-to-Realtime (Optimization row) |

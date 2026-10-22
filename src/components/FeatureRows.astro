@@ -30,7 +30,7 @@ const ui = t(lang);
         </div>
         <div class="row__media">
           {it.video ? (
-            <figure class="row__frame" style={it.video.startsWith('demo-') ? 'aspect-ratio: 16 / 9' : undefined}>
+            <figure class="row__frame" style={it.video.startsWith('demo-') || it.video.endsWith('-wide') ? 'aspect-ratio: 16 / 9' : undefined}>
               <video muted loop playsinline preload="auto" poster={`/media/${it.video}.webp`} aria-label={it.video.startsWith('demo-') ? (it.alt ?? it.title) : `${it.alt ?? it.title}. ${ui.illustrative}`} data-row-video>
                 <source src={`/media/${it.video}.mp4`} type="video/mp4" />
               </video>
