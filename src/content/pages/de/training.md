@@ -29,6 +29,13 @@ Wir erstellen Trainings- und Serviceanwendungen auf Basis Ihres digitalen Zwilli
 
 Interaktive Lernumgebungen auf Basis des digitalen Zwillings und virtuelle Inbetriebnahme, die ein System per Simulation validiert, bevor es physisch eingesetzt wird.
 
+## Einmal gebaut, überall trainiert
+
+- **Eine Quelle, viele Ziele.** Dieselben Modell- und Ablaufdaten laufen auf Desktop, Tablet, VR und AR.
+- **Üben, bevor die Hardware existiert.** Teams proben am virtuellen Zwilling, Trainings starten vor dem ersten Prototyp, und Geräte werden weder abgenutzt noch blockiert.
+- **Feedback eingebaut.** Bewertung, Zeitmessung und geführte Schritte zeigen Lernenden, was sie korrigieren müssen.
+- **Leicht zu aktualisieren.** Ändern sich Design oder Konfiguration, ändert sich der Ablauf mit, und Assets werden über Trainer hinweg wiederverwendet.
+
 ## KI, wo sinnvoll und wertvoll
 
 KI-Tutoren und adaptive Lernpfade, die auf jeden Lernenden reagieren, sowie unterstützte Erstellung von Abläufen aus vorhandener Dokumentation. Mehr zu [KI + ML](/de/loesungen/leistungen/ki-und-ml/).

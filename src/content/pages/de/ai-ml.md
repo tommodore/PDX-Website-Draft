@@ -25,6 +25,16 @@ Ein Modell schafft erst Wert, wenn es zuverlässig in einem Produkt läuft. Wir 
 
 Innenraumsensorik, Fahrer- und Insassenverständnis sowie KI-Funktionen in Embedded- und Mobile-Produkten. Unsere KI-Entwickler arbeiten Seite an Seite mit den HMI- und Grafikteams.
 
+## Verantwortungsvoll gestaltet
+
+Wir setzen KI dort ein, wo sie ein Ergebnis verbessert, und lassen den Menschen die Kontrolle behalten.
+
+- **Menschliche Aufsicht.** KI unterstützt Ihre Ingenieure und Bediener. Sie ersetzt kein Urteil bei kritischen Entscheidungen.
+- **Erklärbar.** Ergebnisse kommen mit Datenquelle und Konfidenz, damit sie nachvollziehbar und prüfbar sind.
+- **Sicher.** Sensible Daten bleiben in kontrollierten Umgebungen, mit freigegebenen Datensätzen und ohne externe KI-Dienste, solange Sie nicht zustimmen.
+- **Validiert.** Modelle werden auf der Zielhardware getestet und neu geprüft, wenn sich Daten und Bedingungen ändern.
+- **Auch für Ihre Teams nützlich.** Assistierte Erstellung von 3D- und Trainingsinhalten, vorausschauende Wartung und schnellere Testzyklen, immer von einem Ingenieur geprüft.
+
 ## Wie wir arbeiten
 
 Wir starten mit dem Anwendungsfall und der Zielhardware und wählen dann das einfachste Modell, das die Anforderung erfüllt.

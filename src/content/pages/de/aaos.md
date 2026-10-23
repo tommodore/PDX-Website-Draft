@@ -32,6 +32,8 @@ Wir bauen und passen System-Apps an, erweitern die Plattform und integrieren Fah
 - **Theming und Markenkonsistenz.** Ein Designsystem für System-Apps und Template-Apps, damit jeder Touchpoint nach Ihrer Marke wirkt.
 - **Virtuelle Entwicklung.** Wir bauen und testen auf Emulatoren und virtuellen Plattformen, bevor Zielhardware verfügbar ist. So kommt der erste fahrbare Stand früher.
 - **App-Ökosystem.** Apps aus dem Android-Ökosystem und Ihre eigenen Dienste, integriert mit dem Fahrzeug und mit den Prüf- und Freigaberegeln, die Sie festlegen.
+- **Updatefähig von Anfang an.** Modulare, datengetriebene UI-Architekturen für Over-the-Air-Updates, Feature-Freischaltungen und schnelle Iteration nach Produktionsstart.
+- **Simulationsgestütztes Testen.** Digital-Twin- und Emulator-Setups mit Regressionstests für neue Builds.
 - **Vom Konzept zur Serie.** UX-Design, Softwareentwicklung, Integration und Release-Support aus einer Hand.
 
 ## AOSP- und AAOS-Training

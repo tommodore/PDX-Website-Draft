@@ -53,6 +53,15 @@ We visualize whole production lines, plants, logistics systems or connected flee
 
 The value: better situational awareness, faster issue identification, more transparent operations and less training effort.
 
+## How a twin grows
+
+1. **Define the system.** We capture behavior, interfaces and data sources with your engineering and operations teams.
+2. **Model it.** We build the 3D representation, using existing CAD or building (BIM) data to move fast.
+3. **Connect live data.** Sensors, IoT, recorded streams or engineering models feed the twin through open interfaces.
+4. **Deploy and evolve.** The twin scales from one component to a full system or fleet, and grows with upgrades and new configurations.
+
+Typical uses: predictive maintenance, operator and maintainer training, early system testing and validation, process validation in manufacturing, and virtual prototyping for software-defined vehicles.
+
 ## AI where it adds value
 
 Anomaly detection, predictive maintenance and natural-language access to twin data, shown in the 3D context where people act on it. More on [AI + ML](/solutions/services/ai-and-ml/).

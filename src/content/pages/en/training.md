@@ -29,6 +29,13 @@ We create training and service applications on top of your digital twin. They ru
 
 Interactive learning environments powered by the digital twin, and virtual commissioning that validates a system through simulation before it is deployed physically.
 
+## Built once, trained everywhere
+
+- **One source, many targets.** The same model and procedure data runs on desktop, tablet, VR and AR.
+- **Practice before the hardware exists.** Teams rehearse on a virtual twin, so trainers start before the first prototype and equipment is not worn or blocked.
+- **Feedback built in.** Scoring, timing and guided steps show learners what to correct.
+- **Easy to update.** When the design or configuration changes, the procedure changes with it, and assets are reused across trainers.
+
 ## AI where it adds value
 
 AI tutors and adaptive training paths that react to each learner, plus assisted authoring of procedures from existing documentation. More on [AI + ML](/solutions/services/ai-and-ml/).

@@ -58,7 +58,7 @@ Operator software often runs on embedded hardware with tight compute, power and 
 
 ## Working inside your program
 
-We can provide specialist capacity within existing programs and support your internal team where graphics, responsiveness and integration limits matter. Early prototypes on realistic hardware surface integration risks before full development.
+We can provide specialist capacity within existing programs and support your internal team where graphics, responsiveness and integration limits matter. Early prototypes on realistic hardware surface integration risks before full development. We integrate with your existing toolchains and middleware, including Unity and Unreal, and build the bridges between simulation components and the HMI.
 
 ## How we work
 

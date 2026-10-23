@@ -53,6 +53,15 @@ Wir visualisieren ganze Produktionslinien, Anlagen, Logistiksysteme oder vernetz
 
 Der Nutzen: besseres Lagebild, schnellere Fehlererkennung, transparentere Abläufe und weniger Schulungsaufwand.
 
+## Wie ein Zwilling wächst
+
+1. **System definieren.** Wir erfassen Verhalten, Schnittstellen und Datenquellen gemeinsam mit Ihren Engineering- und Betriebsteams.
+2. **Modellieren.** Wir bauen die 3D-Darstellung und nutzen vorhandene CAD- oder Gebäudedaten (BIM), um schnell voranzukommen.
+3. **Live-Daten anbinden.** Sensoren, IoT, aufgezeichnete Datenströme oder Engineering-Modelle speisen den Zwilling über offene Schnittstellen.
+4. **Betreiben und weiterentwickeln.** Der Zwilling skaliert von einer Komponente bis zum Gesamtsystem oder zur Flotte und wächst mit Updates und neuen Konfigurationen.
+
+Typische Einsätze: vorausschauende Wartung, Bediener- und Wartungstraining, frühe Systemtests und Validierung, Prozessvalidierung in der Fertigung und virtuelles Prototyping für Software-Defined Vehicles.
+
 ## KI, wo sinnvoll und wertvoll
 
 Anomalieerkennung, vorausschauende Wartung und Zugriff auf Zwillingsdaten per natürlicher Sprache, dargestellt im 3D-Kontext, in dem Menschen handeln. Mehr zu [KI + ML](/de/loesungen/leistungen/ki-und-ml/).

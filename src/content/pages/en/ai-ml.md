@@ -25,6 +25,16 @@ A model only creates value once it runs reliably inside a product. We cover the 
 
 In-cabin sensing, driver and occupant understanding, and AI features in embedded and mobile products. Our AI engineers work side by side with the HMI and graphics teams.
 
+## Responsible by design
+
+We use AI where it improves a result, and we keep people in charge.
+
+- **Human oversight.** AI supports your engineers and operators. It does not replace judgment on critical decisions.
+- **Explainable.** Outputs come with their data source and confidence, so results can be traced and checked.
+- **Secure.** Sensitive data stays in controlled environments, with approved datasets and no external AI services unless you agree.
+- **Validated.** Models are tested on target hardware and re-checked as data and conditions change.
+- **Useful for your teams too.** Assisted creation of 3D and training content, predictive maintenance and faster test cycles, always reviewed by an engineer.
+
 ## How we work
 
 We start with the use case and the target hardware, then pick the simplest model that meets the requirement.

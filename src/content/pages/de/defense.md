@@ -58,7 +58,7 @@ Bediensoftware läuft oft auf Embedded-Hardware mit knappen Rechen-, Energie- un
 
 ## Arbeiten im Rahmen Ihres Programms
 
-Wir stellen Spezialkapazität innerhalb bestehender Programme bereit und unterstützen Ihr internes Team dort, wo Grafik, Reaktionszeit und Integrationsgrenzen zählen. Frühe Prototypen auf realistischer Hardware zeigen Integrationsrisiken vor der Volumenentwicklung.
+Wir stellen Spezialkapazität innerhalb bestehender Programme bereit und unterstützen Ihr internes Team dort, wo Grafik, Reaktionszeit und Integrationsgrenzen zählen. Frühe Prototypen auf realistischer Hardware zeigen Integrationsrisiken vor der Volumenentwicklung. Wir integrieren in Ihre bestehenden Toolchains und Middleware, auch Unity und Unreal, und bauen die Brücken zwischen Simulationskomponenten und HMI.
 
 ## So arbeiten wir
 

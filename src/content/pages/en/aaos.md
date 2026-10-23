@@ -32,6 +32,8 @@ We build and customize system apps, adapt the platform and integrate vehicle fun
 - **Theming and brand consistency.** One design system applied across system apps and templated apps, so every touchpoint feels like your brand.
 - **Virtual development.** We build and test on emulators and virtual platforms before target hardware is available, which shortens the path to a first drivable build.
 - **App ecosystem.** Apps from the Android ecosystem and your own services, integrated with the vehicle and with the review and release rules you set.
+- **Updateable by design.** Modular, data-driven UI architectures that support over-the-air updates, feature unlocks and fast iteration after start of production.
+- **Simulation-driven testing.** Digital twin and emulator setups with regression tests for new builds.
 - **Concept to production.** UX design, software development, integration and release support from one team.
 
 ## AOSP and AAOS training
