@@ -27,6 +27,13 @@ Softwaredefinierte Fahrzeuge brauchen ein Cockpit, das sich nach dem Produktions
 
 Wir bauen und passen System-Apps an, erweitern die Plattform und integrieren Fahrzeugfunktionen. Unsere Teams arbeiten mit OEMs und Tier-1-Zulieferern an Serienprogrammen.
 
+## Mehr als die Basisplattform
+
+- **Theming und Markenkonsistenz.** Ein Designsystem für System-Apps und Template-Apps, damit jeder Touchpoint nach Ihrer Marke wirkt.
+- **Virtuelle Entwicklung.** Wir bauen und testen auf Emulatoren und virtuellen Plattformen, bevor Zielhardware verfügbar ist. So kommt der erste fahrbare Stand früher.
+- **App-Ökosystem.** Apps aus dem Android-Ökosystem und Ihre eigenen Dienste, integriert mit dem Fahrzeug und mit den Prüf- und Freigaberegeln, die Sie festlegen.
+- **Vom Konzept zur Serie.** UX-Design, Softwareentwicklung, Integration und Release-Support aus einer Hand.
+
 ## AOSP- und AAOS-Training
 
 Wir vermitteln auch, was wir bauen. Ein praxisnaher Workshop für Ihre Entwickler, typischerweise drei Tage, remote oder vor Ort und auf Ihren Stack zugeschnitten.
