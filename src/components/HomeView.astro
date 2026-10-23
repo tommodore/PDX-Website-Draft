@@ -6,6 +6,7 @@ import Section from './Section.astro';
 import Card from './Card.astro';
 import Stat from './Stat.astro';
 import LogoWall from './LogoWall.astro';
+import ClientLogos from './ClientLogos.astro';
 import CtaBand from './CtaBand.astro';
 import Media from './Media.astro';
 import { getPage, navTitle } from '../lib/content';
@@ -55,6 +56,8 @@ const tech = ['Unity', 'Unreal Engine', 'Qt', 'Kanzi', 'Rocksolid', 'Ramses3D'];
     <div class="grid grid--stats">
       {d.facts.map((f) => <Stat value={f.value} label={f.label} />)}
     </div>
+    <div class="spacer"></div>
+    <ClientLogos lang={lang} />
     <div class="spacer"></div>
     <LogoWall items={tech} label={lang === 'de' ? 'Technologien' : 'Technologies'} />
     <div class="spacer"></div>

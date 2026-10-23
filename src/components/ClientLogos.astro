@@ -1,0 +1,61 @@
+---
+import { existsSync } from 'node:fs';
+import { clients } from '../data/clients';
+import type { Lang } from '../lib/routes';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const label = lang === 'de' ? 'Marken, für die wir arbeiten' : 'Brands we work with';
+const note = lang === 'de' ? 'Alle Marken und Logos sind Eigentum ihrer jeweiligen Inhaber.' : 'All brands and logos are the property of their respective owners.';
+const items = clients
+  .filter((c) => c.show)
+  .map((c) => ({ ...c, logo: existsSync(`public/brand/clients/${c.slug}.svg`) ? `/brand/clients/${c.slug}.svg` : undefined }));
+---
+
+<figure class="clients">
+  <ul aria-label={label}>
+    {items.map((c) => <li>{c.logo ? <img src={c.logo} alt={c.name} height="36" loading="lazy" /> : <span>{c.name}</span>}</li>)}
+  </ul>
+  <figcaption class="muted">{note}</figcaption>
+</figure>
+
+<style>
+  .clients {
+    margin: 0;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: var(--sp-5) var(--sp-7);
+  }
+  li {
+    margin: 0;
+    opacity: 0.75;
+    transition: opacity var(--dur-2, 0.2s) ease;
+  }
+  li:hover {
+    opacity: 1;
+  }
+  span {
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--c-text-muted);
+  }
+  img {
+    height: 2.25rem;
+    width: auto;
+  }
+  figcaption {
+    margin-top: var(--sp-4);
+    text-align: center;
+    font-size: 0.75rem;
+  }
+</style>

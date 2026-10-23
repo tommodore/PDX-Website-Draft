@@ -10,6 +10,7 @@ import ContactForm from './ContactForm.astro';
 import Breadcrumbs from './Breadcrumbs.astro';
 import Gate from './Gate.astro';
 import Badge from './Badge.astro';
+import ClientLogos from './ClientLogos.astro';
 import { greenhouseJobs } from '../lib/greenhouse';
 import Stat from './Stat.astro';
 import Gallery from './Gallery.astro';
@@ -133,6 +134,12 @@ const jobLd = jobs
       <div class="grid">
         {insights.map((i) => <Card title={i.data.title} text={i.data.description} href={detailPath('insights', slugOf(i.id), lang)} image={i.data.illustration} lang={lang} badge={i.data.draft ? ui.draft : undefined} cta={ui.learnMore} />)}
       </div>
+    </Section>
+  )}
+
+  {['automotive', 'why', 'technology'].includes(id) && (
+    <Section>
+      <ClientLogos lang={lang} />
     </Section>
   )}
 
