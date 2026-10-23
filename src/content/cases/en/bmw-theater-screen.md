@@ -5,7 +5,7 @@ client: "BMW"
 anonymized: false
 industry: "Automotive"
 service: "HMI"
-illustration: "cockpit"
+illustration: "official-bmw-theater"
 draft: false
 template: false
 challenge: "Deliver the software for a rear seat display with video, audio and streaming at series quality."

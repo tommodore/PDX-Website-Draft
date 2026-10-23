@@ -34,6 +34,7 @@ All images in `src/assets/illustrations/` are original 3D renders (three.js scen
 | official-cad-car | CAD wireframe car render | CAD-to-real-time | no (real) |
 | official-group | Team group photo | Life at PARADOX CAT | no (real) |
 | official-careerteam | Three team members | Careers | no (real) |
+| official-bmw-theater | BMW 7 Series Theater Screen, rear cabin photo (source: web image search, 474x266 px, upscaled; (c) BMW AG). Rights and BMW approval to be cleared, replace with a press-kit image of at least 1920 px | Case: BMW Theater Screen, Home | no (real) |
 | web-aaos | AI-style cockpit with Android | AAOS | yes (AI-generated) |
 
 Only keys starting with `official-` are shown without the badge.

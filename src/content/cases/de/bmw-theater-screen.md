@@ -5,7 +5,7 @@ client: "BMW"
 anonymized: false
 industry: "Automotive"
 service: "HMI"
-illustration: "cockpit"
+illustration: "official-bmw-theater"
 draft: false
 template: false
 challenge: "Die Software für ein Fond-Display mit Video, Audio und Streaming in Serienqualität liefern."
