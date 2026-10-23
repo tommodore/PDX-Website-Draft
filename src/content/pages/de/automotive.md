@@ -37,6 +37,15 @@ Wir decken den ganzen Weg vom Designkonzept zur Serien-Software ab. Unsere Teams
 - **Konzepte.** Neue Interaktionsideen, bevor die Serie festgelegt wird.
 - **Demonstratoren.** Showcar- und Messe-Demos, die eine Vision greifbar machen.
 
+## Das Kundenerlebnis rund ums Fahrzeug
+
+Käufer erwarten zunehmend Online-, virtuelle und Echtzeit-Erlebnisse von Marken und Händlern sowie eine personalisierte Oberfläche im Fahrzeug. Wir bauen die Bausteine dafür:
+
+- **Personalisierte Fahrzeug-HMI.** Oberflächen, die sich an Fahrer, Kontext und Situation anpassen. Siehe [HMI](/de/loesungen/leistungen/hmi/).
+- **3D-Konfiguratoren und virtuelle Showrooms.** Eine 3D-Asset-Basis für Web, Händlertablet und Showroom-Bildschirme, damit Kunden Varianten überall erkunden. Siehe [Konfiguratoren](/de/loesungen/leistungen/echtzeit-3d-grafik/konfiguratoren/).
+- **Aftersales und Service.** Interaktive 3D- und AR-Anleitung für Reparatur, Wartung und Händlerschulung, verknüpft mit dem [digitalen Zwilling](/de/loesungen/leistungen/digitale-zwillinge/).
+- **Ein modularer Baukasten.** Wiederverwendbare Anwendungen, aus denen Händler und Märkte wählen, statt einer starren Customer Journey.
+
 ## Warum OEMs mit uns arbeiten
 
 Wir entwickeln die Open-Source-Engine Ramses3D gemeinsam mit BMW. Wir sind inhabergeführt, erfahren und stabil. Sie arbeiten vom Kickoff bis zum Release mit denselben Menschen.

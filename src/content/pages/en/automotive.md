@@ -37,6 +37,15 @@ We cover the full path from design concept to production software. Our teams cus
 - **Concepts.** New interaction ideas explored before production commitment.
 - **Demonstrators.** Show-car and trade-show demos that make a vision tangible.
 
+## The customer experience around the car
+
+Buyers increasingly expect online, virtual and real-time experiences from brands and dealers, and a personalized in-car interface. We help build the pieces:
+
+- **Personalized in-car HMI.** Interfaces that adapt to the driver, the context and the situation. See [HMI](/solutions/services/hmi/).
+- **3D configurators and virtual showrooms.** One 3D asset base for web, dealer tablet and showroom screens, so customers explore variants anywhere. See [configurators](/solutions/services/real-time-3d-graphics/configurators/).
+- **Aftersales and service.** Interactive 3D and AR guidance for repair, maintenance and dealer training, tied to the [digital twin](/solutions/services/digital-twins/).
+- **A modular toolbox.** Reusable applications that dealers and markets can pick from, instead of one rigid journey.
+
 ## Why OEMs work with us
 
 We co-develop the open-source engine Ramses3D with BMW. We are founder-owned, senior and stable. You work with the same people from kickoff to release.
