@@ -30,3 +30,7 @@ Wir entwickeln KI-basierte Erkennung, integrieren sie auf Embedded-Hardware und 
 Sensorik hilft nur, wenn die Reaktion klar ist. Weil wir auch HMI bauen, decken wir die ganze Kette vom Signal bis zum Bildschirm ab.
 
 Sagen Sie uns, welche Funktion Sie auf welcher Hardware brauchen.
+
+## Ausgewählte Projekte
+
+- [Byton M-Byte: Gestensteuerung für ein CES-2018-Showcar](/de/projekte/referenzen/byton-gesture-ui/)

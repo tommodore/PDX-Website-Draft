@@ -9,7 +9,7 @@
 - [Capabilities](https://paradox.cat/capabilities/): Android (AAOS, AOSP), HMI, real-time 3D, digital twins, AI + ML, edge AI, sensor fusion
 - [Ramses3D](https://paradox.cat/solutions/products/ramses3d/): open-source 3D rendering engine for embedded systems, MPL-2.0
 - [Technology](https://paradox.cat/work/technology-and-partners/): engines and frameworks we work with - Unity, Unreal Engine, Qt, Kanzi, DiSTI, Rocksolid, Ramses3D
-- [Case studies](https://paradox.cat/work/case-studies/)
+- [Case studies](https://paradox.cat/work/case-studies/): BMW Android head units and Theater Screen, Karma HMI in Kanzi, ADAS visualization, Byton gesture UI, ViZaar industrial imaging, payment device AOSP
 - [Numbers and approach](https://paradox.cat/work/numbers-and-approach/)
 - [Careers](https://paradox.cat/careers/)
 - [Contact](https://paradox.cat/contact/)

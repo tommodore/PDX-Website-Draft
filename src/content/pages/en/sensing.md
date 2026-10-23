@@ -30,3 +30,7 @@ We develop AI-based detection, integrate it on embedded hardware and design how 
 Sensing only helps if the response is clear. Because we also build HMI, we cover the whole chain from signal to screen.
 
 Tell us which function you need and on which hardware.
+
+## Selected work
+
+- [Byton M-Byte: gesture control for a CES 2018 show car](/work/case-studies/byton-gesture-ui/)

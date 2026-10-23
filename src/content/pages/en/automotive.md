@@ -51,3 +51,14 @@ Buyers increasingly expect online, virtual and real-time experiences from brands
 We co-develop the open-source engine Ramses3D with BMW. We are founder-owned, senior and stable. You work with the same people from kickoff to release.
 
 Share your challenge and we will propose a clear first step.
+
+## Selected work
+
+- [BMW: Android-based head units, two generations](/work/case-studies/bmw-android-head-unit/)
+- [BMW Theater Screen: platform, HMI and apps](/work/case-studies/bmw-theater-screen/)
+- [BMW: intelligent personal assistant on Android](/work/case-studies/bmw-personal-assistant/)
+- [Karma Automotive: cluster and main unit HMI in Kanzi](/work/case-studies/karma-kanzi-hmi/)
+- [ADAS visualization across HUD, cluster and center display](/work/case-studies/adas-visualization/)
+- [Series graphics and 3D tooling for premium infotainment](/work/case-studies/series-graphics-3d-tooling/)
+- [Remote 360° companion app: see your car's surroundings](/work/case-studies/remote-360-companion-app/)
+- [Byton M-Byte: gesture control for a CES 2018 show car](/work/case-studies/byton-gesture-ui/)

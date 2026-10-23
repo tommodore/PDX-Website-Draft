@@ -52,3 +52,10 @@ Tell us your platform and your team's level. We shape the agenda around it.
 We join your architecture, not the other way round. Small, senior teams. Clear interfaces. Regular builds you can test.
 
 Bring us a feature backlog or a platform question. We will tell you what is feasible and how to get there.
+
+## Selected work
+
+- [BMW: Android-based head units, two generations](/work/case-studies/bmw-android-head-unit/)
+- [BMW Theater Screen: platform, HMI and apps](/work/case-studies/bmw-theater-screen/)
+- [BMW: intelligent personal assistant on Android](/work/case-studies/bmw-personal-assistant/)
+- [Custom Android for a payment device (AOSP)](/work/case-studies/fintech-payment-device-aosp/)

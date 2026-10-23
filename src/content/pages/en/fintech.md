@@ -28,3 +28,7 @@ Our HMI engineers come from automotive, where robustness on embedded hardware is
 ## Where to start
 
 Describe your device and your users. We help you plan the interface, the Android platform work and the release path.
+
+## Selected work
+
+- [Custom Android for a payment device (AOSP)](/work/case-studies/fintech-payment-device-aosp/)

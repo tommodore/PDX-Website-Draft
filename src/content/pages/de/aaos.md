@@ -52,3 +52,10 @@ Nennen Sie uns Ihre Plattform und den Stand Ihres Teams. Wir richten die Agenda 
 Wir passen uns Ihrer Architektur an, nicht umgekehrt. Kleine, erfahrene Teams. Klare Schnittstellen. Regelmäßige Builds zum Testen.
 
 Bringen Sie uns ein Feature-Backlog oder eine Plattformfrage. Wir sagen Ihnen, was machbar ist und wie der Weg aussieht.
+
+## Ausgewählte Projekte
+
+- [BMW: Android-basierte Head-Units, zwei Generationen](/de/projekte/referenzen/bmw-android-head-unit/)
+- [BMW Theater Screen: Plattform, HMI und Apps](/de/projekte/referenzen/bmw-theater-screen/)
+- [BMW: Intelligenter Persönlicher Assistent auf Android](/de/projekte/referenzen/bmw-personal-assistant/)
+- [Individuelles Android für ein Zahlungsgerät (AOSP)](/de/projekte/referenzen/fintech-payment-device-aosp/)

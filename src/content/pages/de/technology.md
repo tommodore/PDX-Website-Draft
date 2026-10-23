@@ -25,6 +25,15 @@ Technologieentscheidungen prägen Kosten und Risiko für Jahre. Wir helfen bei d
 
 Wir sind werkzeugneutral. Wir arbeiten mit allen gängigen Engines und Frameworks, darunter Unreal, Unity, Ramses3D, DiSTI, Rocksolid, Kanzi und Qt. Anwendungsfall, Ihre Anforderungen und Ihre Wünsche entscheiden, nicht unsere Gewohnheit.
 
+## Unser Stack
+
+- **Plattformen:** Android, AOSP, Android Automotive OS, Linux, iOS, Web.
+- **Sprachen:** Kotlin, Java, Jetpack Compose, C++, C, C#, Qt/QML, Python, TypeScript, JavaScript, Rust, Swift, Flutter.
+- **Echtzeit-3D:** OpenGL, Vulkan, Lua-Scripting, Unity, Unreal, Qt, Kanzi, Rocksolid, Ramses3D.
+- **3D-Inhalte:** Blender, PIXYZ, Autodesk-Suite, Houdini, InstaLOD.
+- **KI und ML:** PyTorch, TensorFlow, JAX, Keras, OpenCV, MLflow, Optuna, NVIDIA CUDA, TensorFlow Lite.
+- **DevOps:** Git, Gerrit, JIRA, Confluence, Docker, Kubernetes, CI/CD-Pipelines.
+
 ## Open Source
 
 Ramses3D wird gemeinsam mit BMW entwickelt und steht unter MPL-2.0. Sie können es prüfen, bevor Sie sich festlegen.

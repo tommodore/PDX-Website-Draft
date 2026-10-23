@@ -30,3 +30,7 @@ We bring experience from automotive HMI and real-time graphics to machines, cont
 ## How we start
 
 Pick one product. We show how its CAD data becomes an interactive 3D experience or a modern interface. Then you decide how far to go.
+
+## Selected work
+
+- [ViZaar: a faster, cleaner GUI for industrial imaging](/work/case-studies/vizaar-industrial-imaging/)

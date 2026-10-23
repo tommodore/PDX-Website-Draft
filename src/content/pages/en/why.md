@@ -9,7 +9,7 @@ cta:
   href: "/contact/"
 features:
   - title: "Senior and stable"
-    text: "About 150 people and turnover below 5 percent."
+    text: "About 150 people and turnover below 2.6 percent (2025)."
   - title: "Founder-owned"
     text: "Independent decisions and long-term thinking."
   - title: "Proven in automotive"

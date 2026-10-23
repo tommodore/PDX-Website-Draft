@@ -44,8 +44,8 @@ facts:
     label: "people on the team"
   - value: "26"
     label: "nationalities"
-  - value: "< 5 %"
-    label: "annual turnover"
+  - value: "< 2.6 %"
+    label: "turnover in 2025"
   - value: "2"
     label: "locations: Munich and Bucharest"
 updated: 2026-10-20

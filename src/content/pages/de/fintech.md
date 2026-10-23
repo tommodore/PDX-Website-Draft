@@ -28,3 +28,7 @@ Unsere HMI-Entwickler kommen aus dem Automobil, wo Robustheit auf Embedded-Hardw
 ## Wo Sie anfangen
 
 Beschreiben Sie Ihr Gerät und Ihre Nutzer. Wir helfen bei Planung der Oberfläche, der Android-Plattformarbeit und des Release-Wegs.
+
+## Ausgewählte Projekte
+
+- [Individuelles Android für ein Zahlungsgerät (AOSP)](/de/projekte/referenzen/fintech-payment-device-aosp/)

@@ -34,7 +34,7 @@ const { Content } = await render(page);
 const alternates = { en: pathOf(id, 'en'), de: pathOf(id, 'de') };
 const crumbs = await Promise.all([...ancestorsOf(id).map((n) => n.id), id].map(async (n) => ({ label: await navTitle(n, lang), href: pathOf(n, lang) })));
 const children = await Promise.all(childrenOf(id).map(async (n) => ({ id: n.id, page: await getPage(n.id, lang) })));
-const cases = id === 'case-studies' ? await publishedIn('cases', lang, true) : [];
+const cases = id === 'case-studies' ? (await publishedIn('cases', lang)).filter((c) => !c.data.template) : [];
 const insights = id === 'insights' ? await publishedIn('insights', lang, true) : [];
 const jobs = id === 'open-positions' ? await publishedIn('jobs', lang, true) : [];
 const ghJobs = id === 'open-positions' ? await greenhouseJobs() : [];

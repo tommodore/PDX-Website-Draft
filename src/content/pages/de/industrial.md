@@ -30,3 +30,7 @@ Wir bringen Erfahrung aus Automotive-HMI und Echtzeitgrafik zu Maschinen, Steuer
 ## So beginnen wir
 
 Wählen Sie ein Produkt. Wir zeigen, wie aus seinen CAD-Daten ein interaktives 3D-Erlebnis oder eine moderne Oberfläche wird. Dann entscheiden Sie, wie weit Sie gehen.
+
+## Ausgewählte Projekte
+
+- [ViZaar: schnellere, sauberere GUI für industrielle Bildgebung](/de/projekte/referenzen/vizaar-industrial-imaging/)

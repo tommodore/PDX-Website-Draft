@@ -25,6 +25,15 @@ Technology choices shape cost and risk for years. We help you choose, and we wor
 
 We are tool-agnostic. We work with all major engines and frameworks, including Unreal, Unity, Ramses3D, DiSTI, Rocksolid, Kanzi and Qt. The use case, your requirements and your preferences decide, not our habits.
 
+## Our stack
+
+- **Platforms:** Android, AOSP, Android Automotive OS, Linux, iOS, web.
+- **Languages:** Kotlin, Java, Jetpack Compose, C++, C, C#, Qt/QML, Python, TypeScript, JavaScript, Rust, Swift, Flutter.
+- **Real-time 3D:** OpenGL, Vulkan, Lua scripting, Unity, Unreal, Qt, Kanzi, Rocksolid, Ramses3D.
+- **3D content:** Blender, PIXYZ, the Autodesk suite, Houdini, InstaLOD.
+- **AI and ML:** PyTorch, TensorFlow, JAX, Keras, OpenCV, MLflow, Optuna, NVIDIA CUDA, TensorFlow Lite.
+- **DevOps:** Git, Gerrit, JIRA, Confluence, Docker, Kubernetes, CI/CD pipelines.
+
 ## Open source
 
 Ramses3D is co-developed with BMW and available under MPL-2.0. You can inspect it before you commit.

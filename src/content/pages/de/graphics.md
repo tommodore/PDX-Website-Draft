@@ -31,8 +31,18 @@ Für Produkt-, Vertriebs- und Marketingteams bieten wir produktisierte [Pakete](
 
 Wir verbinden Engineering und Technical Art. Entwickler bauen Pipeline und Engine-Integration. Artists stellen sicher, dass das Ergebnis aussieht wie entworfen.
 
+## Werkzeuge für Ihre Produktions-Pipeline
+
+Wir entwickeln auch individuelles 3D-Tooling: Editoren, mit denen Technical Artists 3D-Szenen für die Serie erstellen, animieren und skripten, und Integrations-Tools, die 3D-Widgets und Fahrzeugmodelle in Ihre Anwendungen bringen. Siehe den [Seriengrafik-Fall](/de/projekte/referenzen/series-graphics-3d-tooling/).
+
 ## Wo es zum Einsatz kommt
 
 Cockpits, Kombiinstrumente, Rear-Seat-Displays, Konfiguratoren und XR-Erlebnisse.
 
 Senden Sie uns ein Beispiel, dann zeigen wir, was möglich ist.
+
+## Ausgewählte Projekte
+
+- [Seriengrafik und 3D-Tooling für Premium-Infotainment](/de/projekte/referenzen/series-graphics-3d-tooling/)
+- [ADAS-Visualisierung über HUD, Kombiinstrument und Zentraldisplay](/de/projekte/referenzen/adas-visualization/)
+- [Remote-360°-Companion-App: die Umgebung des Autos sehen](/de/projekte/referenzen/remote-360-companion-app/)

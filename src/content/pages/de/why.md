@@ -9,7 +9,7 @@ cta:
   href: "/de/kontakt/"
 features:
   - title: "Erfahren und stabil"
-    text: "Rund 150 Menschen und Fluktuation unter 5 Prozent."
+    text: "Rund 150 Menschen und Fluktuation unter 2,6 Prozent (2025)."
   - title: "Inhabergeführt"
     text: "Unabhängige Entscheidungen und langfristiges Denken."
   - title: "Bewährt im Automobil"

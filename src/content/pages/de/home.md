@@ -44,8 +44,8 @@ facts:
     label: "Menschen im Team"
   - value: "26"
     label: "Nationalitäten"
-  - value: "< 5 %"
-    label: "jährliche Fluktuation"
+  - value: "< 2,6 %"
+    label: "Fluktuation 2025"
   - value: "2"
     label: "Standorte: München und Bukarest"
 updated: 2026-10-20

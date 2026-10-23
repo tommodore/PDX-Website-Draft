@@ -31,8 +31,18 @@ We offer productized packages for product, sales and marketing teams: a [3D Prod
 
 We combine engineering and technical art. Engineers build the pipeline and the engine integration. Artists make sure the result looks as designed.
 
+## Tools for your production pipeline
+
+We also build custom 3D tooling: editors that let technical artists create, animate and script 3D scenes for series production, and integration tools that bring 3D widgets and vehicle models into your applications. See the [series graphics case](/work/case-studies/series-graphics-3d-tooling/).
+
 ## Where it is used
 
 Cockpits, instrument clusters, rear seat displays, configurators and XR experiences.
 
 Send us a sample and we show you what is possible.
+
+## Selected work
+
+- [Series graphics and 3D tooling for premium infotainment](/work/case-studies/series-graphics-3d-tooling/)
+- [ADAS visualization across HUD, cluster and center display](/work/case-studies/adas-visualization/)
+- [Remote 360° companion app: see your car's surroundings](/work/case-studies/remote-360-companion-app/)
