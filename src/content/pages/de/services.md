@@ -29,4 +29,4 @@ features:
 updated: "2026-10-22"
 ---
 
-Wählen Sie eine Leistung. Die meisten gibt es mit Startpaketen zum festen Umfang. In beiden Fällen arbeiten Sie mit einem Team, das geliefert hat.
+Wählen Sie eine Leistung. Viele beginnen mit einem [Paket](/de/loesungen/leistungen/pakete/) mit festem Umfang. Sie arbeiten in beiden Fällen mit einem Team, das geliefert hat.

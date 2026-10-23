@@ -25,6 +25,14 @@ Maschinen sind komplex. Ein 3D-Zwilling macht sie leichter zu bedienen, zu schul
 
 Wir erstellen visuelle Zwillinge, die in Echtzeit auf Panels, Tablets oder Headsets laufen. Bei Bedarf binden sie Live-Maschinendaten an.
 
+## 3D-HMI für Bediener
+
+Wir ersetzen abstrakte Dashboards durch räumliche, interaktive Ansichten. Bediener arbeiten per Touch und Gesten direkt mit Maschinen und Prozessen, auf Embedded-Panels und plattformübergreifend. Typisch: Maschinenüberwachung, Bedienerarbeitsplätze und Smart Manufacturing. Siehe [HMI](/de/loesungen/leistungen/hmi/).
+
+## Anlagen und Prozesse
+
+Produktionslinien, Anlagen und Logistiksysteme in einer Echtzeitansicht, mit Statusüberwachung und Dashboards im 3D-Kontext. Die Anbindung an Ihre Maschinendaten erfolgt über die [Datenintegration](/de/loesungen/leistungen/digitale-zwillinge/datenintegration/).
+
 ## So fangen Sie an
 
 Beginnen Sie mit einer Maschine und einem Anwendungsfall. Wir belegen den Nutzen und übertragen den Ansatz dann auf Ihre Produktlinie.

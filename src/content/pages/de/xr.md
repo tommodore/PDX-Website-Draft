@@ -25,6 +25,15 @@ XR funktioniert, wenn Inhalte leicht, präzise und einfach zu aktualisieren sind
 
 Wir erstellen AR- und VR-Anwendungen aus Ihren CAD-Daten, mit unserer Asset-Pipeline und unserer Echtzeit-3D-Erfahrung.
 
+## Industrielle Anwendungen
+
+- AR-Wartung und Remote-Support
+- Virtuelle Inbetriebnahme vor dem physischen Einsatz
+- VR-Bedienertraining
+- Immersive Engineering-Reviews
+
+Der Nutzen: geringere Schulungskosten, schnellere Fehlersuche, besserer Wissenstransfer und weniger betriebliches Risiko.
+
 ## Klein anfangen
 
 Ein XR-Prototyp eines Produkts zeigt, was die Technik bringt. Danach entscheiden Sie, ob Sie skalieren.

@@ -25,6 +25,10 @@ People learn faster when they can see and try. Interactive 3D makes complex prod
 
 We create training and service applications on top of your digital twin. They run on tablets, panels and headsets.
 
+## Operator training and commissioning
+
+Interactive learning environments powered by the digital twin, and virtual commissioning that validates a system through simulation before it is deployed physically.
+
 ## How to begin
 
 Pick one procedure with high cost or high error rate. We build a focused prototype and measure the value together.

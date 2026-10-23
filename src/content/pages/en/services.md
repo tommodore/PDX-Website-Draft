@@ -29,4 +29,4 @@ features:
 updated: "2026-10-22"
 ---
 
-Pick a service. Most come with fixed-scope starter packages. Either way you work with a team that has shipped.
+Pick a service. Many start with a fixed-scope [package](/solutions/services/packages/). Either way you work with a team that has shipped.

@@ -25,6 +25,15 @@ XR works when content is light, accurate and easy to update. That is our strengt
 
 We create AR and VR applications from your CAD data using our asset pipeline and real-time 3D experience.
 
+## Industrial use cases
+
+- AR maintenance and remote support
+- Virtual commissioning before physical deployment
+- VR operator training
+- Immersive engineering reviews
+
+The benefits: lower training costs, faster troubleshooting, better knowledge transfer and lower operational risk.
+
 ## Start small
 
 An XR prototype of one product shows what the technology adds. Then you decide whether to scale.

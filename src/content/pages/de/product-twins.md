@@ -29,4 +29,4 @@ Wir bereiten Ihre CAD-Daten auf, bauen das Echtzeitmodell und binden es in die A
 
 Wir bauen 3D-Fahrzeugszenen für Automotive-Programme, von Cockpit-Visualisierungen bis zu Fahrzeugansichten in Companion-Apps.
 
-Starten Sie mit dem Paket Digital Twin Starter oder senden Sie uns ein Beispielmodell.
+Starten Sie mit einem [Prototype Sprint](/de/loesungen/leistungen/pakete/) oder senden Sie uns ein Beispielmodell. Unsere Vertriebs- und Marketing-Zwillinge lassen Kunden komplexe Produkte vor dem Kauf verstehen, konfigurieren und erleben.

@@ -1,32 +1,57 @@
 ---
 title: "Digital Twins"
-description: "Real-time 3D digital twins of products, vehicles and machines for design, sales, training and service, built from your CAD data."
-lead: "A live 3D model of your product that every team can use."
+description: "Digital twin visualization for industry, automotive, aviation and defense: photoreal assets, plant and fleet views, 3D HMI, AR/VR and live data."
+lead: "Turn complex systems into intuitive experiences."
 illustration: "gen-twin"
 draft: true
 cta:
-  label: "Start with a Digital Twin Starter"
+  label: "Send a sample model"
   href: "/contact/"
 features:
-  - title: "Products and vehicles"
+  - title: "Asset digital twin"
     video: "gen-twin"
     alt: "Engineers working on a holographic digital twin of a car"
-    text: "Configurators, design review and validation."
-  - title: "Machines"
-    text: "Operator views, training and service."
-  - title: "Training and service"
-    text: "Interactive procedures and guided repair."
-  - title: "XR"
-    text: "AR and VR access to the same model."
-updated: "2026-10-20"
+    text: "The visual foundation: photoreal, real-time assets of machines, vehicles and components, ready for live data."
+  - title: "Systems and processes"
+    text: "Production lines, plants, logistics and fleets in one real-time 3D view."
+  - title: "3D HMI"
+    text: "Operator interfaces that are spatial and interactive instead of abstract dashboards."
+  - title: "AR and VR"
+    text: "Maintenance, commissioning and training with the twin in the real or virtual world."
+  - title: "Consulting"
+    text: "Strategy, architecture and a practical roadmap before you build."
+  - title: "Data integration"
+    text: "Connect the twin to sensors, controls and enterprise systems."
+updated: "2026-10-23"
 ---
 
-A digital twin is useful when it is built once and used many times. We design twins for reuse.
+We help industrial, automotive, aviation, defense and mobility companies turn complex products, processes and data into interactive, visually compelling experiences. A digital twin is useful when it is built once and used many times, so we design twins for reuse.
 
-## Our approach
+## Asset digital twin
 
-We start from your CAD data and build a clean real-time asset base. On top of it we add the applications your teams need.
+We create high-performance, photoreal representations of machines, vehicles, devices and components. They are optimized for real time and can be connected to live operational data, sensors and control systems.
 
-## Small start
+- High-quality 3D asset creation
+- [CAD-to-real-time conversion](/solutions/services/real-time-3d-graphics/cad-to-realtime-pipeline/)
+- Optimization for real-time rendering
+- Material and animation authoring
+- Multi-platform deployment
+- Readiness for live data
 
-The Digital Twin Starter package delivers a first twin of one product or machine with a defined scope.
+Ideal for automotive, manufacturing, industrial machinery, energy systems and defense platforms.
+
+## System and process visualization
+
+We visualize whole production lines, plants, logistics systems or connected fleets in real time. Complex operations become easier to monitor, analyze and decide on.
+
+- Multi-asset twin environments
+- Process, factory and plant visualization
+- Fleet visualization
+- Real-time status monitoring
+- Operational dashboards with 3D context
+
+The value: better situational awareness, faster issue identification, more transparent operations and less training effort.
+
+## Next steps
+
+Start with one asset and one use case. The [packages](/solutions/services/packages/) describe typical first engagements, from a discovery assessment to a working prototype.

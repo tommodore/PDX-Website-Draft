@@ -4,6 +4,8 @@
 
 ## Key pages
 - [Solutions](https://paradox.cat/solutions/): services and products
+- [Digital twins](https://paradox.cat/solutions/services/digital-twins/): asset and system twins, 3D HMI, AR/VR, consulting, data integration
+- [Packages](https://paradox.cat/solutions/services/packages/): Discovery, Prototype Sprint, HMI Modernization, Executive Showcase
 - [Capabilities](https://paradox.cat/capabilities/): Android (AAOS, AOSP), HMI, real-time 3D, digital twins, AI + ML, edge AI, sensor fusion
 - [Ramses3D](https://paradox.cat/solutions/products/ramses3d/): open-source 3D rendering engine for embedded systems, MPL-2.0
 - [Case studies](https://paradox.cat/work/case-studies/)

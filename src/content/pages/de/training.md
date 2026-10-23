@@ -25,6 +25,10 @@ Menschen lernen schneller, wenn sie sehen und ausprobieren können. Interaktives
 
 Wir erstellen Trainings- und Serviceanwendungen auf Basis Ihres digitalen Zwillings. Sie laufen auf Tablets, Panels und Headsets.
 
+## Bedienertraining und Inbetriebnahme
+
+Interaktive Lernumgebungen auf Basis des digitalen Zwillings und virtuelle Inbetriebnahme, die ein System per Simulation validiert, bevor es physisch eingesetzt wird.
+
 ## So beginnen Sie
 
 Wählen Sie einen Ablauf mit hohen Kosten oder hoher Fehlerquote. Wir bauen einen fokussierten Prototyp und messen den Nutzen gemeinsam.
