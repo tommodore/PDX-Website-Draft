@@ -25,6 +25,18 @@ OEMs and Tier 1 suppliers need partners who understand both design and embedded 
 
 We cover the full path from design concept to production software. Our teams customize Android Automotive, build apps and create 3D content that runs on automotive hardware.
 
+## HMI development
+
+- **Production HMIs.** UI development and architecture across vehicle variants, with the frameworks you use: Android Automotive, Qt, Unity, Unreal or Kanzi.
+- **Performance.** GPU and CPU profiling and tuning on target hardware to meet frame-rate and latency goals.
+- **3D for dashboards and clusters.** Memory-optimized assets and materials through our [CAD-to-real-time pipeline](/solutions/services/real-time-3d-graphics/cad-to-realtime-pipeline/).
+
+## HMI innovation
+
+- **Rapid prototypes.** Short cycles from sketch to user feedback.
+- **Concepts.** New interaction ideas explored before production commitment.
+- **Demonstrators.** Show-car and trade-show demos that make a vision tangible.
+
 ## Why OEMs work with us
 
 We co-develop the open-source engine Ramses3D with BMW. We are founder-owned, senior and stable. You work with the same people from kickoff to release.

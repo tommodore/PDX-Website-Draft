@@ -36,6 +36,14 @@ Defense and critical infrastructure need software that works under pressure, on 
 - **Training and maintenance.** Step-by-step guidance in [XR](/solutions/services/digital-twins/xr-ar-vr/) or on a tablet, tied to the 3D model.
 - **Terrain and data visualization.** Real-time 3D views of terrain, assets and status data for control rooms and field units.
 
+## Built for constrained platforms
+
+Operator software often runs on embedded hardware with tight compute, power and thermal limits. We engineer graphics performance and interaction as part of the platform, and we integrate with heterogeneous hardware and interfaces. Our [sensor fusion](/solutions/services/sensor-fusion/) and [edge AI](/solutions/services/edge-ai/) work covers low-latency processing at the device.
+
+## Working inside your program
+
+We can provide specialist capacity within existing programs and support your internal team where graphics, responsiveness and integration limits matter. Early prototypes on realistic hardware surface integration risks before full development.
+
 ## How we work
 
 We start small: send us a sample model or a screen concept and we show you a working result in a short call. Requirements in this field are specific and often confidential, so we agree on the conditions before we talk about details.

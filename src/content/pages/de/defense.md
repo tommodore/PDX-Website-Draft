@@ -36,6 +36,14 @@ Verteidigung und kritische Infrastruktur brauchen Software, die unter Druck, auf
 - **Training und Wartung.** Schritt-für-Schritt-Anleitung in [XR](/de/loesungen/leistungen/digitale-zwillinge/xr-ar-vr/) oder auf dem Tablet, verknüpft mit dem 3D-Modell.
 - **Gelände- und Datenvisualisierung.** Echtzeit-3D-Ansichten von Gelände, Assets und Statusdaten für Leitstellen und Einsatzkräfte.
 
+## Für begrenzte Plattformen gebaut
+
+Bediensoftware läuft oft auf Embedded-Hardware mit knappen Rechen-, Energie- und Wärmereserven. Wir entwickeln Grafikleistung und Interaktion als Teil der Plattform und integrieren in heterogene Hardware und Schnittstellen. Unsere Arbeit zu [Sensorfusion](/de/loesungen/leistungen/sensorfusion/) und [Edge AI](/de/loesungen/leistungen/edge-ai/) deckt die latenzarme Verarbeitung auf dem Gerät ab.
+
+## Arbeiten im Rahmen Ihres Programms
+
+Wir stellen Spezialkapazität innerhalb bestehender Programme bereit und unterstützen Ihr internes Team dort, wo Grafik, Reaktionszeit und Integrationsgrenzen zählen. Frühe Prototypen auf realistischer Hardware zeigen Integrationsrisiken vor der Volumenentwicklung.
+
 ## So arbeiten wir
 
 Wir fangen klein an: Schicken Sie uns ein Beispielmodell oder ein Screen-Konzept, dann zeigen wir Ihnen in einem kurzen Gespräch ein funktionierendes Ergebnis. Anforderungen in diesem Feld sind speziell und oft vertraulich, daher klären wir die Rahmenbedingungen, bevor wir über Details sprechen.
