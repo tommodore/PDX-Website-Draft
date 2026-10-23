@@ -15,6 +15,7 @@ All images in `src/assets/illustrations/` are original 3D renders (three.js scen
 | terminal | Payment-terminal slab with glowing screen (lime check ring) and keypad on a mirror floor | Fintech |
 | aviation | Airliner silhouette climbing against a navy-to-amber dusk sky with soft cloud banks | Aviation and marine |
 | marine | Container ship (glossy hull, blue and lime containers) on reflective water at dusk | Aviation and marine |
+| space | Planet limb with atmosphere glow and night-side city lights, small satellite with solar panels and dish, one lime status strip, star field | Space industry page |
 | skyline | City skyline at blue hour with lit windows, fog layers and water reflections | Public sector, infrastructure |
 | bokeh | Soft blue, lime and warm light orbs with bright rims on navy, calm left side | Contact, generic |
 | waves | Layered glossy blue wave ribbons with a thin lime line, calm left, energetic right | Insights, generic |
@@ -34,7 +35,7 @@ All images in `src/assets/illustrations/` are original 3D renders (three.js scen
 | official-cad-car | CAD wireframe car render | CAD-to-real-time | no (real) |
 | official-group | Team group photo | Life at PARADOX CAT | no (real) |
 | official-careerteam | Three team members | Careers | no (real) |
-| official-bmw-theater | BMW 7 Series Theater Screen, rear cabin photo (source: web image search, 474x266 px, upscaled; (c) BMW AG). Rights and BMW approval to be cleared, replace with a press-kit image of at least 1920 px | Case: BMW Theater Screen, Home | no (real) |
+| official-bmw-theater | BMW Theatre Screen, rear cabin press-style photo (source: donanimhaber.com, 1920x1280; (c) BMW AG; shows a person and Prime Video artwork). Rights and BMW approval to be cleared, ideally replace with a press-kit image | Case: BMW Theater Screen, Home | no (real) |
 | web-aaos | AI-style cockpit with Android | AAOS | yes (AI-generated) |
 
 Only keys starting with `official-` are shown without the badge.

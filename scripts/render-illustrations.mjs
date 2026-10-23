@@ -1,4 +1,4 @@
-// Renders the 14 site illustrations from real three.js scenes in headless Chrome.
+// Renders the 15 site illustrations from real three.js scenes in headless Chrome.
 // Usage: node scripts/render-illustrations.mjs [name ...]   (default: all)
 import http from 'node:http';
 import fs from 'node:fs';
@@ -11,7 +11,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const pageDir = path.join(root, 'scripts', 'illustrations');
 const threeDir = path.join(root, 'node_modules', 'three');
 const outDir = path.join(root, 'src', 'assets', 'illustrations');
-const ALL = ['horizon', 'marine', 'aviation', 'wireframe', 'render', 'twin', 'sensing', 'cockpit', 'engine', 'industrial', 'terminal', 'skyline', 'bokeh', 'waves'];
+const ALL = ['horizon', 'marine', 'aviation', 'wireframe', 'render', 'twin', 'sensing', 'cockpit', 'engine', 'industrial', 'terminal', 'skyline', 'bokeh', 'waves', 'space'];
 const names = process.argv.length > 2 ? process.argv.slice(2) : ALL;
 const types = { '.js': 'text/javascript', '.html': 'text/html', '.mjs': 'text/javascript' };
 

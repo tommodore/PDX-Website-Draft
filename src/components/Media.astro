@@ -19,7 +19,7 @@ interface Props {
 const images = import.meta.glob<{ default: ImageMetadata }>('../assets/illustrations/*.webp', { eager: true });
 const { name = 'horizon', alt = '', lang = 'en', illustrative = !(Astro.props.name ?? '').startsWith('official-'), eager = false, sizes = '(min-width: 72rem) 1120px, 100vw', ratio = '16 / 9', class: cls = '' } = Astro.props;
 const src = (images[`../assets/illustrations/${name}.webp`] ?? images['../assets/illustrations/horizon.webp']).default;
-const focus = { 'official-careerteam': 'center 6%', 'official-group': 'center 62%', 'official-munich': 'center 40%' }[name] ?? 'center';
+const focus = { 'official-careerteam': 'center 6%', 'official-group': 'center 62%', 'official-munich': 'center 40%', 'official-bmw-theater': 'center 18%', space: 'center 38%' }[name] ?? 'center';
 const label = illustrative ? `${alt ? alt + '. ' : ''}${t(lang).illustrative}` : alt;
 ---
 

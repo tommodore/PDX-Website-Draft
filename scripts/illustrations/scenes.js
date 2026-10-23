@@ -805,4 +805,140 @@ function waves({ renderer, W, H }) {
   return { scene, camera, bloom: [0.2, 0.5, 1.0], exposure: 0.8 };
 }
 
-export const scenes = { horizon, marine, aviation, wireframe, render, twin, sensing, cockpit, engine, industrial, terminal, skyline, bokeh, waves };
+function space({ renderer, W, H }) {
+  const scene = new THREE.Scene();
+  scene.background = C(0x00060c);
+  scene.environment = studioEnv(renderer, [
+    { color: 0xfff0d8, i: 5, pos: [9, 3, -8], size: [8, 3] }, { color: BLUE, i: 2.4, pos: [-8, 2, 4], size: [10, 4] },
+    { color: 0xbcd4ff, i: 1.2, pos: [0, 8, 2], size: [10, 6] }, { color: 0xffffff, i: 0.8, pos: [0, -6, 4], size: [10, 3] },
+  ], 0x01060c);
+
+  // Stars
+  const rs = rng(77);
+  const n = 14000, pos = new Float32Array(n * 3), col = new Float32Array(n * 3);
+  for (let i = 0; i < n; i++) {
+    const u = rs() * 2 - 1, a = rs() * Math.PI * 2, r = Math.sqrt(1 - u * u);
+    pos.set([Math.cos(a) * r * 450, u * 450, Math.sin(a) * r * 450], i * 3);
+    const b = Math.pow(rs(), 3) * 0.8 + 0.15, tint = rs();
+    const c = tint < 0.2 ? [0.7, 0.8, 1] : tint < 0.3 ? [1, 0.92, 0.8] : [1, 1, 1];
+    col.set([c[0] * b, c[1] * b, c[2] * b], i * 3);
+  }
+  const sg = new THREE.BufferGeometry();
+  sg.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+  sg.setAttribute('color', new THREE.BufferAttribute(col, 3));
+  scene.add(new THREE.Points(sg, new THREE.PointsMaterial({ size: 1.6, sizeAttenuation: false, vertexColors: true, transparent: true, depthWrite: false, fog: false })));
+  scene.add(glow(BLUE, 90, 50, 0.10, [-40, 28, -120]));
+  scene.add(glow(0x2a3a9a, 70, 40, 0.08, [20, 36, -130]));
+
+  // Planet with night-side city lights
+  const R = 80, PC = [0, -86, -60];
+  const rc = rng(5);
+  const surf = canvasTex(2048, 1024, (g, w, h) => {
+    g.fillStyle = '#061a30'; g.fillRect(0, 0, w, h);
+    for (let i = 0; i < 260; i++) {
+      const x = rc() * w, y = rc() * h, rx = 40 + rc() * 220, ry = 20 + rc() * 90;
+      const gr = g.createRadialGradient(x, y, 0, x, y, rx);
+      const k = rc();
+      gr.addColorStop(0, k < 0.5 ? 'rgba(14,60,96,.5)' : 'rgba(4,20,40,.55)');
+      gr.addColorStop(1, 'rgba(0,0,0,0)');
+      g.save(); g.translate(x, y); g.scale(1, ry / rx); g.translate(-x, -y);
+      g.fillStyle = gr; g.beginPath(); g.arc(x, y, rx, 0, 7); g.fill(); g.restore();
+    }
+    for (let i = 0; i < 140; i++) {
+      const x = rc() * w, y = h * (0.25 + rc() * 0.6), rx = 80 + rc() * 260;
+      const gr = g.createRadialGradient(x, y, 0, x, y, rx);
+      gr.addColorStop(0, 'rgba(190,215,255,.09)'); gr.addColorStop(1, 'rgba(190,215,255,0)');
+      g.save(); g.translate(x, y); g.scale(1, 0.16); g.translate(-x, -y);
+      g.fillStyle = gr; g.beginPath(); g.arc(x, y, rx, 0, 7); g.fill(); g.restore();
+    }
+  });
+  const lights = canvasTex(4096, 2048, (g, w, h) => {
+    g.fillStyle = '#000'; g.fillRect(0, 0, w, h);
+    g.globalCompositeOperation = 'lighter';
+    for (let c = 0; c < 220; c++) {
+      const cx = w * (0.04 + rc() * 0.5), cy = h * (0.1 + rc() * 0.4), spread = 14 + rc() * 90, cnt = 120 + rc() * 520;
+      for (let i = 0; i < cnt; i++) {
+        const a = rc() * 6.283, d = Math.pow(rc(), 1.9) * spread;
+        const x = cx + Math.cos(a) * d * 1.7, y = cy + Math.sin(a) * d, r = 0.9 + rc() * 1.7;
+        const gr = g.createRadialGradient(x, y, 0, x, y, r);
+        const a0 = 0.25 + rc() * 0.6;
+        gr.addColorStop(0, `rgba(255,${200 + Math.floor(rc() * 45)},${120 + Math.floor(rc() * 70)},${a0})`); gr.addColorStop(1, 'rgba(255,170,80,0)');
+        g.fillStyle = gr; g.beginPath(); g.arc(x, y, r, 0, 7); g.fill();
+      }
+    }
+  });
+  const planet = new THREE.Mesh(new THREE.SphereGeometry(R, 256, 128), new THREE.MeshStandardMaterial({ map: surf, emissiveMap: lights, emissive: C(0xffffff), emissiveIntensity: 0.9, roughness: 0.85, metalness: 0.05 }));
+  planet.position.set(...PC);
+  scene.add(planet);
+  const rim = new THREE.Mesh(new THREE.SphereGeometry(R * 1.004, 128, 64), new THREE.ShaderMaterial({
+    transparent: true, blending: THREE.AdditiveBlending, depthWrite: false,
+    uniforms: { c: { value: C(0x4a9bff) } },
+    vertexShader: 'varying vec3 vN; varying vec3 vV; void main(){ vN = normalize(normalMatrix*normal); vec4 mv = modelViewMatrix*vec4(position,1.); vV = normalize(-mv.xyz); gl_Position = projectionMatrix*mv; }',
+    fragmentShader: 'varying vec3 vN; varying vec3 vV; uniform vec3 c; void main(){ float f = pow(1. - max(dot(vN, vV), 0.), 4.); gl_FragColor = vec4(c * f * 2.2, f); }',
+  }));
+  rim.position.set(...PC);
+  scene.add(rim);
+  const halo = new THREE.Mesh(new THREE.SphereGeometry(R * 1.05, 128, 64), new THREE.ShaderMaterial({
+    side: THREE.BackSide, transparent: true, blending: THREE.AdditiveBlending, depthWrite: false,
+    uniforms: { c: { value: C(0x2f78ff) } },
+    vertexShader: 'varying vec3 vN; void main(){ vN = normalize(normalMatrix*normal); gl_Position = projectionMatrix*modelViewMatrix*vec4(position,1.); }',
+    fragmentShader: 'varying vec3 vN; uniform vec3 c; void main(){ float f = pow(max(0.62 - dot(vN, vec3(0.,0.,1.)), 0.), 3.); gl_FragColor = vec4(c * f * 3.0, f); }',
+  }));
+  halo.position.set(...PC);
+  scene.add(halo);
+  scene.add(glow(0xfff0d8, 9, 2.2, 0.85, [23, -9.6, -62]));
+  scene.add(glow(0x6aa8ff, 34, 6, 0.28, [22, -9.2, -62]));
+
+  // Satellite
+  const sat = new THREE.Group();
+  const foil = new THREE.MeshPhysicalMaterial({ color: C(0xb59a62), metalness: 0.92, roughness: 0.32, clearcoat: 0.4, envMapIntensity: 1.6 });
+  const dark = gloss(0x0c2a48, { metalness: 0.7, roughness: 0.3 });
+  const body = new THREE.Mesh(new RoundedBoxGeometry(1.1, 0.95, 1.5, 6, 0.05), foil);
+  sat.add(body);
+  const bus = new THREE.Mesh(new RoundedBoxGeometry(1.14, 0.34, 1.0, 4, 0.04), dark);
+  bus.position.set(0, -0.2, 0.1); sat.add(bus);
+  const strip = new THREE.Mesh(new THREE.BoxGeometry(1.16, 0.03, 0.06), emissive(LIME, 1.6));
+  strip.position.set(0, -0.02, 0.76); sat.add(strip);
+  const cell = canvasTex(512, 256, (g, w, h) => {
+    g.fillStyle = '#16478f'; g.fillRect(0, 0, w, h);
+    g.strokeStyle = 'rgba(170,205,255,.6)'; g.lineWidth = 2;
+    for (let x = 0; x <= w; x += w / 8) { g.beginPath(); g.moveTo(x, 0); g.lineTo(x, h); g.stroke(); }
+    for (let y = 0; y <= h; y += h / 4) { g.beginPath(); g.moveTo(0, y); g.lineTo(w, y); g.stroke(); }
+    const gr = g.createLinearGradient(0, 0, w, h); gr.addColorStop(0, 'rgba(120,170,255,.25)'); gr.addColorStop(1, 'rgba(0,0,0,.1)');
+    g.fillStyle = gr; g.fillRect(0, 0, w, h);
+  });
+  const panelMat = new THREE.MeshPhysicalMaterial({ map: cell, color: C(0xffffff), emissive: C(0x1a4a9a), emissiveMap: cell, emissiveIntensity: 0.55, metalness: 0.55, roughness: 0.3, clearcoat: 1, clearcoatRoughness: 0.08, envMapIntensity: 1.3 });
+  for (const s of [-1, 1]) {
+    const arm = new THREE.Mesh(new THREE.CylinderGeometry(0.03, 0.03, 0.9, 12), dark);
+    arm.rotation.z = Math.PI / 2; arm.position.set(s * 1.0, 0, 0); sat.add(arm);
+    for (let i = 0; i < 2; i++) {
+      const p = new THREE.Mesh(new THREE.BoxGeometry(1.35, 0.035, 1.3), panelMat);
+      p.position.set(s * (1.75 + i * 1.42), 0, 0); sat.add(p);
+    }
+  }
+  const boom = new THREE.Mesh(new THREE.CylinderGeometry(0.025, 0.025, 0.7, 10), dark);
+  boom.position.set(0.25, 0.8, 0.1); boom.rotation.z = -0.35; sat.add(boom);
+  const dish = new THREE.Mesh(new THREE.SphereGeometry(0.46, 40, 20, 0, Math.PI * 2, 0, 0.95), new THREE.MeshPhysicalMaterial({ color: C(0xdfe6f0), metalness: 0.5, roughness: 0.25, side: THREE.DoubleSide, envMapIntensity: 1.2 }));
+  dish.position.set(0.4, 1.12, 0.1); dish.rotation.set(-0.95, 0.4, -0.35); sat.add(dish);
+  const nozzle = new THREE.Mesh(new THREE.CylinderGeometry(0.16, 0.3, 0.32, 24, 1, true), gloss(0x2a3d55, { side: THREE.DoubleSide }));
+  nozzle.rotation.x = Math.PI / 2; nozzle.position.set(0, 0, -0.9); sat.add(nozzle);
+  for (const [x, y] of [[-0.35, 0.5], [0.4, -0.5]]) {
+    const rod = new THREE.Mesh(new THREE.CylinderGeometry(0.012, 0.012, 0.6, 8), dark);
+    rod.position.set(x, y + 0.3 * Math.sign(y), 0.5); sat.add(rod);
+  }
+  sat.position.set(1.3, 1.1, -1);
+  sat.rotation.set(0.28, -0.75, -0.12);
+  sat.scale.setScalar(0.85);
+  scene.add(sat);
+
+  const sun = new THREE.DirectionalLight(C(0xfff0d8), 4.5);
+  sun.position.set(16, 5, -22); scene.add(sun);
+  const fill = new THREE.DirectionalLight(C(0x7aa8ff), 1.4);
+  fill.position.set(-7, 3, 9); scene.add(fill);
+  scene.add(new THREE.HemisphereLight(C(0x24407a), C(0x01060c), 0.35));
+
+  const camera = perspective(34, [0, 0.4, 10], [0.5, 2.4, -60]);
+  return { scene, camera, bloom: [0.5, 0.8, 0.82], exposure: 1.0 };
+}
+
+export const scenes = { horizon, marine, aviation, wireframe, render, twin, sensing, cockpit, engine, industrial, terminal, skyline, bokeh, waves, space };

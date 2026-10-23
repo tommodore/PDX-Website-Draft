@@ -1,6 +1,6 @@
 ---
 title: "Industries"
-description: "Industries we serve: automotive, industrial, fintech, aviation and marine, defense and critical infrastructure, and public sector."
+description: "Industries we serve: automotive, industrial, fintech, aviation and marine, space, defense and critical infrastructure, and public sector."
 lead: "Automotive is our home. Our skills travel to every field with demanding screens and complex products."
 illustration: "skyline"
 draft: true
@@ -14,7 +14,7 @@ features:
     text: "HMI, real-time 3D and digital twins apply well beyond cars."
   - title: "Clear starting points"
     text: "Each industry page shows where we can help first."
-updated: "2026-10-20"
+updated: "2026-10-23"
 ---
 
 Find your industry below. Not listed? Contact us. If it has screens, 3D or sensors, we probably have something to say.

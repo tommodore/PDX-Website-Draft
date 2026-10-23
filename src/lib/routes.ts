@@ -45,6 +45,7 @@ const T: [string, string | undefined, string, string][] = [
   ['industrial', 'industries', 'industrial', 'industrie'],
   ['fintech', 'industries', 'fintech', 'fintech'],
   ['aviation-marine', 'industries', 'aviation-and-marine', 'luftfahrt-und-schifffahrt'],
+  ['space', 'industries', 'space', 'raumfahrt'],
   ['defense', 'industries', 'defense-and-critical-infrastructure', 'verteidigung-und-kritische-infrastruktur'],
   ['public-sector', 'industries', 'public-sector', 'oeffentlicher-sektor'],
   ['capabilities', 'home', 'capabilities', 'kompetenzen'],
