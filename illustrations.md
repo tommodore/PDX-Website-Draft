@@ -4,7 +4,7 @@ All images in `src/assets/illustrations/` are original 3D renders (three.js scen
 
 | Image | Prompt / intent | Slot |
 |---|---|---|
-| horizon | Real-time 3D sea at blue hour: low sun glow, glossy swell reflections, haze, vignette | Home hero, default |
+| horizon | Real-time 3D sea at blue hour: low sun glow, glossy swell reflections, haze, vignette | Default hero fallback |
 | cockpit | Dark glossy dashboard with a floating curved HMI display (arcs, bars, lime accent) against a dusk windscreen | HMI, Automotive |
 | render | Faceted glossy blue crystal with rim light and small satellite shards on a mirror floor, one lime shard | Real-time 3D graphics |
 | twin | Glossy solid torus knot beside its wireframe twin with lime vertex points, linked on a mirror floor | Digital twins |
@@ -52,7 +52,7 @@ Only keys starting with `official-` are shown without the badge.
 | Asset | Page(s) |
 |---|---|
 | gen-shaders | Custom shaders (hero, row) |
-| gen-graphics | Real-time 3D graphics (hero, row) |
+| gen-graphics | Real-time 3D graphics (hero, row, Home hero) |
 | gen-ui | UI frameworks (hero, row) |
 | gen-aaos | Android Automotive (hero, row) |
 | gen-hmi | HMI (hero, row) |
