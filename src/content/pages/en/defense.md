@@ -35,8 +35,22 @@ Defense and critical infrastructure need software that works under pressure, on 
 - **Virtual HMI prototyping.** We prototype and test operator interfaces on a real-time 3D twin before hardware exists, so design issues surface early.
 - **Operator displays.** We design and build interfaces for rugged, embedded screens, using [Ramses3D](/solutions/products/ramses3d/) or the framework you already use.
 - **Digital twins of vehicles and systems.** We take your CAD data through our [CAD-to-real-time pipeline](/solutions/services/real-time-3d-graphics/cad-to-realtime-pipeline/) and build [digital twins](/solutions/services/digital-twins/) you can inspect, configure and explain.
-- **Training and maintenance.** Step-by-step guidance in [XR](/solutions/services/digital-twins/xr-ar-vr/) or on a tablet, tied to the 3D model.
+- **Training and maintenance.** Step-by-step guidance in [XR](/solutions/services/digital-twins/xr-ar-vr/) or on a tablet, tied to the 3D model. Simulator and trainer screens reuse the real operator UI, so skills transfer.
+- **Multi-domain pictures.** Land, air, sea and cyber data fused into one common operational view.
 - **Terrain and data visualization.** Real-time 3D views of terrain, assets and status data for control rooms and field units.
+
+## Interfaces for high-stakes work
+
+Good operator software lowers cognitive load when it matters most. These are the design principles we apply:
+
+- **Role-based views.** Commander, gunner, driver, analyst or supervisor each see what their task needs, nothing more.
+- **Mission-phase layouts.** The screen reorganizes with the situation: navigation on the move, details during an engagement, diagnostics during a halt.
+- **Alerts that earn attention.** Routine telemetry stays quiet, critical events escalate clearly, and alarm fatigue is designed out.
+- **Supervising several platforms.** One view of multiple vehicles, sensors or unmanned systems, with fast manual override.
+- **Transparent AI.** Recommendations show their data sources and confidence, and the operator can always overrule.
+- **Built for long shifts and low light.** Calm night themes, consistent symbology and low visual noise across the console, the simulator and the training tool.
+- **Open and modular.** Clean interfaces and replaceable components so systems stay upgradable and free of vendor lock-in.
+- **Fast iteration with users.** Interactive prototypes on a [digital twin](/solutions/services/digital-twins/) let operators try concepts early, before hardware is fixed.
 
 ## Built for constrained platforms
 
@@ -52,7 +66,7 @@ We start small: send us a sample model or a screen concept and we show you a wor
 
 ## AI where it adds value
 
-Detection and interpretation of sensor data under noisy or incomplete conditions, running at the edge with low latency. People keep the decision. More on [AI + ML](/solutions/services/ai-and-ml/).
+Detection and interpretation of sensor data under noisy or incomplete conditions, running at the edge with low latency. Adaptive layouts and prioritized alerts reduce operator load. People keep the decision. More on [AI + ML](/solutions/services/ai-and-ml/).
 
 ## Next step
 

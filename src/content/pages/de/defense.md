@@ -35,8 +35,22 @@ Verteidigung und kritische Infrastruktur brauchen Software, die unter Druck, auf
 - **Virtuelles HMI-Prototyping.** Wir prototypisieren und testen Bedienoberflächen an einem 3D-Echtzeit-Zwilling, bevor Hardware existiert. So zeigen sich Designprobleme früh.
 - **Bedienerdisplays.** Wir entwerfen und bauen Oberflächen für robuste Embedded-Displays, mit [Ramses3D](/de/loesungen/produkte/ramses3d/) oder dem Framework, das Sie bereits einsetzen.
 - **Digitale Zwillinge von Fahrzeugen und Systemen.** Wir führen Ihre CAD-Daten durch unsere [CAD-zu-Echtzeit-Pipeline](/de/loesungen/leistungen/echtzeit-3d-grafik/cad-zu-echtzeit-pipeline/) und bauen [digitale Zwillinge](/de/loesungen/leistungen/digitale-zwillinge/), die Sie prüfen, konfigurieren und erklären können.
-- **Training und Wartung.** Schritt-für-Schritt-Anleitung in [XR](/de/loesungen/leistungen/digitale-zwillinge/xr-ar-vr/) oder auf dem Tablet, verknüpft mit dem 3D-Modell.
+- **Training und Wartung.** Schritt-für-Schritt-Anleitung in [XR](/de/loesungen/leistungen/digitale-zwillinge/xr-ar-vr/) oder auf dem Tablet, verknüpft mit dem 3D-Modell. Simulator- und Trainerbildschirme nutzen die echte Bedienoberfläche, damit Fähigkeiten übertragbar sind.
+- **Multi-Domain-Lagebilder.** Daten aus Land, Luft, See und Cyber in einem gemeinsamen Lagebild.
 - **Gelände- und Datenvisualisierung.** Echtzeit-3D-Ansichten von Gelände, Assets und Statusdaten für Leitstellen und Einsatzkräfte.
+
+## Oberflächen für anspruchsvolle Einsätze
+
+Gute Bediensoftware senkt die kognitive Last, wenn es darauf ankommt. Diese Gestaltungsprinzipien wenden wir an:
+
+- **Rollenbasierte Ansichten.** Kommandant, Richtschütze, Fahrer, Analyst oder Supervisor sehen, was ihre Aufgabe braucht, und nicht mehr.
+- **Layouts je Einsatzphase.** Der Bildschirm ordnet sich nach der Lage neu: Navigation in der Fahrt, Details im Gefecht, Diagnose im Halt.
+- **Warnungen, die Aufmerksamkeit verdienen.** Routine-Telemetrie bleibt ruhig, kritische Ereignisse eskalieren klar, Alarmmüdigkeit wird vermieden.
+- **Mehrere Plattformen überwachen.** Eine Ansicht für mehrere Fahrzeuge, Sensoren oder unbemannte Systeme, mit schnellem manuellem Eingriff.
+- **Transparente KI.** Empfehlungen zeigen Datenquellen und Konfidenz, und der Bediener kann jederzeit übersteuern.
+- **Für lange Schichten und wenig Licht.** Ruhige Nachtdarstellung, konsistente Symbolik und wenig visuelles Rauschen in Konsole, Simulator und Trainingswerkzeug.
+- **Offen und modular.** Saubere Schnittstellen und austauschbare Komponenten, damit Systeme erweiterbar bleiben und frei von Herstellerbindung.
+- **Schnelle Iteration mit Anwendern.** Interaktive Prototypen auf einem [digitalen Zwilling](/de/loesungen/leistungen/digitale-zwillinge/) lassen Bediener Konzepte früh testen, bevor Hardware feststeht.
 
 ## Für begrenzte Plattformen gebaut
 
@@ -52,7 +66,7 @@ Wir fangen klein an: Schicken Sie uns ein Beispielmodell oder ein Screen-Konzept
 
 ## KI, wo sinnvoll und wertvoll
 
-Erkennung und Interpretation von Sensordaten unter verrauschten oder unvollständigen Bedingungen, am Edge mit geringer Latenz. Die Entscheidung bleibt beim Menschen. Mehr zu [KI + ML](/de/loesungen/leistungen/ki-und-ml/).
+Erkennung und Interpretation von Sensordaten unter verrauschten oder unvollständigen Bedingungen, am Edge mit geringer Latenz. Adaptive Layouts und priorisierte Warnungen senken die Last für den Bediener. Die Entscheidung bleibt beim Menschen. Mehr zu [KI + ML](/de/loesungen/leistungen/ki-und-ml/).
 
 ## Nächster Schritt
 
