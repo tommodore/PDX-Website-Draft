@@ -27,6 +27,19 @@ HMI is where users judge your product. We design and build interfaces for vehicl
 
 We work across the stack: platform, apps, graphics and testing. One team means fewer handovers and faster iteration.
 
+### HMI development
+
+- **Production HMIs.** UI development and architecture across vehicle or product variants, delivered at production scale.
+- **Performance.** GPU and CPU profiling and tuning on target hardware to meet frame-rate and latency goals.
+- **Real-time 3D.** Dashboards and clusters with memory-optimized assets and material workflows.
+- **Constrained platforms.** Embedded HMI with tight compute, power and thermal limits, from vehicles to defense systems.
+
+### HMI innovation
+
+- **Rapid prototyping.** Short cycles from sketch to user feedback.
+- **Concepts.** New interaction ideas explored before production commitment.
+- **Demonstrators.** Show-car and trade-show demos that make a vision tangible.
+
 ## How we work
 
 1. **Discovery:** users, contexts, goals and constraints.

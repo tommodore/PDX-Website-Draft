@@ -21,11 +21,24 @@ features:
 updated: "2026-10-23"
 ---
 
-HMI ist der Ort, an dem Nutzer Ihr Produkt beurteilen. Wir gestalten und bauen Oberflächen für Fahrzeuge und Geräte.
+HMI ist der Ort, an dem Nutzer Ihr Produkt beurteilen. Wir gestalten und bauen Oberflächen für Fahrzeuge, Maschinen und Geräte: Automotive-Cockpits, industrielle Bedienpanels und Embedded-Produkte. Siehe auch [3D-HMI für Maschinen](/de/loesungen/leistungen/digitale-zwillinge/industrie-und-maschinen-zwillinge/).
 
 ## Was wir abdecken
 
 Wir arbeiten über den gesamten Stack: Plattform, Apps, Grafik und Test. Ein Team bedeutet weniger Übergaben und schnellere Iteration.
+
+### HMI-Entwicklung
+
+- **Serien-HMIs.** UI-Entwicklung und Architektur über Fahrzeug- oder Produktvarianten hinweg, geliefert im Serienmaßstab.
+- **Performance.** GPU- und CPU-Profiling und Tuning auf der Zielhardware, um Bildraten- und Latenzziele zu erreichen.
+- **Echtzeit-3D.** Dashboards und Cluster mit speicheroptimierten Assets und Material-Workflows.
+- **Begrenzte Plattformen.** Embedded-HMI mit knappen Rechen-, Energie- und Wärmereserven, vom Fahrzeug bis zu Defense-Systemen.
+
+### HMI-Innovation
+
+- **Schnelle Prototypen.** Kurze Zyklen von der Skizze zum Nutzerfeedback.
+- **Konzepte.** Neue Interaktionsideen, bevor die Serie festgelegt wird.
+- **Demonstratoren.** Showcar- und Messe-Demos, die eine Vision greifbar machen.
 
 ## So arbeiten wir
 
