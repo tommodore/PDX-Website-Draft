@@ -54,7 +54,7 @@ Good operator software lowers cognitive load when it matters most. These are the
 
 ## Our engine: Ramses3D
 
-[Ramses3D](/solutions/products/ramses3d/) is the open-source 3D engine we co-develop for embedded systems. It is efficient on constrained hardware, renders across processes and displays, and is proven in production automotive programs.
+We work with the engine that fits your program: Unreal, Unity, Ramses3D, DiSTI, Rocksolid AR, Kanzi, Qt and others. [Ramses3D](/solutions/products/ramses3d/) is the open-source 3D engine we co-develop for embedded systems. It is efficient on constrained hardware, renders across processes and displays, and is proven in production automotive programs.
 
 - **Inspectable.** The source is public (MPL-2.0), so security and platform teams can review it and build it themselves.
 - **No lock-in.** You can extend the engine, keep it in-house and maintain it with us or without us.
@@ -66,7 +66,7 @@ Operator software often runs on embedded hardware with tight compute, power and 
 
 ## Working inside your program
 
-We can provide specialist capacity within existing programs and support your internal team where graphics, responsiveness and integration limits matter. Early prototypes on realistic hardware surface integration risks before full development. We integrate with your existing toolchains and middleware, including Unity and Unreal, and build the bridges between simulation components and the HMI.
+We can provide specialist capacity within existing programs and support your internal team where graphics, responsiveness and integration limits matter. Early prototypes on realistic hardware surface integration risks before full development. We integrate with your existing toolchains and middleware, including DiSTI, Unity and Unreal, and build the bridges between simulation components and the HMI.
 
 ## How we work
 

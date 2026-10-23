@@ -1,6 +1,6 @@
 ---
 title: "UI-Frameworks"
-description: "HMI-Entwicklung mit den Frameworks der Embedded-UI: Qt, Kanzi, Rocksolid, Unity und Unreal, dazu unsere eigene Engine Ramses3D."
+description: "HMI-Entwicklung mit den Frameworks der Embedded-UI: Qt, Kanzi, DiSTI, Rocksolid AR, Unity und Unreal, dazu unsere eigene Engine Ramses3D."
 lead: "Wir bauen auf dem Framework, das zu Ihrem Produkt und Ihrer Hardware passt."
 illustration: "gen-ui"
 draft: true
@@ -12,8 +12,8 @@ features:
     video: "gen-ui"
     alt: "Designer prüft Cockpit-Oberflächen auf mehreren Monitoren"
     text: "Etabliertes Toolkit für Embedded-Oberflächen."
-  - title: "Kanzi und Rocksolid"
-    text: "Spezialisierte Werkzeuge für Automotive-UI-Design und Runtime."
+  - title: "Kanzi, DiSTI und Rocksolid AR"
+    text: "Spezialisierte Werkzeuge für Automotive- und Simulations-UI sowie für AR."
   - title: "Unity und Unreal"
     text: "Game-Engines für aufwendige Echtzeit-Visualisierung."
   - title: "Ramses3D"
@@ -25,7 +25,7 @@ Das passende Framework hängt von Hardware, Teamkompetenz und Designanspruch ab.
 
 ## Wie wir helfen
 
-Wir bewerten Optionen gegen Ihre Anforderungen und bauen bei Bedarf Prototypen. Wir arbeiten auch in dem Framework, das Sie bereits nutzen.
+Wir bewerten Optionen gegen Ihre Anforderungen und bauen bei Bedarf Prototypen. Wir arbeiten mit allen gängigen Engines und Frameworks und in dem, das Sie bereits nutzen. Anwendungsfall und Ihre Anforderungen entscheiden.
 
 ## Was Sie bekommen
 
