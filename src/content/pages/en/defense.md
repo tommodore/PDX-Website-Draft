@@ -52,6 +52,14 @@ Good operator software lowers cognitive load when it matters most. These are the
 - **Open and modular.** Clean interfaces and replaceable components so systems stay upgradable and free of vendor lock-in.
 - **Fast iteration with users.** Interactive prototypes on a [digital twin](/solutions/services/digital-twins/) let operators try concepts early, before hardware is fixed.
 
+## Our engine: Ramses3D
+
+[Ramses3D](/solutions/products/ramses3d/) is the open-source 3D engine we co-develop for embedded systems. It is efficient on constrained hardware, renders across processes and displays, and is proven in production automotive programs.
+
+- **Inspectable.** The source is public (MPL-2.0), so security and platform teams can review it and build it themselves.
+- **No lock-in.** You can extend the engine, keep it in-house and maintain it with us or without us.
+- **Engine plus services.** We integrate it into your platform, build the tooling and assets around it, and support it over the long term.
+
 ## Built for constrained platforms
 
 Operator software often runs on embedded hardware with tight compute, power and thermal limits. We engineer graphics performance and interaction as part of the platform, and we integrate with heterogeneous hardware and interfaces. Our [sensor fusion](/solutions/services/sensor-fusion/) and [edge AI](/solutions/services/edge-ai/) work covers low-latency processing at the device.

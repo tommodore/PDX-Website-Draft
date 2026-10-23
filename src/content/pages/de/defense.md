@@ -52,6 +52,14 @@ Gute Bediensoftware senkt die kognitive Last, wenn es darauf ankommt. Diese Gest
 - **Offen und modular.** Saubere Schnittstellen und austauschbare Komponenten, damit Systeme erweiterbar bleiben und frei von Herstellerbindung.
 - **Schnelle Iteration mit Anwendern.** Interaktive Prototypen auf einem [digitalen Zwilling](/de/loesungen/leistungen/digitale-zwillinge/) lassen Bediener Konzepte früh testen, bevor Hardware feststeht.
 
+## Unsere Engine: Ramses3D
+
+[Ramses3D](/de/loesungen/produkte/ramses3d/) ist die Open-Source-3D-Engine für Embedded-Systeme, die wir mitentwickeln. Sie arbeitet effizient auf begrenzter Hardware, rendert über Prozesse und Displays hinweg und hat sich in Serienprogrammen der Automobilindustrie bewährt.
+
+- **Einsehbar.** Der Quellcode ist öffentlich (MPL-2.0), Sicherheits- und Plattformteams können ihn prüfen und selbst bauen.
+- **Keine Herstellerbindung.** Sie können die Engine erweitern, im eigenen Haus halten und mit oder ohne uns pflegen.
+- **Engine plus Services.** Wir integrieren sie in Ihre Plattform, bauen Tooling und Assets darum und betreuen sie langfristig.
+
 ## Für begrenzte Plattformen gebaut
 
 Bediensoftware läuft oft auf Embedded-Hardware mit knappen Rechen-, Energie- und Wärmereserven. Wir entwickeln Grafikleistung und Interaktion als Teil der Plattform und integrieren in heterogene Hardware und Schnittstellen. Unsere Arbeit zu [Sensorfusion](/de/loesungen/leistungen/sensorfusion/) und [Edge AI](/de/loesungen/leistungen/edge-ai/) deckt die latenzarme Verarbeitung auf dem Gerät ab.
