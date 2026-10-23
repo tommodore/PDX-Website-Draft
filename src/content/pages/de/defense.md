@@ -24,10 +24,10 @@ draft: true
 cta:
   label: "Kontakt aufnehmen"
   href: "/de/kontakt/"
-updated: "2026-10-20"
+updated: "2026-10-23"
 ---
 
-Verteidigung und kritische Infrastruktur brauchen Software, die unter Druck, auf begrenzter Hardware und mit geschützten Daten funktioniert. Wir bringen dafür die Fähigkeiten mit, die wir aus Automotive-Cockpits kennen: HMI, Echtzeit-3D und digitale Zwillinge.
+Verteidigung und kritische Infrastruktur brauchen Software, die unter Druck, auf begrenzter Hardware und mit geschützten Daten funktioniert. Wir bringen dafür die Fähigkeiten mit, die wir aus Automotive-Cockpits kennen: HMI, Echtzeit-3D und digitale Zwillinge. Wir haben TISAX Level 3 und ISO 9001 und gehen entsprechend mit Ihren Daten um.
 
 ## Wo wir helfen können
 

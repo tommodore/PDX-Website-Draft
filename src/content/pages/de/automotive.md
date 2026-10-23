@@ -16,10 +16,10 @@ features:
     text: "Fahrzeugmodelle für Konfiguratoren, Validierung und Service."
   - title: "Innenraumsensorik"
     text: "KI, die Insassen und ihren Zustand erkennt und Fahrzeuge sicherer macht."
-updated: "2026-10-20"
+updated: "2026-10-23"
 ---
 
-OEMs und Tier-1-Zulieferer brauchen Partner, die Design und Embedded-Randbedingungen verstehen. Wir bringen beides mit.
+OEMs und Tier-1-Zulieferer brauchen Partner, die Design und Embedded-Randbedingungen verstehen. Wir bringen beides mit. Wir sind nach ISO 9001 zertifiziert und haben TISAX Level 3.
 
 ## Was wir bieten
 

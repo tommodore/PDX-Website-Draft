@@ -24,10 +24,10 @@ draft: true
 cta:
   label: "Contact us"
   href: "/contact/"
-updated: "2026-10-20"
+updated: "2026-10-23"
 ---
 
-Defense and critical infrastructure need software that works under pressure, on constrained hardware, and with data that must stay protected. We bring the same skills we use in automotive cockpits: HMI, real-time 3D and digital twins.
+Defense and critical infrastructure need software that works under pressure, on constrained hardware, and with data that must stay protected. We bring the same skills we use in automotive cockpits: HMI, real-time 3D and digital twins. We hold TISAX level 3 and ISO 9001 and handle your data accordingly.
 
 ## Where we can help
 

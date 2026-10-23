@@ -19,9 +19,13 @@ features:
     text: "Unabhängig und auf langfristige Qualität ausgerichtet."
   - title: "Erfahrenes Team"
     text: "Erfahrene Entwickler und Artists führen die Arbeit."
+  - title: "TISAX Level 3"
+    text: "Geprüft für Informationssicherheit in der Automobil-Lieferkette."
+  - title: "ISO 9001"
+    text: "Zertifiziertes Qualitätsmanagement."
   - title: "Kontinuität"
     text: "Die Menschen, mit denen Sie starten, bringen das Projekt auch ins Ziel."
-updated: "2026-10-20"
+updated: "2026-10-23"
 ---
 
 Zahlen sind nur nützlich, wenn sie ändern, was Sie als Kunde erleben. Diese tun es.
@@ -33,6 +37,10 @@ Geringe Fluktuation schützt Projektwissen. Sie zahlen nicht erneut dafür, neue
 ## So arbeiten wir
 
 Kleine erfahrene Teams, klare Schnittstellen und regelmäßige Lieferungen. Wir sagen früh Bescheid, wenn etwas nicht stimmt.
+
+## Qualität und Sicherheit
+
+Wir sind nach ISO 9001 zertifiziert und haben TISAX Assessment-Level 3. Das bedeutet geprüfte Qualitätsprozesse und ein geprüfter Umgang mit Ihren vertraulichen Daten, auch bei Prototypen und Vorserienmaterial. Aktuelle Zertifikate und Geltungsbereich senden wir auf Anfrage.
 
 ## Wo wir sind
 

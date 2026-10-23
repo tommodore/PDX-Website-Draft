@@ -16,10 +16,10 @@ features:
     text: "Vehicle models for configurators, validation and service."
   - title: "In-cabin sensing"
     text: "AI that detects occupants and their state to make cars safer."
-updated: "2026-10-20"
+updated: "2026-10-23"
 ---
 
-OEMs and Tier 1 suppliers need partners who understand both design and embedded constraints. We bring both.
+OEMs and Tier 1 suppliers need partners who understand both design and embedded constraints. We bring both. We are ISO 9001 certified and hold TISAX level 3.
 
 ## What we offer
 
