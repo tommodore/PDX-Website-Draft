@@ -49,6 +49,7 @@ We visualize whole production lines, plants, logistics systems or connected flee
 - Fleet visualization
 - Real-time status monitoring
 - Operational dashboards with 3D context
+- Virtual HMI prototyping and testing before hardware exists
 
 The value: better situational awareness, faster issue identification, more transparent operations and less training effort.
 

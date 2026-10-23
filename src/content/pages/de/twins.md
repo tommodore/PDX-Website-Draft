@@ -49,6 +49,7 @@ Wir visualisieren ganze Produktionslinien, Anlagen, Logistiksysteme oder vernetz
 - Flottenvisualisierung
 - Statusüberwachung in Echtzeit
 - Operative Dashboards mit 3D-Kontext
+- Virtuelles HMI-Prototyping und -Testen, bevor Hardware existiert
 
 Der Nutzen: besseres Lagebild, schnellere Fehlererkennung, transparentere Abläufe und weniger Schulungsaufwand.
 
