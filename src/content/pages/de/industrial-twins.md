@@ -33,7 +33,7 @@ Wir ersetzen abstrakte Dashboards durch räumliche, interaktive Ansichten. Bedie
 
 Produktionslinien, Anlagen und Logistiksysteme in einer Echtzeitansicht, mit Statusüberwachung und Dashboards im 3D-Kontext. Die Anbindung an Ihre Maschinendaten erfolgt über die [Datenintegration](/de/loesungen/leistungen/digitale-zwillinge/datenintegration/).
 
-## KI, wo sie hilft
+## KI, wo sinnvoll und wertvoll
 
 Zustandsüberwachung und Anomalieerkennung auf Maschinendaten, mit Ergebnissen direkt am 3D-Modell der Maschine. Mehr zu [KI + ML](/de/loesungen/leistungen/ki-und-ml/).
 

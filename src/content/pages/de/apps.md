@@ -30,7 +30,7 @@ Wir entwickeln native Android-Apps für Android Automotive OS und Android Auto s
 - Companion-Apps mit demselben Designsystem wie das Fahrzeug
 - Tests auf Emulatoren und Zielhardware, mit sauberen Release-Schritten
 
-## KI, wo sie hilft
+## KI, wo sinnvoll und wertvoll
 
 Assistenten und Personalisierung in Fahrzeug- und Companion-Apps, mit klaren Rückfallebenen, wenn Netz oder Modell nicht verfügbar sind. Mehr zu [KI + ML](/de/loesungen/leistungen/ki-und-ml/).
 

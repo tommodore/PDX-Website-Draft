@@ -34,7 +34,7 @@ Wir erstellen AR- und VR-Anwendungen aus Ihren CAD-Daten, mit unserer Asset-Pipe
 
 Der Nutzen: geringere Schulungskosten, schnellere Fehlersuche, besserer Wissenstransfer und weniger betriebliches Risiko.
 
-## KI, wo sie hilft
+## KI, wo sinnvoll und wertvoll
 
 KI-geführte Wartung und Remote-Support in AR, mit Objekterkennung und kontextbezogenen Anleitungen. Mehr zu [KI + ML](/de/loesungen/leistungen/ki-und-ml/).
 

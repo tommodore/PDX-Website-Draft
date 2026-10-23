@@ -52,7 +52,7 @@ We visualize whole production lines, plants, logistics systems or connected flee
 
 The value: better situational awareness, faster issue identification, more transparent operations and less training effort.
 
-## AI where it helps
+## AI where it adds value
 
 Anomaly detection, predictive maintenance and natural-language access to twin data, shown in the 3D context where people act on it. More on [AI + ML](/solutions/services/ai-and-ml/).
 

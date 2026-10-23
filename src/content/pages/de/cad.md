@@ -35,7 +35,7 @@ Wir arbeiten mit Blender, Autodesk VRED, PIXYZ und weiteren Werkzeugen und füge
 
 Einmalige Aufräumaktionen skalieren nicht. Eine Pipeline liefert konstante Qualität, wenn sich das Design ändert, und das tut es.
 
-## KI, wo sie hilft
+## KI, wo sinnvoll und wertvoll
 
 KI-gestützte Schritte in der Pipeline, etwa automatische Bereinigung, Materialzuweisung und Qualitätsprüfung, mit menschlicher Prüfung an jedem Gate. Mehr zu [KI + ML](/de/loesungen/leistungen/ki-und-ml/).
 

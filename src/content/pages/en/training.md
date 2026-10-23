@@ -29,7 +29,7 @@ We create training and service applications on top of your digital twin. They ru
 
 Interactive learning environments powered by the digital twin, and virtual commissioning that validates a system through simulation before it is deployed physically.
 
-## AI where it helps
+## AI where it adds value
 
 AI tutors and adaptive training paths that react to each learner, plus assisted authoring of procedures from existing documentation. More on [AI + ML](/solutions/services/ai-and-ml/).
 

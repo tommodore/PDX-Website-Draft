@@ -29,7 +29,7 @@ Wir erstellen Trainings- und Serviceanwendungen auf Basis Ihres digitalen Zwilli
 
 Interaktive Lernumgebungen auf Basis des digitalen Zwillings und virtuelle Inbetriebnahme, die ein System per Simulation validiert, bevor es physisch eingesetzt wird.
 
-## KI, wo sie hilft
+## KI, wo sinnvoll und wertvoll
 
 KI-Tutoren und adaptive Lernpfade, die auf jeden Lernenden reagieren, sowie unterstützte Erstellung von Abläufen aus vorhandener Dokumentation. Mehr zu [KI + ML](/de/loesungen/leistungen/ki-und-ml/).
 

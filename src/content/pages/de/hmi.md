@@ -53,7 +53,7 @@ Wir bauen native Android-Apps für Android Automotive OS und Android Auto: Medie
 5. **Konnektivität:** Sensoren, Feldgeräte und Cloud als Teil des Entwurfs.
 6. **MVP und Tests:** ein erster Stand für Feedback oder einen Live-Test, danach iterieren.
 
-## KI, wo sie hilft
+## KI, wo sinnvoll und wertvoll
 
 Sprachsteuerung und natürlichsprachliche Interaktion, kontextbezogene Vorschläge und adaptive Oberflächen, auf dem Gerät oder in der Cloud, je nach Anforderung. Mehr zu [KI + ML](/de/loesungen/leistungen/ki-und-ml/).
 

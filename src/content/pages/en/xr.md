@@ -34,7 +34,7 @@ We create AR and VR applications from your CAD data using our asset pipeline and
 
 The benefits: lower training costs, faster troubleshooting, better knowledge transfer and lower operational risk.
 
-## AI where it helps
+## AI where it adds value
 
 AI-guided maintenance and remote support in AR, with object recognition and context-aware instructions. More on [AI + ML](/solutions/services/ai-and-ml/).
 

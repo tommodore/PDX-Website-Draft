@@ -30,7 +30,7 @@ We develop native Android apps for Android Automotive OS and Android Auto, and c
 - Companion apps that share one design system with the car
 - Testing on emulators and target hardware, with clean release steps
 
-## AI where it helps
+## AI where it adds value
 
 Assistants and personalization inside in-car and companion apps, with clear fallbacks when the network or the model is unavailable. More on [AI + ML](/solutions/services/ai-and-ml/).
 

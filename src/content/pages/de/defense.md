@@ -49,7 +49,7 @@ Wir stellen Spezialkapazität innerhalb bestehender Programme bereit und unterst
 
 Wir fangen klein an: Schicken Sie uns ein Beispielmodell oder ein Screen-Konzept, dann zeigen wir Ihnen in einem kurzen Gespräch ein funktionierendes Ergebnis. Anforderungen in diesem Feld sind speziell und oft vertraulich, daher klären wir die Rahmenbedingungen, bevor wir über Details sprechen.
 
-## KI, wo sie hilft
+## KI, wo sinnvoll und wertvoll
 
 Erkennung und Interpretation von Sensordaten unter verrauschten oder unvollständigen Bedingungen, am Edge mit geringer Latenz. Die Entscheidung bleibt beim Menschen. Mehr zu [KI + ML](/de/loesungen/leistungen/ki-und-ml/).
 

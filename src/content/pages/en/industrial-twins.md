@@ -33,7 +33,7 @@ We replace abstract dashboards with spatial, interactive views. Operators work d
 
 Production lines, plants and logistics systems in one real-time view, with status monitoring and dashboards in 3D context. Connect them to your machine data via [data integration](/solutions/services/digital-twins/data-integration/).
 
-## AI where it helps
+## AI where it adds value
 
 Condition monitoring and anomaly detection on machine data, with results highlighted directly on the 3D machine. More on [AI + ML](/solutions/services/ai-and-ml/).
 

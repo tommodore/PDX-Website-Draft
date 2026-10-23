@@ -53,7 +53,7 @@ We build native Android apps for Android Automotive OS and Android Auto: media, 
 5. **Connectivity:** sensors, field devices and cloud, as part of the design.
 6. **MVP and testing:** a first build for feedback or a live trial, then iterate.
 
-## AI where it helps
+## AI where it adds value
 
 Voice and natural-language interaction, context-aware suggestions and adaptive interfaces, running on the device or in the cloud as your requirements allow. More on [AI + ML](/solutions/services/ai-and-ml/).
 

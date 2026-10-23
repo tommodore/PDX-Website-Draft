@@ -35,7 +35,7 @@ We work with Blender, Autodesk VRED, PIXYZ and other tools, and fit into the too
 
 One-off cleanups do not scale. A pipeline gives you consistent quality when the design changes, and it will.
 
-## AI where it helps
+## AI where it adds value
 
 AI-assisted steps in the pipeline, such as automated cleanup, material assignment and quality checks, with a human review at every gate. More on [AI + ML](/solutions/services/ai-and-ml/).
 
