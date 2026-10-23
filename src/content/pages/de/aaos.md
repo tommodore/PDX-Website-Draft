@@ -27,6 +27,17 @@ Softwaredefinierte Fahrzeuge brauchen ein Cockpit, das sich nach dem Produktions
 
 Wir bauen und passen System-Apps an, erweitern die Plattform und integrieren Fahrzeugfunktionen. Unsere Teams arbeiten mit OEMs und Tier-1-Zulieferern an Serienprogrammen.
 
+## AOSP- und AAOS-Training
+
+Wir vermitteln auch, was wir bauen. Ein praxisnaher Workshop für Ihre Entwickler, typischerweise drei Tage, remote oder vor Ort und auf Ihren Stack zugeschnitten.
+
+- **Für wen:** Embedded-Linux- und Android-Systementwickler, Integratoren und Tester.
+- **Was Sie lernen:** AOSP navigieren, bauen und anpassen, Produktvarianten definieren, mit Systemdiensten, AIDL und HAL arbeiten und Android-Sicherheit samt SELinux verstehen.
+- **Automotive-Fokus:** AAOS-Architektur, Car Services und Vehicle HAL, Vehicle Properties, emulatorbasierte Entwicklung ohne Hardware und die Integration neuer Hardware.
+- **Format:** kleine Gruppen, praktische Übungen aus echten Programmen, Durchführung im eigenen Haus, anpassbare Agenda und Sprache.
+
+Nennen Sie uns Ihre Plattform und den Stand Ihres Teams. Wir richten die Agenda danach aus.
+
 ## So arbeiten wir
 
 Wir passen uns Ihrer Architektur an, nicht umgekehrt. Kleine, erfahrene Teams. Klare Schnittstellen. Regelmäßige Builds zum Testen.
