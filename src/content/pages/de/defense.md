@@ -31,6 +31,7 @@ Verteidigung und kritische Infrastruktur brauchen Software, die unter Druck, auf
 
 ## Wo wir helfen können
 
+- **C4ISR- und BMS-Visualisierung.** Taktische Echtzeit-Visualisierung, gemeinsame Lagebilder und mehrschichtige Kartenanzeigen für Führungs- und Gefechtsführungssysteme, mit integrierten Sensordaten.
 - **Bedienerdisplays.** Wir entwerfen und bauen Oberflächen für robuste Embedded-Displays, mit [Ramses3D](/de/loesungen/produkte/ramses3d/) oder dem Framework, das Sie bereits einsetzen.
 - **Digitale Zwillinge von Fahrzeugen und Systemen.** Wir führen Ihre CAD-Daten durch unsere [CAD-zu-Echtzeit-Pipeline](/de/loesungen/leistungen/echtzeit-3d-grafik/cad-zu-echtzeit-pipeline/) und bauen [digitale Zwillinge](/de/loesungen/leistungen/digitale-zwillinge/), die Sie prüfen, konfigurieren und erklären können.
 - **Training und Wartung.** Schritt-für-Schritt-Anleitung in [XR](/de/loesungen/leistungen/digitale-zwillinge/xr-ar-vr/) oder auf dem Tablet, verknüpft mit dem 3D-Modell.

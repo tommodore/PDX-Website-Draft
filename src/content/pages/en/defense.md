@@ -1,6 +1,6 @@
 ---
 title: "Defense & Critical Infrastructure"
-description: "Operator interfaces, vehicle digital twins, training and terrain visualization in real-time 3D for defense and critical infrastructure."
+description: "C4ISR and BMS visualization, operator interfaces, vehicle digital twins, training and terrain visualization in real-time 3D for defense and critical infrastructure."
 lead: "Operator interfaces, digital twins and training in real-time 3D. Built by a senior team, shaped around your requirements."
 illustration: "defense-05"
 features:
@@ -31,6 +31,7 @@ Defense and critical infrastructure need software that works under pressure, on 
 
 ## Where we can help
 
+- **C4ISR and BMS visualization.** Real-time tactical visualization, common operational pictures and multi-layer map displays for command, control and battle management systems, with sensor data integrated.
 - **Operator displays.** We design and build interfaces for rugged, embedded screens, using [Ramses3D](/solutions/products/ramses3d/) or the framework you already use.
 - **Digital twins of vehicles and systems.** We take your CAD data through our [CAD-to-real-time pipeline](/solutions/services/real-time-3d-graphics/cad-to-realtime-pipeline/) and build [digital twins](/solutions/services/digital-twins/) you can inspect, configure and explain.
 - **Training and maintenance.** Step-by-step guidance in [XR](/solutions/services/digital-twins/xr-ar-vr/) or on a tablet, tied to the 3D model.
