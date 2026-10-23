@@ -34,6 +34,10 @@ content:
         fields:
           - { name: title, label: Title, type: string }
           - { name: text, label: Text, type: text }
+          - { name: image, label: Illustration key (optional), type: string }
+          - { name: video, label: Video key (optional), type: string }
+          - { name: alt, label: Alt text, type: string }
+      - { name: featuresFirst, label: Show feature rows before the text, type: boolean, default: false }
       - name: facts
         label: Facts
         type: object

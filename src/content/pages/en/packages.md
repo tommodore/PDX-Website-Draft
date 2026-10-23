@@ -2,65 +2,56 @@
 title: "Packages"
 navTitle: "Packages"
 description: "Productized services with clear outcomes, defined scope and typical delivery windows: Launch Kit, Asset Factory, Digital Twin Starter, Experience Sprint and more."
-lead: "A portfolio built to buy, not a team sold by the hour."
+lead: "A portfolio built to buy, not a team sold by the hour. Scope and duration are set with you. The windows are typical, not fixed."
 illustration: "render"
 draft: true
 cta:
   label: "Start with a Portfolio Fit Sprint"
   href: "/contact/"
 features:
+  - title: "Portfolio Fit Sprint"
+    image: "gen-ui"
+    alt: "Designer reviewing several interface screens at a desk"
+    text: "Start here. Two weeks: pick one use case, audit your data and channels, and receive scope, timeline and a proposal. Start small, prove value, scale the system."
   - title: "3D Product Launch Kit"
-    text: "Hero imagery, animation and sales-ready assets for one launch story. Typically 4-6 weeks."
+    image: "gen-graphics"
+    alt: "Sports car half in light and half in shadow in a dark studio"
+    text: "Hero imagery, animation and sales-ready visual assets for one launch story. Best for launch campaigns, tenders and trade shows. Typically 4-6 weeks."
   - title: "Configurator Asset Factory"
-    text: "Optimized variants, materials, LODs and a reusable production standard. Typically 6-12 weeks."
+    image: "variants"
+    alt: "Blue concept car with a row of color and material swatches"
+    text: "Optimized product variants, materials, LODs and a reusable production standard. Best for large portfolios and market variants. Typically 6-12 weeks."
   - title: "Digital Twin Starter"
-    text: "A CAD-to-real-time asset with semantic structure and optional sensor-ready setup. Typically 6-10 weeks."
+    image: "twin"
+    alt: "Solid shape beside its wireframe twin on a reflective floor"
+    text: "A CAD-to-real-time asset with semantic structure, optional sensor-ready material setup, one real-time visualization and a basic live data connection. Best for simulation, engineering and test systems. Typically 6-10 weeks."
   - title: "Interactive Experience Sprint"
-    text: "An executive-ready HMI, configurator or immersive demo prototype. Typically 4-8 weeks."
+    image: "gen-hmi"
+    alt: "Hand touching a curved display in a car cockpit"
+    text: "An executive-ready HMI, configurator or immersive product demo prototype, with presentation mode and touchscreen support for trade shows and customer demos. Best for validation, sales and innovation. Typically 4-8 weeks."
   - title: "HMI Modernization"
-    text: "Legacy operator interfaces rebuilt as modern 3D experiences. Typically 8-12 weeks."
+    image: "cockpit"
+    alt: "Curved HMI display floating above a dark dashboard at dusk"
+    text: "Upgrade legacy interfaces: UX assessment, redesign, interactive prototype, performance optimization and user validation. Typically 8-12 weeks."
   - title: "Digital Twin Discovery"
-    text: "A structured assessment of the most valuable twin opportunities. Typically 2-4 weeks."
+    image: "gen-twin"
+    alt: "Two people inspecting a holographic digital twin of a car"
+    text: "Stakeholder interviews, use-case assessment, architecture review, prioritization and an executive recommendation report. Typically 2-4 weeks."
+  - title: "Optional Scale Layer"
+    image: "industrial"
+    alt: "Robot arm with glowing joint rings in front of dark machine blocks"
+    text: "Pipeline automation, governance and ongoing variant production once the first packages have proven their value."
+featuresFirst: true
 updated: "2026-10-23"
 ---
 
-For product, sales, marketing and innovation teams with complex products: explain the technical value in seconds, create confidence before the product exists and scale premium visuals across variants and channels. Scope and duration are set with you. The windows below are typical, not fixed.
+## Built for teams with complex products
 
-## Start here: Portfolio Fit Sprint
-
-Two weeks. Pick one use case, audit your data and channels, and receive scope, timeline and a proposal. Start small, prove value, scale the system.
-
-## 3D Product Launch Kit (sell)
-
-Hero imagery, animation and sales-ready visual assets for one launch story. Best for launch campaigns, tenders and trade shows.
-
-## Configurator Asset Factory (scale)
-
-Optimized product variants, materials, LODs and a reusable production standard. Best for large portfolios and market variants.
-
-## Digital Twin Starter (simulate)
-
-A CAD-to-real-time asset with semantic structure, optional sensor-ready material setup, one real-time visualization and a basic live data connection. Best for simulation, engineering and test systems.
-
-## Interactive Experience Sprint (experience)
-
-An executive-ready HMI, configurator or immersive product demo prototype, with presentation mode and touchscreen support for trade shows and customer demos. Best for validation, sales and innovation.
-
-## HMI Modernization
-
-Upgrade legacy interfaces: UX assessment, redesign, interactive prototype, performance optimization and user validation. Typically 8-12 weeks.
-
-## Digital Twin Discovery
-
-Stakeholder interviews, use-case assessment, architecture review, prioritization and an executive recommendation report. Typically 2-4 weeks.
-
-## Optional scale layer
-
-Pipeline automation, governance and ongoing variant production once the first packages have proven their value.
+For product, sales, marketing and innovation teams: explain the technical value in seconds, create confidence before the product exists and scale premium visuals across variants and channels.
 
 ## One visual foundation, value across the lifecycle
 
-Source data (CAD, design files, materials, requirements) becomes a visual system of optimized assets, standards and automation. It feeds sales, HMI, web, XR, film and configurators. We agree the success metrics before production starts, for example time to first demo, cost per derivative, variant throughput, asset reuse and decision speed.
+Source data such as CAD, design files, materials and requirements becomes a visual system of optimized assets, standards and automation. It feeds sales, HMI, web, XR, film and configurators. We agree the success metrics before production starts, for example time to first demo, cost per derivative, variant throughput, asset reuse and decision speed.
 
 ## Why a visual foundation
 

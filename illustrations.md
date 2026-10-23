@@ -16,6 +16,7 @@ All images in `src/assets/illustrations/` are original 3D renders (three.js scen
 | aviation | Airliner silhouette climbing against a navy-to-amber dusk sky with soft cloud banks | Aviation and marine |
 | marine | Container ship (glossy hull, blue and lime containers) on reflective water at dusk | Aviation and marine |
 | space | Planet limb with atmosphere glow and night-side city lights, small satellite with solar panels and dish, one lime status strip, star field | Space industry page |
+| variants | Glossy blue concept car with a row of color and material swatches, one selected with a lime ring, mirror floor | Packages (Configurator Asset Factory) |
 | skyline | City skyline at blue hour with lit windows, fog layers and water reflections | Public sector, infrastructure |
 | bokeh | Soft blue, lime and warm light orbs with bright rims on navy, calm left side | Contact, generic |
 | waves | Layered glossy blue wave ribbons with a thin lime line, calm left, energetic right | Insights, generic |

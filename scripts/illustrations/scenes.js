@@ -941,4 +941,34 @@ function space({ renderer, W, H }) {
   return { scene, camera, bloom: [0.5, 0.8, 0.82], exposure: 1.0 };
 }
 
-export const scenes = { horizon, marine, aviation, wireframe, render, twin, sensing, cockpit, engine, industrial, terminal, skyline, bokeh, waves, space };
+function variants({ renderer, W, H }) {
+  const scene = baseScene(N0, N1, 8, 40);
+  scene.environment = studioEnv(renderer, [
+    { color: BLUE, i: 6, pos: [-8, 4, -6], size: [12, 2] }, { color: 0xbcd4ff, i: 5, pos: [8, 6, -4], size: [10, 2] },
+    { color: 0xffb070, i: 3, pos: [0, 3, 9], size: [8, 2] }, { color: BLUE, i: 2.5, pos: [0, 10, 0], size: [14, 8] },
+  ]);
+  const wheelMat = new THREE.MeshStandardMaterial({ color: 0x03080e, roughness: 0.5 });
+  const stage = new THREE.Group();
+  const { g: car } = carGroup(gloss(0x1a5fd0, { metalness: 0.75, roughness: 0.14 }), wheelMat);
+  car.rotation.y = -0.45;
+  car.position.set(1.3, 0, 0);
+  stage.add(car);
+  const swatches = [0x1a5fd0, 0xdce6f5, 0xa9c42a, 0x161c28, 0xb8743c];
+  swatches.forEach((c, i) => {
+    const s = new THREE.Mesh(new THREE.SphereGeometry(0.24, 48, 32), gloss(c, { metalness: 0.7, roughness: 0.14 }));
+    s.position.set(0.2 + i * 0.85, 0.24, 2.6);
+    stage.add(s);
+  });
+  const ring = new THREE.Mesh(new THREE.TorusGeometry(0.4, 0.014, 12, 80), emissive(LIME, 2.2));
+  ring.rotation.x = Math.PI / 2; ring.position.set(0.2, 0.03, 2.6);
+  stage.add(ring);
+  scene.add(stage);
+  addMirrored(scene, stage, N0, 0.8);
+  rimRig(scene, { blue: 3, warm: 1.2 });
+  scene.add(glow(BLUE, 14, 4, 0.35, [0, 0.1, -4]));
+  scene.add(glow(BLUE, 9, 9, 0.16, [3, 3, -6]));
+  const camera = perspective(27, [0.2, 1.8, 10.2], [1.9, 0.6, 0]);
+  return { scene, camera, bloom: [0.4, 0.7, 0.85], exposure: 1.1 };
+}
+
+export const scenes = { horizon, marine, aviation, wireframe, render, twin, sensing, cockpit, engine, industrial, terminal, skyline, bokeh, waves, space, variants };

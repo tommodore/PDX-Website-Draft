@@ -30,6 +30,7 @@ const page = await getPage(id, lang);
 const d = page.data;
 const mediaFeatures = d.features.filter((f) => f.image || f.video);
 const plainFeatures = d.features.filter((f) => !f.image && !f.video);
+const rowsFirst = d.featuresFirst && mediaFeatures.length > 0;
 const { Content } = await render(page);
 const alternates = { en: pathOf(id, 'en'), de: pathOf(id, 'de') };
 const crumbs = await Promise.all([...ancestorsOf(id).map((n) => n.id), id].map(async (n) => ({ label: await navTitle(n, lang), href: pathOf(n, lang) })));
@@ -83,7 +84,9 @@ const jobLd = jobs
   )}
 
   <Section>
-    <div class="prose stack"><Content /></div>
+    {rowsFirst && <FeatureRows items={mediaFeatures} lang={lang} />}
+
+    <div class:list={['prose', 'stack', { 'after-rows': rowsFirst }]}><Content /></div>
 
     {d.facts.length > 0 && (
       <div class="grid grid--stats facts">
@@ -91,7 +94,7 @@ const jobLd = jobs
       </div>
     )}
 
-    {mediaFeatures.length > 0 && <FeatureRows items={mediaFeatures} lang={lang} />}
+    {!rowsFirst && mediaFeatures.length > 0 && <FeatureRows items={mediaFeatures} lang={lang} />}
 
     {plainFeatures.length > 0 && (
       <div class="grid features">
@@ -209,6 +212,9 @@ const jobLd = jobs
     border-radius: var(--r-md);
     color: #ffe6a3;
     font-size: var(--fs-sm);
+  }
+  .after-rows {
+    margin-top: var(--sp-9);
   }
   .facts,
   .features,

@@ -2,65 +2,56 @@
 title: "Pakete"
 navTitle: "Pakete"
 description: "Produktisierte Leistungen mit klarem Ergebnis, festem Umfang und typischen Laufzeiten: Launch Kit, Asset Factory, Digital Twin Starter, Experience Sprint und mehr."
-lead: "Ein Portfolio zum Kaufen, kein Team, das nach Stunden verkauft wird."
+lead: "Ein Portfolio zum Kaufen, kein Team, das nach Stunden verkauft wird. Umfang und Dauer legen wir gemeinsam fest. Die Zeiten sind Richtwerte, keine Festzusagen."
 illustration: "render"
 draft: true
 cta:
   label: "Mit einem Portfolio Fit Sprint starten"
   href: "/de/kontakt/"
 features:
+  - title: "Portfolio Fit Sprint"
+    image: "gen-ui"
+    alt: "Designerin prüft mehrere Oberflächen-Screens an einem Schreibtisch"
+    text: "Hier starten. Zwei Wochen: Sie wählen einen Anwendungsfall, wir prüfen Daten und Kanäle, und Sie erhalten Umfang, Zeitplan und ein Angebot. Klein starten, Nutzen belegen, das System skalieren."
   - title: "3D Product Launch Kit"
-    text: "Hero-Bilder, Animation und vertriebsfertige Assets für eine Launch-Story. Typisch 4-6 Wochen."
+    image: "gen-graphics"
+    alt: "Sportwagen halb im Licht und halb im Schatten in einem dunklen Studio"
+    text: "Hero-Bilder, Animation und vertriebsfertige Visual-Assets für eine Launch-Story. Ideal für Launch-Kampagnen, Ausschreibungen und Messen. Typisch 4-6 Wochen."
   - title: "Configurator Asset Factory"
-    text: "Optimierte Varianten, Materialien, LODs und ein wiederverwendbarer Produktionsstandard. Typisch 6-12 Wochen."
+    image: "variants"
+    alt: "Blaues Konzeptfahrzeug mit einer Reihe von Farb- und Materialmustern"
+    text: "Optimierte Produktvarianten, Materialien, LODs und ein wiederverwendbarer Produktionsstandard. Ideal für große Portfolios und Marktvarianten. Typisch 6-12 Wochen."
   - title: "Digital Twin Starter"
-    text: "Ein CAD-zu-Echtzeit-Asset mit semantischer Struktur und optionalem Sensor-Setup. Typisch 6-10 Wochen."
+    image: "twin"
+    alt: "Massive Form neben ihrem Drahtgitter-Zwilling auf spiegelndem Boden"
+    text: "Ein CAD-zu-Echtzeit-Asset mit semantischer Struktur, optionalem Sensor-Material-Setup, einer Echtzeit-Visualisierung und einer einfachen Live-Datenanbindung. Ideal für Simulation, Engineering und Testsysteme. Typisch 6-10 Wochen."
   - title: "Interactive Experience Sprint"
-    text: "Ein Prototyp für HMI, Konfigurator oder immersive Demo, bereit fürs Management. Typisch 4-8 Wochen."
+    image: "gen-hmi"
+    alt: "Hand berührt ein gebogenes Display in einem Fahrzeugcockpit"
+    text: "Ein Prototyp für HMI, Konfigurator oder immersive Produktdemo, bereit fürs Management, mit Präsentationsmodus und Touchscreen-Unterstützung für Messen und Kundentermine. Ideal für Validierung, Vertrieb und Innovation. Typisch 4-8 Wochen."
   - title: "HMI-Modernisierung"
-    text: "Veraltete Bedienoberflächen als moderne 3D-Erlebnisse neu gebaut. Typisch 8-12 Wochen."
+    image: "cockpit"
+    alt: "Gebogenes HMI-Display schwebt über einem dunklen Armaturenbrett in der Dämmerung"
+    text: "Veraltete Oberflächen erneuern: UX-Assessment, Redesign, interaktiver Prototyp, Performance-Optimierung und Validierung mit Anwendern. Typisch 8-12 Wochen."
   - title: "Digital Twin Discovery"
-    text: "Strukturiertes Assessment der wertvollsten Zwillings-Chancen. Typisch 2-4 Wochen."
+    image: "gen-twin"
+    alt: "Zwei Personen betrachten einen holografischen digitalen Zwilling eines Autos"
+    text: "Stakeholder-Interviews, Bewertung der Anwendungsfälle, Architektur-Review, Priorisierung und ein Empfehlungsbericht für das Management. Typisch 2-4 Wochen."
+  - title: "Optionale Scale-Ebene"
+    image: "industrial"
+    alt: "Roboterarm mit leuchtenden Gelenkringen vor dunklen Maschinenblöcken"
+    text: "Pipeline-Automatisierung, Governance und laufende Variantenproduktion, sobald die ersten Pakete ihren Nutzen belegt haben."
+featuresFirst: true
 updated: "2026-10-23"
 ---
 
-Für Produkt-, Vertriebs-, Marketing- und Innovationsteams mit komplexen Produkten: den technischen Nutzen in Sekunden erklären, Vertrauen schaffen, bevor das Produkt existiert, und hochwertige Visuals über Varianten und Kanäle skalieren. Umfang und Dauer legen wir gemeinsam fest. Die Zeiten sind typische Richtwerte, keine Festzusagen.
+## Für Teams mit komplexen Produkten
 
-## Einstieg: Portfolio Fit Sprint
-
-Zwei Wochen. Sie wählen einen Anwendungsfall, wir prüfen Daten und Kanäle, und Sie erhalten Umfang, Zeitplan und ein Angebot. Klein starten, Nutzen belegen, das System skalieren.
-
-## 3D Product Launch Kit (verkaufen)
-
-Hero-Bilder, Animation und vertriebsfertige Visual-Assets für eine Launch-Story. Ideal für Launch-Kampagnen, Ausschreibungen und Messen.
-
-## Configurator Asset Factory (skalieren)
-
-Optimierte Produktvarianten, Materialien, LODs und ein wiederverwendbarer Produktionsstandard. Ideal für große Portfolios und Marktvarianten.
-
-## Digital Twin Starter (simulieren)
-
-Ein CAD-zu-Echtzeit-Asset mit semantischer Struktur, optionalem Sensor-Material-Setup, einer Echtzeit-Visualisierung und einer einfachen Live-Datenanbindung. Ideal für Simulation, Engineering und Testsysteme.
-
-## Interactive Experience Sprint (erleben)
-
-Ein Prototyp für HMI, Konfigurator oder immersive Produktdemo, bereit fürs Management, mit Präsentationsmodus und Touchscreen-Unterstützung für Messen und Kundentermine. Ideal für Validierung, Vertrieb und Innovation.
-
-## HMI-Modernisierung
-
-Veraltete Oberflächen erneuern: UX-Assessment, Redesign, interaktiver Prototyp, Performance-Optimierung und Validierung mit Anwendern. Typisch 8-12 Wochen.
-
-## Digital Twin Discovery
-
-Stakeholder-Interviews, Bewertung der Anwendungsfälle, Architektur-Review, Priorisierung und ein Empfehlungsbericht für das Management. Typisch 2-4 Wochen.
-
-## Optionale Scale-Ebene
-
-Pipeline-Automatisierung, Governance und laufende Variantenproduktion, sobald die ersten Pakete ihren Nutzen belegt haben.
+Für Produkt-, Vertriebs-, Marketing- und Innovationsteams: den technischen Nutzen in Sekunden erklären, Vertrauen schaffen, bevor das Produkt existiert, und hochwertige Visuals über Varianten und Kanäle skalieren.
 
 ## Ein visuelles Fundament, Nutzen im gesamten Lebenszyklus
 
-Quelldaten (CAD, Designdateien, Materialien, Anforderungen) werden zu einem visuellen System aus optimierten Assets, Standards und Automatisierung. Es speist Vertrieb, HMI, Web, XR, Film und Konfiguratoren. Die Erfolgsmetriken legen wir vor Produktionsbeginn fest, zum Beispiel Zeit bis zur ersten Demo, Kosten je Derivat, Varianten-Durchsatz, Asset-Wiederverwendung und Entscheidungsgeschwindigkeit.
+Quelldaten wie CAD, Designdateien, Materialien und Anforderungen werden zu einem visuellen System aus optimierten Assets, Standards und Automatisierung. Es speist Vertrieb, HMI, Web, XR, Film und Konfiguratoren. Die Erfolgsmetriken legen wir vor Produktionsbeginn fest, zum Beispiel Zeit bis zur ersten Demo, Kosten je Derivat, Varianten-Durchsatz, Asset-Wiederverwendung und Entscheidungsgeschwindigkeit.
 
 ## Warum ein visuelles Fundament
 
