@@ -23,7 +23,12 @@ Ein modernes Fahrzeug ist ein vernetztes Gerät. Seine Apps müssen schnell, sic
 
 ## Was wir bauen
 
-Wir entwickeln Apps für Android Automotive und für das Smartphone. Wir verbinden sie mit Fahrzeugdaten, Nutzerkonten und Backend-Diensten.
+Wir entwickeln native Android-Apps für Android Automotive OS und Android Auto sowie Companion-Apps für das Smartphone. Wir verbinden sie mit Fahrzeugdaten, Nutzerkonten und Backend-Diensten.
+
+- Apps für das Infotainment-System, gebaut nach den Richtlinien zur Fahrerablenkung
+- Integration mit Fahrzeugeigenschaften und Systemdiensten
+- Companion-Apps mit demselben Designsystem wie das Fahrzeug
+- Tests auf Emulatoren und Zielhardware, mit sauberen Release-Schritten
 
 ## Worauf es ankommt
 

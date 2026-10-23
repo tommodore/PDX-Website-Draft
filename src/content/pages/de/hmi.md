@@ -27,6 +27,10 @@ HMI ist der Ort, an dem Nutzer Ihr Produkt beurteilen. Wir gestalten und bauen O
 
 Wir arbeiten über den gesamten Stack: Plattform, Apps, Grafik und Test. Ein Team bedeutet weniger Übergaben und schnellere Iteration.
 
+### Android-Apps für Fahrzeuge
+
+Wir bauen native Android-Apps für Android Automotive OS und Android Auto: Medien-, navigationsnahe und System-Apps, Funktionen mit Fahrzeugdaten und Companion-Apps für das Smartphone. Siehe [Apps und Konnektivität](/de/loesungen/leistungen/hmi/apps-und-konnektivitaet/) und [Automotive Android + AAOS](/de/loesungen/leistungen/automotive-android-aaos/).
+
 ### HMI-Entwicklung
 
 - **Serien-HMIs.** UI-Entwicklung und Architektur über Fahrzeug- oder Produktvarianten hinweg, geliefert im Serienmaßstab.

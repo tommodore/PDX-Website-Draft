@@ -27,6 +27,10 @@ HMI is where users judge your product. We design and build interfaces for vehicl
 
 We work across the stack: platform, apps, graphics and testing. One team means fewer handovers and faster iteration.
 
+### Android apps for vehicles
+
+We build native Android apps for Android Automotive OS and Android Auto: media, navigation-adjacent and system apps, vehicle-data features and companion apps for the phone. See [apps and connectivity](/solutions/services/hmi/apps-and-connectivity/) and [Automotive Android + AAOS](/solutions/services/automotive-android-aaos/).
+
 ### HMI development
 
 - **Production HMIs.** UI development and architecture across vehicle or product variants, delivered at production scale.

@@ -23,7 +23,12 @@ A modern vehicle is a connected device. Its apps must be fast, safe to use and e
 
 ## What we build
 
-We develop apps for Android Automotive and for the phone. We connect them to vehicle data, user accounts and backend services.
+We develop native Android apps for Android Automotive OS and Android Auto, and companion apps for the phone. We connect them to vehicle data, user accounts and backend services.
+
+- Apps for the infotainment system, built to driver-distraction guidelines
+- Integration with vehicle properties and system services
+- Companion apps that share one design system with the car
+- Testing on emulators and target hardware, with clean release steps
 
 ## What matters
 
