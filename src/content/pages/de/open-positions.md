@@ -12,10 +12,10 @@ links:
     href: "/de/karriere/leben-bei-paradoxcat/"
   - label: "Datenschutz für Bewerbende"
     href: "/de/unternehmen/rechtliches/datenschutz/"
-updated: "2026-10-20"
+updated: "2026-10-23"
 ---
 
-Offene Stellen erscheinen hier, sobald sie verfügbar sind. Wir suchen Entwickler, Technical Artists und Designer für HMI, Echtzeit-3D, digitale Zwillinge und KI-Sensorik.
+Offene Stellen erscheinen hier direkt aus unserem Bewerbersystem. Wir suchen Entwickler, Technical Artists und Designer für HMI, Echtzeit-3D, digitale Zwillinge und KI-Sensorik.
 
 ## Keine passende Stelle?
 

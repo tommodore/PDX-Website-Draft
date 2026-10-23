@@ -7,7 +7,7 @@ draft: true
 links:
   - label: "Impressum"
     href: "/de/unternehmen/rechtliches/impressum/"
-updated: "2026-10-20"
+updated: "2026-10-23"
 ---
 
 ## Das Wichtigste
@@ -51,7 +51,7 @@ Diese Website verlinkt auf externe Seiten, zum Beispiel unser LinkedIn-Profil. E
 
 ## Bewerbungen und Recruiting
 
-Für Bewerberdaten gilt zusätzlich dieser Abschnitt. Über diese Website selbst werden keine Bewerberdaten erfasst. Eine Erfassung erfolgt, sobald Sie sich per E-Mail an jobs@paradoxcat.com bewerben.
+Für Bewerberdaten gilt zusätzlich dieser Abschnitt. Über diese Website selbst werden keine Bewerberdaten erfasst. Die Stellenliste wird beim Erstellen der Website geladen. Eine Erfassung erfolgt, sobald Sie sich bewerben, entweder über unser Bewerbersystem Greenhouse (EU), das Bewerbungen in unserem Auftrag verarbeitet, oder per E-Mail an jobs@paradoxcat.com.
 
 ### Welche Daten wir verarbeiten
 

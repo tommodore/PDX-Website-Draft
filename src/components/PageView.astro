@@ -10,6 +10,7 @@ import ContactForm from './ContactForm.astro';
 import Breadcrumbs from './Breadcrumbs.astro';
 import Gate from './Gate.astro';
 import Badge from './Badge.astro';
+import { greenhouseJobs } from '../lib/greenhouse';
 import Stat from './Stat.astro';
 import Gallery from './Gallery.astro';
 import FeatureRows from './FeatureRows.astro';
@@ -35,9 +36,20 @@ const children = await Promise.all(childrenOf(id).map(async (n) => ({ id: n.id, 
 const cases = id === 'case-studies' ? await publishedIn('cases', lang, true) : [];
 const insights = id === 'insights' ? await publishedIn('insights', lang, true) : [];
 const jobs = id === 'open-positions' ? await publishedIn('jobs', lang, true) : [];
+const ghJobs = id === 'open-positions' ? await greenhouseJobs() : [];
 const team = id === 'team' ? await publishedIn('team', lang, true) : [];
 const noindex = d.draft || d.template;
 const showCta = id !== 'contact';
+const ghLd = ghJobs.map((j) => ({
+  '@context': 'https://schema.org',
+  '@type': 'JobPosting',
+  title: j.title,
+  description: j.descriptionHtml,
+  datePosted: j.published,
+  hiringOrganization: { '@type': 'Organization', name: 'PARADOX CAT GmbH', sameAs: absoluteUrl('/') },
+  jobLocation: { '@type': 'Place', address: { '@type': 'PostalAddress', addressLocality: j.location } },
+  url: j.url,
+}));
 const jobLd = jobs
   .filter((j) => !j.data.draft)
   .map((j) => ({
@@ -49,7 +61,8 @@ const jobLd = jobs
     employmentType: j.data.employmentType,
     hiringOrganization: { '@type': 'Organization', name: 'PARADOX CAT GmbH', sameAs: absoluteUrl('/') },
     jobLocation: { '@type': 'Place', address: { '@type': 'PostalAddress', addressLocality: j.data.location } },
-  }));
+  }))
+  .concat(ghLd as any);
 ---
 
 <BaseLayout title={d.title} description={d.description} lang={lang} path={pathOf(id, lang)} alternates={alternates} currentId={id} noindex={noindex} crumbs={crumbs} jsonLd={jobLd}>
@@ -123,7 +136,20 @@ const jobLd = jobs
     </Section>
   )}
 
-  {jobs.length > 0 && (
+  {ghJobs.length > 0 && (
+    <Section tone="raised">
+      <ul class="rows">
+        {ghJobs.map((j) => (
+          <li>
+            <a href={j.url} target="_blank" rel="noopener"><strong>{j.title}</strong></a> <span class="muted">{j.location}{j.department && ` · ${j.department}`}</span>
+          </li>
+        ))}
+      </ul>
+      <p class="muted">{lang === 'de' ? 'Die Bewerbung läuft über unser Bewerbersystem Greenhouse (EU). Stellenanzeigen sind auf Englisch.' : 'Applications go through our applicant system, Greenhouse (EU).'}</p>
+    </Section>
+  )}
+
+  {jobs.length > 0 && ghJobs.length === 0 && (
     <Section tone="raised">
       <ul class="rows">
         {jobs.map((j) => (

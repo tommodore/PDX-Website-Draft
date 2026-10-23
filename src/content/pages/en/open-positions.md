@@ -12,10 +12,10 @@ links:
     href: "/careers/life-at-paradoxcat/"
   - label: "Privacy policy for applicants"
     href: "/company/legal/privacy/"
-updated: "2026-10-20"
+updated: "2026-10-23"
 ---
 
-Open roles are listed here when available. We hire engineers, technical artists and designers for HMI, real-time 3D, digital twins and AI sensing.
+Open roles are listed here and come directly from our applicant system. We hire engineers, technical artists and designers for HMI, real-time 3D, digital twins and AI sensing.
 
 ## No fitting role?
 

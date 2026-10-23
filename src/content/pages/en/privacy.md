@@ -7,7 +7,7 @@ draft: true
 links:
   - label: "Imprint"
     href: "/company/legal/imprint/"
-updated: "2026-10-20"
+updated: "2026-10-23"
 ---
 
 The German version is the legally binding one.
@@ -53,7 +53,7 @@ This site links to external sites, for example our LinkedIn profile. Data is onl
 
 ## Job applications and recruiting
 
-This section applies additionally to applicant data. This website itself does not collect applicant data. Data is collected once you apply by email to jobs@paradoxcat.com.
+This section applies additionally to applicant data. This website itself does not collect applicant data. The job list is loaded when the site is built. Data is collected once you apply, either through our applicant system Greenhouse (EU), which processes applications on our behalf, or by email to jobs@paradoxcat.com.
 
 ### What data we process
 
