@@ -1,6 +1,6 @@
 ---
 title: "HMI"
-description: "Mensch-Maschine-Schnittstellen auf Android Automotive: Systemanpassung, Apps, Cockpit-Displays und Konnektivität, geliefert von einem erfahrenen Team."
+description: "HMI-Entwicklung für Fahrzeuge, Maschinen und Geräte: UX, Android Automotive, Embedded und 3D-Oberflächen, Konnektivität, geliefert von einem erfahrenen Team."
 lead: "Oberflächen, die sich mühelos anfühlen, weil jemand die Details durchdacht hat."
 illustration: "gen-hmi"
 draft: true
@@ -18,7 +18,7 @@ features:
     text: "Erfahrung mit den Frameworks, die im Automotive-HMI heute genutzt werden."
   - title: "3D im Cockpit"
     text: "Echtzeitgrafik durch Ramses3D und unser 3D-Team."
-updated: "2026-10-20"
+updated: "2026-10-23"
 ---
 
 HMI ist der Ort, an dem Nutzer Ihr Produkt beurteilen. Wir gestalten und bauen Oberflächen für Fahrzeuge und Geräte.
@@ -26,6 +26,15 @@ HMI ist der Ort, an dem Nutzer Ihr Produkt beurteilen. Wir gestalten und bauen O
 ## Was wir abdecken
 
 Wir arbeiten über den gesamten Stack: Plattform, Apps, Grafik und Test. Ein Team bedeutet weniger Übergaben und schnellere Iteration.
+
+## So arbeiten wir
+
+1. **Discovery:** Nutzer, Kontexte, Ziele und Randbedingungen.
+2. **UX- und Interaktionsdesign:** Informationsdesign, Marken- und Regelanforderungen, verschiedene Nutzergruppen.
+3. **Hardware-Auswahl:** Umgebung, Touch, Haptik, Kameras und Gestensteuerung.
+4. **Interaktions-Workshops:** Szenarien mit Ihnen validieren, bevor wir bauen.
+5. **Konnektivität:** Sensoren, Feldgeräte und Cloud als Teil des Entwurfs.
+6. **MVP und Tests:** ein erster Stand für Feedback oder einen Live-Test, danach iterieren.
 
 ## Unser Profil
 

@@ -1,6 +1,6 @@
 ---
 title: "HMI"
-description: "Human-machine interfaces on Android Automotive: system customization, apps, cockpit displays and connectivity, delivered by a senior team."
+description: "HMI development for vehicles, machines and devices: UX, Android Automotive, embedded and 3D interfaces, connectivity and delivery by a senior team."
 lead: "Interfaces that feel effortless because someone sweated the details."
 illustration: "gen-hmi"
 draft: true
@@ -18,14 +18,23 @@ features:
     text: "Experience with the frameworks used in automotive HMI today."
   - title: "3D in the cockpit"
     text: "Real-time graphics through Ramses3D and our 3D team."
-updated: "2026-10-20"
+updated: "2026-10-23"
 ---
 
-HMI is where users judge your product. We design and build interfaces for vehicles and devices.
+HMI is where users judge your product. We design and build interfaces for vehicles, machines and devices: automotive cockpits, industrial operator panels and embedded products. See also [3D HMI for machines](/solutions/services/digital-twins/industrial-and-machine-twins/).
 
 ## What we cover
 
 We work across the stack: platform, apps, graphics and testing. One team means fewer handovers and faster iteration.
+
+## How we work
+
+1. **Discovery:** users, contexts, goals and constraints.
+2. **UX and interaction design:** information design, brand and regulatory needs, different user groups.
+3. **Hardware fit:** environment, touch, haptics, cameras and gesture input.
+4. **Interaction workshops:** validate scenarios with you before we build.
+5. **Connectivity:** sensors, field devices and cloud, as part of the design.
+6. **MVP and testing:** a first build for feedback or a live trial, then iterate.
 
 ## Our fit
 
