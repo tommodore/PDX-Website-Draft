@@ -16,7 +16,7 @@ features:
     text: "Test interfaces and layouts on a virtual vehicle early."
   - title: "Single source"
     text: "One asset pipeline keeps all uses consistent."
-updated: "2026-10-20"
+updated: "2026-10-23"
 ---
 
 A product twin saves you from building the same 3D content again for every purpose.
@@ -29,4 +29,4 @@ We prepare your CAD data, build the real-time model and connect it to the applic
 
 We build 3D vehicle scenes for automotive programs, from cockpit visuals to car views in companion apps.
 
-Start with a [Prototype Sprint](/solutions/services/packages/) or send us a sample model. Our sales and marketing twins also let customers understand, configure and experience complex products before purchase.
+Start with a [Digital Twin Starter](/solutions/services/packages/) or send us a sample model. Our sales and marketing twins also let customers understand, configure and experience complex products before purchase.

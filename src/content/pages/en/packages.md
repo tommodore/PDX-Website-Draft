@@ -1,63 +1,87 @@
 ---
 title: "Packages"
 navTitle: "Packages"
-description: "Fixed-scope starter packages for digital twins and HMI: discovery assessment, prototype sprint, HMI modernization and an executive showcase."
-lead: "Fixed-scope ways to start, with a clear result at the end."
+description: "Productized services with clear outcomes, defined scope and typical delivery windows: Launch Kit, Asset Factory, Digital Twin Starter, Experience Sprint and more."
+lead: "A portfolio built to buy, not a team sold by the hour."
 illustration: "render"
 draft: true
 cta:
-  label: "Discuss a package"
+  label: "Start with a Portfolio Fit Sprint"
   href: "/contact/"
 features:
-  - title: "Digital Twin Discovery"
-    text: "A structured assessment of the most valuable twin opportunities in your organization. Typically 2-4 weeks."
-  - title: "Digital Twin Prototype Sprint"
-    text: "A working proof of concept that validates business and technical feasibility. Typically 6-8 weeks."
+  - title: "3D Product Launch Kit"
+    text: "Hero imagery, animation and sales-ready assets for one launch story. Typically 4-6 weeks."
+  - title: "Configurator Asset Factory"
+    text: "Optimized variants, materials, LODs and a reusable production standard. Typically 6-12 weeks."
+  - title: "Digital Twin Starter"
+    text: "A CAD-to-real-time asset with semantic structure and optional sensor-ready setup. Typically 6-10 weeks."
+  - title: "Interactive Experience Sprint"
+    text: "An executive-ready HMI, configurator or immersive demo prototype. Typically 4-8 weeks."
   - title: "HMI Modernization"
     text: "Legacy operator interfaces rebuilt as modern 3D experiences. Typically 8-12 weeks."
-  - title: "Executive Showcase"
-    text: "A high-end twin experience for trade shows, executive presentations and customer demos. Typically 4-8 weeks."
+  - title: "Digital Twin Discovery"
+    text: "A structured assessment of the most valuable twin opportunities. Typically 2-4 weeks."
 updated: "2026-10-23"
 ---
 
-Scope and duration are set with you. The durations below are typical, not fixed.
+For product, sales, marketing and innovation teams with complex products: explain the technical value in seconds, create confidence before the product exists and scale premium visuals across variants and channels. Scope and duration are set with you. The windows below are typical, not fixed.
 
-## Digital Twin Discovery
+## Start here: Portfolio Fit Sprint
 
-For teams that want to know where a digital twin pays off.
+Two weeks. Pick one use case, audit your data and channels, and receive scope, timeline and a proposal. Start small, prove value, scale the system.
 
-- Stakeholder interviews
-- Use-case assessment
-- Technical architecture review
-- Opportunity prioritization
-- Executive recommendation report
+## 3D Product Launch Kit (sell)
 
-## Digital Twin Prototype Sprint
+Hero imagery, animation and sales-ready visual assets for one launch story. Best for launch campaigns, tenders and trade shows.
 
-From idea to a working demonstrator.
+## Configurator Asset Factory (scale)
 
-- One digital twin asset
-- Real-time visualization
-- Basic live data connection
-- HMI concept
-- Demonstration environment
+Optimized product variants, materials, LODs and a reusable production standard. Best for large portfolios and market variants.
+
+## Digital Twin Starter (simulate)
+
+A CAD-to-real-time asset with semantic structure, optional sensor-ready material setup, one real-time visualization and a basic live data connection. Best for simulation, engineering and test systems.
+
+## Interactive Experience Sprint (experience)
+
+An executive-ready HMI, configurator or immersive product demo prototype, with presentation mode and touchscreen support for trade shows and customer demos. Best for validation, sales and innovation.
 
 ## HMI Modernization
 
-Upgrade legacy interfaces.
+Upgrade legacy interfaces: UX assessment, redesign, interactive prototype, performance optimization and user validation. Typically 8-12 weeks.
 
-- UX assessment
-- HMI redesign
-- Interactive prototype
-- Performance optimization
-- User validation
+## Digital Twin Discovery
 
-## Executive Showcase
+Stakeholder interviews, use-case assessment, architecture review, prioritization and an executive recommendation report. Typically 2-4 weeks.
 
-Impress stakeholders and customers.
+## Optional scale layer
 
-- Premium 3D assets
-- Interactive experience
-- Presentation mode
-- Touchscreen support
-- Event deployment
+Pipeline automation, governance and ongoing variant production once the first packages have proven their value.
+
+## One visual foundation, value across the lifecycle
+
+Source data (CAD, design files, materials, requirements) becomes a visual system of optimized assets, standards and automation. It feeds sales, HMI, web, XR, film and configurators. We agree the success metrics before production starts, for example time to first demo, cost per derivative, variant throughput, asset reuse and decision speed.
+
+## Why a visual foundation
+
+Product data lives in different systems, similar assets are rebuilt for every launch, variants multiply the cost, and stakeholders see the experience only after key decisions are made. One source, one standard and many channels reduce rework and make changes cheaper.
+
+## How delivery works
+
+1. **Discover:** align use case, data, users and success criteria. Output: an agreed brief.
+2. **Prototype:** prove the experience and the technical approach early. Output: a validated direction.
+3. **Produce:** build, review and document production-ready assets. Output: approved delivery.
+4. **Scale:** automate variants, channels and updates. Output: a repeatable system.
+
+You keep visibility throughout: defined scope and dependencies, short review cycles, transparent risks with change control, and reusable documented deliverables. No long black-box phase.
+
+## Measuring impact
+
+We agree the baseline and the target before production starts: understand today's effort, lead time and quality, define the improvement you want, then track it through reviews and delivery data. Final scope depends on data quality, variants, target platforms and validation needs.
+
+## When to start
+
+- A launch, tender, trade show or executive demo is 6-12 weeks away
+- Product variants are multiplying
+- Sales needs a premium story quickly
+- Asset production is manual, fragmented or repeatedly outsourced

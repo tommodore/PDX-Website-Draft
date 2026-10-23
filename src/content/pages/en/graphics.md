@@ -18,10 +18,14 @@ features:
     text: "Interactive product visualization for showroom, web and AR."
   - title: "Embedded engine"
     text: "Ramses3D, our open-source engine co-developed with BMW."
-updated: "2026-10-20"
+updated: "2026-10-23"
 ---
 
 Real-time 3D is more than a pretty picture. It must run at frame rate on constrained hardware and stay consistent across thousands of assets.
+
+## Complex products, made easy to buy
+
+We offer productized packages for product, sales and marketing teams: a [3D Product Launch Kit](/solutions/services/packages/), a Configurator Asset Factory for variants at scale and an Interactive Experience Sprint. One visual foundation serves sales, HMI, web, XR and film, so assets are built once and reused.
 
 ## Our approach
 

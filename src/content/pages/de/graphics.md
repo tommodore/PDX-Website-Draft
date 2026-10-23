@@ -18,10 +18,14 @@ features:
     text: "Interaktive Produktvisualisierung für Showroom, Web und AR."
   - title: "Embedded-Engine"
     text: "Ramses3D, unsere Open-Source-Engine, gemeinsam mit BMW entwickelt."
-updated: "2026-10-20"
+updated: "2026-10-23"
 ---
 
 Echtzeit-3D ist mehr als ein schönes Bild. Es muss auf begrenzter Hardware mit voller Bildrate laufen und über tausende Assets konsistent bleiben.
+
+## Komplexe Produkte, leicht verkäuflich
+
+Für Produkt-, Vertriebs- und Marketingteams bieten wir produktisierte [Pakete](/de/loesungen/leistungen/pakete/): ein 3D Product Launch Kit, eine Configurator Asset Factory für Varianten im großen Maßstab und einen Interactive Experience Sprint. Ein visuelles Fundament bedient Vertrieb, HMI, Web, XR und Film, die Assets werden also einmal gebaut und wiederverwendet.
 
 ## Unser Ansatz
 
