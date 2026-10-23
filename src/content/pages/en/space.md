@@ -2,18 +2,25 @@
 title: "Space"
 description: "Mission control and ground-segment HMI, spacecraft digital twins, orbit and telemetry visualization and AIT training in real-time 3D. Meet us at Space Tech Expo Europe in Bremen."
 lead: "Operator interfaces, digital twins and training in real-time 3D for space programs. Meet us at Space Tech Expo Europe, Bremen, 17-19 November 2026."
-illustration: "space"
+illustration: "space-orbital-sunrise"
 draft: false
+featuresFirst: true
 cta:
   label: "Book a meeting in Bremen"
   href: "/contact/"
 features:
   - title: "Mission control and ground segment HMI"
     text: "Operator displays for telemetry, commanding and anomaly handling. Clear at a glance, calm over long shifts."
+    image: "space-night-city"
+    alt: "City lights seen from the International Space Station at night. Photo: NASA/Chris Hadfield"
   - title: "Spacecraft and constellation twins"
     text: "Your CAD data as an interactive real-time model of a satellite, a payload or a constellation, with orbit and telemetry views."
+    image: "space-cubesat"
+    alt: "A CubeSat released from the International Space Station above Earth. Photo: NASA/Butch Wilmore"
   - title: "AIT and assembly training"
     text: "Step-by-step guidance for integration and test, in XR or on a tablet, tied to the 3D model of the hardware."
+    image: "space-clean-room"
+    alt: "Technicians in cleanroom suits assembling the James Webb Space Telescope mirror. Photo: NASA Goddard/Chris Gunn"
 updated: "2026-10-23"
 ---
 
@@ -44,5 +51,3 @@ Send us a sample model or a screen concept, and we show you a working result in 
 ## Meet us at Space Tech Expo Europe
 
 We are going to Space Tech Expo Europe in Bremen, 17-19 November 2026. Tell us what you are working on and we find time to talk.
-
-*All images on this page are AI-generated and illustrative. They are not customer projects.*

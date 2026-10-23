@@ -7,7 +7,7 @@ All images in `src/assets/illustrations/` are original 3D renders (three.js scen
 | horizon | Real-time 3D sea at blue hour: low sun glow, glossy swell reflections, haze, vignette | Default hero fallback |
 | cockpit | Dark glossy dashboard with a floating curved HMI display (arcs, bars, lime accent) against a dusk windscreen | HMI, Automotive |
 | render | Faceted glossy blue crystal with rim light and small satellite shards on a mirror floor, one lime shard | Real-time 3D graphics |
-| twin | Glossy solid torus knot beside its wireframe twin with lime vertex points, linked on a mirror floor | Digital twins |
+| twin | Glossy solid torus knot beside its wireframe twin with lime vertex points, linked on a mirror floor | Digital Twins |
 | sensing | Abstract seat silhouette backlit by dusk windscreen, concentric scan rings (one lime) | AI in-cabin sensing |
 | engine | Isometric stack of glossy blue blocks on a slab, one lime block, mirror floor | Ramses3D |
 | wireframe | Glossy blue car-like body that dissolves into a wireframe mesh at a lime scan plane | CAD-to-real-time pipeline |
@@ -25,14 +25,14 @@ All images in `src/assets/illustrations/` are original 3D renders (three.js scen
 
 | Key | Description | Slot |
 |---|---|---|
-| defense-03, defense-05 (and unused 01, 02, 04, 06 to 11 in src/assets) | Operators with rugged displays, armored vehicles with wireframe overlay, terrain maps | Defense hero and Vehicle digital twins row, stills |
+| defense-03, defense-05 (and unused 01, 04, 06 to 11 in src/assets; defense-02 is the XR page hero) | Operators with rugged displays, armored vehicles with wireframe overlay, terrain maps | Defense hero and Vehicle digital twins row, stills |
 | public/media/defense-05, 07, 10, 12 (.mp4, .webp poster) | 6 s clips, audio removed, muted loop | Defense feature rows (07 operator interfaces, 10 terrain, 12 training) |
 
 ## Official and web assets
 
 | Key | Description | Slot | Badge |
 |---|---|---|---|
-| official-vr | VR photo with yellow car | XR, Demos | no (real) |
+| official-vr | Team selfie at a VR arena | Life at PARADOX CAT (row) | no (real) |
 | official-cad-car | CAD wireframe car render | CAD-to-real-time | no (real) |
 | official-group | Team group photo | Life at PARADOX CAT | no (real) |
 | official-careerteam | Three team members | Careers | no (real) |
@@ -40,6 +40,19 @@ All images in `src/assets/illustrations/` are original 3D renders (three.js scen
 | web-aaos | AI-style cockpit with Android | AAOS | yes (AI-generated) |
 
 Only keys starting with `official-` are shown without the badge.
+
+## NASA photos (real, public domain, badge kept)
+
+Source: NASA Image and Video Library (images.nasa.gov), `~large.jpg`, converted to WebP. They are not our work or customer projects, so they keep the "Illustrative" badge. Credit is in each alt text. Do not imply NASA endorsement.
+
+| Key | NASA ID, credit | Slot |
+|---|---|---|
+| space-orbital-sunrise | iss071e439624, NASA | Space hero |
+| space-night-city | iss035e013107, NASA/Chris Hadfield | Space: Mission control and ground segment row |
+| space-cubesat | iss072e351959, NASA/Butch Wilmore | Space: Spacecraft and constellation twins row |
+| space-clean-room | GSFC_20171208_Archive_e000493, NASA Goddard/Chris Gunn | Space: AIT and assembly training row |
+
+The generated `space` scene is kept as an unused alternative.
 
 ## Official office and event photos (real, no badge)
 
@@ -62,7 +75,7 @@ Only keys starting with `official-` are shown without the badge.
 | gen-aviation | Aviation & Marine (hero, row) |
 | gen-fintech | Fintech (hero, row) |
 | gen-industrial | Industrial (row only, video) |
-| gen-twin | Digital twins (hero, row) |
+| gen-twin | Digital Twins (hero, row) |
 | gen-public | Public sector (hero only) |
 
 Stills in src/assets/illustrations/, 6 s muted clips and posters in public/media/.

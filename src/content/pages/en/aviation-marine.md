@@ -16,7 +16,7 @@ features:
     text: "Interactive product visualization for aircraft interiors and yachts."
   - title: "Cabin experience"
     text: "Passenger-facing apps and displays that feel consumer grade."
-  - title: "Digital twins"
+  - title: "Digital Twins"
     text: "Visual models for training, service and sales."
 updated: "2026-10-20"
 ---

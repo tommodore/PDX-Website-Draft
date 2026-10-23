@@ -12,7 +12,7 @@ features:
     text: "Cockpit, head unit and rear seat displays on Android Automotive OS."
   - title: "Real-time 3D"
     text: "Rich 3D scenes on embedded hardware, powered by Ramses3D."
-  - title: "Digital twins"
+  - title: "Digital Twins"
     text: "Vehicle models for configurators, validation and service."
   - title: "In-cabin sensing"
     text: "AI that detects occupants and their state to make cars safer."

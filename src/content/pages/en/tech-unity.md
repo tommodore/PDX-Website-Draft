@@ -15,7 +15,7 @@ features:
     text: "Interactive products for web, dealer tablets and showroom screens."
   - title: "XR and training"
     text: "AR, VR and desktop training built on your CAD data."
-  - title: "Digital twins"
+  - title: "Digital Twins"
     text: "Interactive twins connected to live data."
 updated: "2026-10-23"
 ---
@@ -27,7 +27,7 @@ Unity is a flexible real-time engine with a large ecosystem and short iteration 
 - **Rich 3D HMIs and demonstrators** with fast design iteration.
 - **Configurators and virtual showrooms** across web, mobile and large displays.
 - **XR applications** for design review, service and training.
-- **Digital twins** and simulation-style applications with live data.
+- **Digital Twins** and simulation-style applications with live data.
 - **Concept cars and trade-show experiences** that make a vision tangible.
 
 ## What we bring

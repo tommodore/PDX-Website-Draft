@@ -2,18 +2,25 @@
 title: "Raumfahrt"
 description: "Missionskontroll- und Bodensegment-HMI, digitale Raumfahrzeug-Zwillinge, Orbit- und Telemetrie-Visualisierung und AIT-Training in Echtzeit-3D. Treffen Sie uns auf der Space Tech Expo Europe."
 lead: "Bedieneroberflächen, digitale Zwillinge und Training in Echtzeit-3D für Raumfahrtprogramme. Treffen Sie uns auf der Space Tech Expo Europe in Bremen, 17.-19. November 2026."
-illustration: "space"
+illustration: "space-orbital-sunrise"
 draft: false
+featuresFirst: true
 cta:
   label: "Termin in Bremen vereinbaren"
   href: "/de/kontakt/"
 features:
   - title: "Missionskontrolle und Bodensegment-HMI"
     text: "Bedienerdisplays für Telemetrie, Kommandierung und Anomalie-Handling. Auf einen Blick klar, ruhig über lange Schichten."
+    image: "space-night-city"
+    alt: "Lichter von Städten bei Nacht, aufgenommen von der Internationalen Raumstation. Foto: NASA/Chris Hadfield"
   - title: "Digitale Zwillinge von Raumfahrzeugen und Konstellationen"
     text: "Ihre CAD-Daten als interaktives Echtzeit-Modell eines Satelliten, einer Nutzlast oder einer Konstellation, mit Orbit- und Telemetrieansichten."
+    image: "space-cubesat"
+    alt: "Ein von der Internationalen Raumstation ausgesetzter CubeSat über der Erde. Foto: NASA/Butch Wilmore"
   - title: "AIT- und Montagetraining"
     text: "Schritt-für-Schritt-Anleitung für Integration und Test, in XR oder auf dem Tablet, verknüpft mit dem 3D-Modell der Hardware."
+    image: "space-clean-room"
+    alt: "Techniker in Reinraumanzügen bei der Montage des Spiegels des James-Webb-Weltraumteleskops. Foto: NASA Goddard/Chris Gunn"
 updated: "2026-10-23"
 ---
 
@@ -44,5 +51,3 @@ Schicken Sie uns ein Beispielmodell oder ein Screen-Konzept, dann zeigen wir Ihn
 ## Treffen Sie uns auf der Space Tech Expo Europe
 
 Wir sind auf der Space Tech Expo Europe in Bremen, 17.-19. November 2026. Sagen Sie uns, woran Sie arbeiten, dann finden wir Zeit für ein Gespräch.
-
-*Alle Bilder auf dieser Seite sind KI-generiert und illustrativ. Es sind keine Kundenprojekte.*

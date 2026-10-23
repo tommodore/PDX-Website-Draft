@@ -34,7 +34,7 @@ Defense and critical infrastructure need software that works under pressure, on 
 - **C4ISR and BMS visualization.** Real-time tactical visualization, common operational pictures and multi-layer map displays for command, control and battle management systems, with sensor data integrated.
 - **Virtual HMI prototyping.** We prototype and test operator interfaces on a real-time 3D twin before hardware exists, so design issues surface early.
 - **Operator displays.** We design and build interfaces for rugged, embedded screens, using [Ramses3D](/solutions/products/ramses3d/) or the framework you already use.
-- **Digital twins of vehicles and systems.** We take your CAD data through our [CAD-to-real-time pipeline](/solutions/services/real-time-3d-graphics/cad-to-realtime-pipeline/) and build [digital twins](/solutions/services/digital-twins/) you can inspect, configure and explain.
+- **Digital Twins of vehicles and systems.** We take your CAD data through our [CAD-to-real-time pipeline](/solutions/services/real-time-3d-graphics/cad-to-realtime-pipeline/) and build [digital twins](/solutions/services/digital-twins/) you can inspect, configure and explain.
 - **Training and maintenance.** Step-by-step guidance in [XR](/solutions/services/digital-twins/xr-ar-vr/) or on a tablet, tied to the 3D model. Simulator and trainer screens reuse the real operator UI, so skills transfer.
 - **Multi-domain pictures.** Land, air, sea and cyber data fused into one common operational view.
 - **Terrain and data visualization.** Real-time 3D views of terrain, assets and status data for control rooms and field units.
@@ -79,5 +79,3 @@ Detection and interpretation of sensor data under noisy or incomplete conditions
 ## Next step
 
 Contact us and tell us what you need. We discuss what is possible and which conditions apply.
-
-*All images on this page are AI-generated and illustrative. They are not customer projects.*

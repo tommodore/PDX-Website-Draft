@@ -2,7 +2,7 @@
 title: "XR, AR & VR"
 description: "Augmented- und Virtual-Reality-Anwendungen für Design-Review, Konfiguratoren, Training und Service, gebaut auf Echtzeit-3D und Ihren CAD-Daten."
 lead: "Bringen Sie Ihr Produkt im echten Maßstab vor Menschen, bevor und nachdem es existiert."
-illustration: "official-vr"
+illustration: "defense-02"
 draft: true
 cta:
   label: "XR-Projekt besprechen"

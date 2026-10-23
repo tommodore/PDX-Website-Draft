@@ -16,7 +16,7 @@ features:
     text: "Turn engineering models into real-time assets."
   - title: "Configurators"
     text: "Let customers explore your machines and options in 3D."
-  - title: "Digital twins"
+  - title: "Digital Twins"
     text: "Visual machine models for training and service."
 updated: "2026-10-20"
 ---

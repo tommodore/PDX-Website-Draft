@@ -79,5 +79,3 @@ Erkennung und Interpretation von Sensordaten unter verrauschten oder unvollstän
 ## Nächster Schritt
 
 Nehmen Sie Kontakt auf und sagen Sie uns, was Sie brauchen. Wir besprechen, was möglich ist und welche Rahmenbedingungen gelten.
-
-*Alle Bilder auf dieser Seite sind KI-generiert und illustrativ. Es sind keine Kundenprojekte.*

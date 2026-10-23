@@ -11,7 +11,7 @@ cta:
 features:
   - title: "Photoreal configurators"
     text: "Products and vehicles with lighting and materials that look real."
-  - title: "Digital twins and environments"
+  - title: "Digital Twins and environments"
     text: "High-fidelity twins of vehicles, plants and places."
   - title: "Large screens"
     text: "Showroom walls and multi-display installations."

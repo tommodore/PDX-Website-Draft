@@ -16,7 +16,7 @@ features:
     text: "Custom launchers and platform work for devices beyond the car."
   - title: "Real-time 3D"
     text: "Pipelines, shaders and configurators."
-  - title: "Digital twins"
+  - title: "Digital Twins"
     text: "Product, vehicle and machine models."
   - title: "AI + ML"
     text: "Models that run reliably inside your product."
