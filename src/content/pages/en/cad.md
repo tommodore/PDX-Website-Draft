@@ -18,7 +18,7 @@ features:
     text: "Colors, trims and options managed in one clean asset structure."
   - title: "Quality gates"
     text: "Automated checks catch errors before assets reach your engine."
-updated: "2026-10-22"
+updated: "2026-10-23"
 ---
 
 CAD models are built for engineering, not for real-time rendering. They are too heavy and too detailed for a cockpit, a configurator or an XR headset.
@@ -34,6 +34,10 @@ We work with Blender, Autodesk VRED, PIXYZ and other tools, and fit into the too
 ## Why a pipeline
 
 One-off cleanups do not scale. A pipeline gives you consistent quality when the design changes, and it will.
+
+## AI where it helps
+
+AI-assisted steps in the pipeline, such as automated cleanup, material assignment and quality checks, with a human review at every gate. More on [AI + ML](/solutions/services/ai-and-ml/).
 
 ## Try it
 

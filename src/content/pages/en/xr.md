@@ -16,7 +16,7 @@ features:
     text: "Hands-on guidance in headsets and on tablets."
   - title: "Performance"
     text: "Tuned assets keep frame rates stable on mobile and headset hardware."
-updated: "2026-10-20"
+updated: "2026-10-23"
 ---
 
 XR works when content is light, accurate and easy to update. That is our strength.
@@ -33,6 +33,10 @@ We create AR and VR applications from your CAD data using our asset pipeline and
 - Immersive engineering reviews
 
 The benefits: lower training costs, faster troubleshooting, better knowledge transfer and lower operational risk.
+
+## AI where it helps
+
+AI-guided maintenance and remote support in AR, with object recognition and context-aware instructions. More on [AI + ML](/solutions/services/ai-and-ml/).
 
 ## Start small
 

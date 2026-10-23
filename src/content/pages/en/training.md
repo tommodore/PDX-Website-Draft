@@ -16,7 +16,7 @@ features:
     text: "Help sales and support teams understand complex products."
   - title: "Reuse of CAD"
     text: "Content comes from the data you already have."
-updated: "2026-10-20"
+updated: "2026-10-23"
 ---
 
 People learn faster when they can see and try. Interactive 3D makes complex products easier to teach and to service.
@@ -28,6 +28,10 @@ We create training and service applications on top of your digital twin. They ru
 ## Operator training and commissioning
 
 Interactive learning environments powered by the digital twin, and virtual commissioning that validates a system through simulation before it is deployed physically.
+
+## AI where it helps
+
+AI tutors and adaptive training paths that react to each learner, plus assisted authoring of procedures from existing documentation. More on [AI + ML](/solutions/services/ai-and-ml/).
 
 ## How to begin
 

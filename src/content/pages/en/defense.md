@@ -49,6 +49,10 @@ We can provide specialist capacity within existing programs and support your int
 
 We start small: send us a sample model or a screen concept and we show you a working result in a short call. Requirements in this field are specific and often confidential, so we agree on the conditions before we talk about details.
 
+## AI where it helps
+
+Detection and interpretation of sensor data under noisy or incomplete conditions, running at the edge with low latency. People keep the decision. More on [AI + ML](/solutions/services/ai-and-ml/).
+
 ## Next step
 
 Contact us and tell us what you need. We discuss what is possible and which conditions apply.

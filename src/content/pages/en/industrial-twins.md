@@ -16,7 +16,7 @@ features:
     text: "Show technicians where to look and what to do."
   - title: "Built from CAD"
     text: "We reuse your engineering data through our asset pipeline."
-updated: "2026-10-20"
+updated: "2026-10-23"
 ---
 
 Machines are complex. A 3D twin makes them easier to operate, teach and repair.
@@ -32,6 +32,10 @@ We replace abstract dashboards with spatial, interactive views. Operators work d
 ## Plants and processes
 
 Production lines, plants and logistics systems in one real-time view, with status monitoring and dashboards in 3D context. Connect them to your machine data via [data integration](/solutions/services/digital-twins/data-integration/).
+
+## AI where it helps
+
+Condition monitoring and anomaly detection on machine data, with results highlighted directly on the 3D machine. More on [AI + ML](/solutions/services/ai-and-ml/).
 
 ## How to start
 

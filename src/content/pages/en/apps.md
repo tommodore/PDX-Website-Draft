@@ -16,7 +16,7 @@ features:
     text: "Reliable links to cloud services, accounts and over-the-air content."
   - title: "Quality built in"
     text: "Automated tests and clean release steps from the first sprint."
-updated: "2026-10-20"
+updated: "2026-10-23"
 ---
 
 A modern vehicle is a connected device. Its apps must be fast, safe to use and easy to update.
@@ -29,6 +29,10 @@ We develop native Android apps for Android Automotive OS and Android Auto, and c
 - Integration with vehicle properties and system services
 - Companion apps that share one design system with the car
 - Testing on emulators and target hardware, with clean release steps
+
+## AI where it helps
+
+Assistants and personalization inside in-car and companion apps, with clear fallbacks when the network or the model is unavailable. More on [AI + ML](/solutions/services/ai-and-ml/).
 
 ## What matters
 

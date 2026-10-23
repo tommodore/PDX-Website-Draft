@@ -52,6 +52,10 @@ Wir visualisieren ganze Produktionslinien, Anlagen, Logistiksysteme oder vernetz
 
 Der Nutzen: besseres Lagebild, schnellere Fehlererkennung, transparentere Abläufe und weniger Schulungsaufwand.
 
+## KI, wo sie hilft
+
+Anomalieerkennung, vorausschauende Wartung und Zugriff auf Zwillingsdaten per natürlicher Sprache, dargestellt im 3D-Kontext, in dem Menschen handeln. Mehr zu [KI + ML](/de/loesungen/leistungen/ki-und-ml/).
+
 ## Nächste Schritte
 
 Starten Sie mit einem Asset und einem Anwendungsfall. Die [Pakete](/de/loesungen/leistungen/pakete/) beschreiben typische Einstiege, vom Discovery-Assessment bis zum lauffähigen Prototyp.

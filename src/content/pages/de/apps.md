@@ -16,7 +16,7 @@ features:
     text: "Verlässliche Verbindungen zu Cloud-Diensten, Nutzerkonten und Over-the-Air-Inhalten."
   - title: "Qualität von Anfang an"
     text: "Automatisierte Tests und saubere Release-Schritte ab dem ersten Sprint."
-updated: "2026-10-20"
+updated: "2026-10-23"
 ---
 
 Ein modernes Fahrzeug ist ein vernetztes Gerät. Seine Apps müssen schnell, sicher bedienbar und leicht zu aktualisieren sein.
@@ -29,6 +29,10 @@ Wir entwickeln native Android-Apps für Android Automotive OS und Android Auto s
 - Integration mit Fahrzeugeigenschaften und Systemdiensten
 - Companion-Apps mit demselben Designsystem wie das Fahrzeug
 - Tests auf Emulatoren und Zielhardware, mit sauberen Release-Schritten
+
+## KI, wo sie hilft
+
+Assistenten und Personalisierung in Fahrzeug- und Companion-Apps, mit klaren Rückfallebenen, wenn Netz oder Modell nicht verfügbar sind. Mehr zu [KI + ML](/de/loesungen/leistungen/ki-und-ml/).
 
 ## Worauf es ankommt
 

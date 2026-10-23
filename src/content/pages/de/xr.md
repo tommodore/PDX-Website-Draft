@@ -16,7 +16,7 @@ features:
     text: "Praktische Anleitung in Headsets und auf Tablets."
   - title: "Performance"
     text: "Optimierte Assets halten die Bildrate auf Mobil- und Headset-Hardware stabil."
-updated: "2026-10-20"
+updated: "2026-10-23"
 ---
 
 XR funktioniert, wenn Inhalte leicht, präzise und einfach zu aktualisieren sind. Das ist unsere Stärke.
@@ -33,6 +33,10 @@ Wir erstellen AR- und VR-Anwendungen aus Ihren CAD-Daten, mit unserer Asset-Pipe
 - Immersive Engineering-Reviews
 
 Der Nutzen: geringere Schulungskosten, schnellere Fehlersuche, besserer Wissenstransfer und weniger betriebliches Risiko.
+
+## KI, wo sie hilft
+
+KI-geführte Wartung und Remote-Support in AR, mit Objekterkennung und kontextbezogenen Anleitungen. Mehr zu [KI + ML](/de/loesungen/leistungen/ki-und-ml/).
 
 ## Klein anfangen
 

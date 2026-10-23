@@ -16,7 +16,7 @@ features:
     text: "Vertrieb und Support helfen, komplexe Produkte zu verstehen."
   - title: "CAD wiederverwenden"
     text: "Inhalte entstehen aus den Daten, die Sie bereits haben."
-updated: "2026-10-20"
+updated: "2026-10-23"
 ---
 
 Menschen lernen schneller, wenn sie sehen und ausprobieren können. Interaktives 3D macht komplexe Produkte leichter zu schulen und zu warten.
@@ -28,6 +28,10 @@ Wir erstellen Trainings- und Serviceanwendungen auf Basis Ihres digitalen Zwilli
 ## Bedienertraining und Inbetriebnahme
 
 Interaktive Lernumgebungen auf Basis des digitalen Zwillings und virtuelle Inbetriebnahme, die ein System per Simulation validiert, bevor es physisch eingesetzt wird.
+
+## KI, wo sie hilft
+
+KI-Tutoren und adaptive Lernpfade, die auf jeden Lernenden reagieren, sowie unterstützte Erstellung von Abläufen aus vorhandener Dokumentation. Mehr zu [KI + ML](/de/loesungen/leistungen/ki-und-ml/).
 
 ## So beginnen Sie
 
