@@ -36,6 +36,7 @@ Wir bauen native Android-Apps für Android Automotive OS und Android Auto: Medie
 - **Serien-HMIs.** UI-Entwicklung und Architektur über Fahrzeug- oder Produktvarianten hinweg, geliefert im Serienmaßstab.
 - **Performance.** GPU- und CPU-Profiling und Tuning auf der Zielhardware, um Bildraten- und Latenzziele zu erreichen.
 - **Echtzeit-3D.** Dashboards und Cluster mit speicheroptimierten Assets und Material-Workflows.
+- **AR im Fahrzeug.** Stabile AR-Einblendungen mit geringer Latenz für Navigation und Fahrerinformation, aufgebaut auf Plattformen wie Rocksolid.
 - **Begrenzte Plattformen.** Embedded-HMI mit knappen Rechen-, Energie- und Wärmereserven, vom Fahrzeug bis zu Defense-Systemen.
 
 ### HMI-Innovation

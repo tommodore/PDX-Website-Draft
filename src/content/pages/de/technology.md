@@ -1,6 +1,6 @@
 ---
 title: "Technologie & Partner"
-description: "Engines, Frameworks und Plattformen, mit denen wir arbeiten: Android Automotive, Unity, Unreal, Qt, Kanzi, DiSTI, Rocksolid AR und unsere Open-Source-Engine Ramses3D."
+description: "Engines, Frameworks und Plattformen, mit denen wir arbeiten: Android Automotive, Unity, Unreal, Qt, Kanzi, DiSTI, Rocksolid und unsere Open-Source-Engine Ramses3D."
 lead: "Wir nutzen das passende Werkzeug und kennen die wichtigen gut."
 illustration: "engine"
 draft: true
@@ -9,7 +9,7 @@ cta:
   href: "/de/kontakt/"
 features:
   - title: "Engines"
-    text: "Unity, Unreal, DiSTI, Rocksolid AR und Ramses3D für Echtzeit-3D und AR."
+    text: "Unity, Unreal, DiSTI, Rocksolid und Ramses3D für Echtzeit-3D, AR und HMI."
   - title: "UI-Frameworks"
     text: "Qt und Kanzi für Embedded-HMI."
   - title: "Plattformen"
@@ -23,7 +23,7 @@ Technologieentscheidungen prägen Kosten und Risiko für Jahre. Wir helfen bei d
 
 ## Unser Prinzip
 
-Wir sind werkzeugneutral. Wir arbeiten mit allen gängigen Engines und Frameworks, darunter Unreal, Unity, Ramses3D, DiSTI, Rocksolid AR, Kanzi und Qt. Anwendungsfall, Ihre Anforderungen und Ihre Wünsche entscheiden, nicht unsere Gewohnheit.
+Wir sind werkzeugneutral. Wir arbeiten mit allen gängigen Engines und Frameworks, darunter Unreal, Unity, Ramses3D, DiSTI, Rocksolid, Kanzi und Qt. Anwendungsfall, Ihre Anforderungen und Ihre Wünsche entscheiden, nicht unsere Gewohnheit.
 
 ## Open Source
 

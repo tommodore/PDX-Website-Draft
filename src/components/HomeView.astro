@@ -26,7 +26,7 @@ const alternates = { en: pathOf('home', 'en'), de: pathOf('home', 'de') };
 const [explore, reveal, trust] = d.arc;
 const eyebrows = lang === 'de' ? ['Entdecken', 'Erleben', 'Vertrauen'] : ['Explore', 'Reveal', 'Trust'];
 const industries = await Promise.all(childrenOf('industries').slice(0, 3).map(async (n) => ({ id: n.id, title: await navTitle(n.id, lang), page: await getPage(n.id, lang) })));
-const tech = ['Unity', 'Unreal Engine', 'Qt', 'Kanzi', 'DiSTI', 'Rocksolid AR', 'Ramses3D'];
+const tech = ['Unity', 'Unreal Engine', 'Qt', 'Kanzi', 'DiSTI', 'Rocksolid', 'Ramses3D'];
 ---
 
 <BaseLayout title={d.title} description={d.description} lang={lang} path={pathOf('home', lang)} alternates={alternates} currentId="home" jsonLd={[organizationLd, websiteLd]}>

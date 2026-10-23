@@ -1,6 +1,6 @@
 ---
 title: "UI Frameworks"
-description: "HMI development with the frameworks used in embedded UI: Qt, Kanzi, DiSTI, Rocksolid AR, Unity and Unreal, plus our own Ramses3D engine."
+description: "HMI development with the frameworks used in embedded UI: Qt, Kanzi, DiSTI, Rocksolid, Unity and Unreal, plus our own Ramses3D engine."
 lead: "We build on the framework that fits your product and your hardware."
 illustration: "gen-ui"
 draft: true
@@ -12,8 +12,8 @@ features:
     video: "gen-ui"
     alt: "Designer reviewing cockpit interfaces on several monitors"
     text: "Established toolkit for embedded interfaces."
-  - title: "Kanzi, DiSTI and Rocksolid AR"
-    text: "Specialized tools for automotive and simulation UI, and for AR."
+  - title: "Kanzi, DiSTI and Rocksolid"
+    text: "Specialized platforms for automotive and simulation UI and for AR and HMI applications."
   - title: "Unity and Unreal"
     text: "Game engines for rich real-time visuals."
   - title: "Ramses3D"
