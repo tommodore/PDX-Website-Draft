@@ -1,29 +1,52 @@
 ---
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { clients } from '../data/clients';
 import type { Lang } from '../lib/routes';
 
 interface Props {
   lang: Lang;
+  group?: 'client' | 'tech';
+  caption?: boolean;
 }
-const { lang } = Astro.props;
-const label = lang === 'de' ? 'Marken, für die wir arbeiten' : 'Brands we work with';
-const note = lang === 'de' ? 'Alle Marken und Logos sind Eigentum ihrer jeweiligen Inhaber.' : 'All brands and logos are the property of their respective owners.';
-const items = clients
-  .filter((c) => c.show)
-  .map((c) => ({ ...c, logo: existsSync(`public/brand/clients/${c.slug}.svg`) ? `/brand/clients/${c.slug}.svg` : undefined }));
+const { lang, group = 'client', caption = true } = Astro.props;
+const de = lang === 'de';
+const label = group === 'tech' ? (de ? 'Engines und Toolkits, mit denen wir bauen' : 'Engines and toolkits we build with') : de ? 'Marken, für die wir arbeiten' : 'Brands we work with';
+const note = de ? 'Alle Marken und Logos sind Eigentum ihrer jeweiligen Inhaber.' : 'All brands and logos are the property of their respective owners.';
+
+function logoOf(slug: string) {
+  for (const ext of ['svg', 'png']) {
+    const file = `public/brand/clients/${slug}.${ext}`;
+    if (!existsSync(file)) continue;
+    const src = `/brand/clients/${slug}.${ext}`;
+    if (ext === 'svg') return { src };
+    const head = readFileSync(file).subarray(16, 24);
+    return { src, width: head.readUInt32BE(0), height: head.readUInt32BE(4) };
+  }
+  return undefined;
+}
+const items = clients.filter((c) => c.show && c.group === group).map((c) => ({ ...c, logo: logoOf(c.slug) }));
 ---
 
-<figure class="clients">
+<figure class={`clients clients--${group}`}>
+  <p class="clients__label">{label}</p>
   <ul aria-label={label}>
-    {items.map((c) => <li>{c.logo ? <img src={c.logo} alt={c.name} height="36" loading="lazy" /> : <span>{c.name}</span>}</li>)}
+    {items.map((c) => <li>{c.logo ? <img src={c.logo.src} alt={c.name} width={c.logo.width} height={c.logo.height} loading="lazy" decoding="async" /> : <span>{c.name}</span>}</li>)}
   </ul>
-  <figcaption class="muted">{note}</figcaption>
+  {caption && <figcaption class="muted">{note}</figcaption>}
 </figure>
 
 <style>
   .clients {
     margin: 0;
+    text-align: center;
+  }
+  .clients__label {
+    margin: 0 0 var(--sp-5);
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    letter-spacing: var(--tracking-wide);
+    text-transform: uppercase;
+    color: var(--c-text-muted);
   }
   ul {
     list-style: none;
@@ -32,12 +55,16 @@ const items = clients
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    gap: var(--sp-5) var(--sp-7);
+    gap: var(--sp-3) var(--sp-4);
   }
   li {
     margin: 0;
-    opacity: 0.75;
+    width: 8.5rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
     transition: opacity var(--dur-2, 0.2s) ease;
   }
   li:hover {
@@ -50,12 +77,42 @@ const items = clients
     color: var(--c-text-muted);
   }
   img {
-    height: 2.25rem;
     width: auto;
+    height: auto;
+    max-width: 7.5rem;
+    max-height: 3rem;
+    object-fit: contain;
+  }
+  .clients--tech li {
+    width: 7rem;
+    height: 3rem;
+    opacity: 0.6;
+  }
+  .clients--tech li:hover {
+    opacity: 1;
+  }
+  .clients--tech img {
+    max-width: 5.5rem;
+    max-height: 2rem;
   }
   figcaption {
-    margin-top: var(--sp-4);
-    text-align: center;
+    margin-top: var(--sp-5);
     font-size: 0.75rem;
+  }
+  @media (max-width: 30rem) {
+    ul {
+      gap: var(--sp-2) var(--sp-3);
+    }
+    li {
+      width: 6rem;
+      height: 3.25rem;
+    }
+    img {
+      max-width: 5rem;
+      max-height: 2.5rem;
+    }
+    .clients--tech li {
+      width: 5.5rem;
+    }
   }
 </style>

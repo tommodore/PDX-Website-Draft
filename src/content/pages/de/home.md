@@ -12,20 +12,24 @@ links:
   - label: "Unsere Arbeit ansehen"
     href: "/de/projekte/referenzen/"
 pillars:
-  - title: "HMI"
-    text: "Android Automotive, Apps und Cockpit-Software, die sich unmittelbar anfühlt."
-    to: "/de/loesungen/leistungen/hmi/"
-    illustration: "cockpit"
-  - title: "Echtzeit-3D-Grafik"
-    text: "CAD rein, Echtzeit-Assets raus. Shader und Konfiguratoren inklusive."
-    to: "/de/loesungen/leistungen/echtzeit-3d-grafik/"
-    illustration: "render"
+  - title: "Android Automotive (AAOS)"
+    text: "Plattform, HMI und Apps für Software-Defined Vehicles. Serienarbeit mit BMW."
+    to: "/de/loesungen/leistungen/automotive-android-aaos/"
+    illustration: "gen-aaos"
+  - title: "CAD-zu-Echtzeit-Pipeline"
+    text: "Schwere CAD-Daten rein, schlanke Echtzeit-Assets raus: LODs, Varianten und Qualitätsprüfungen."
+    to: "/de/loesungen/leistungen/echtzeit-3d-grafik/cad-zu-echtzeit-pipeline/"
+    illustration: "official-cad-car"
+  - title: "3D-Konfiguratoren"
+    text: "Echtzeit-Produktkonfiguratoren für Web, Showroom und AR, gebaut aus Ihren CAD-Daten."
+    to: "/de/loesungen/leistungen/echtzeit-3d-grafik/konfiguratoren/"
+    illustration: "gen-shaders"
   - title: "Digitale Zwillinge"
-    text: "Lebendige visuelle Kopien von Produkten für Design, Training und Service."
+    text: "Fotorealistische Zwillinge für Design, Training und Service, vom Fahrzeug bis zur Industrieanlage."
     to: "/de/loesungen/leistungen/digitale-zwillinge/"
-    illustration: "twin"
+    illustration: "gen-twin"
   - title: "KI-Innenraumsensorik"
-    text: "Kindererkennung, Insassenerkennung und Fahrerüberwachung."
+    text: "Kindererkennung, Insassenerkennung und Fahrerüberwachung, vom Team, das auch das HMI baut."
     to: "/de/loesungen/leistungen/ki-innenraumsensorik/"
     illustration: "sensing"
   - title: "Ramses3D"
@@ -33,7 +37,7 @@ pillars:
     to: "/de/loesungen/produkte/ramses3d/"
     illustration: "engine"
 arc:
-  - title: "Vier Disziplinen und eine eigene Engine."
+  - title: "Sechs Einstiege, ein Team."
     text: "Wählen Sie den Einstieg, der zu Ihrem Produkt passt. Den Rest verbinden wir."
   - title: "Sehen heißt glauben."
     text: "Ein Produkt, das in Echtzeit erkundet wird, verkauft sich selbst. Unsere Demos zeigen, wie es sich anfühlt, bevor es existiert."
@@ -48,7 +52,7 @@ facts:
     label: "Fluktuation 2025"
   - value: "2"
     label: "Standorte: München und Bukarest"
-updated: 2026-10-20
+updated: 2026-10-23
 ---
 
 Wir konfigurieren ein Produkt nicht nur. Wir lassen Menschen es erleben.

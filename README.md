@@ -56,7 +56,7 @@ illustrations.md                                      Manifest of generated imag
 - **Drafts.** `draft: true` shows a Draft badge, sets `noindex` and keeps the page out of the sitemap.
 - **Feature rows.** A feature with `video` or `image` renders as an alternating media row, otherwise as a card.
 - **Media.** Videos live in `public/media/<name>.mp4` with a `<name>.webp` poster, muted and looping. Names starting with `demo-` mean real footage (no badge), names ending in `-wide` use a 16:9 frame. AI-generated visuals carry an "Illustrative" label. Keep every asset web-optimized.
-- **Brand wall.** `src/data/clients.ts` lists the brands. Place an official SVG at `public/brand/clients/<slug>.svg` to replace the text wordmark.
+- **Brand wall.** `src/data/clients.ts` lists the brands and their `group` (`client` or `tech`). Logos live at `public/brand/clients/<slug>.svg` or `.png` (white, transparent); without a file, a text wordmark shows. The current PNGs are monochrome versions from Simple Icons (BMW, MINI, Rolls-Royce, Porsche, Audi, Unity, Epic Games, Qt), Wikimedia Commons (Mercedes-Benz) and the company overview deck (the rest). Replace them with official brand files once the brand owners approve.
 - **Job board.** The open positions page loads roles from the public Greenhouse job board API at build time. No client script, no cookies. A daily scheduled deploy keeps the list current. Override the board with the `GREENHOUSE_BOARD` environment variable.
 
 ## Editing content (CMS)

@@ -4,13 +4,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from './Hero.astro';
 import Section from './Section.astro';
 import Card from './Card.astro';
+import CaseCard from './CaseCard.astro';
 import Stat from './Stat.astro';
-import LogoWall from './LogoWall.astro';
 import ClientLogos from './ClientLogos.astro';
 import CtaBand from './CtaBand.astro';
 import Media from './Media.astro';
-import { getPage, navTitle } from '../lib/content';
-import { pathOf, childrenOf, otherLang, type Lang } from '../lib/routes';
+import { getPage, navTitle, publishedIn, slugOf } from '../lib/content';
+import { pathOf, childrenOf, type Lang } from '../lib/routes';
+import { detailPath } from '../lib/paths';
 import { organizationLd, websiteLd } from '../lib/ld';
 import { t } from '../i18n/ui';
 
@@ -25,8 +26,11 @@ const { Content } = await render(page);
 const alternates = { en: pathOf('home', 'en'), de: pathOf('home', 'de') };
 const [explore, reveal, trust] = d.arc;
 const eyebrows = lang === 'de' ? ['Entdecken', 'Erleben', 'Vertrauen'] : ['Explore', 'Reveal', 'Trust'];
-const industries = await Promise.all(childrenOf('industries').slice(0, 3).map(async (n) => ({ id: n.id, title: await navTitle(n.id, lang), page: await getPage(n.id, lang) })));
-const tech = ['Unity', 'Unreal Engine', 'Qt', 'Kanzi', 'DiSTI', 'Rocksolid', 'Ramses3D'];
+const workLabel = lang === 'de' ? 'Ausgewählte Projekte' : 'Selected work';
+const industriesLabel = lang === 'de' ? 'Branchen' : 'Industries';
+const industries = await Promise.all(childrenOf('industries').map(async (n) => ({ id: n.id, title: await navTitle(n.id, lang) })));
+const featured = ['bmw-theater-screen', 'adas-visualization', 'vizaar-industrial-imaging'];
+const cases = (await publishedIn('cases', lang)).filter((c) => featured.includes(slugOf(c.id))).sort((x, y) => featured.indexOf(slugOf(x.id)) - featured.indexOf(slugOf(y.id)));
 ---
 
 <BaseLayout title={d.title} description={d.description} lang={lang} path={pathOf('home', lang)} alternates={alternates} currentId="home" jsonLd={[organizationLd, websiteLd]}>
@@ -57,13 +61,22 @@ const tech = ['Unity', 'Unreal Engine', 'Qt', 'Kanzi', 'DiSTI', 'Rocksolid', 'Ra
       {d.facts.map((f) => <Stat value={f.value} label={f.label} />)}
     </div>
     <div class="spacer"></div>
-    <ClientLogos lang={lang} />
-    <div class="spacer"></div>
-    <LogoWall items={tech} label={lang === 'de' ? 'Technologien' : 'Technologies'} />
-    <div class="spacer"></div>
-    <div class="grid">
-      {industries.map((i) => <Card title={i.title} text={i.page.data.description} href={pathOf(i.id, lang)} image={i.page.data.illustration} lang={lang} cta={ui.learnMore} />)}
+    <div class="logos">
+      <ClientLogos lang={lang} caption={false} />
+      <ClientLogos lang={lang} group="tech" />
     </div>
+    <div class="spacer"></div>
+    <h3 class="subhead">{workLabel}</h3>
+    <div class="grid">
+      {cases.map((c) => <CaseCard title={c.data.title} description={c.data.description} href={detailPath('case-studies', slugOf(c.id), lang)} image={c.data.illustration} industry={c.data.industry} draft={c.data.draft} lang={lang} />)}
+    </div>
+    <p class="more"><a class="btn btn--ghost" href={pathOf('case-studies', lang)}>{ui.allCases}</a></p>
+  </Section>
+
+  <Section id="industries" tone="raised" eyebrow={industriesLabel}>
+    <ul class="pills">
+      {industries.map((i) => <li><a href={pathOf(i.id, lang)}>{i.title}</a></li>)}
+    </ul>
   </Section>
 
   <CtaBand lang={lang} />
@@ -78,5 +91,40 @@ const tech = ['Unity', 'Unreal Engine', 'Qt', 'Kanzi', 'DiSTI', 'Rocksolid', 'Ra
   }
   .spacer {
     height: var(--sp-7);
+  }
+  .logos :global(.clients--tech) {
+    margin-top: var(--sp-8);
+  }
+  .subhead {
+    margin: 0 0 var(--sp-5);
+    font-size: var(--fs-lg);
+  }
+  .more {
+    margin: var(--sp-6) 0 0;
+    text-align: center;
+  }
+  .pills {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-3);
+  }
+  .pills li {
+    margin: 0;
+  }
+  .pills a {
+    display: inline-block;
+    padding: var(--sp-2) var(--sp-5);
+    border: 1px solid var(--c-line);
+    border-radius: var(--r-pill);
+    color: var(--c-text);
+    text-decoration: none;
+    transition: border-color var(--dur-2, 0.2s) ease, background var(--dur-2, 0.2s) ease;
+  }
+  .pills a:hover {
+    border-color: var(--c-primary);
+    background: var(--c-surface-2);
   }
 </style>

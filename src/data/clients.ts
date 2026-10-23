@@ -1,26 +1,28 @@
-// Reference and partner brands. Drop an official SVG at public/brand/clients/<slug>.svg
-// (white or single-color, transparent) to replace the text wordmark. Set show: false to hide a brand.
+// Reference and technology brands. Logos live at public/brand/clients/<slug>.svg or .png
+// (white, transparent; a text wordmark is the fallback). Set show: false to hide a brand.
+// group: 'client' = customers and reference brands, 'tech' = engines and toolkits we build with.
 export interface Client {
   slug: string;
   name: string;
+  group: 'client' | 'tech';
   show: boolean;
 }
 
 export const clients: Client[] = [
-  { slug: 'bmw', name: 'BMW', show: true },
-  { slug: 'mini', name: 'MINI', show: true },
-  { slug: 'rolls-royce', name: 'Rolls-Royce', show: true },
-  { slug: 'mercedes-benz', name: 'Mercedes-Benz', show: true },
-  { slug: 'porsche', name: 'Porsche', show: true },
-  { slug: 'audi', name: 'Audi', show: true },
-  { slug: 'byton', name: 'Byton', show: true },
-  { slug: 'karma', name: 'Karma', show: true },
-  { slug: 'infineon', name: 'Infineon', show: true },
-  { slug: 'ccv', name: 'CCV', show: true },
-  { slug: 'e-solutions', name: 'e.solutions', show: true },
-  { slug: 'idneo', name: 'idneo', show: true },
-  { slug: 'rightware', name: 'Rightware', show: true },
-  { slug: 'unity', name: 'Unity', show: true },
-  { slug: 'epic-games', name: 'Epic Games', show: true },
-  { slug: 'qt-group', name: 'Qt Group', show: true },
+  { slug: 'bmw', name: 'BMW', group: 'client', show: true },
+  { slug: 'mini', name: 'MINI', group: 'client', show: true },
+  { slug: 'rolls-royce', name: 'Rolls-Royce', group: 'client', show: true },
+  { slug: 'mercedes-benz', name: 'Mercedes-Benz', group: 'client', show: true },
+  { slug: 'porsche', name: 'Porsche', group: 'client', show: true },
+  { slug: 'audi', name: 'Audi', group: 'client', show: true },
+  { slug: 'byton', name: 'Byton', group: 'client', show: true },
+  { slug: 'karma', name: 'Karma', group: 'client', show: true },
+  { slug: 'infineon', name: 'Infineon', group: 'client', show: true },
+  { slug: 'ccv', name: 'CCV', group: 'client', show: true },
+  { slug: 'e-solutions', name: 'e.solutions', group: 'client', show: true },
+  { slug: 'idneo', name: 'idneo', group: 'client', show: true },
+  { slug: 'unity', name: 'Unity', group: 'tech', show: true },
+  { slug: 'epic-games', name: 'Epic Games', group: 'tech', show: true },
+  { slug: 'qt-group', name: 'Qt Group', group: 'tech', show: true },
+  { slug: 'rightware', name: 'Rightware', group: 'tech', show: true },
 ];

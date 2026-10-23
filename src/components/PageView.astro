@@ -139,7 +139,7 @@ const jobLd = jobs
 
   {['automotive', 'why', 'technology'].includes(id) && (
     <Section>
-      <ClientLogos lang={lang} />
+      <ClientLogos lang={lang} group={id === 'technology' ? 'tech' : 'client'} />
     </Section>
   )}
 

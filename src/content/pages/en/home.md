@@ -12,20 +12,24 @@ links:
   - label: "See our work"
     href: "/work/case-studies/"
 pillars:
-  - title: "HMI"
-    text: "Android Automotive, apps and cockpit software that feels instant."
-    to: "/solutions/services/hmi/"
-    illustration: "cockpit"
-  - title: "Real-Time 3D Graphics"
-    text: "CAD in, real-time assets out. Shaders and configurators included."
-    to: "/solutions/services/real-time-3d-graphics/"
-    illustration: "render"
+  - title: "Android Automotive (AAOS)"
+    text: "Platform, HMI and apps for software-defined vehicles. Series work with BMW."
+    to: "/solutions/services/automotive-android-aaos/"
+    illustration: "gen-aaos"
+  - title: "CAD-to-Realtime Pipeline"
+    text: "Heavy CAD in, lean real-time assets out: LODs, variants and quality gates."
+    to: "/solutions/services/real-time-3d-graphics/cad-to-realtime-pipeline/"
+    illustration: "official-cad-car"
+  - title: "3D Configurators"
+    text: "Real-time product configurators for web, showroom and AR, built from your CAD data."
+    to: "/solutions/services/real-time-3d-graphics/configurators/"
+    illustration: "gen-shaders"
   - title: "Digital Twins"
-    text: "Live visual copies of products for design, training and service."
+    text: "Photoreal twins for design, training and service, from vehicles to industrial plants."
     to: "/solutions/services/digital-twins/"
-    illustration: "twin"
+    illustration: "gen-twin"
   - title: "AI In-Cabin Sensing"
-    text: "Child presence, occupant detection and driver monitoring."
+    text: "Child presence, occupant detection and driver monitoring, from the team that builds the HMI."
     to: "/solutions/services/ai-in-cabin-sensing/"
     illustration: "sensing"
   - title: "Ramses3D"
@@ -33,7 +37,7 @@ pillars:
     to: "/solutions/products/ramses3d/"
     illustration: "engine"
 arc:
-  - title: "Four disciplines and an engine of our own."
+  - title: "Six entry points, one team."
     text: "Pick the entry that fits your product. We connect the rest."
   - title: "Seeing is believing."
     text: "A product that is explored in real time sells itself. Our demos show how it feels, before it exists."
@@ -48,7 +52,7 @@ facts:
     label: "turnover in 2025"
   - value: "2"
     label: "locations: Munich and Bucharest"
-updated: 2026-10-20
+updated: 2026-10-23
 ---
 
 We do not just configure a product. We let people experience it.
