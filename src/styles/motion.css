@@ -1,0 +1,118 @@
+/* Motion layer. CSS only, no client JS. Everything sits behind no-preference.
+   Rule: animate opacity, transform, filter. Use `backwards` fill so finished
+   elements fall back to their own styles and hover states keep working. */
+
+@media (prefers-reduced-motion: no-preference) {
+  /* Soft crossfade between pages. */
+  @view-transition {
+    navigation: auto;
+  }
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation-duration: 340ms;
+    animation-timing-function: var(--ease-cine);
+  }
+
+  /* Hero entrance: staggered rise with a short focus pull. */
+  .hero__inner > * {
+    animation: rise 900ms var(--ease-out) backwards;
+    animation-delay: calc(80ms + var(--i, 0) * 70ms);
+  }
+  .hero__inner > :nth-child(2) {
+    --i: 1;
+  }
+  .hero__inner > :nth-child(3) {
+    --i: 2;
+  }
+  .hero__inner > :nth-child(4) {
+    --i: 3;
+  }
+  .hero__inner > :nth-child(n + 5) {
+    --i: 4;
+  }
+
+  /* Buttons: press feedback and a light sweep on the primary one. */
+  .btn:not([disabled]):active {
+    transform: translateY(0) scale(0.97);
+    transition-duration: var(--dur-fast);
+  }
+  .btn--primary {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+  }
+  .btn--primary::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(105deg, transparent 38%, rgb(255 255 255 / 0.38) 50%, transparent 62%);
+    transform: translateX(-130%);
+    transition: transform 800ms var(--ease-out);
+    pointer-events: none;
+  }
+  .btn--primary:hover::after {
+    transform: translateX(130%);
+  }
+
+  /* Cards: image push-in and arrow nudge on hover. */
+  .card .media img {
+    transition: scale 1100ms var(--ease-out);
+  }
+  a.card:hover .media img {
+    scale: 1.06;
+  }
+  .card__cta > span {
+    display: inline-block;
+    transition: transform var(--dur-base) var(--ease-out);
+  }
+  a.card:hover .card__cta > span {
+    transform: translateX(5px);
+  }
+}
+
+/* Scroll-driven reveal. Progressive enhancement: browsers without
+   animation-timeline simply show the content. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal {
+      animation: reveal var(--ease-out) backwards;
+      animation-timeline: view();
+      animation-range: entry 0% entry 60%;
+    }
+    /* Neighbours in a row start a little later: a cheap stagger. */
+    .reveal:nth-child(3n + 2) {
+      animation-range: entry 7% entry 67%;
+    }
+    .reveal:nth-child(3n + 3) {
+      animation-range: entry 14% entry 74%;
+    }
+
+    /* Feature images settle in while their row scrolls into view. */
+    .row__frame img {
+      animation: settle linear backwards;
+      animation-timeline: view();
+      animation-range: entry 0% cover 45%;
+    }
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+    filter: blur(8px);
+  }
+}
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateY(32px) scale(0.985);
+    filter: blur(6px);
+  }
+}
+@keyframes settle {
+  from {
+    transform: scale(1.12);
+  }
+}

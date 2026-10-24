@@ -18,7 +18,7 @@ White logo on dark only. Keep the 1.85:1 ratio and clear space. Header and favic
 
 ## Motion
 
-Slow, eased, camera-like (dolly, drift, fade). Scroll reveals use CSS scroll-driven animation. Everything stops under `prefers-reduced-motion`. No hard cuts, spinners or modals.
+Slow, eased, camera-like (dolly, drift, fade). All of it is CSS in `src/styles/motion.css`, with no client JS: staggered hero entrance, scroll-driven reveals with a short stagger, feature images that settle while scrolling in, card image push-in, button press and sweep, nav underline, and a soft crossfade between pages (cross-document view transitions). Animate only opacity, transform and filter, and use `animation-fill-mode: backwards` so hover states keep working. Everything stops under `prefers-reduced-motion`. No hard cuts, spinners or modals.
 
 ## Components
 
