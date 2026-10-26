@@ -13,7 +13,7 @@
     animation-timing-function: var(--ease-cine);
   }
 
-  /* Hero entrance: staggered rise with a short focus pull. */
+  /* Hero entrance: staggered rise (opacity and transform only). */
   .hero__inner > * {
     animation: rise 900ms var(--ease-out) backwards;
     animation-delay: calc(80ms + var(--i, 0) * 70ms);
@@ -97,11 +97,11 @@
   }
 }
 
+/* No blur here: it combined with the h1 text-glow to block the main thread on slow machines. */
 @keyframes rise {
   from {
     opacity: 0;
     transform: translateY(22px);
-    filter: blur(8px);
   }
 }
 @keyframes reveal {
