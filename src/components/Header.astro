@@ -18,7 +18,8 @@ const active = new Set([currentId, ...ancestorsOf(currentId).map((n) => n.id)]);
 <header class="site-header">
   <div class="container bar">
     <a class="brand" href={homePath(lang)} aria-label="PARADOX CAT">
-      <img src="/brand/logo-mark-white.svg" alt="" width="40" height="43" />
+      <img class="brand__mark" src="/brand/logo-mark-white.svg" alt="" width="40" height="43" />
+      <img class="brand__word" src="/brand/logo-wordmark-white.svg" alt="" width="168" height="20" />
     </a>
 
     <button class="burger" type="button" aria-expanded="false" aria-controls="primary-nav" data-burger>
@@ -126,6 +127,9 @@ const active = new Set([currentId, ...ancestorsOf(currentId).map((n) => n.id)]);
       drop-shadow(0 0 6px rgb(84 140 255 / 0.85))
       drop-shadow(0 0 20px rgb(84 140 255 / 0.65));
     transition: filter var(--dur-base) var(--ease-out);
+  }
+  .brand .brand__word {
+    height: 1.05rem;
   }
   .brand:hover img,
   .brand:focus-visible img {
