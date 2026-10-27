@@ -1,13 +1,13 @@
 ---
 title: "Verteidigung & kritische Infrastruktur"
-description: "Bedieneroberflächen, Fahrzeug-Zwillinge, Training und Geländevisualisierung in Echtzeit-3D für Verteidigung und kritische Infrastruktur."
-lead: "Bedieneroberflächen, digitale Zwillinge und Training in Echtzeit-3D. Von einem erfahrenen Team, zugeschnitten auf Ihre Anforderungen."
+description: "Lagebild, AR und Head-up-Displays, Bedieneroberflächen, digitale Zwillinge und Training in Echtzeit-3D für Verteidigung und kritische Infrastruktur."
+lead: "Lagebild, AR und Bedieneroberflächen in Echtzeit-3D, zugeschnitten auf Ihre Anforderungen."
 illustration: "defense-05"
 features:
   - title: "Bedieneroberflächen"
     video: "defense-07"
     alt: "Behandschuhte Hand bedient ein robustes Feld-Display mit Routenoverlay"
-    text: "Klare, handschuhtaugliche HMI für robuste Displays. Unter Stress schnell lesbar, gebaut für Embedded-Hardware."
+    text: "Handschuhtaugliche HMI für robuste Embedded-Displays, unter Stress schnell lesbar."
   - title: "Digitale Fahrzeug-Zwillinge"
     image: "defense-03"
     alt: "Techniker prüft einen digitalen Fahrzeug-Zwilling auf einem Tablet"
@@ -15,7 +15,7 @@ features:
   - title: "Training und Simulation"
     video: "defense-12"
     alt: "Zwei Trainees mit Mixed-Reality-Brillen folgen einem Schritt-für-Schritt-Hologramm an einem gepanzerten Fahrzeug"
-    text: "AR-, VR- und Desktop-Trainings, die Abläufe am realen oder virtuellen System zeigen."
+    text: "AR-, VR- und Desktop-Training, das Abläufe am realen oder virtuellen System zeigt."
   - title: "Gelände und Lagebild"
     video: "defense-10"
     alt: "Analyst vor einem Geländedisplay mit Heatmap"
@@ -24,58 +24,23 @@ draft: true
 cta:
   label: "Kontakt aufnehmen"
   href: "/de/kontakt/"
-updated: "2026-10-23"
+updated: "2026-10-27"
 ---
 
-Verteidigung und kritische Infrastruktur brauchen Software, die unter Druck, auf begrenzter Hardware und mit geschützten Daten funktioniert. Wir bringen dafür die Fähigkeiten mit, die wir aus Automotive-Cockpits kennen: HMI, Echtzeit-3D und digitale Zwillinge. Wir haben TISAX Level 3 und ISO 9001 und gehen entsprechend mit Ihren Daten um.
+Verteidigung und kritische Infrastruktur brauchen Software, die unter Druck, auf begrenzter Hardware und mit geschützten Daten funktioniert. Wir bringen HMI, Echtzeit-3D und digitale Zwillinge aus Automotive-Cockpits mit, haben TISAX Level 3 und ISO 9001 und gehen entsprechend mit Ihren Daten um.
 
-## Wo wir helfen können
+## Wo wir helfen
 
-- **C4ISR- und BMS-Visualisierung.** Taktische Echtzeit-Visualisierung, gemeinsame Lagebilder und mehrschichtige Kartenanzeigen für Führungs- und Gefechtsführungssysteme, mit integrierten Sensordaten.
-- **Virtuelles HMI-Prototyping.** Wir prototypisieren und testen Bedienoberflächen an einem 3D-Echtzeit-Zwilling, bevor Hardware existiert. So zeigen sich Designprobleme früh.
-- **Bedienerdisplays.** Wir entwerfen und bauen Oberflächen für robuste Embedded-Displays, mit [Ramses3D](/de/loesungen/produkte/ramses3d/) oder dem Framework, das Sie bereits einsetzen.
-- **Digitale Zwillinge von Fahrzeugen und Systemen.** Wir führen Ihre CAD-Daten durch unsere [CAD-zu-Echtzeit-Pipeline](/de/loesungen/leistungen/echtzeit-3d-grafik/cad-zu-echtzeit-pipeline/) und bauen [digitale Zwillinge](/de/loesungen/leistungen/digitale-zwillinge/), die Sie prüfen, konfigurieren und erklären können.
-- **Training und Wartung.** Schritt-für-Schritt-Anleitung in [XR](/de/loesungen/leistungen/digitale-zwillinge/xr-ar-vr/) oder auf dem Tablet, verknüpft mit dem 3D-Modell. Simulator- und Trainerbildschirme nutzen die echte Bedienoberfläche, damit Fähigkeiten übertragbar sind.
-- **Multi-Domain-Lagebilder.** Daten aus Land, Luft, See und Cyber in einem gemeinsamen Lagebild.
-- **Gelände- und Datenvisualisierung.** Echtzeit-3D-Ansichten von Gelände, Assets und Statusdaten für Leitstellen und Einsatzkräfte.
+- **Lagebewusstsein:** ein taktisches Bild, das Sensor-, Fahrzeug- und C4ISR-Daten zusammenführt, zugeschnitten auf Rolle und Einsatzphase, für aufgesessene und abgesessene Kräfte. Mehrschichtige Karten und Gelände enthalten Daten aus Land, Luft, See und Cyber (C4ISR, BMS).
+- **AR und Head-up-Displays:** Overlays auf Fahrzeugdisplays, HUDs und helmmontierten Displays, fest in der Szene verankert. Latenzkompensation und [Sensorfusion](/de/loesungen/leistungen/sensorfusion/) halten sie bei schneller Fahrzeug- und Kopfbewegung stabil, auch bei eingeschränkter Satellitenortung.
+- **Bedieneroberflächen:** handschuhtaugliche, rollenbasierte Layouts und Warnungen, die Aufmerksamkeit verdienen, für robuste Displays, lange Schichten, wenig Licht und direkte Sonne. Eine Ansicht über Displays, Plattformen und unbemannte Systeme, mit schnellem manuellem Eingriff. Empfehlungen aus [KI + ML](/de/loesungen/leistungen/ki-und-ml/) zeigen Quellen und Konfidenz, und der Bediener kann übersteuern.
+- **Digitale Zwillinge:** Ihre CAD-Daten laufen durch unsere [CAD-zu-Echtzeit-Pipeline](/de/loesungen/leistungen/echtzeit-3d-grafik/cad-zu-echtzeit-pipeline/) in [digitale Zwillinge](/de/loesungen/leistungen/digitale-zwillinge/) von Fahrzeugen und Systemen, auch zum Prototyping von Oberflächen, bevor Hardware existiert.
+- **Training und Wartung:** Anleitung in [XR](/de/loesungen/leistungen/digitale-zwillinge/xr-ar-vr/), AR oder auf dem Tablet, mit Trainerbildschirmen, die die echte Bedienoberfläche nutzen.
+- **Raue, begrenzte Plattformen:** Grafik für knappe Rechen-, Energie- und Wärmereserven und für Vibration, auf Embedded Linux, QNX oder Android, mit [Edge AI](/de/loesungen/leistungen/edge-ai/) auf dem Gerät.
+- **Integration, Test und Validierung:** Wir integrieren in Ihre Toolchains und Middleware und testen auf Zielhardware, mit automatisierter Regression und Hardware-in-the-Loop, vom Prototyp bis zur Unterstützung Ihres Qualifizierungsprozesses.
 
-## Oberflächen für anspruchsvolle Einsätze
+Naheliegende Erweiterungen: Fernsteuerung unbemannter Bodenfahrzeuge, Brücken-Overlays für Marineplattformen und AR-geführte Wartung im Feld. Rettungsdienste haben ähnliche Anforderungen, siehe [Öffentlicher Sektor](/de/branchen/oeffentlicher-sektor/).
 
-Gute Bediensoftware senkt die kognitive Last, wenn es darauf ankommt. Diese Gestaltungsprinzipien wenden wir an:
+## Engine und Programm
 
-- **Rollenbasierte Ansichten.** Kommandant, Richtschütze, Fahrer, Analyst oder Supervisor sehen, was ihre Aufgabe braucht, und nicht mehr.
-- **Layouts je Einsatzphase.** Der Bildschirm ordnet sich nach der Lage neu: Navigation in der Fahrt, Details im Gefecht, Diagnose im Halt.
-- **Warnungen, die Aufmerksamkeit verdienen.** Routine-Telemetrie bleibt ruhig, kritische Ereignisse eskalieren klar, Alarmmüdigkeit wird vermieden.
-- **Mehrere Plattformen überwachen.** Eine Ansicht für mehrere Fahrzeuge, Sensoren oder unbemannte Systeme, mit schnellem manuellem Eingriff.
-- **Transparente KI.** Empfehlungen zeigen Datenquellen und Konfidenz, und der Bediener kann jederzeit übersteuern.
-- **Für lange Schichten und wenig Licht.** Ruhige Nachtdarstellung, konsistente Symbolik und wenig visuelles Rauschen in Konsole, Simulator und Trainingswerkzeug.
-- **Offen und modular.** Saubere Schnittstellen und austauschbare Komponenten, damit Systeme erweiterbar bleiben und frei von Herstellerbindung.
-- **Schnelle Iteration mit Anwendern.** Interaktive Prototypen auf einem [digitalen Zwilling](/de/loesungen/leistungen/digitale-zwillinge/) lassen Bediener Konzepte früh testen, bevor Hardware feststeht.
-
-## Unsere Engine: Ramses3D
-
-Wir arbeiten mit der Engine, die zu Ihrem Programm passt: Unreal, Unity, Ramses3D, DiSTI, Rocksolid, Kanzi, Qt und weiteren. [Ramses3D](/de/loesungen/produkte/ramses3d/) ist die Open-Source-3D-Engine für Embedded-Systeme, die wir mitentwickeln. Sie arbeitet effizient auf begrenzter Hardware, rendert über Prozesse und Displays hinweg und hat sich in Serienprogrammen der Automobilindustrie bewährt.
-
-- **Einsehbar.** Der Quellcode ist öffentlich (MPL-2.0), Sicherheits- und Plattformteams können ihn prüfen und selbst bauen.
-- **Keine Herstellerbindung.** Sie können die Engine erweitern, im eigenen Haus halten und mit oder ohne uns pflegen.
-- **Engine plus Services.** Wir integrieren sie in Ihre Plattform, bauen Tooling und Assets darum und betreuen sie langfristig.
-
-## Für begrenzte Plattformen gebaut
-
-Bediensoftware läuft oft auf Embedded-Hardware mit knappen Rechen-, Energie- und Wärmereserven. Wir entwickeln Grafikleistung und Interaktion als Teil der Plattform und integrieren in heterogene Hardware und Schnittstellen. Unsere Arbeit zu [Sensorfusion](/de/loesungen/leistungen/sensorfusion/) und [Edge AI](/de/loesungen/leistungen/edge-ai/) deckt die latenzarme Verarbeitung auf dem Gerät ab.
-
-## Arbeiten im Rahmen Ihres Programms
-
-Wir stellen Spezialkapazität innerhalb bestehender Programme bereit und unterstützen Ihr internes Team dort, wo Grafik, Reaktionszeit und Integrationsgrenzen zählen. Frühe Prototypen auf realistischer Hardware zeigen Integrationsrisiken vor der Volumenentwicklung. Wir integrieren in Ihre bestehenden Toolchains und Middleware, auch DiSTI, Unity und Unreal, und bauen die Brücken zwischen Simulationskomponenten und HMI.
-
-## So arbeiten wir
-
-Wir fangen klein an: Schicken Sie uns ein Beispielmodell oder ein Screen-Konzept, dann zeigen wir Ihnen in einem kurzen Gespräch ein funktionierendes Ergebnis. Anforderungen in diesem Feld sind speziell und oft vertraulich, daher klären wir die Rahmenbedingungen, bevor wir über Details sprechen.
-
-## KI, wo sinnvoll und wertvoll
-
-Erkennung und Interpretation von Sensordaten unter verrauschten oder unvollständigen Bedingungen, am Edge mit geringer Latenz. Adaptive Layouts und priorisierte Warnungen senken die Last für den Bediener. Die Entscheidung bleibt beim Menschen. Mehr zu [KI + ML](/de/loesungen/leistungen/ki-und-ml/).
-
-## Nächster Schritt
-
-Nehmen Sie Kontakt auf und sagen Sie uns, was Sie brauchen. Wir besprechen, was möglich ist und welche Rahmenbedingungen gelten.
+Wir arbeiten mit der Engine, die zu Ihrem Programm passt: Unreal, Unity, Ramses3D, DiSTI, Kanzi, Qt und weiteren. [Rocksolid](/de/projekte/technologie-und-partner/rocksolid/) von Basemark ist die Spatial-AI- und AR-Plattform, auf der wir stabilisierte Overlays und fusionierte Sensoransichten bauen. [Ramses3D](/de/loesungen/produkte/ramses3d/) ist die Open-Source-3D-Engine für Embedded-Systeme, die wir mitentwickeln, bewährt in Serienprogrammen der Automobilindustrie. Der Quellcode ist öffentlich (MPL-2.0), Sicherheitsteams können ihn prüfen und selbst bauen, und Sie können ihn im eigenen Haus pflegen, frei von Herstellerbindung. Wir stellen Spezialkapazität innerhalb bestehender Programme bereit, integrieren in Ihre Toolchains und Middleware und klären Rahmenbedingungen, bevor wir über vertrauliche Details sprechen.
