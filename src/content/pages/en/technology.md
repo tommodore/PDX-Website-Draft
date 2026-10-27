@@ -7,33 +7,17 @@ draft: true
 cta:
   label: "Discuss your stack"
   href: "/contact/"
-features:
-  - title: "Engines"
-    text: "Unity, Unreal, DiSTI, Rocksolid and Ramses3D for real-time 3D, AR and HMI."
-  - title: "UI frameworks"
-    text: "Qt and Kanzi for embedded HMI."
-  - title: "Platforms"
-    text: "Android Automotive OS and embedded Linux."
-  - title: "Open source"
-    text: "We build in the open with Ramses3D."
-updated: "2026-10-20"
+updated: "2026-10-26"
 ---
 
-Technology choices shape cost and risk for years. We help you choose, and we work inside your existing stack.
-
-## Our principle
-
-We are tool-agnostic. We work with all major engines and frameworks, including Unreal, Unity, Ramses3D, DiSTI, Rocksolid, Kanzi and Qt. The use case, your requirements and your preferences decide, not our habits.
+Technology choices shape cost and risk for years. We are tool-agnostic across Unreal, Unity, Ramses3D, DiSTI, Rocksolid, Kanzi and Qt, and we work inside your existing stack: the use case decides, not our habits.
 
 ## Our stack
 
 - **Platforms:** Android, AOSP, Android Automotive OS, Linux, iOS, web.
 - **Languages:** Kotlin, Java, Jetpack Compose, C++, C, C#, Qt/QML, Python, TypeScript, JavaScript, Rust, Swift, Flutter.
-- **Real-time 3D:** OpenGL, Vulkan, Lua scripting, Unity, Unreal, Qt, Kanzi, Rocksolid, Ramses3D.
-- **3D content:** Blender, PIXYZ, the Autodesk suite, Houdini, InstaLOD.
+- **Real-time 3D and content:** OpenGL, Vulkan, Lua scripting, Blender, PIXYZ, the Autodesk suite, Houdini, InstaLOD.
 - **AI and ML:** PyTorch, TensorFlow, JAX, Keras, OpenCV, MLflow, Optuna, NVIDIA CUDA, TensorFlow Lite.
 - **DevOps:** Git, Gerrit, JIRA, Confluence, Docker, Kubernetes, CI/CD pipelines.
 
-## Open source
-
-Ramses3D is co-developed with BMW and available under MPL-2.0. You can inspect it before you commit.
+[Ramses3D](/solutions/products/ramses3d/), our open-source engine, is co-developed with BMW and available under MPL-2.0. You can inspect it before you commit.

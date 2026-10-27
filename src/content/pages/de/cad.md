@@ -18,27 +18,11 @@ features:
     text: "Farben, Ausstattungen und Optionen in einer sauberen Asset-Struktur."
   - title: "Qualitätsprüfungen"
     text: "Automatische Checks fangen Fehler ab, bevor Assets in Ihre Engine gelangen."
-updated: "2026-10-23"
+updated: "2026-10-26"
 ---
 
-CAD-Modelle sind für die Konstruktion gebaut, nicht für Echtzeit-Rendering. Sie sind zu schwer und zu detailliert für ein Cockpit, einen Konfigurator oder ein XR-Headset.
-
-## Was wir tun
-
-Wir bauen eine wiederholbare Pipeline. CAD geht hinein. Optimierte, korrekt benannte und getestete Assets kommen heraus.
+CAD-Modelle sind für die Konstruktion gebaut, nicht für Echtzeit-Rendering: zu schwer und zu detailliert für ein Cockpit, einen Konfigurator oder ein XR-Headset. Wir bauen eine wiederholbare Pipeline. CAD geht hinein, optimierte, korrekt benannte und getestete Assets kommen heraus, mit konstanter Qualität, wenn sich das Design ändert.
 
 ## Werkzeuge
 
-Wir arbeiten mit Blender, Autodesk VRED, PIXYZ und weiteren Werkzeugen und fügen uns in Ihre bestehende Toolchain ein.
-
-## Warum eine Pipeline
-
-Einmalige Aufräumaktionen skalieren nicht. Eine Pipeline liefert konstante Qualität, wenn sich das Design ändert, und das tut es.
-
-## KI, wo sinnvoll und wertvoll
-
-KI-gestützte Schritte in der Pipeline, etwa automatische Bereinigung, Materialzuweisung und Qualitätsprüfung, mit menschlicher Prüfung an jedem Gate. Mehr zu [KI + ML](/de/loesungen/leistungen/ki-und-ml/).
-
-## Probieren Sie es aus
-
-Senden Sie eine Beispieldatei. Wir zeigen Ihnen das Ergebnis und erklären, wie es sich auf Ihr gesamtes Portfolio übertragen lässt.
+Wir arbeiten mit Blender, Autodesk VRED, PIXYZ und weiteren Werkzeugen und fügen uns in Ihre bestehende Toolchain ein. KI-gestützte Bereinigung, Materialzuweisung und Qualitätsprüfung laufen mit menschlicher Prüfung an jedem Gate: siehe [KI + ML](/de/loesungen/leistungen/ki-und-ml/).

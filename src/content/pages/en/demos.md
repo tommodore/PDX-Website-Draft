@@ -7,7 +7,7 @@ draft: true
 cta:
   label: "Request a demo"
   href: "/contact/"
-updated: "2026-10-20"
+updated: "2026-10-26"
 ---
 
-Our demos show real-time 3D, AR and HMI in action. Contact us if you would like a guided walkthrough.
+Our demos show real-time 3D, AR and HMI in action.

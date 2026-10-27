@@ -14,29 +14,11 @@ features:
     text: "Teach procedures on a virtual machine before touching the real one."
   - title: "Service support"
     text: "Show technicians where to look and what to do."
-  - title: "Built from CAD"
-    text: "We reuse your engineering data through our asset pipeline."
-updated: "2026-10-23"
+updated: "2026-10-26"
 ---
 
-Machines are complex. A 3D twin makes them easier to operate, teach and repair.
-
-## What we build
-
-We create visual twins that run in real time on panels, tablets or headsets. They connect to machine data when you need live status.
+Machines are complex. A 3D twin built from your CAD data makes them easier to operate, teach and repair. It runs in real time on panels, tablets or headsets and connects to machine data when you need live status, via [data integration](/solutions/services/digital-twins/data-integration/).
 
 ## 3D HMI for operators
 
-We replace abstract dashboards with spatial, interactive views. Operators work directly with machines and processes through touch and gesture, on embedded panels and across platforms. Typical uses: machine monitoring, operator workstations and smart manufacturing. See [HMI](/solutions/services/hmi/).
-
-## Plants and processes
-
-Production lines, plants and logistics systems in one real-time view, with status monitoring and dashboards in 3D context. Connect them to your machine data via [data integration](/solutions/services/digital-twins/data-integration/).
-
-## AI where it adds value
-
-Condition monitoring and anomaly detection on machine data, with results highlighted directly on the 3D machine. More on [AI + ML](/solutions/services/ai-and-ml/).
-
-## How to start
-
-Begin with one machine and one use case. We prove the value and then scale the approach across your product line.
+Spatial, interactive views replace abstract dashboards. Operators work with machines and processes through touch and gesture, on embedded panels and across platforms. Typical uses: machine monitoring, operator workstations, smart manufacturing, and production lines or plants with status monitoring in 3D context. See [HMI](/solutions/services/hmi/).

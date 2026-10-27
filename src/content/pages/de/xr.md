@@ -16,14 +16,10 @@ features:
     text: "Praktische Anleitung in Headsets und auf Tablets."
   - title: "Performance"
     text: "Optimierte Assets halten die Bildrate auf Mobil- und Headset-Hardware stabil."
-updated: "2026-10-23"
+updated: "2026-10-26"
 ---
 
-XR funktioniert, wenn Inhalte leicht, präzise und einfach zu aktualisieren sind. Das ist unsere Stärke.
-
-## Was wir bauen
-
-Wir erstellen AR- und VR-Anwendungen aus Ihren CAD-Daten, mit unserer Asset-Pipeline und unserer Echtzeit-3D-Erfahrung.
+XR funktioniert, wenn Inhalte leicht, präzise und einfach zu aktualisieren sind. Wir bauen AR- und VR-Anwendungen aus Ihren CAD-Daten, mit unserer Asset-Pipeline und unserer Echtzeit-3D-Erfahrung.
 
 ## Industrielle Anwendungen
 
@@ -31,13 +27,3 @@ Wir erstellen AR- und VR-Anwendungen aus Ihren CAD-Daten, mit unserer Asset-Pipe
 - Virtuelle Inbetriebnahme vor dem physischen Einsatz
 - VR-Bedienertraining
 - Immersive Engineering-Reviews
-
-Der Nutzen: geringere Schulungskosten, schnellere Fehlersuche, besserer Wissenstransfer und weniger betriebliches Risiko.
-
-## KI, wo sinnvoll und wertvoll
-
-KI-geführte Wartung und Remote-Support in AR, mit Objekterkennung und kontextbezogenen Anleitungen. Mehr zu [KI + ML](/de/loesungen/leistungen/ki-und-ml/).
-
-## Klein anfangen
-
-Ein XR-Prototyp eines Produkts zeigt, was die Technik bringt. Danach entscheiden Sie, ob Sie skalieren.

@@ -9,46 +9,30 @@ cta:
   href: "/contact/"
 features:
   - title: "Triage"
-    text: "Every ticket gets category, priority, language and issue. Sensitive cases always go to a person."
+    text: "Category, priority, language, flags and issue link on every ticket, in tags and fields."
   - title: "Issue grouping"
-    text: "Duplicates are merged and new issues are detected early, so developers get one report per issue."
+    text: "Duplicates merge and new issues surface early: one developer report per issue."
   - title: "Drafts for review"
     text: "Answers and data requests are drafted from approved knowledge. The team reviews and sends."
   - title: "Learning over time"
-    text: "Every resolved case and every patch adds dated knowledge, so answers improve and stay with you."
-updated: "2026-10-20"
+    text: "Each resolved case and patch adds dated knowledge that stays with you."
+updated: "2026-10-26"
 ---
 
-PAW stands for Platform for Autonomous Work. It is an AI system with a long-term, time-aware knowledge base. It works inside your existing ticket tools and supports each support level as far as it can do so reliably.
-
-## How it works
-
-Unclear cases go up one level. Confirmed new bugs go to the developers. Every hand-over carries a summary and the collected data, so nobody asks the customer twice.
+PAW (Platform for Autonomous Work) is an AI system with a long-term, time-aware knowledge base. It works inside your ticket tools and supports each support level as far as it can do so reliably. It is a prototype, shaped with design partners in pilot projects and measured on your data against targets agreed up front.
 
 ## Support levels
 
-- **Triage:** every ticket gets category, priority, language, special-case flags and an issue link, in tags and fields.
-- **Level 0, self-service:** drafts known-issue articles for approval and measures the ticket inflow per issue.
-- **Level 1, answers:** drafts from approved answers and resolved tickets. When a fix ships, all linked tickets get one approved answer.
-- **Level 2, analysis:** drafts requests for missing data, matches the case against known issues, versions and platforms, and hands over a summary with a hypothesis.
-- **Level 3, developers:** one report per issue with player count, platforms, versions and steps, plus alerts on ticket spikes after patches. PAW does not change code.
+Unclear cases go up one level, each hand-over with a summary and the collected data, so nobody asks the customer twice.
 
-People decide at levels 2 and 3. Unclear cases escalate, and every hand-over carries a summary, the collected data and the issue link.
-
-## Knowledge that keeps up
-
-Every resolved case adds to the knowledge base: issues with status history, affected versions, workarounds, fixes and which answers worked. Facts carry dates, so outdated workarounds are retired, not lost. PAW also re-examines open tickets continuously. It clusters candidate new issues and proposes merges and splits, which a person confirms.
+- **Level 0, self-service:** known-issue articles for approval, inflow measured per issue.
+- **Level 1, answers:** drafts from approved answers; a shipped fix triggers one approved reply to all linked tickets.
+- **Level 2, analysis:** data requests, matching against known issues, versions and platforms, hypothesis hand-over.
+- **Level 3, developers:** report with player count, platforms, versions and steps; alerts on ticket spikes after patches.
+- **Knowledge:** dated facts retire outdated workarounds. PAW proposes merges and splits, a person confirms.
 
 ## Guardrails
 
-- Refunds and payments, account security, suspected minors, abuse and legal matters are never automated.
-- Team-reviewed drafts count as the team's answers. Autonomous answers, only for known issues above an agreed accuracy, are marked as AI.
-- Groups of tickets are sampled and checked before any bulk answer is sent.
-
-## Data stays with you
-
-PAW runs on hardware in your network and uses local models by default. Cloud models are optional, per category, and only in pseudonymised form. Customer data stays in your ticket system. You own your data, the knowledge base built from it and your configuration, and you can export them.
-
-## Status
-
-PAW is a prototype, being shaped with design partners in pilot projects. Results are measured on your own data against targets we agree before the start.
+- **Never automated:** refunds and payments, account security, suspected minors, abuse, legal matters. People decide at levels 2 and 3, and PAW does not change code.
+- **Marked as AI:** autonomous answers, only for known issues above an agreed accuracy. Team-reviewed drafts count as the team's answers, and bulk answers are sampled first.
+- **Data stays with you:** local models on hardware in your network by default, cloud models optional per category and pseudonymised. Customer data stays in your ticket system, and you own and can export your data, knowledge base and configuration.

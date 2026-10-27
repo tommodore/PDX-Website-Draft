@@ -15,9 +15,7 @@ features:
   - title: "Real-time 3D"
     text: "CAD-to-realtime pipelines, custom shaders and configurators."
   - title: "Digital Twins"
-    text: "Product, vehicle and machine models for design, training and service."
-  - title: "XR, AR and VR"
-    text: "Immersive access to the same models."
+    text: "Product, vehicle and machine models for design, training and service, with XR access."
   - title: "AI + ML"
     text: "Models from data to production."
   - title: "Edge AI"
@@ -43,9 +41,7 @@ links:
     href: "/solutions/services/edge-ai/"
   - label: "Sensor Fusion"
     href: "/solutions/services/sensor-fusion/"
-updated: "2026-10-22"
+updated: "2026-10-26"
 ---
 
-One team that covers the stack from the operating system to the pixel and the model. That means fewer handovers and a result that fits together.
-
-Each capability links to a service page with details and how we work.
+Everything from the operating system to the pixel and the model.

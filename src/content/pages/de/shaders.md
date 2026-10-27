@@ -16,17 +16,7 @@ features:
     text: "Abgestimmt auf Embedded-GPUs, nicht nur auf Desktop-Karten."
   - title: "Engine-bereit"
     text: "Geliefert für die Engine, die Sie nutzen, darunter Ramses3D, Unity und Unreal."
-updated: "2026-10-20"
+updated: "2026-10-26"
 ---
 
-Ein Shader entscheidet, ob 3D hochwertig oder billig wirkt. Er entscheidet auch, ob es flüssig läuft.
-
-## Was wir tun
-
-Wir schreiben und optimieren Shader gemeinsam mit Technical Artists. Wir prüfen den Look auf der Zielhardware, nicht nur im Editor.
-
-## Wann Sie uns rufen
-
-Wenn der Engine-Standard nicht reicht, oder wenn eine schöne Szene ihre Bildrate verfehlt.
-
-Senden Sie ein Referenzbild und Ihre Zielplattform.
+Ein Shader entscheidet, ob 3D hochwertig oder billig wirkt, und ob es flüssig läuft. Wir schreiben und optimieren Shader gemeinsam mit Technical Artists und prüfen den Look auf der Zielhardware, nicht nur im Editor.

@@ -4,7 +4,7 @@ description: "Selected projects from PARADOX CAT: what the challenge was, how we
 lead: "Proof, not promises: selected projects and what we learned from them."
 illustration: "render"
 draft: false
-updated: "2026-10-24"
+updated: "2026-10-26"
 ---
 
-From series infotainment for premium OEMs to industrial imaging and payment devices. Many of our projects are under NDA. Where needed we anonymize the client and keep the engineering story.
+Series infotainment for premium OEMs, industrial imaging, payment devices. Many projects are under NDA: where needed we anonymize the client and keep the engineering story.

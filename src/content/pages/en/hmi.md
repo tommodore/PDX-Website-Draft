@@ -18,48 +18,17 @@ features:
     text: "Experience with the frameworks used in automotive HMI today."
   - title: "3D in the cockpit"
     text: "Real-time graphics through Ramses3D and our 3D team."
-updated: "2026-10-23"
+updated: "2026-10-26"
 ---
 
-HMI is where users judge your product. We design and build interfaces for vehicles, machines and devices: automotive cockpits, industrial operator panels and embedded products. See also [3D HMI for machines](/solutions/services/digital-twins/industrial-and-machine-twins/).
+HMI is where users judge your product. We build interfaces for vehicles, machines and devices: cockpits, operator panels and embedded products.
 
-## What we cover
+## What we deliver
 
-We work across the stack: platform, apps, graphics and testing. One team means fewer handovers and faster iteration.
+- **Production HMIs** across vehicle and product variants, at series scale.
+- **Performance:** profiling and tuning on target hardware for frame-rate and latency goals.
+- **Real-time 3D:** dashboards, clusters and stable low-latency AR overlays.
+- **Constrained platforms:** tight compute, power and thermal limits, up to defense systems.
+- **Prototypes and demonstrators:** from sketch to show car, before you commit to series.
 
-### Android apps for vehicles
-
-We build native Android apps for Android Automotive OS and Android Auto: media, navigation-adjacent and system apps, vehicle-data features and companion apps for the phone. See [apps and connectivity](/solutions/services/hmi/apps-and-connectivity/) and [Automotive Android + AAOS](/solutions/services/automotive-android-aaos/).
-
-### HMI development
-
-- **Production HMIs.** UI development and architecture across vehicle or product variants, delivered at production scale.
-- **Performance.** GPU and CPU profiling and tuning on target hardware to meet frame-rate and latency goals.
-- **Real-time 3D.** Dashboards and clusters with memory-optimized assets and material workflows.
-- **AR in the vehicle.** Stable, low-latency AR overlays for navigation and driver information, built on platforms such as Rocksolid.
-- **Constrained platforms.** Embedded HMI with tight compute, power and thermal limits, from vehicles to defense systems.
-
-### HMI innovation
-
-- **Rapid prototyping.** Short cycles from sketch to user feedback.
-- **Concepts.** New interaction ideas explored before production commitment.
-- **Demonstrators.** Show-car and trade-show demos that make a vision tangible.
-
-## How we work
-
-1. **Discovery:** users, contexts, goals and constraints.
-2. **UX and interaction design:** information design, brand and regulatory needs, different user groups.
-3. **Hardware fit:** environment, touch, haptics, cameras and gesture input.
-4. **Interaction workshops:** validate scenarios with you before we build.
-5. **Connectivity:** sensors, field devices and cloud, as part of the design.
-6. **MVP and testing:** a first build for feedback or a live trial, then iterate.
-
-## AI where it adds value
-
-Voice and natural-language interaction, context-aware suggestions and adaptive interfaces, running on the device or in the cloud as your requirements allow. More on [AI + ML](/solutions/services/ai-and-ml/).
-
-## Our fit
-
-We suit OEMs and Tier 1 teams that need senior capacity and clear ownership. We can take a feature, a screen or a whole domain.
-
-Share your roadmap and we will show where we can help.
+See also [Automotive Android + AAOS](/solutions/services/automotive-android-aaos/) and [3D HMI for machines](/solutions/services/digital-twins/industrial-and-machine-twins/).

@@ -40,7 +40,7 @@ arc:
   - title: "Six entry points, one team."
     text: "Pick the entry that fits your product. We connect the rest."
   - title: "Seeing is believing."
-    text: "A product that is explored in real time sells itself. Our demos show how it feels, before it exists."
+    text: "Our demos show how a product feels, before it exists."
   - title: "Proof before promises."
     text: "People, track record and tools you can check."
 facts:
@@ -52,13 +52,11 @@ facts:
     label: "turnover in 2025"
   - value: "2"
     label: "locations: Munich and Bucharest"
-updated: 2026-10-23
+updated: 2026-10-26
 ---
 
-We do not just configure a product. We let people experience it.
-
-- **Cinematic by design.** The product is the hero. The interface stays out of the way.
-- **Built for the target.** Every asset and screen is tuned for the hardware it runs on.
-- **Open where it matters.** Ramses3D is open source, so you can look under the hood.
+- **Cinematic by design.** The product is the hero, the interface stays out of the way.
+- **Built for the target.** Every asset and screen is tuned for its hardware.
+- **Open where it matters.** Ramses3D is open source.
 
 [See the demos](/work/demos/)

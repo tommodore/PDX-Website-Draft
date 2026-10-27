@@ -11,27 +11,17 @@ features:
   - title: "Adaptive audio"
     text: "Music prepared for our adaptive audio system follows how you drive."
   - title: "Private by design"
-    text: "Vehicle data is processed locally in the car, so it works without an internet connection."
+    text: "Vehicle data is processed locally in the car, so it works offline."
   - title: "Opt-in statistics"
     text: "Statistics and crash reports are sent only if you opt in within the app."
-  - title: "For artists"
-    text: "Artists can work with our team to bring their music into CarChestra."
 links:
   - label: "carchestra.com"
     href: "https://carchestra.com/"
-updated: "2026-10-20"
+updated: "2026-10-26"
 ---
 
 CarChestra is an adaptive driving music app built by the PARADOX CAT team. It turns a ride into an immersive music experience and shows what we can build for the vehicle.
 
 ## Music
 
-The first track is "Without You" by Michael Badal, a progressive house song. More songs in other styles are planned. CarChestra plays only music prepared by our team for the adaptive audio system, not your own MP3 files.
-
-## Privacy
-
-All processing of vehicle data happens locally on the vehicle. That protects your privacy and lets the music react in real time, even offline.
-
-## For artists
-
-Want your music in CarChestra? Reach out to us at carchestra@paradoxcat.com.
+The first track is "Without You" by Michael Badal, a progressive house song, with more styles planned. CarChestra plays only music our team prepared, not your own MP3 files. Artists who want their music in CarChestra can write to carchestra@paradoxcat.com.

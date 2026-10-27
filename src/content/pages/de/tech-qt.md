@@ -17,33 +17,21 @@ features:
     text: "Logik teilen über Embedded, Desktop und Mobile."
   - title: "Performance auf dem Ziel"
     text: "Profiling und Tuning, bis es sich sofort anfühlt."
-updated: "2026-10-23"
+updated: "2026-10-26"
 ---
 
-Qt ist das etablierte Toolkit für Embedded-Oberflächen: starke Werkzeuge, viele Plattformen und eine große Entwicklergemeinde. Wir setzen es für Serien-HMIs ein, wo Reife und Wartbarkeit zählen.
+Qt ist das etablierte Toolkit für Embedded-Oberflächen, mit starken Werkzeugen, vielen Plattformen und großer Community. Wir setzen es für Serien-HMIs ein, wo Reife und Wartbarkeit zählen.
 
 ## Wo Qt passt
 
-- **Kombiinstrumente und Infotainment** auf Embedded Linux, QNX und Android.
-- **Industrie-, Maschinen- und Geräte-HMIs** mit langen Produktlebenszyklen.
-- **Produkte auf mehreren Plattformen** mit einer gemeinsamen Codebasis.
-- **Schnelle Prototypen** mit QML, die Designer und Entwickler beide lesen können.
-- **3D-Inhalte** über die 3D-Funktionen von Qt oder durch Kombination der Oberfläche mit einem eigenen Renderer.
+- Kombiinstrumente und Infotainment auf Embedded Linux, QNX und Android
+- Industrie-, Maschinen- und Geräte-HMIs mit langen Lebenszyklen
+- Eine Codebasis über mehrere Plattformen
+- QML-Prototypen, die Designer und Entwickler beide lesen können
+- 3D über Qt-eigene Funktionen oder mit [Ramses3D](/de/loesungen/produkte/ramses3d/), Unity oder einem anderen Renderer
 
-## Was wir mitbringen
+Wir bauen wiederverwendbare Designsysteme, binden Fahrzeugsignale, Middleware, [Android](/de/loesungen/leistungen/automotive-android-aaos/) und Backends an und profilieren GPU, CPU, Speicher und Startzeit auf dem Ziel.
 
-- **Architektur.** Eine saubere Trennung von Oberfläche, Logik und Fahrzeug- oder Geräteschnittstellen.
-- **Performance.** GPU- und CPU-Profiling auf dem Ziel, inklusive Speicher und Startzeit.
-- **Designsysteme.** Wiederverwendbare Komponenten und Themes über Varianten und Produkte.
-- **Integration.** Fahrzeugsignale, Middleware, [Android](/de/loesungen/leistungen/automotive-android-aaos/) und Backends.
-- **Kombination mit 3D.** Qt-Oberfläche plus [Ramses3D](/de/loesungen/produkte/ramses3d/), Unity oder andere Renderer, wenn die Optik es verlangt.
-
-## Wann wir etwas anderes vorschlagen
-
-Wenn reichhaltige 3D-Optik das Hauptziel ist, passt eine Game-Engine wie [Unity oder Unreal](/de/projekte/technologie-und-partner/) oft besser. Das sagen wir offen.
-
-## So arbeiten wir
-
-Nennen Sie uns Plattform, Qt-Version und Ziel. Wir steigen in Ihr Projekt und Ihre Toolchain ein oder bauen sie gemeinsam mit Ihnen auf.
+Wenn reichhaltige 3D-Optik das Hauptziel ist, passt eine Game-Engine wie [Unity oder Unreal](/de/projekte/technologie-und-partner/) oft besser.
 
 *Qt ist eine Marke von The Qt Company Ltd. Wir sind ein unabhängiges Engineering-Unternehmen; diese Seite beschreibt unsere eigene Erfahrung mit dem Werkzeug.*

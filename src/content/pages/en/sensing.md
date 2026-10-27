@@ -16,20 +16,10 @@ features:
     text: "Driver monitoring that supports safer driving."
   - title: "From model to HMI"
     text: "We connect sensing results to the interface the driver sees."
-updated: "2026-10-20"
+updated: "2026-10-26"
 ---
 
-In-cabin sensing turns camera and sensor data into safety and comfort functions.
-
-## What we do
-
-We develop AI-based detection, integrate it on embedded hardware and design how the vehicle reports results to occupants.
-
-## Why us
-
-Sensing only helps if the response is clear. Because we also build HMI, we cover the whole chain from signal to screen.
-
-Tell us which function you need and on which hardware.
+In-cabin sensing turns camera and sensor data into safety and comfort functions. We develop AI-based detection, integrate it on embedded hardware and design how the vehicle reports results to occupants.
 
 ## Selected work
 

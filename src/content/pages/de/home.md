@@ -3,7 +3,7 @@ title: "Wir bauen Echtzeit-Erlebnisse, an die man sich erinnert."
 navTitle: "Start"
 description: "PARADOX CAT entwickelt Android-Automotive-HMI, Echtzeit-3D-Grafik, Digitale Zwillinge und KI-Innenraumsensorik sowie die Open-Source-Engine Ramses3D."
 eyebrow: "HMI | Echtzeit-3D | KI-Sensorik"
-lead: "Vom Cockpit bis zum Konfigurator: erfahrene Ingenieurinnen, Ingenieure und Artists, die hochwertige Oberflächen liefern, termingerecht und auf der Zielhardware."
+lead: "Vom Cockpit bis zum Konfigurator: erfahrene Ingenieure und Artists, die hochwertige Oberflächen liefern, termingerecht und auf der Zielhardware."
 illustration: "gen-graphics"
 cta:
   label: "Beispieldatei senden / Gespräch buchen"
@@ -40,7 +40,7 @@ arc:
   - title: "Sechs Einstiege, ein Team."
     text: "Wählen Sie den Einstieg, der zu Ihrem Produkt passt. Den Rest verbinden wir."
   - title: "Sehen heißt glauben."
-    text: "Ein Produkt, das in Echtzeit erkundet wird, verkauft sich selbst. Unsere Demos zeigen, wie es sich anfühlt, bevor es existiert."
+    text: "Unsere Demos zeigen, wie sich ein Produkt anfühlt, bevor es existiert."
   - title: "Belege vor Versprechen."
     text: "Menschen, Erfahrung und Werkzeuge, die Sie prüfen können."
 facts:
@@ -52,13 +52,11 @@ facts:
     label: "Fluktuation 2025"
   - value: "2"
     label: "Standorte: München und Bukarest"
-updated: 2026-10-23
+updated: 2026-10-26
 ---
 
-Wir konfigurieren ein Produkt nicht nur. Wir lassen Menschen es erleben.
-
-- **Cinematisch gedacht.** Das Produkt ist der Held. Die Oberfläche tritt zurück.
+- **Cinematisch gedacht.** Das Produkt ist der Held, die Oberfläche tritt zurück.
 - **Für die Zielplattform gebaut.** Jedes Asset und jeder Screen ist auf die Hardware abgestimmt.
-- **Offen, wo es zählt.** Ramses3D ist Open Source, Sie können unter die Haube schauen.
+- **Offen, wo es zählt.** Ramses3D ist Open Source.
 
 [Demos ansehen](/de/projekte/demos/)

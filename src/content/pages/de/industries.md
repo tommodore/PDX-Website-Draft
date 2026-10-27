@@ -7,14 +7,7 @@ draft: true
 cta:
   label: "Ihre Branche finden"
   href: "/de/kontakt/"
-features:
-  - title: "Automobil zuerst"
-    text: "Tiefe Erfahrung mit OEMs und Tier-1-Zulieferern."
-  - title: "Übertragbare Fähigkeiten"
-    text: "HMI, Echtzeit-3D und digitale Zwillinge gelten weit über Autos hinaus."
-  - title: "Klare Startpunkte"
-    text: "Jede Branchenseite zeigt, wo wir zuerst helfen können."
-updated: "2026-10-23"
+updated: "2026-10-26"
 ---
 
-Finden Sie unten Ihre Branche. Nicht dabei? Sprechen Sie uns an. Wo es Bildschirme, 3D oder Sensoren gibt, haben wir wahrscheinlich etwas beizutragen.
+Finden Sie unten Ihre Branche. Nicht dabei? Wo es Bildschirme, 3D oder Sensoren gibt, sprechen Sie uns an.

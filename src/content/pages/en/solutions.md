@@ -8,12 +8,7 @@ gate: true
 cta:
   label: "Discuss your project"
   href: "/contact/"
-features:
-  - title: "Services"
-    text: "HMI, real-time 3D, digital twins and AI sensing."
-  - title: "Products"
-    text: "Ramses3D, our open-source embedded 3D engine."
-updated: "2026-10-20"
+updated: "2026-10-26"
 ---
 
-One team covers the path from design to production software. Choose your entry point below.
+From design to production software. Choose your entry point below.

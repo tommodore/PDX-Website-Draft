@@ -16,17 +16,7 @@ features:
     text: "Tuned for embedded GPUs, not only for desktop cards."
   - title: "Engine-ready"
     text: "Delivered for the engine you use, including Ramses3D, Unity and Unreal."
-updated: "2026-10-20"
+updated: "2026-10-26"
 ---
 
-A shader decides whether 3D looks premium or cheap. It also decides whether it runs smoothly.
-
-## What we do
-
-We write and tune shaders together with technical artists. We check the look on target hardware, not just in the editor.
-
-## When to call us
-
-When the engine default is not enough, or when a beautiful scene misses its frame rate.
-
-Send a reference image and your target platform.
+A shader decides whether 3D looks premium or cheap, and whether it runs smoothly. We write and tune shaders with technical artists and check the look on target hardware, not just in the editor.

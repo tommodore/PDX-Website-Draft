@@ -7,14 +7,7 @@ draft: true
 cta:
   label: "Find your industry"
   href: "/contact/"
-features:
-  - title: "Automotive first"
-    text: "Deep experience with OEMs and Tier 1 suppliers."
-  - title: "Transferable skills"
-    text: "HMI, real-time 3D and digital twins apply well beyond cars."
-  - title: "Clear starting points"
-    text: "Each industry page shows where we can help first."
-updated: "2026-10-23"
+updated: "2026-10-26"
 ---
 
-Find your industry below. Not listed? Contact us. If it has screens, 3D or sensors, we probably have something to say.
+Find your industry below. Not listed? If it has screens, 3D or sensors, talk to us.

@@ -17,33 +17,21 @@ features:
     text: "Share logic across embedded, desktop and mobile."
   - title: "Performance on target"
     text: "Profiling and tuning until it feels instant."
-updated: "2026-10-23"
+updated: "2026-10-26"
 ---
 
-Qt is the established toolkit for embedded interfaces: strong tooling, many platforms and a large developer community. We use it for production HMIs where maturity and maintainability matter.
+Qt is the established toolkit for embedded interfaces, with strong tooling, many platforms and a large community. We use it for production HMIs where maturity and maintainability matter.
 
 ## Where Qt fits
 
-- **Instrument clusters and infotainment** on embedded Linux, QNX and Android.
-- **Industrial, machine and device HMIs** with long product lifetimes.
-- **Products on several platforms** that share one code base.
-- **Fast prototypes** with QML that designers and developers can both read.
-- **3D content** through Qt's own 3D features or by combining the UI with a dedicated renderer.
+- Clusters and infotainment on embedded Linux, QNX and Android
+- Industrial, machine and device HMIs with long lifetimes
+- One code base across platforms
+- QML prototypes designers and developers can both read
+- 3D via Qt's own features, or with [Ramses3D](/solutions/products/ramses3d/), Unity or another renderer
 
-## What we bring
+We build reusable design systems, integrate vehicle signals, middleware, [Android](/solutions/services/automotive-android-aaos/) and backends, and profile GPU, CPU, memory and startup time on target.
 
-- **Architecture.** A clean split between UI, logic and vehicle or device interfaces.
-- **Performance.** GPU and CPU profiling on the target, memory and startup time included.
-- **Design systems.** Reusable components and themes across variants and products.
-- **Integration.** Vehicle signals, middleware, [Android](/solutions/services/automotive-android-aaos/) and backends.
-- **Combination with 3D.** Qt UI plus [Ramses3D](/solutions/products/ramses3d/), Unity or other renderers where visuals demand it.
-
-## When we suggest something else
-
-When rich 3D visuals are the main goal, a game engine such as [Unity or Unreal](/work/technology-and-partners/) can fit better. We tell you openly.
-
-## How we work
-
-Tell us your platform, your Qt version and your goal. We join your project and toolchain, or we set one up with you.
+When rich 3D visuals are the main goal, a game engine such as [Unity or Unreal](/work/technology-and-partners/) can fit better.
 
 *Qt is a trademark of The Qt Company Ltd. We are an independent engineering company; this page describes our own experience with the tool.*

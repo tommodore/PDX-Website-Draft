@@ -8,12 +8,7 @@ gate: true
 cta:
   label: "Projekt besprechen"
   href: "/de/kontakt/"
-features:
-  - title: "Leistungen"
-    text: "HMI, Echtzeit-3D, digitale Zwillinge und KI-Sensorik."
-  - title: "Produkte"
-    text: "Ramses3D, unsere Open-Source-Embedded-3D-Engine."
-updated: "2026-10-20"
+updated: "2026-10-26"
 ---
 
-Ein Team deckt den Weg vom Design bis zur Serien-Software ab. Wählen Sie unten Ihren Einstiegspunkt.
+Vom Design bis zur Serien-Software. Wählen Sie unten Ihren Einstiegspunkt.

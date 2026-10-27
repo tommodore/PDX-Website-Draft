@@ -4,7 +4,7 @@ description: "Ausgewählte Projekte von PARADOX CAT: Was die Aufgabe war, wie wi
 lead: "Belege statt Versprechen: ausgewählte Projekte und was wir daraus gelernt haben."
 illustration: "render"
 draft: false
-updated: "2026-10-24"
+updated: "2026-10-26"
 ---
 
-Von Serien-Infotainment für Premium-Hersteller bis zu industrieller Bildgebung und Zahlungsgeräten. Viele unserer Projekte unterliegen einer Vertraulichkeitsvereinbarung. Wo nötig, anonymisieren wir den Kunden und behalten die technische Geschichte.
+Serien-Infotainment für Premium-Hersteller, industrielle Bildgebung, Zahlungsgeräte. Viele Projekte unterliegen einer Vertraulichkeitsvereinbarung: Wo nötig, anonymisieren wir den Kunden und behalten die technische Geschichte.

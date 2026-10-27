@@ -16,20 +16,10 @@ features:
     text: "Fahrerüberwachung, die sicheres Fahren unterstützt."
   - title: "Vom Modell zum HMI"
     text: "Wir verbinden Sensorik-Ergebnisse mit der Oberfläche, die der Fahrer sieht."
-updated: "2026-10-20"
+updated: "2026-10-26"
 ---
 
-Innenraumsensorik macht aus Kamera- und Sensordaten Sicherheits- und Komfortfunktionen.
-
-## Was wir tun
-
-Wir entwickeln KI-basierte Erkennung, integrieren sie auf Embedded-Hardware und gestalten, wie das Fahrzeug Ergebnisse an Insassen meldet.
-
-## Warum wir
-
-Sensorik hilft nur, wenn die Reaktion klar ist. Weil wir auch HMI bauen, decken wir die ganze Kette vom Signal bis zum Bildschirm ab.
-
-Sagen Sie uns, welche Funktion Sie auf welcher Hardware brauchen.
+Innenraumsensorik macht aus Kamera- und Sensordaten Sicherheits- und Komfortfunktionen. Wir entwickeln KI-basierte Erkennung, integrieren sie auf Embedded-Hardware und gestalten, wie das Fahrzeug Ergebnisse an Insassen meldet.
 
 ## Ausgewählte Projekte
 

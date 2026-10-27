@@ -11,61 +11,12 @@ features:
   - title: "Asset Digital Twin"
     video: "gen-twin"
     alt: "Ingenieure arbeiten an einem holografischen digitalen Zwilling eines Fahrzeugs"
-    text: "Das visuelle Fundament: fotorealistische Echtzeit-Assets von Maschinen, Fahrzeugen und Komponenten, bereit für Live-Daten."
+    text: "Fotorealistische Echtzeit-Assets von Maschinen, Fahrzeugen und Komponenten, bereit für Live-Daten."
   - title: "Systeme und Prozesse"
     text: "Produktionslinien, Anlagen, Logistik und Flotten in einer 3D-Echtzeitansicht."
-  - title: "3D-HMI"
-    text: "Bedienoberflächen, die räumlich und interaktiv sind statt abstrakter Dashboards."
-  - title: "AR und VR"
-    text: "Wartung, Inbetriebnahme und Training mit dem Zwilling in der realen oder virtuellen Welt."
-  - title: "Beratung"
-    text: "Strategie, Architektur und eine praktikable Roadmap, bevor Sie bauen."
-  - title: "Datenanbindung"
-    text: "Den Zwilling mit Sensoren, Steuerungen und Unternehmenssystemen verbinden."
-updated: "2026-10-23"
+updated: "2026-10-26"
 ---
 
-Wir helfen Unternehmen aus Industrie, Automotive, Luftfahrt, Defense und Mobilität, komplexe Produkte, Prozesse und Daten in interaktive, visuell überzeugende Erlebnisse zu verwandeln. Ein digitaler Zwilling lohnt sich, wenn er einmal gebaut und vielfach genutzt wird. Deshalb entwerfen wir Zwillinge für die Wiederverwendung.
+Wir helfen Unternehmen aus Industrie, Energie, Automotive, Luftfahrt, Defense und Mobilität, komplexe Produkte, Prozesse und Daten in interaktives 3D zu verwandeln. Zwillinge werden einmal gebaut und wiederverwendet, von einer Komponente bis zur ganzen Anlage oder Flotte.
 
-## Asset Digital Twin
-
-Wir erstellen leistungsstarke, fotorealistische Abbilder von Maschinen, Fahrzeugen, Geräten und Komponenten. Sie sind für Echtzeit optimiert und lassen sich mit Live-Betriebsdaten, Sensoren und Steuerungen verbinden.
-
-- Hochwertige 3D-Asset-Erstellung
-- [CAD-zu-Echtzeit-Konvertierung](/de/loesungen/leistungen/echtzeit-3d-grafik/cad-zu-echtzeit-pipeline/)
-- Optimierung für Echtzeit-Rendering
-- Material- und Animationserstellung
-- Auslieferung auf mehreren Plattformen
-- Vorbereitung für Live-Daten
-
-Ideal für Automotive, Fertigung, Maschinenbau, Energiesysteme und Defense-Plattformen.
-
-## System- und Prozessvisualisierung
-
-Wir visualisieren ganze Produktionslinien, Anlagen, Logistiksysteme oder vernetzte Flotten in Echtzeit. Komplexe Abläufe lassen sich leichter überwachen, analysieren und entscheiden.
-
-- Multi-Asset-Zwillingsumgebungen
-- Prozess-, Fabrik- und Anlagenvisualisierung
-- Flottenvisualisierung
-- Statusüberwachung in Echtzeit
-- Operative Dashboards mit 3D-Kontext
-- Virtuelles HMI-Prototyping und -Testen, bevor Hardware existiert
-
-Der Nutzen: besseres Lagebild, schnellere Fehlererkennung, transparentere Abläufe und weniger Schulungsaufwand.
-
-## Wie ein Zwilling wächst
-
-1. **System definieren.** Wir erfassen Verhalten, Schnittstellen und Datenquellen gemeinsam mit Ihren Engineering- und Betriebsteams.
-2. **Modellieren.** Wir bauen die 3D-Darstellung und nutzen vorhandene CAD- oder Gebäudedaten (BIM), um schnell voranzukommen.
-3. **Live-Daten anbinden.** Sensoren, IoT, aufgezeichnete Datenströme oder Engineering-Modelle speisen den Zwilling über offene Schnittstellen.
-4. **Betreiben und weiterentwickeln.** Der Zwilling skaliert von einer Komponente bis zum Gesamtsystem oder zur Flotte und wächst mit Updates und neuen Konfigurationen.
-
-Typische Einsätze: vorausschauende Wartung, Bediener- und Wartungstraining, frühe Systemtests und Validierung, Prozessvalidierung in der Fertigung und virtuelles Prototyping für Software-Defined Vehicles.
-
-## KI, wo sinnvoll und wertvoll
-
-Anomalieerkennung, vorausschauende Wartung und Zugriff auf Zwillingsdaten per natürlicher Sprache, dargestellt im 3D-Kontext, in dem Menschen handeln. Mehr zu [KI + ML](/de/loesungen/leistungen/ki-und-ml/).
-
-## Nächste Schritte
-
-Starten Sie mit einem Asset und einem Anwendungsfall. Die [Pakete](/de/loesungen/leistungen/pakete/) beschreiben typische Einstiege, vom Discovery-Assessment bis zum lauffähigen Prototyp.
+Assets entstehen aus Ihren CAD- oder BIM-Daten über die [CAD-zu-Echtzeit-Konvertierung](/de/loesungen/leistungen/echtzeit-3d-grafik/cad-zu-echtzeit-pipeline/). Typische Einsätze: vorausschauende Wartung, Bediener- und Wartungstraining, frühe Systemvalidierung, Prozessvalidierung in der Fertigung und virtuelles Prototyping für Software-Defined Vehicles. Einstiege finden Sie in den [Paketen](/de/loesungen/leistungen/pakete/).

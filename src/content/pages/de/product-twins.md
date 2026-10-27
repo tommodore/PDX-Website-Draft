@@ -14,19 +14,9 @@ features:
     text: "Dasselbe Modell für Konfiguratoren und Präsentationen wiederverwenden."
   - title: "Validierung"
     text: "Oberflächen und Layouts früh an einem virtuellen Fahrzeug testen."
-  - title: "Eine Quelle"
-    text: "Eine Asset-Pipeline hält alle Anwendungen konsistent."
-updated: "2026-10-23"
+updated: "2026-10-26"
 ---
 
-Ein Produktzwilling erspart Ihnen, dieselben 3D-Inhalte für jeden Zweck neu zu bauen.
+Ein Produktzwilling erspart Ihnen, dieselben 3D-Inhalte für jeden Zweck neu zu bauen. Wir bereiten Ihre CAD-Daten auf, bauen das Echtzeitmodell und binden es in die Anwendungen ein, die es brauchen.
 
-## Was wir liefern
-
-Wir bereiten Ihre CAD-Daten auf, bauen das Echtzeitmodell und binden es in die Anwendungen ein, die es brauchen.
-
-## Erfahrung mit Fahrzeugen
-
-Wir bauen 3D-Fahrzeugszenen für Automotive-Programme, von Cockpit-Visualisierungen bis zu Fahrzeugansichten in Companion-Apps.
-
-Starten Sie mit einem [Digital Twin Starter](/de/loesungen/leistungen/pakete/) oder senden Sie uns ein Beispielmodell. Unsere Vertriebs- und Marketing-Zwillinge lassen Kunden komplexe Produkte vor dem Kauf verstehen, konfigurieren und erleben.
+Wir bauen 3D-Fahrzeugszenen für Automotive-Programme, von Cockpit-Visualisierungen bis zu Fahrzeugansichten in Companion-Apps. Typischer Einstieg: ein [Digital Twin Starter](/de/loesungen/leistungen/pakete/).

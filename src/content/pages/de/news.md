@@ -7,7 +7,7 @@ draft: true
 cta:
   label: "Folgen Sie uns auf LinkedIn"
   href: "https://www.linkedin.com/company/paradoxcat/"
-updated: "2026-10-20"
+updated: "2026-10-26"
 ---
 
-Neuigkeiten erscheinen hier, sobald sie veröffentlicht sind. Aktuelles finden Sie auf LinkedIn.
+Neuigkeiten erscheinen hier, sobald sie veröffentlicht sind.

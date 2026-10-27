@@ -16,17 +16,7 @@ features:
     text: "Showroom-Display, Web oder AR auf Smartphone und Headset."
   - title: "Wartbar gebaut"
     text: "Neue Modelle und Optionen fließen ein, ohne die App neu zu bauen."
-updated: "2026-10-20"
+updated: "2026-10-26"
 ---
 
-Ein guter Konfigurator verkauft das Produkt, bevor es existiert. Er muss richtig aussehen und sofort reagieren.
-
-## Was wir liefern
-
-Wir bauen die 3D-Szene, die Interaktion und die Datenanbindung. Sie erhalten einen Konfigurator, der zu Ihrer Marke und Ihren Produktregeln passt.
-
-## Wo er läuft
-
-Konfiguratoren laufen im Showroom, im Browser und in Augmented Reality. Wir wählen die Technik, die zu Ihrer Zielgruppe passt.
-
-Starten Sie mit einem Beispielmodell und sehen Sie es in 3D.
+Ein guter Konfigurator verkauft das Produkt, bevor es existiert. Er muss richtig aussehen und sofort reagieren. Wir bauen die 3D-Szene, die Interaktion und die Datenanbindung, abgestimmt auf Ihre Marke und Ihre Produktregeln.

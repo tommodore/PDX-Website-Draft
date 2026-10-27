@@ -18,25 +18,9 @@ features:
     text: "Game-Engines für aufwendige Echtzeit-Visualisierung."
   - title: "Ramses3D"
     text: "Unsere Open-Source-Engine für schlankes Embedded-3D."
-updated: "2026-10-20"
+updated: "2026-10-26"
 ---
 
-Das passende Framework hängt von Hardware, Teamkompetenz und Designanspruch ab. Es gibt keine einzige beste Wahl.
+Das passende Framework hängt von Hardware, Teamkompetenz und Designanspruch ab. Wir bewerten Optionen gegen Ihre Anforderungen, bauen bei Bedarf Prototypen und arbeiten in dem Framework, das Sie bereits nutzen.
 
-## Wie wir helfen
-
-Wir bewerten Optionen gegen Ihre Anforderungen und bauen bei Bedarf Prototypen. Wir arbeiten mit allen gängigen Engines und Frameworks und in dem, das Sie bereits nutzen. Anwendungsfall und Ihre Anforderungen entscheiden.
-
-## Im Detail
-
-- [Unity](/de/projekte/technologie-und-partner/unity/)
-- [Unreal Engine](/de/projekte/technologie-und-partner/unreal-engine/)
-- [Qt](/de/projekte/technologie-und-partner/qt/)
-- [Kanzi](/de/projekte/technologie-und-partner/kanzi/)
-- [DiSTI](/de/projekte/technologie-und-partner/disti/)
-- [Rocksolid](/de/projekte/technologie-und-partner/rocksolid/)
-- [Ramses3D](/de/loesungen/produkte/ramses3d/)
-
-## Was Sie bekommen
-
-Ehrliche Beratung, lauffähige Builds und ein Team, das die Abwägungen kennt.
+Siehe [Unity](/de/projekte/technologie-und-partner/unity/), [Unreal Engine](/de/projekte/technologie-und-partner/unreal-engine/), [Qt](/de/projekte/technologie-und-partner/qt/), [Kanzi](/de/projekte/technologie-und-partner/kanzi/), [DiSTI](/de/projekte/technologie-und-partner/disti/), [Rocksolid](/de/projekte/technologie-und-partner/rocksolid/) und [Ramses3D](/de/loesungen/produkte/ramses3d/).

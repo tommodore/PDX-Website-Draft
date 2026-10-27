@@ -22,47 +22,21 @@ facts:
     label: "bis ein Projektteam steht"
 features:
   - title: "Inhabergeführt"
-    text: "Unabhängig und auf langfristige Qualität ausgerichtet."
-  - title: "Erfahrenes Team"
-    text: "Erfahrene Entwickler und Artists führen die Arbeit. Über 92 % unserer Leute sind Entwickler."
+    text: "Seit 2009 zu 100 % inhabergeführt: unabhängig und auf langfristige Qualität ausgerichtet."
   - title: "TISAX Level 3"
-    text: "Geprüft für Informationssicherheit in der Automobil-Lieferkette."
+    text: "Geprüfte Informationssicherheit für die Automobil-Lieferkette, auch bei Prototypen und Vorserienmaterial."
   - title: "ISO 9001"
-    text: "Zertifiziertes Qualitätsmanagement."
-  - title: "Kontinuität"
-    text: "Die Menschen, mit denen Sie starten, bringen das Projekt auch ins Ziel."
-updated: "2026-10-23"
+    text: "Zertifiziertes Qualitätsmanagement. Aktuelle Zertifikate und Geltungsbereich auf Anfrage."
+updated: "2026-10-26"
 ---
 
-Zahlen sind nur nützlich, wenn sie ändern, was Sie als Kunde erleben. Diese tun es.
-
-## Warum Fluktuation zählt
-
-Geringe Fluktuation schützt Projektwissen. Sie zahlen nicht erneut dafür, neue Leute in Ihr Produkt einzuarbeiten.
-
-## So arbeiten wir
-
-Kleine erfahrene Teams, klare Schnittstellen und regelmäßige Lieferungen. Wir sagen früh Bescheid, wenn etwas nicht stimmt.
+Geringe Fluktuation schützt Projektwissen: Sie zahlen nicht erneut dafür, neue Leute in Ihr Produkt einzuarbeiten.
 
 ## Meilensteine
 
-- **2009:** Gründung, bis heute zu 100 % inhabergeführt.
-- **2014:** Start der HMI-Softwareentwicklung.
-- **2015:** Grafikentwicklung für den Audi A8.
-- **2016:** Serien-HMI für den Karma Revero.
-- **2017:** Evaluierung von HMI-Technologie für BMW.
-- **2018:** Android-MVP als Grundlage für ein Head-Unit-Projekt.
+- **2014-2016:** Start der HMI-Softwareentwicklung (2014), Grafikentwicklung für den Audi A8 (2015), Serien-HMI für den Karma Revero (2016).
+- **2017-2018:** Evaluierung von HMI-Technologie für BMW, dann ein Android-MVP als Grundlage für ein Head-Unit-Projekt.
 - **2020:** Ein Sprachteam aus 16 Entwicklern, in unter 3 Monaten vollständig besetzt.
-- **2022:** Serienanlauf des BMW Theater Screen.
-- **2023:** Serienanlauf der ersten Android-basierten Head-Unit von BMW.
-- **2025:** Serienanlauf der zweiten Android-basierten Head-Unit von BMW.
+- **2022-2025:** Serienanlauf des BMW Theater Screen (2022) sowie der ersten (2023) und zweiten (2025) Android-basierten Head-Unit von BMW.
 
 Die Projekte finden Sie in unseren [Referenzen](/de/projekte/referenzen/).
-
-## Qualität und Sicherheit
-
-Wir sind nach ISO 9001 zertifiziert und haben TISAX Assessment-Level 3. Das bedeutet geprüfte Qualitätsprozesse und ein geprüfter Umgang mit Ihren vertraulichen Daten, auch bei Prototypen und Vorserienmaterial. Aktuelle Zertifikate und Geltungsbereich senden wir auf Anfrage.
-
-## Wo wir sind
-
-München und Bukarest, als ein Team.

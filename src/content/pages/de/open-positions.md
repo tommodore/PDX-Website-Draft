@@ -12,15 +12,11 @@ links:
     href: "/de/karriere/leben-bei-paradoxcat/"
   - label: "Datenschutz für Bewerbende"
     href: "/de/unternehmen/rechtliches/datenschutz/"
-updated: "2026-10-23"
+updated: "2026-10-26"
 ---
 
-Offene Stellen erscheinen hier direkt aus unserem Bewerbersystem. Wir suchen Entwickler, Technical Artists und Designer für HMI, Echtzeit-3D, digitale Zwillinge und KI-Sensorik.
+Offene Stellen kommen direkt aus unserem Bewerbersystem. Wir suchen Entwickler, Technical Artists und Designer für HMI, Echtzeit-3D, digitale Zwillinge und KI-Sensorik.
 
 ## Keine passende Stelle?
 
-Schicken Sie uns eine Initiativbewerbung und erzählen Sie, was Sie bauen möchten. Legen Sie Ihren Lebenslauf bei und, falls vorhanden, ein Portfolio oder Links zu Ihrer Arbeit. Schreiben Sie an jobs@paradoxcat.com.
-
-## Wie es weitergeht
-
-Wir lesen jede Bewerbung. Wenn sie passt, sprechen Sie mit dem Team, in dem Sie arbeiten würden. Wir halten Sie bei jedem Schritt auf dem Laufenden. Ihre Daten löschen wir nach sechs Monaten ohne Kontakt, wie in unserer Datenschutzerklärung beschrieben.
+Schicken Sie eine Initiativbewerbung mit Lebenslauf und, falls vorhanden, einem Portfolio oder Links zu Ihrer Arbeit an jobs@paradoxcat.com.

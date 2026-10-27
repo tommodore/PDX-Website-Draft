@@ -15,9 +15,7 @@ features:
   - title: "Echtzeit-3D"
     text: "CAD-zu-Echtzeit-Pipelines, eigene Shader und Konfiguratoren."
   - title: "Digitale Zwillinge"
-    text: "Produkt-, Fahrzeug- und Maschinenmodelle für Design, Training und Service."
-  - title: "XR, AR und VR"
-    text: "Immersiver Zugang zu denselben Modellen."
+    text: "Produkt-, Fahrzeug- und Maschinenmodelle für Design, Training und Service, mit XR-Zugang."
   - title: "KI + ML"
     text: "Modelle von den Daten bis zur Serie."
   - title: "Edge AI"
@@ -43,9 +41,7 @@ links:
     href: "/de/loesungen/leistungen/edge-ai/"
   - label: "Sensorfusion"
     href: "/de/loesungen/leistungen/sensorfusion/"
-updated: "2026-10-22"
+updated: "2026-10-26"
 ---
 
-Ein Team, das den Stack vom Betriebssystem bis zum Pixel und zum Modell abdeckt. Das bedeutet weniger Übergaben und ein Ergebnis, das zusammenpasst.
-
-Jede Kompetenz führt zu einer Leistungsseite mit Details und unserer Arbeitsweise.
+Alles vom Betriebssystem bis zum Pixel und zum Modell.

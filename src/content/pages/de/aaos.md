@@ -1,6 +1,6 @@
 ---
 title: "Automotive Android + AAOS"
-description: "Wir passen Android Automotive OS für softwaredefinierte Fahrzeuge an: System-Apps, Fahrzeugintegration und Release-Unterstützung von einem Team mit HMI-Erfahrung bei OEMs."
+description: "Wir passen Android Automotive OS für softwaredefinierte Fahrzeuge an: System-Apps, Fahrzeugintegration und Release-Unterstützung von einem Team mit OEM-HMI-Erfahrung."
 lead: "Wir machen Android Automotive OS passend für Ihr Fahrzeug, Ihre Marke und Ihren Release-Prozess."
 illustration: "gen-aaos"
 draft: true
@@ -11,47 +11,29 @@ features:
   - title: "System-Apps"
     text: "Launcher, Media, Klima, Einstellungen und weitere Kern-Apps in Ihrer Designsprache."
   - title: "Fahrzeugintegration"
-    text: "Wir verbinden die Oberfläche mit Fahrzeugdaten und -diensten, damit das Cockpit auf das Auto reagiert."
+    text: "Oberfläche mit Fahrzeugdaten und -diensten verbunden, damit das Cockpit auf das Auto reagiert."
   - title: "Plattformanpassung"
     video: "gen-aaos"
     alt: "Software-Schichten schweben über einem Fahrzeug-Armaturenbrett"
     text: "Änderungen auf OS-Ebene, wo der Standard-Stack Ihre Anforderungen nicht erfüllt."
   - title: "Release-Unterstützung"
-    text: "Wir begleiten Builds durch Integration, Tests und Zertifizierungsschritte."
-updated: "2026-10-22"
+    text: "Builds durch Integration, Tests und Zertifizierungsschritte."
+updated: "2026-10-26"
 ---
 
-Softwaredefinierte Fahrzeuge brauchen ein Cockpit, das sich nach dem Produktionsstart weiterentwickelt. Android Automotive OS liefert die Basis. Wir machen sie zu Ihrer.
-
-## Wo wir arbeiten
-
-Wir bauen und passen System-Apps an, erweitern die Plattform und integrieren Fahrzeugfunktionen. Unsere Teams arbeiten mit OEMs und Tier-1-Zulieferern an Serienprogrammen.
+Softwaredefinierte Fahrzeuge brauchen ein Cockpit, das sich nach dem Produktionsstart weiterentwickelt. Wir setzen Android Automotive OS vom UX-Design bis zum Release um, mit OEMs und Tier-1-Zulieferern an Serienprogrammen.
 
 ## Mehr als die Basisplattform
 
-- **Theming und Markenkonsistenz.** Ein Designsystem für System-Apps und Template-Apps, damit jeder Touchpoint nach Ihrer Marke wirkt.
-- **Virtuelle Entwicklung.** Wir bauen und testen auf Emulatoren und virtuellen Plattformen, bevor Zielhardware verfügbar ist. So kommt der erste fahrbare Stand früher.
-- **App-Ökosystem.** Apps aus dem Android-Ökosystem und Ihre eigenen Dienste, integriert mit dem Fahrzeug und mit den Prüf- und Freigaberegeln, die Sie festlegen.
-- **Updatefähig von Anfang an.** Modulare, datengetriebene UI-Architekturen für Over-the-Air-Updates, Feature-Freischaltungen und schnelle Iteration nach Produktionsstart.
-- **Simulationsgestütztes Testen.** Digital-Twin- und Emulator-Setups mit Regressionstests für neue Builds.
-- **Vom Konzept zur Serie.** UX-Design, Softwareentwicklung, Integration und Release-Support aus einer Hand.
+- **Theming:** ein Designsystem für System-Apps und Template-Apps.
+- **Virtuelle Entwicklung:** Emulatoren und virtuelle Plattformen, bevor Zielhardware verfügbar ist.
+- **App-Ökosystem:** Android-Apps und Ihre eigenen Dienste, nach Ihren Prüf- und Freigaberegeln.
+- **Updatefähig von Anfang an:** modulare, datengetriebene UI für Over-the-Air-Updates und Feature-Freischaltungen.
+- **Simulationsgestütztes Testen:** Digital-Twin- und Emulator-Setups mit Regressionstests.
 
 ## AOSP- und AAOS-Training
 
-Wir vermitteln auch, was wir bauen. Ein praxisnaher Workshop für Ihre Entwickler, typischerweise drei Tage, remote oder vor Ort und auf Ihren Stack zugeschnitten.
-
-- **Für wen:** Embedded-Linux- und Android-Systementwickler, Integratoren und Tester.
-- **Was Sie lernen:** AOSP navigieren, bauen und anpassen, Produktvarianten definieren, mit Systemdiensten, AIDL und HAL arbeiten und Android-Sicherheit samt SELinux verstehen.
-- **Automotive-Fokus:** AAOS-Architektur, Car Services und Vehicle HAL, Vehicle Properties, emulatorbasierte Entwicklung ohne Hardware und die Integration neuer Hardware.
-- **Format:** kleine Gruppen, praktische Übungen aus echten Programmen, Durchführung im eigenen Haus, anpassbare Agenda und Sprache.
-
-Nennen Sie uns Ihre Plattform und den Stand Ihres Teams. Wir richten die Agenda danach aus.
-
-## So arbeiten wir
-
-Wir passen uns Ihrer Architektur an, nicht umgekehrt. Kleine, erfahrene Teams. Klare Schnittstellen. Regelmäßige Builds zum Testen.
-
-Bringen Sie uns ein Feature-Backlog oder eine Plattformfrage. Wir sagen Ihnen, was machbar ist und wie der Weg aussieht.
+Ein praxisnaher Workshop für Embedded-Linux- und Android-Entwickler, Integratoren und Tester: typischerweise drei Tage, remote oder vor Ort, kleine Gruppen, Übungen aus echten Programmen, anpassbare Agenda und Sprache. Themen: AOSP bauen, anpassen und Produktvarianten, Systemdienste, AIDL und HAL, Android-Sicherheit und SELinux, AAOS-Architektur, Car Services, Vehicle HAL und Vehicle Properties sowie Integration neuer Hardware.
 
 ## Ausgewählte Projekte
 

@@ -16,18 +16,10 @@ features:
     text: "We know Android platform customization on embedded hardware."
   - title: "Reliability first"
     text: "Predictable behavior, tested flows and careful release handling."
-updated: "2026-10-20"
+updated: "2026-10-26"
 ---
 
-Financial devices are used by many people, every day, with no patience for errors. The interface must work every time.
-
-## What we bring
-
-Our HMI engineers come from automotive, where robustness on embedded hardware is the baseline. We apply the same discipline to terminals and similar devices.
-
-## Where to start
-
-Describe your device and your users. We help you plan the interface, the Android platform work and the release path.
+Financial devices are used by many people every day, with no patience for errors. Our HMI engineers come from automotive, where robustness on embedded hardware is the baseline, and we apply the same discipline to terminals and similar devices.
 
 ## Selected work
 

@@ -7,7 +7,7 @@ draft: true
 cta:
   label: "Demo anfragen"
   href: "/de/kontakt/"
-updated: "2026-10-20"
+updated: "2026-10-26"
 ---
 
-Unsere Demos zeigen Echtzeit-3D, AR und HMI in Aktion. Melden Sie sich, wenn Sie eine geführte Vorführung möchten.
+Unsere Demos zeigen Echtzeit-3D, AR und HMI in Aktion.

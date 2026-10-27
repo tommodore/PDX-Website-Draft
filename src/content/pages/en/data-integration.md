@@ -17,26 +17,9 @@ features:
     text: "Stable frame rates with many signals."
   - title: "Security"
     text: "Integration that fits your security requirements."
-updated: "2026-10-23"
+updated: "2026-10-26"
 ---
 
 A digital twin is only valuable when it is connected to real-world data. We integrate visualization with your existing enterprise and operational technology.
 
-## Supported technologies
-
-- OPC UA
-- MQTT
-- PLC systems
-- SCADA platforms
-- IoT platforms
-- REST APIs
-- Cloud services
-- Enterprise systems
-
-## Deliverables
-
-- Real-time data connectivity
-- Data pipelines
-- Event-driven architectures
-- Performance optimization
-- Security integration
+**Supported:** OPC UA, MQTT, PLC systems, SCADA platforms, IoT platforms, REST APIs, cloud services and enterprise systems.

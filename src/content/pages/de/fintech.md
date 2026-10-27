@@ -16,18 +16,10 @@ features:
     text: "Wir kennen Android-Plattformanpassung auf Embedded-Hardware."
   - title: "Zuverlässigkeit zuerst"
     text: "Vorhersehbares Verhalten, getestete Abläufe und sorgfältiges Release-Management."
-updated: "2026-10-20"
+updated: "2026-10-26"
 ---
 
-Finanzgeräte werden täglich von vielen Menschen genutzt, ohne Geduld für Fehler. Die Oberfläche muss jedes Mal funktionieren.
-
-## Was wir mitbringen
-
-Unsere HMI-Entwickler kommen aus dem Automobil, wo Robustheit auf Embedded-Hardware die Grundlage ist. Dieselbe Disziplin wenden wir auf Terminals und ähnliche Geräte an.
-
-## Wo Sie anfangen
-
-Beschreiben Sie Ihr Gerät und Ihre Nutzer. Wir helfen bei Planung der Oberfläche, der Android-Plattformarbeit und des Release-Wegs.
+Finanzgeräte werden täglich von vielen Menschen genutzt, ohne Geduld für Fehler. Unsere HMI-Entwickler kommen aus dem Automobil, wo Robustheit auf Embedded-Hardware die Grundlage ist, und wir wenden dieselbe Disziplin auf Terminals und ähnliche Geräte an.
 
 ## Ausgewählte Projekte
 

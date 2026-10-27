@@ -4,9 +4,7 @@ description: "Senden Sie uns eine Beispieldatei oder buchen Sie ein 30-Minuten-G
 eyebrow: "Kontakt"
 lead: "Senden Sie eine Beispieldatei oder buchen Sie ein 30-Minuten-Gespräch."
 illustration: "bokeh"
-updated: 2026-10-20
+updated: 2026-10-26
 ---
 
-Teilen Sie ein CAD-Modell, einen HMI-Screen oder eine Szene. In 30 Minuten zeigen wir, was wir damit tun würden und wie der nächste Schritt aussieht.
-
-Wir sitzen in München und Bukarest.
+Ein CAD-Modell, ein HMI-Screen oder eine Szene genügt. In einem 30-Minuten-Gespräch zeigen wir, was wir damit tun würden.

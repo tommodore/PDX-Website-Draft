@@ -17,26 +17,9 @@ features:
     text: "Stabile Bildraten auch bei vielen Signalen."
   - title: "Sicherheit"
     text: "Integration, die zu Ihren Sicherheitsanforderungen passt."
-updated: "2026-10-23"
+updated: "2026-10-26"
 ---
 
 Ein digitaler Zwilling ist nur wertvoll, wenn er mit realen Daten verbunden ist. Wir integrieren die Visualisierung in Ihre bestehende Unternehmens- und Betriebstechnik.
 
-## Unterstützte Technologien
-
-- OPC UA
-- MQTT
-- SPS-Systeme
-- SCADA-Plattformen
-- IoT-Plattformen
-- REST-APIs
-- Cloud-Dienste
-- Unternehmenssysteme
-
-## Leistungen
-
-- Echtzeit-Datenanbindung
-- Datenpipelines
-- Ereignisgesteuerte Architekturen
-- Performance-Optimierung
-- Sicherheitsintegration
+**Unterstützt:** OPC UA, MQTT, SPS-Systeme, SCADA-Plattformen, IoT-Plattformen, REST-APIs, Cloud-Dienste und Unternehmenssysteme.

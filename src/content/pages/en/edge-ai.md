@@ -16,17 +16,9 @@ features:
     text: "Camera and sensor data stay on the device."
   - title: "Updates in the field"
     text: "Safe model updates and versioning for deployed devices."
-updated: "2026-10-22"
+updated: "2026-10-26"
 ---
 
-Some functions cannot wait for the network or must not send data away. Edge AI keeps them fast, private and available.
+Some functions cannot wait for the network or must not send data away. Edge AI keeps them fast, private and available on embedded platforms in vehicles, machines and devices.
 
-## Where we work
-
-Embedded platforms in vehicles, machines and devices. We integrate the model with the HMI and system software so it behaves as part of the product.
-
-## How we work
-
-We start from your hardware limits and measure on the real target early.
-
-Tell us the chip and the function. We will tell you what fits.
+We start from your hardware limits, measure early on the real target and integrate the model with HMI and system software, so it behaves as part of the product.

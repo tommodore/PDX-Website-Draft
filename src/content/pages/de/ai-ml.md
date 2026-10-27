@@ -16,27 +16,15 @@ features:
     text: "Quantisierung und Tuning, damit Modelle in Ihr Speicher-, Latenz- und Leistungsbudget passen."
   - title: "Serientauglichkeit"
     text: "Tests, Monitoring und Versionierung, damit Modelle sicher aktualisiert werden können."
-updated: "2026-10-22"
+updated: "2026-10-26"
 ---
 
-Ein Modell schafft erst Wert, wenn es zuverlässig in einem Produkt läuft. Wir decken den ganzen Weg von den Daten bis zur Funktion ab, die Nutzer sehen.
-
-## Wo wir arbeiten
-
-Innenraumsensorik, Fahrer- und Insassenverständnis sowie KI-Funktionen in Embedded- und Mobile-Produkten. Unsere KI-Entwickler arbeiten Seite an Seite mit den HMI- und Grafikteams.
+Ein Modell schafft erst Wert, wenn es zuverlässig in einem Produkt läuft. Wir decken den Weg von den Daten bis zur Funktion ab, die Nutzer sehen, von Innenraum- und Insassenverständnis bis zu KI in Embedded- und Mobile-Produkten, Seite an Seite mit unseren HMI- und Grafikteams.
 
 ## Verantwortungsvoll gestaltet
 
-Wir setzen KI dort ein, wo sie ein Ergebnis verbessert, und lassen den Menschen die Kontrolle behalten.
-
-- **Menschliche Aufsicht.** KI unterstützt Ihre Ingenieure und Bediener. Sie ersetzt kein Urteil bei kritischen Entscheidungen.
-- **Erklärbar.** Ergebnisse kommen mit Datenquelle und Konfidenz, damit sie nachvollziehbar und prüfbar sind.
-- **Sicher.** Sensible Daten bleiben in kontrollierten Umgebungen, mit freigegebenen Datensätzen und ohne externe KI-Dienste, solange Sie nicht zustimmen.
-- **Validiert.** Modelle werden auf der Zielhardware getestet und neu geprüft, wenn sich Daten und Bedingungen ändern.
-- **Auch für Ihre Teams nützlich.** Assistierte Erstellung von 3D- und Trainingsinhalten, vorausschauende Wartung und schnellere Testzyklen, immer von einem Ingenieur geprüft.
-
-## Wie wir arbeiten
-
-Wir starten mit dem Anwendungsfall und der Zielhardware und wählen dann das einfachste Modell, das die Anforderung erfüllt.
-
-Sagen Sie uns, welche Funktion Sie wollen und auf welcher Hardware sie laufen muss.
+- **Menschliche Aufsicht.** KI unterstützt Ihre Ingenieure und Bediener; kritische Entscheidungen bleiben beim Menschen.
+- **Erklärbar.** Ergebnisse kommen mit Datenquelle und Konfidenz, damit sie nachvollziehbar sind.
+- **Sicher.** Kontrollierte Umgebungen, freigegebene Datensätze, keine externen KI-Dienste ohne Ihre Zustimmung.
+- **Validiert.** Modelle werden auf der Zielhardware getestet und bei geänderten Bedingungen neu geprüft.
+- **Auch für Ihre Teams nützlich.** Assistierte 3D- und Trainingsinhalte, vorausschauende Wartung und schnellere Testzyklen, immer von einem Ingenieur geprüft.

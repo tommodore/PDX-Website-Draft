@@ -17,25 +17,9 @@ features:
     text: "Evaluate opportunities and the business case."
   - title: "Delivery planning"
     text: "Technology selection and a realistic plan."
-updated: "2026-10-23"
+updated: "2026-10-26"
 ---
 
-A successful digital twin needs more than technology. It needs the right strategy, architecture and business case. We help you define a practical roadmap and find the high-impact opportunities.
+A successful digital twin needs more than technology: the right strategy, architecture and business case. We define a practical roadmap and find the high-impact opportunities.
 
-## Deliverables
-
-- Digital twin strategy workshops
-- Technical architecture design
-- Use-case evaluation
-- Technology selection
-- ROI assessment
-- Delivery planning
-
-## Typical outcomes
-
-- A clear implementation roadmap
-- Reduced project risk
-- Faster time to value
-- A scalable architecture
-
-The [Discovery package](/solutions/services/packages/) is the structured way to start.
+Outcomes: a clear implementation roadmap, a scalable architecture, reduced project risk and faster time to value. The [Discovery package](/solutions/services/packages/) is the structured way to start.

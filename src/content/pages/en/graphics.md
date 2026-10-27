@@ -18,28 +18,15 @@ features:
     text: "Interactive product visualization for showroom, web and AR."
   - title: "Embedded engine"
     text: "Ramses3D, our open-source engine co-developed with BMW."
-updated: "2026-10-23"
+updated: "2026-10-26"
 ---
 
-Real-time 3D is more than a pretty picture. It must run at frame rate on constrained hardware and stay consistent across thousands of assets.
+Real-time 3D must run at frame rate on constrained hardware and stay consistent across thousands of assets. We use it in cockpits, instrument clusters, rear seat displays, configurators and XR.
 
-## Complex products, made easy to buy
+## Tooling and packages
 
-We offer productized packages for product, sales and marketing teams: a [3D Product Launch Kit](/solutions/services/packages/), a Configurator Asset Factory for variants at scale and an Interactive Experience Sprint. One visual foundation serves sales, HMI, web, XR and film, so assets are built once and reused.
-
-## Our approach
-
-We combine engineering and technical art. Engineers build the pipeline and the engine integration. Artists make sure the result looks as designed.
-
-## Tools for your production pipeline
-
-We also build custom 3D tooling: editors that let technical artists create, animate and script 3D scenes for series production, and integration tools that bring 3D widgets and vehicle models into your applications. See the [series graphics case](/work/case-studies/series-graphics-3d-tooling/).
-
-## Where it is used
-
-Cockpits, instrument clusters, rear seat displays, configurators and XR experiences.
-
-Send us a sample and we show you what is possible.
+- **Custom 3D tooling:** editors for technical artists to create, animate and script scenes for series production, plus integration tools for 3D widgets and vehicle models. See the [series graphics case](/work/case-studies/series-graphics-3d-tooling/).
+- **Packages** for product, sales and marketing teams: [3D Product Launch Kit](/solutions/services/packages/), Configurator Asset Factory and Interactive Experience Sprint. One visual foundation, built once and reused across sales, HMI, web, XR and film.
 
 ## Selected work
 

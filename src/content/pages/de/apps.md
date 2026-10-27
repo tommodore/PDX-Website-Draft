@@ -9,35 +9,21 @@ cta:
   href: "/de/kontakt/"
 features:
   - title: "Apps im Fahrzeug"
-    text: "Native Apps für das Infotainment, gestaltet für kurze Blicke und Touch während der Fahrt."
+    text: "Native Infotainment-Apps, gestaltet für kurze Blicke und Touch während der Fahrt."
   - title: "Companion-Apps"
-    text: "Smartphone-Apps, die das Fahrzeugerlebnis erweitern und ein Designsystem mit dem Auto teilen."
+    text: "Smartphone-Apps, die das Fahrzeugerlebnis erweitern und dessen Designsystem teilen."
   - title: "Backend-Anbindung"
     text: "Verlässliche Verbindungen zu Cloud-Diensten, Nutzerkonten und Over-the-Air-Inhalten."
   - title: "Qualität von Anfang an"
-    text: "Automatisierte Tests und saubere Release-Schritte ab dem ersten Sprint."
-updated: "2026-10-23"
+    text: "Automatisierte Tests auf Emulatoren und Zielhardware, saubere Releases ab dem ersten Sprint."
+updated: "2026-10-26"
 ---
 
 Ein modernes Fahrzeug ist ein vernetztes Gerät. Seine Apps müssen schnell, sicher bedienbar und leicht zu aktualisieren sein.
 
 ## Was wir bauen
 
-Wir entwickeln native Android-Apps für Android Automotive OS und Android Auto sowie Companion-Apps für das Smartphone. Wir verbinden sie mit Fahrzeugdaten, Nutzerkonten und Backend-Diensten.
+Native Android-Apps für Android Automotive OS und Android Auto sowie Companion-Apps für das Smartphone, verbunden mit Fahrzeugeigenschaften, Systemdiensten und Backends.
 
-- Apps für das Infotainment-System, gebaut nach den Richtlinien zur Fahrerablenkung
-- Integration mit Fahrzeugeigenschaften und Systemdiensten
-- Companion-Apps mit demselben Designsystem wie das Fahrzeug
-- Tests auf Emulatoren und Zielhardware, mit sauberen Release-Schritten
-
-## KI, wo sinnvoll und wertvoll
-
-Assistenten und Personalisierung in Fahrzeug- und Companion-Apps, mit klaren Rückfallebenen, wenn Netz oder Modell nicht verfügbar sind. Mehr zu [KI + ML](/de/loesungen/leistungen/ki-und-ml/).
-
-## Worauf es ankommt
-
-Regeln zur Fahrerablenkung prägen jeden Screen. Wir gestalten für kurze Interaktionen und klares Feedback.
-
-Verbindungen fallen manchmal aus. Wir planen Offline-Zustände, langsame Netze und sauberes Wiederanlaufen ein.
-
-Sagen Sie uns, was die App leisten soll. Wir helfen beim Zuschnitt und bei der Umsetzung.
+- **Fahrerablenkung:** gebaut nach den Richtlinien, mit kurzen Interaktionen und klarem Feedback.
+- **Robustheit:** Offline-Zustände, langsame Netze und sauberes Wiederanlaufen.

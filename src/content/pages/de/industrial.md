@@ -18,18 +18,10 @@ features:
     text: "Kunden Ihre Maschinen und Optionen in 3D erkunden lassen."
   - title: "Digitale Zwillinge"
     text: "Visuelle Maschinenmodelle für Training und Service."
-updated: "2026-10-20"
+updated: "2026-10-26"
 ---
 
-Industrieprodukte stecken voller guter Ingenieurarbeit. Ihre Oberflächen und ihre Präsentation hinken oft hinterher. Wir helfen, diese Lücke zu schließen.
-
-## Wo wir helfen
-
-Wir bringen Erfahrung aus Automotive-HMI und Echtzeitgrafik zu Maschinen, Steuerungen und Produktvertrieb.
-
-## So beginnen wir
-
-Wählen Sie ein Produkt. Wir zeigen, wie aus seinen CAD-Daten ein interaktives 3D-Erlebnis oder eine moderne Oberfläche wird. Dann entscheiden Sie, wie weit Sie gehen.
+Industrieprodukte stecken voller guter Ingenieurarbeit. Ihre Oberflächen und ihre Präsentation hinken oft hinterher. Wir bringen Erfahrung aus Automotive-HMI und Echtzeitgrafik zu Maschinen, Steuerungen und Produktvertrieb, um diese Lücke zu schließen.
 
 ## Ausgewählte Projekte
 

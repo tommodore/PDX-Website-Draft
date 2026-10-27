@@ -4,7 +4,7 @@ description: "Artikel, Vorträge und Eventberichte vom PARADOX-CAT-Team zu HMI, 
 lead: "Was wir beim Bauen lernen: Artikel, Vorträge und Eventnotizen."
 illustration: "waves"
 draft: true
-updated: "2026-10-20"
+updated: "2026-10-26"
 ---
 
-Technische Tiefe, offen geteilt. Neue Beiträge erscheinen hier, sobald sie veröffentlicht sind.
+Neue Beiträge erscheinen hier, sobald sie veröffentlicht sind.

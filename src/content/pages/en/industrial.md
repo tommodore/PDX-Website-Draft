@@ -18,18 +18,10 @@ features:
     text: "Let customers explore your machines and options in 3D."
   - title: "Digital Twins"
     text: "Visual machine models for training and service."
-updated: "2026-10-20"
+updated: "2026-10-26"
 ---
 
-Industrial products carry great engineering. Their interfaces and presentation often lag behind. We help close that gap.
-
-## Where we help
-
-We bring experience from automotive HMI and real-time graphics to machines, controls and product sales.
-
-## How we start
-
-Pick one product. We show how its CAD data becomes an interactive 3D experience or a modern interface. Then you decide how far to go.
+Industrial products carry great engineering. Their interfaces and presentation often lag behind. We bring experience from automotive HMI and real-time graphics to machines, controls and product sales to close that gap.
 
 ## Selected work
 

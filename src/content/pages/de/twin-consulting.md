@@ -17,25 +17,9 @@ features:
     text: "Chancen und Business Case bewerten."
   - title: "Umsetzungsplanung"
     text: "Technologieauswahl und ein realistischer Plan."
-updated: "2026-10-23"
+updated: "2026-10-26"
 ---
 
-Ein erfolgreicher digitaler Zwilling braucht mehr als Technologie. Er braucht die richtige Strategie, Architektur und einen tragfähigen Business Case. Wir helfen, eine praktikable Roadmap zu definieren und die Chancen mit der größten Wirkung zu finden.
+Ein erfolgreicher digitaler Zwilling braucht mehr als Technologie: die richtige Strategie, Architektur und einen tragfähigen Business Case. Wir definieren eine praktikable Roadmap und finden die Chancen mit der größten Wirkung.
 
-## Leistungen
-
-- Strategie-Workshops zum digitalen Zwilling
-- Entwurf der technischen Architektur
-- Bewertung von Anwendungsfällen
-- Technologieauswahl
-- ROI-Bewertung
-- Umsetzungsplanung
-
-## Typische Ergebnisse
-
-- Eine klare Umsetzungs-Roadmap
-- Geringeres Projektrisiko
-- Schnellerer Nutzen
-- Eine skalierbare Architektur
-
-Das [Discovery-Paket](/de/loesungen/leistungen/pakete/) ist der strukturierte Einstieg.
+Ergebnisse: eine klare Umsetzungs-Roadmap, eine skalierbare Architektur, geringeres Projektrisiko und schnellerer Nutzen. Das [Discovery-Paket](/de/loesungen/leistungen/pakete/) ist der strukturierte Einstieg.

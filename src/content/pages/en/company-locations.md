@@ -1,6 +1,6 @@
 ---
 title: "Locations"
-description: "PARADOX CAT works from Munich and Bucharest. Addresses of our offices ."
+description: "PARADOX CAT works from Munich and Bucharest. Addresses of our offices."
 lead: "Munich and Bucharest. Two offices, one team."
 illustration: "official-munich"
 draft: true
@@ -20,11 +20,7 @@ gallery:
 links:
   - label: "Locations for careers"
     href: "/careers/locations/"
-updated: "2026-10-20"
+updated: "2026-10-26"
 ---
 
-We work as one team across both offices. Projects mix colleagues from both offices.
-
-## Visit us
-
-Please arrange visits in advance through the contact form so we can welcome you properly.
+Please arrange visits in advance through the [contact form](/contact/).

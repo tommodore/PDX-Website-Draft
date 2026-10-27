@@ -9,9 +9,9 @@ cta:
   href: "/de/karriere/offene-stellen/"
 features:
   - title: "München"
-    text: "Ein neues, von einer renommierten Architektin für uns entworfenes Büro im Münchner Norden nahe dem Frankfurter Ring. Erreichbar mit U-Bahn, Rad und Auto."
+    text: "Neues, von einer renommierten Architektin entworfenes Büro im Münchner Norden nahe dem Frankfurter Ring."
   - title: "Bukarest"
-    text: "Eine neoromanische Villa aus dem frühen 20. Jahrhundert im Herzen der Stadt, mit modernen Arbeitsplätzen."
+    text: "Neoromanische Villa aus dem frühen 20. Jahrhundert im Herzen der Stadt, mit modernen Arbeitsplätzen."
 gallery:
   - image: "official-munich"
     alt: "Bürogebäude in München"
@@ -22,15 +22,7 @@ gallery:
 links:
   - label: "Leben bei PARADOX CAT"
     href: "/de/karriere/leben-bei-paradoxcat/"
-updated: "2026-10-20"
+updated: "2026-10-26"
 ---
 
-Freuen Sie sich auf ein modernes Interieur in einem schönen Gebäude mit lichtdurchfluteten Räumen und angenehmer Atmosphäre. In Bukarest liegt die Villa nahe Parks, Universitäten und Messezentren und hat ihren historischen Charakter bewahrt.
-
-## Umzug
-
-Ein Umzug in eine neue Stadt oder ein anderes Land ist ein großer Schritt. Wir unterstützen Ihren Umzug nach München oder Bukarest und machen den Übergang so reibungslos wie möglich.
-
-## Details
-
-Konkrete Bedingungen stehen bei der jeweiligen Stelle. Unsicher, welcher Standort passt? Schreiben Sie es in Ihre Bewerbung.
+München ist mit U-Bahn, Rad und Auto erreichbar. In Bukarest liegt die Villa nahe Parks, Universitäten und Messezentren und hat ihren historischen Charakter bewahrt. Wir unterstützen Ihren Umzug in beide Städte.

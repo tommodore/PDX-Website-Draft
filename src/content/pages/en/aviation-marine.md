@@ -18,17 +18,7 @@ features:
     text: "Passenger-facing apps and displays that feel consumer grade."
   - title: "Digital Twins"
     text: "Visual models for training, service and sales."
-updated: "2026-10-20"
+updated: "2026-10-26"
 ---
 
-Aviation and marine share many needs with automotive: embedded hardware, safety awareness and high design standards.
-
-## What we bring
-
-We bring HMI engineering, real-time 3D and the pipeline from CAD data to interactive visuals. These skills apply to cockpits, bridges, cabins and showrooms.
-
-## How we start
-
-Most projects start small. A prototype, a configurator or a proof of concept shows what is possible before you commit.
-
-Tell us about your vehicle and your users.
+Aviation and marine share many needs with automotive: embedded hardware, safety awareness and high design standards. We bring HMI engineering, real-time 3D and the pipeline from CAD data to interactive visuals to cockpits, bridges, cabins and showrooms.

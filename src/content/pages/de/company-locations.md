@@ -20,11 +20,7 @@ gallery:
 links:
   - label: "Standorte für Bewerbende"
     href: "/de/karriere/standorte/"
-updated: "2026-10-20"
+updated: "2026-10-26"
 ---
 
-Wir arbeiten über beide Büros hinweg als ein Team. Projekte mischen Kollegen aus beiden Büros.
-
-## Besuchen Sie uns
-
-Bitte vereinbaren Sie Besuche vorab über das Kontaktformular, damit wir Sie gut empfangen können.
+Bitte vereinbaren Sie Besuche vorab über das [Kontaktformular](/de/kontakt/).

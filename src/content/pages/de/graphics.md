@@ -18,28 +18,15 @@ features:
     text: "Interaktive Produktvisualisierung für Showroom, Web und AR."
   - title: "Embedded-Engine"
     text: "Ramses3D, unsere Open-Source-Engine, gemeinsam mit BMW entwickelt."
-updated: "2026-10-23"
+updated: "2026-10-26"
 ---
 
-Echtzeit-3D ist mehr als ein schönes Bild. Es muss auf begrenzter Hardware mit voller Bildrate laufen und über tausende Assets konsistent bleiben.
+Echtzeit-3D muss auf begrenzter Hardware mit voller Bildrate laufen und über tausende Assets konsistent bleiben. Wir setzen es in Cockpits, Kombiinstrumenten, Rear-Seat-Displays, Konfiguratoren und XR ein.
 
-## Komplexe Produkte, leicht verkäuflich
+## Tooling und Pakete
 
-Für Produkt-, Vertriebs- und Marketingteams bieten wir produktisierte [Pakete](/de/loesungen/leistungen/pakete/): ein 3D Product Launch Kit, eine Configurator Asset Factory für Varianten im großen Maßstab und einen Interactive Experience Sprint. Ein visuelles Fundament bedient Vertrieb, HMI, Web, XR und Film, die Assets werden also einmal gebaut und wiederverwendet.
-
-## Unser Ansatz
-
-Wir verbinden Engineering und Technical Art. Entwickler bauen Pipeline und Engine-Integration. Artists stellen sicher, dass das Ergebnis aussieht wie entworfen.
-
-## Werkzeuge für Ihre Produktions-Pipeline
-
-Wir entwickeln auch individuelles 3D-Tooling: Editoren, mit denen Technical Artists 3D-Szenen für die Serie erstellen, animieren und skripten, und Integrations-Tools, die 3D-Widgets und Fahrzeugmodelle in Ihre Anwendungen bringen. Siehe den [Seriengrafik-Fall](/de/projekte/referenzen/series-graphics-3d-tooling/).
-
-## Wo es zum Einsatz kommt
-
-Cockpits, Kombiinstrumente, Rear-Seat-Displays, Konfiguratoren und XR-Erlebnisse.
-
-Senden Sie uns ein Beispiel, dann zeigen wir, was möglich ist.
+- **Individuelles 3D-Tooling:** Editoren, mit denen Technical Artists 3D-Szenen für die Serie erstellen, animieren und skripten, dazu Integrations-Tools für 3D-Widgets und Fahrzeugmodelle. Siehe den [Seriengrafik-Fall](/de/projekte/referenzen/series-graphics-3d-tooling/).
+- **Pakete** für Produkt-, Vertriebs- und Marketingteams: [3D Product Launch Kit](/de/loesungen/leistungen/pakete/), Configurator Asset Factory und Interactive Experience Sprint. Ein visuelles Fundament, einmal gebaut und wiederverwendet für Vertrieb, HMI, Web, XR und Film.
 
 ## Ausgewählte Projekte
 

@@ -16,27 +16,15 @@ features:
     text: "Quantization and tuning so models fit your memory, latency and power budget."
   - title: "Production readiness"
     text: "Testing, monitoring and versioning so models can be updated safely."
-updated: "2026-10-22"
+updated: "2026-10-26"
 ---
 
-A model only creates value once it runs reliably inside a product. We cover the whole path from data to a feature users see.
-
-## Where we work
-
-In-cabin sensing, driver and occupant understanding, and AI features in embedded and mobile products. Our AI engineers work side by side with the HMI and graphics teams.
+A model only creates value once it runs reliably inside a product. We cover the path from data to the feature users see, from in-cabin and occupant understanding to AI in embedded and mobile products, side by side with our HMI and graphics teams.
 
 ## Responsible by design
 
-We use AI where it improves a result, and we keep people in charge.
-
-- **Human oversight.** AI supports your engineers and operators. It does not replace judgment on critical decisions.
-- **Explainable.** Outputs come with their data source and confidence, so results can be traced and checked.
-- **Secure.** Sensitive data stays in controlled environments, with approved datasets and no external AI services unless you agree.
-- **Validated.** Models are tested on target hardware and re-checked as data and conditions change.
-- **Useful for your teams too.** Assisted creation of 3D and training content, predictive maintenance and faster test cycles, always reviewed by an engineer.
-
-## How we work
-
-We start with the use case and the target hardware, then pick the simplest model that meets the requirement.
-
-Tell us the function you want and the hardware it must run on.
+- **Human oversight.** AI supports your engineers and operators; critical decisions stay with people.
+- **Explainable.** Outputs carry their data source and confidence, so results can be traced.
+- **Secure.** Controlled environments, approved datasets, no external AI services unless you agree.
+- **Validated.** Models are tested on target hardware and re-checked as conditions change.
+- **Useful for your teams too.** Assisted 3D and training content, predictive maintenance and faster test cycles, always engineer-reviewed.

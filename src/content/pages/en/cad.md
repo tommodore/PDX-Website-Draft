@@ -18,27 +18,11 @@ features:
     text: "Colors, trims and options managed in one clean asset structure."
   - title: "Quality gates"
     text: "Automated checks catch errors before assets reach your engine."
-updated: "2026-10-23"
+updated: "2026-10-26"
 ---
 
-CAD models are built for engineering, not for real-time rendering. They are too heavy and too detailed for a cockpit, a configurator or an XR headset.
+CAD models are built for engineering, not real-time rendering: too heavy and detailed for a cockpit, a configurator or an XR headset. We build a repeatable pipeline. CAD goes in, optimized, correctly named and tested assets come out, with consistent quality when the design changes.
 
-## What we do
+## Toolchain
 
-We build a repeatable pipeline. CAD goes in. Optimized, correctly named and tested assets come out.
-
-## Tools we use
-
-We work with Blender, Autodesk VRED, PIXYZ and other tools, and fit into the toolchain you already have.
-
-## Why a pipeline
-
-One-off cleanups do not scale. A pipeline gives you consistent quality when the design changes, and it will.
-
-## AI where it adds value
-
-AI-assisted steps in the pipeline, such as automated cleanup, material assignment and quality checks, with a human review at every gate. More on [AI + ML](/solutions/services/ai-and-ml/).
-
-## Try it
-
-Send a sample file. We show you the result and explain how it would scale to your full portfolio.
+We work with Blender, Autodesk VRED, PIXYZ and other tools, and fit into your existing toolchain. AI-assisted cleanup, material assignment and quality checks run with human review at every gate: see [AI + ML](/solutions/services/ai-and-ml/).

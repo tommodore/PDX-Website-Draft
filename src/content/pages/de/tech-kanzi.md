@@ -17,31 +17,20 @@ features:
     text: "Bildrate, Speicher und Startzeit auf der Ziel-GPU."
   - title: "Varianten und Themes"
     text: "Eine Architektur für viele Fahrzeuglinien und Marken."
-updated: "2026-10-23"
+updated: "2026-10-26"
 ---
 
-Kanzi ist eine Toolchain für 3D-Automotive-HMIs mit einem Authoring-Tool und einer Embedded-Runtime. Wir setzen sie ein, wo Ihr Programm darauf standardisiert hat oder wo ihr Workflow zu Ihrem Team passt.
+Kanzi ist eine Toolchain für 3D-Automotive-HMIs mit Authoring-Tool und Embedded-Runtime. Wir setzen sie ein, wo Ihr Programm darauf standardisiert hat.
 
 ## Wo Kanzi passt
 
-- **Digitale Kombiinstrumente und Cockpit-Displays** mit 3D-Inhalten.
-- **Multi-Display-Cockpits**, die Daten und Designsprache teilen.
-- **Designer-zu-Entwickler-Workflows** rund um ein eigenes Authoring-Tool.
-- **Varianten und Marken-Themes** über Fahrzeuglinien hinweg.
+- Digitale Kombiinstrumente und Cockpit-Displays mit 3D-Inhalten
+- Multi-Display-Cockpits mit gemeinsamen Daten und gemeinsamer Designsprache
+- Designer-zu-Entwickler-Workflows rund um ein Authoring-Tool
+- Varianten und Marken-Themes über Fahrzeuglinien hinweg
 
-## Was wir mitbringen
+Wir setzen Designs in seriengerechte Screens um, binden Fahrzeugsignale und Middleware an, tunen die Performance auf der Zielhardware und bereiten [3D-Assets](/de/loesungen/leistungen/echtzeit-3d-grafik/cad-zu-echtzeit-pipeline/) für die Runtime auf. Auch Migrationen zwischen Kanzi, Qt, Unity und Ramses3D übernehmen wir.
 
-- **Umsetzung aus dem Design.** UI- und UX-Konzepte werden zu laufenden, seriengerechten Screens.
-- **Eigene Komponenten und Integration.** Fahrzeugsignale, Middleware und Plattformdienste an die Oberfläche angebunden.
-- **Performance.** GPU- und CPU-Profiling und Tuning auf der Zielhardware, mit für die Runtime aufbereiteten [3D-Assets](/de/loesungen/leistungen/echtzeit-3d-grafik/cad-zu-echtzeit-pipeline/).
-- **Migration.** Eine Oberfläche zwischen Kanzi, Qt, Unity oder [Ramses3D](/de/loesungen/produkte/ramses3d/) verlagern, wenn sich Ihre Plattformstrategie ändert.
-
-## Wann wir etwas anderes vorschlagen
-
-Wenn Sie eine offene, einsehbare Engine wollen, ist [Ramses3D](/de/loesungen/produkte/ramses3d/) eine Option. Für reichhaltige Optik jenseits des Cockpits passt eine Game-Engine oft besser. Das sagen wir offen. Alle [Engines und Frameworks](/de/projekte/technologie-und-partner/) im Überblick.
-
-## So arbeiten wir
-
-Nennen Sie uns Plattform, Kanzi-Version und Ziel. Wir steigen in Ihr Projekt und Ihre Toolchain ein.
+Für eine offene, einsehbare Engine ist [Ramses3D](/de/loesungen/produkte/ramses3d/) eine Option; jenseits des Cockpits passt eine Game-Engine oft besser. Alle [Engines und Frameworks](/de/projekte/technologie-und-partner/) im Überblick.
 
 *Kanzi ist eine Marke des jeweiligen Inhabers. Wir sind ein unabhängiges Engineering-Unternehmen; diese Seite beschreibt unsere eigene Erfahrung mit dem Werkzeug.*

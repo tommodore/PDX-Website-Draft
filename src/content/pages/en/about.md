@@ -9,11 +9,9 @@ cta:
   href: "/contact/"
 features:
   - title: "Founder-owned"
-    text: "Founded in 2009 by CEO Dmitrij Kolb, who started programming games at age 11. Curiosity is our DNA."
-  - title: "Prototype to series"
-    text: "We help customers build experienceable prototypes fast and bring the software into series vehicles."
+    text: "Founded in 2009 by CEO Dmitrij Kolb."
   - title: "Long-term partner"
-    text: "A supplier and partner to premium automotive manufacturers for graphical interfaces and R&D."
+    text: "Supplier and partner to premium automotive manufacturers for graphical interfaces and R&D."
   - title: "Positive impact"
     text: "We focus on technologies we believe will most improve people's lives."
 links:
@@ -23,15 +21,11 @@ links:
     href: "/company/locations/"
   - label: "Careers"
     href: "/careers/"
-updated: "2026-10-20"
+updated: "2026-10-26"
 ---
 
-PARADOX CAT is a software company that specializes in the design and implementation of human machine interface (HMI) and AI software projects, with a strong history in the automotive segment. Our work spans Android Automotive HMI, real-time 3D graphics, digital twins and AI in-cabin sensing.
+PARADOX CAT is a software company for human machine interface (HMI) and AI projects, with a strong history in the automotive segment. Our work spans Android Automotive HMI, real-time 3D graphics, digital twins and AI in-cabin sensing.
 
 ## What we are best at
 
-Building successful teams. We help customers create prototypes you can experience in the shortest possible time, and bring innovative software into series vehicles. We support the development of graphical interfaces for high-end instruments and infotainment systems, as well as research and development projects. We are proud to see the results of our work on the road.
-
-## Where we are going
-
-We focus on technologies that we believe will have the greatest positive impact on people's lives. Do you want to bring virtual worlds into the intelligent vehicles of the future? Then you are in the right place.
+Building successful teams: graphical interfaces for high-end instruments and infotainment systems, and research and development projects. We are proud to see the results of our work on the road.

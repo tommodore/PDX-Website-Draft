@@ -16,14 +16,10 @@ features:
     text: "Hands-on guidance in headsets and on tablets."
   - title: "Performance"
     text: "Tuned assets keep frame rates stable on mobile and headset hardware."
-updated: "2026-10-23"
+updated: "2026-10-26"
 ---
 
-XR works when content is light, accurate and easy to update. That is our strength.
-
-## What we build
-
-We create AR and VR applications from your CAD data using our asset pipeline and real-time 3D experience.
+XR works when content is light, accurate and easy to update. We build AR and VR applications from your CAD data with our asset pipeline and real-time 3D experience.
 
 ## Industrial use cases
 
@@ -31,13 +27,3 @@ We create AR and VR applications from your CAD data using our asset pipeline and
 - Virtual commissioning before physical deployment
 - VR operator training
 - Immersive engineering reviews
-
-The benefits: lower training costs, faster troubleshooting, better knowledge transfer and lower operational risk.
-
-## AI where it adds value
-
-AI-guided maintenance and remote support in AR, with object recognition and context-aware instructions. More on [AI + ML](/solutions/services/ai-and-ml/).
-
-## Start small
-
-An XR prototype of one product shows what the technology adds. Then you decide whether to scale.
