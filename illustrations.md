@@ -27,9 +27,9 @@ All images in `src/assets/illustrations/` are original 3D renders (three.js scen
 |---|---|---|
 | defense-03, defense-05 (and unused 01, 04, 06 to 11 in src/assets; defense-02 is the XR page hero) | Operators with rugged displays, armored vehicles with wireframe overlay, terrain maps | Defense hero and Vehicle digital twins row, stills |
 | public/media/defense-05, 07, 10, 12 (.mp4, .webp poster) | 6 s clips, audio removed, muted loop | Defense feature rows (07 operator interfaces, 10 terrain, 12 training) |
-| defense-09, defense-01 | Operator at a 3D terrain wall, operator at a rugged ground station | Public sector rows (incident command, drones and remote operation) |
+| gen-hmi | Hand on a vehicle touch display (AI-generated) | Public sector row "Response vehicles" (interim) |
 
-Planned for Public Sector (not yet generated, photorealistic, no real logos or markings): response vehicle cockpit at night with a light bar reflecting on a wet street and a clean map and dispatch display; first responder wearing AR glasses in a smoky corridor with a stable route overlay; incident command room with a wall map and tablets. Slot: Public Sector rows "Response vehicles" and "Responders on scene".
+Planned for Public Sector (not yet generated, photorealistic, civilian only, no real logos, insignia or markings, no military look): (1) ambulance or police vehicle cockpit at night, light bar reflecting on a wet street, clean dispatch and map display; (2) firefighter in a smoky corridor wearing AR glasses with a stable route overlay; (3) civil protection crew at a flooded site with a tablet showing a 3D site model; (4) control room with a wall map and a few operators, seen from behind. Slot: Public Sector rows, to replace or extend "Response vehicles".
 
 ## Official and web assets
 
