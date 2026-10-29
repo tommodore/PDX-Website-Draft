@@ -9,6 +9,7 @@
 
 html {
   -webkit-text-size-adjust: 100%;
+  overflow-x: clip;
   scroll-behavior: smooth;
   scroll-padding-top: calc(var(--header-h) + 1rem);
 }
@@ -21,6 +22,7 @@ body {
   font-size: var(--fs-md);
   line-height: var(--lh-body);
   min-height: 100dvh;
+  overflow-x: clip;
   display: flex;
   flex-direction: column;
   text-rendering: optimizeLegibility;
@@ -239,6 +241,14 @@ hr {
 .btn--ghost:hover {
   border-color: var(--c-primary);
   color: var(--c-text);
+}
+.btn--primary:not([disabled]):active {
+  background: var(--c-primary-strong);
+  color: var(--c-text);
+}
+.btn--ghost:not([disabled]):active {
+  border-color: var(--c-primary-strong);
+  background: rgb(84 140 255 / 0.12);
 }
 .btn[disabled] {
   opacity: 0.5;
